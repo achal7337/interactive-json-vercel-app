@@ -4,7 +4,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import JsonView from "@/components/JsonView";
 import FieldCascade from "@/components/FieldCascade";
-import NodeFilter from "@/components/NodeFilter";
+import { NodeFilter } from "@/components/NodeFilter";
 
 
 type Dataset = { name: string; file: string; raw: any };

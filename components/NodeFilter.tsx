@@ -1,10 +1,15 @@
-// components/NodeFilter.tsx
 'use client';
+import { useEffect, useMemo, useState } from 'react';
 
-export default function NodeFilter() {
-  return (
-    <div style={{ padding: 8, border: '1px dashed gray' }}>
-      <p>NodeFilter placeholder component</p>
-    </div>
-  );
+export type NodeFilterProps = {
+  node: any;
+  onFilteredChange: (value: any) => void;
+  title?: string;
+};
+
+export function NodeFilter({ node, onFilteredChange, title = 'Filter' }: NodeFilterProps) {
+  const [query, setQuery] = useState('');
+  const filtered = useMemo(() => node, [node, query]);
+  useEffect(() => { onFilteredChange(filtered); }, [filtered, onFilteredChange]);
+  return (/* ...same JSX as above... */);
 }
