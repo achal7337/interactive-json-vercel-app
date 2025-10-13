@@ -1,0 +1,1885 @@
+"files": {
+    "name": "/",
+    "type": "directory",
+    "real_path": null,
+    "children": [
+      {
+        "name": "Documents",
+        "type": "directory",
+        "real_path": null,
+        "children": [
+          {
+            "name": "benchmarks",
+            "type": "directory",
+            "real_path": null,
+            "children": [
+              {
+                "name": "robert_data",
+                "type": "directory",
+                "real_path": null,
+                "children": [
+                  {
+                    "name": "GAIA_validation",
+                    "type": "directory",
+                    "real_path": null,
+                    "children": [
+                      {
+                        "name": "076c8171-9b3b-49b9-a477-244d2a532826.xlsx",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/076c8171-9b3b-49b9-a477-244d2a532826.xlsx",
+                        "children": []
+                      },
+                      {
+                        "name": "1f975693-876d-457b-a649-393859e79bf3.mp3",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/1f975693-876d-457b-a649-393859e79bf3.mp3",
+                        "children": []
+                      },
+                      {
+                        "name": "2023_validation_metadata.jsonl",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/2023_validation_metadata.jsonl",
+                        "children": []
+                      },
+                      {
+                        "name": "2b3ef98c-cc05-450b-a719-711aee40ac65.mp3",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/2b3ef98c-cc05-450b-a719-711aee40ac65.mp3",
+                        "children": []
+                      },
+                      {
+                        "name": "32102e3e-d12a-4209-9163-7b3a104efe5d.xlsx",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/32102e3e-d12a-4209-9163-7b3a104efe5d.xlsx",
+                        "children": []
+                      },
+                      {
+                        "name": "366e2f2b-8632-4ef2-81eb-bc3877489217.pdf",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/366e2f2b-8632-4ef2-81eb-bc3877489217.pdf",
+                        "children": []
+                      },
+                      {
+                        "name": "389793a7-ca17-4e82-81cb-2b3a2391b4b9.txt",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/389793a7-ca17-4e82-81cb-2b3a2391b4b9.txt",
+                        "children": []
+                      },
+                      {
+                        "name": "3da89939-209c-4086-8520-7eb734e6b4ef.xlsx",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/3da89939-209c-4086-8520-7eb734e6b4ef.xlsx",
+                        "children": []
+                      },
+                      {
+                        "name": "4d0aa727-86b1-406b-9b33-f870dd14a4a5.xlsx",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/4d0aa727-86b1-406b-9b33-f870dd14a4a5.xlsx",
+                        "children": []
+                      },
+                      {
+                        "name": "4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2.xlsx",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2.xlsx",
+                        "children": []
+                      },
+                      {
+                        "name": "54612da3-fd56-4941-80f4-5eb82330de25.xlsx",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/54612da3-fd56-4941-80f4-5eb82330de25.xlsx",
+                        "children": []
+                      },
+                      {
+                        "name": "5b2a14e8-6e59-479c-80e3-4696e8980152.jpg",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/5b2a14e8-6e59-479c-80e3-4696e8980152.jpg",
+                        "children": []
+                      },
+                      {
+                        "name": "5cfb274c-0207-4aa7-9575-6ac0bd95d9b2.xlsx",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/5cfb274c-0207-4aa7-9575-6ac0bd95d9b2.xlsx",
+                        "children": []
+                      },
+                      {
+                        "name": "6359a0b1-8f7b-499b-9336-840f9ab90688.png",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/6359a0b1-8f7b-499b-9336-840f9ab90688.png",
+                        "children": []
+                      },
+                      {
+                        "name": "65afbc8a-89ca-4ad5-8d62-355bb401f61d.xlsx",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/65afbc8a-89ca-4ad5-8d62-355bb401f61d.xlsx",
+                        "children": []
+                      },
+                      {
+                        "name": "67e8878b-5cef-4375-804e-e6291fdbe78a.pdf",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/67e8878b-5cef-4375-804e-e6291fdbe78a.pdf",
+                        "children": []
+                      },
+                      {
+                        "name": "7bd855d8-463d-4ed5-93ca-5fe35145f733.xlsx",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/7bd855d8-463d-4ed5-93ca-5fe35145f733.xlsx",
+                        "children": []
+                      },
+                      {
+                        "name": "7cc4acfa-63fd-4acc-a1a1-e8e529e0a97f.xlsx",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/7cc4acfa-63fd-4acc-a1a1-e8e529e0a97f.xlsx",
+                        "children": []
+                      },
+                      {
+                        "name": "7dd30055-0198-452e-8c25-f73dbe27dcb8.pdb",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/7dd30055-0198-452e-8c25-f73dbe27dcb8.pdb",
+                        "children": []
+                      },
+                      {
+                        "name": "8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/8d46b8d6-b38a-47ff-ac74-cda14cf2d19b.csv",
+                        "children": []
+                      },
+                      {
+                        "name": "8f80e01c-1296-4371-9486-bb3d68651a60.png",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/8f80e01c-1296-4371-9486-bb3d68651a60.png",
+                        "children": []
+                      },
+                      {
+                        "name": "9318445f-fe6a-4e1b-acbf-c68228c9906a.png",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/9318445f-fe6a-4e1b-acbf-c68228c9906a.png",
+                        "children": []
+                      },
+                      {
+                        "name": "99c9cc74-fdc8-46c6-8f8d-3ce2d3bfeea3.mp3",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/99c9cc74-fdc8-46c6-8f8d-3ce2d3bfeea3.mp3",
+                        "children": []
+                      },
+                      {
+                        "name": "9b54f9d9-35ee-4a14-b62f-d130ea00317f.zip",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/9b54f9d9-35ee-4a14-b62f-d130ea00317f.zip",
+                        "children": []
+                      },
+                      {
+                        "name": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c.pptx",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c.pptx",
+                        "children": []
+                      },
+                      {
+                        "name": "b2c257e0-3ad7-4f05-b8e3-d9da973be36e (1).jpg",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/b2c257e0-3ad7-4f05-b8e3-d9da973be36e (1).jpg",
+                        "children": []
+                      },
+                      {
+                        "name": "b2c257e0-3ad7-4f05-b8e3-d9da973be36e.jpg",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/b2c257e0-3ad7-4f05-b8e3-d9da973be36e.jpg",
+                        "children": []
+                      },
+                      {
+                        "name": "b7f857e4-d8aa-4387-af2a-0e844df5b9d8.png",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/b7f857e4-d8aa-4387-af2a-0e844df5b9d8.png",
+                        "children": []
+                      },
+                      {
+                        "name": "bec74516-02fc-48dc-b202-55e78d0e17cf.jsonld",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/bec74516-02fc-48dc-b202-55e78d0e17cf.jsonld",
+                        "children": []
+                      },
+                      {
+                        "name": "bfcd99e1-0690-4b53-a85c-0174a8629083.zip",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/bfcd99e1-0690-4b53-a85c-0174a8629083.zip",
+                        "children": []
+                      },
+                      {
+                        "name": "c526d8d6-5987-4da9-b24c-83466fa172f3.xlsx",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/c526d8d6-5987-4da9-b24c-83466fa172f3.xlsx",
+                        "children": []
+                      },
+                      {
+                        "name": "cca530fc-4052-43b2-b130-b30968d8aa44.png",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/cca530fc-4052-43b2-b130-b30968d8aa44.png",
+                        "children": []
+                      },
+                      {
+                        "name": "cca70ce6-1952-45d2-acd4-80c903b0bc49.png",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/cca70ce6-1952-45d2-acd4-80c903b0bc49.png",
+                        "children": []
+                      },
+                      {
+                        "name": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb.docx",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb.docx",
+                        "children": []
+                      },
+                      {
+                        "name": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png",
+                        "children": []
+                      },
+                      {
+                        "name": "da52d699-e8d2-4dc5-9191-a2199e0b6a9b.xlsx",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/da52d699-e8d2-4dc5-9191-a2199e0b6a9b.xlsx",
+                        "children": []
+                      },
+                      {
+                        "name": "df6561b2-7ee5-4540-baab-5095f742716a.png",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/df6561b2-7ee5-4540-baab-5095f742716a.png",
+                        "children": []
+                      },
+                      {
+                        "name": "e9a2c537-8232-4c3f-85b0-b52de6bcba99.pdf",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/e9a2c537-8232-4c3f-85b0-b52de6bcba99.pdf",
+                        "children": []
+                      },
+                      {
+                        "name": "edd4d4f2-1a58-45c4-b038-67337af4e029.xlsx",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/edd4d4f2-1a58-45c4-b038-67337af4e029.xlsx",
+                        "children": []
+                      },
+                      {
+                        "name": "f918266a-b3e0-4914-865d-4faa564f1aef.py",
+                        "type": "file",
+                        "real_path": "demo_filesystem/Documents/benchmarks/robert_data/GAIA_validation/f918266a-b3e0-4914-865d-4faa564f1aef.py",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "25companies.xlsx",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Documents/benchmarks/robert_data/25companies.xlsx",
+                    "children": []
+                  },
+                  {
+                    "name": "RapLyrics.docx",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Documents/benchmarks/robert_data/RapLyrics.docx",
+                    "children": []
+                  },
+                  {
+                    "name": "String.pdf",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Documents/benchmarks/robert_data/String.pdf",
+                    "children": []
+                  },
+                  {
+                    "name": "alphabet_numbers.json",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Documents/benchmarks/robert_data/alphabet_numbers.json",
+                    "children": []
+                  },
+                  {
+                    "name": "canadian_startups.txt",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Documents/benchmarks/robert_data/canadian_startups.txt",
+                    "children": []
+                  },
+                  {
+                    "name": "dog_breeds.txt",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Documents/benchmarks/robert_data/dog_breeds.txt",
+                    "children": []
+                  },
+                  {
+                    "name": "fractal.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Documents/benchmarks/robert_data/fractal.png",
+                    "children": []
+                  },
+                  {
+                    "name": "names+achievements.xlsx",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Documents/benchmarks/robert_data/names+achievements.xlsx",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "news",
+            "type": "directory",
+            "real_path": null,
+            "children": [
+              {
+                "name": "metro_herald_586.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_586.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_454.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_454.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_382.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_382.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_955.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_955.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_735.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_735.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_505.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_505.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_411.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_411.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_285.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_285.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_597.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_597.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_540.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_540.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_605.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_605.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_566.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_566.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_292.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_292.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_670.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_670.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_501.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_501.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_273.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_273.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_897.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_897.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_389.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_389.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_546.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_546.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_120.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_120.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_909.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_909.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_496.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_496.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_353.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_353.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_441.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_441.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_833.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_833.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_740.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_740.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_680.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_680.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_796.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_796.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_954.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_954.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_767.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_767.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_816.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_816.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_379.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_379.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_803.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_803.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_931.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_931.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_534.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_534.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_73_587.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_73_587.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_306.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_306.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_30.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_30.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_343.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_343.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_74.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_74.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_445.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_445.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_732.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_732.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_545.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_545.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_89_722.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_89_722.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_401.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_401.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_525.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_525.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_874.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_874.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_500.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_500.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_904.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_904.txt",
+                "children": []
+              },
+              {
+                "name": "metro_herald_325.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/metro_herald_325.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2009_2019_711.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2009_2019_711.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2018_2021_222.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2018_2021_222.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2022_2023_417.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2022_2023_417.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2011_2011_251.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2011_2011_251.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2002_2003_159.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2002_2003_159.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2001_2002_349.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2001_2002_349.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1993_1997_139.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1993_1997_139.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2014_2015_896.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2014_2015_896.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1985_1992_425.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1985_1992_425.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1996_1996_899.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1996_1996_899.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2015_2025_981.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2015_2025_981.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2003_2013_114.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2003_2013_114.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1990_1999_892.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1990_1999_892.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1985_1986_5.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1985_1986_5.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2008_2013_892.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2008_2013_892.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2021_2024_274.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2021_2024_274.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1980_1984_978.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1980_1984_978.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2012_2016_805.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2012_2016_805.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2015_2021_847.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2015_2021_847.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2001_2002_695.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2001_2002_695.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2021_2023_264.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2021_2023_264.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1990_1992_248.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1990_1992_248.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2008_2018_287.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2008_2018_287.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2002_2005_550.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2002_2005_550.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2006_2014_929.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2006_2014_929.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1998_1998_970.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1998_1998_970.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2012_2017_174.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2012_2017_174.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1980_1990_164.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1980_1990_164.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1987_1995_758.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1987_1995_758.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2025_2025_744.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2025_2025_744.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2008_2016_228.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2008_2016_228.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1989_1994_509.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1989_1994_509.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1997_2002_146.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1997_2002_146.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2000_2005_116.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2000_2005_116.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1998_2005_940.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1998_2005_940.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2012_2013_966.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2012_2013_966.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2013_2014_89.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2013_2014_89.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1986_1996_334.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1986_1996_334.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2005_2009_107.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2005_2009_107.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1986_1989_428.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1986_1989_428.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1980_1989_101.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1980_1989_101.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1981_1984_581.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1981_1984_581.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2000_2009_479.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2000_2009_479.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2015_2021_619.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2015_2021_619.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2009_2015_921.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2009_2015_921.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1990_1991_611.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1990_1991_611.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2016_2023_690.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2016_2023_690.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_1989_1993_806.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_1989_1993_806.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2018_2020_208.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2018_2020_208.txt",
+                "children": []
+              },
+              {
+                "name": "daily_chronicle_news_2020_2025_125.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/news/daily_chronicle_news_2020_2025_125.txt",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "wiki",
+            "type": "directory",
+            "real_path": null,
+            "children": [
+              {
+                "name": "wikipedia_0.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_0.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_1.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_1.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_100.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_100.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_11.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_11.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_12.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_12.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_13.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_13.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_16.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_16.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_17.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_17.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_19.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_19.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_21.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_21.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_22.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_22.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_26.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_26.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_28.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_28.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_3.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_3.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_30.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_30.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_32.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_32.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_33.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_33.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_34.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_34.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_35.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_35.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_39.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_39.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_41.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_41.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_43.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_43.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_44.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_44.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_46.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_46.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_48.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_48.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_50.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_50.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_51.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_51.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_52.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_52.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_58.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_58.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_59.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_59.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_60.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_60.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_63.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_63.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_67.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_67.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_69.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_69.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_7.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_7.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_70.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_70.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_71.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_71.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_79.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_79.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_8.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_8.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_81.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_81.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_83.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_83.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_84.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_84.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_86.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_86.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_90.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_90.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_91.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_91.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_93.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_93.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_95.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_95.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_96.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_96.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_98.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_98.txt",
+                "children": []
+              },
+              {
+                "name": "wikipedia_99.txt",
+                "type": "file",
+                "real_path": "demo_filesystem/Documents/wiki/wikipedia_99.txt",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "weatherHistory.csv",
+            "type": "file",
+            "real_path": "demo_filesystem/Documents/weatherHistory.csv",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Downloads",
+        "type": "directory",
+        "real_path": null,
+        "children": [
+          {
+            "name": "2407.21783v2.pdf",
+            "type": "file",
+            "real_path": "demo_filesystem/Downloads/2407.21783v2.pdf",
+            "children": []
+          },
+          {
+            "name": "2302.13971v1.pdf",
+            "type": "file",
+            "real_path": "demo_filesystem/Downloads/2302.13971v1.pdf",
+            "children": []
+          },
+          {
+            "name": "complex_dag.png",
+            "type": "file",
+            "real_path": "demo_filesystem/Downloads/complex_dag.png",
+            "children": []
+          },
+          {
+            "name": "llama2.pdf",
+            "type": "file",
+            "real_path": "demo_filesystem/Downloads/llama2.pdf",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Pictures",
+        "type": "directory",
+        "real_path": null,
+        "children": [
+          {
+            "name": "Personal",
+            "type": "directory",
+            "real_path": null,
+            "children": [
+              {
+                "name": "Family",
+                "type": "directory",
+                "real_path": null,
+                "children": [
+                  {
+                    "name": "Backyard_Stargazing_2021.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Backyard_Stargazing_2021.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Birthday_Party_2022.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Birthday_Party_2022.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Christmas_2020.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Christmas_2020.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Cultural_Heritage_Day_2022.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Cultural_Heritage_Day_2022.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Easter_2021.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Easter_2021.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Family_Camping_Trip_2021.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Family_Camping_Trip_2021.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Family_Cooking_Lesson_2023.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Family_Cooking_Lesson_2023.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Family_DIY_Project_2022.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Family_DIY_Project_2022.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Family_Fitness_Challenge_2023.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Family_Fitness_Challenge_2023.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Family_Game_Night_2021.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Family_Game_Night_2021.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Family_Movie_Night_2022.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Family_Movie_Night_2022.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Family_Music_Jam_2023.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Family_Music_Jam_2023.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Family_Reunion_2023.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Family_Reunion_2023.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Family_Road_Trip_2022.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Family_Road_Trip_2022.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Family_Talent_Show_2021.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Family_Talent_Show_2021.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Family_Volunteer_Day_2023.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Family_Volunteer_Day_2023.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Fathers_Day_BBQ_2022.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Fathers_Day_BBQ_2022.png",
+                    "children": []
+                  },
+                  {
+                    "name": "First_Bike_Ride_2021.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/First_Bike_Ride_2021.png",
+                    "children": []
+                  },
+                  {
+                    "name": "First_Day_of_School_2021.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/First_Day_of_School_2021.png",
+                    "children": []
+                  },
+                  {
+                    "name": "First_Day_of_Summer_2021.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/First_Day_of_Summer_2021.png",
+                    "children": []
+                  },
+                  {
+                    "name": "First_Lost_Tooth_2023.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/First_Lost_Tooth_2023.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Graduation_Ceremony_2024.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Graduation_Ceremony_2024.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Grandparent_Storytelling_2021.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Grandparent_Storytelling_2021.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Grandparents_Anniversary_2023.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Grandparents_Anniversary_2023.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Halloween_2020.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Halloween_2020.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Holiday_Cookie_Baking_2022.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Holiday_Cookie_Baking_2022.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Mothers_Day_Brunch_2023.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Mothers_Day_Brunch_2023.png",
+                    "children": []
+                  },
+                  {
+                    "name": "New_Years_Eve_2023.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/New_Years_Eve_2023.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Pet_Adoption_Day_2022.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Pet_Adoption_Day_2022.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Rainy_Day_Indoor_Picnic_2022.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Rainy_Day_Indoor_Picnic_2022.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Sibling_Soccer_Game_2021.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Sibling_Soccer_Game_2021.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Summer_Vacation_Beach_2022.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Summer_Vacation_Beach_2022.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Thanksgiving_2021.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Thanksgiving_2021.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Valentines_Day_2022.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Valentines_Day_2022.png",
+                    "children": []
+                  },
+                  {
+                    "name": "Winter_Sledding_Adventure_2023.png",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Family/Winter_Sledding_Adventure_2023.png",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Nature",
+                "type": "directory",
+                "real_path": null,
+                "children": [
+                  {
+                    "name": "Alpine_Lake_2022.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Alpine_Lake_2022.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Arctic_Glacier_2022.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Arctic_Glacier_2022.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Autumn_Mountain_Lake_2021.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Autumn_Mountain_Lake_2021.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Autumn_Mountain_Pass_2022.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Autumn_Mountain_Pass_2022.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Autumn_River_2022.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Autumn_River_2022.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Autumn_Vineyard_2021.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Autumn_Vineyard_2021.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Bamboo_Forest_2020.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Bamboo_Forest_2020.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Cherry_Blossom_Park_2021.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Cherry_Blossom_Park_2021.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Coastal_Cliffs_2020.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Coastal_Cliffs_2020.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Coastal_Sunset_2023.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Coastal_Sunset_2023.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Coral_Reef_2023.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Coral_Reef_2023.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Desert_Oasis_2020.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Desert_Oasis_2020.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Fjord_Landscape_2023.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Fjord_Landscape_2023.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Grand_Canyon_Sunrise_2022.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Grand_Canyon_Sunrise_2022.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Lavender_Fields_2020.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Lavender_Fields_2020.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Misty_Mountains_2023.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Misty_Mountains_2023.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Misty_Rainforest_2023.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Misty_Rainforest_2023.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Northern_Lights_2022.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Northern_Lights_2022.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Redwood_Forest_2020.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Redwood_Forest_2020.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Savanna_Sunset_2021.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Savanna_Sunset_2021.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Snowy_Pine_Forest_2021.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Snowy_Pine_Forest_2021.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Spring_Cherry_Orchard_2020.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Spring_Cherry_Orchard_2020.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Spring_Meadow_2021.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Spring_Meadow_2021.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Spring_Tulip_Fields_2022.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Spring_Tulip_Fields_2022.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Starry_Night_Desert_2020.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Starry_Night_Desert_2020.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Tropical_Beach_2023.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Tropical_Beach_2023.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Tropical_Monsoon_2021.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Tropical_Monsoon_2021.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Tropical_Waterfall_2023.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Tropical_Waterfall_2023.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Volcanic_Landscape_2023.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Volcanic_Landscape_2023.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Winter_Hot_Springs_2022.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Nature/Winter_Hot_Springs_2022.jpg",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Travels",
+                "type": "directory",
+                "real_path": null,
+                "children": [
+                  {
+                    "name": "Argentina_2020.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Argentina_2020.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Austria_2023.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Austria_2023.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Cambodia_2020.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Cambodia_2020.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Canada_2019.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Canada_2019.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "China_2023.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/China_2023.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Costa_Rica_2022.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Costa_Rica_2022.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Croatia_2020.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Croatia_2020.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Czech_Republic_2019.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Czech_Republic_2019.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Egypt_2021.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Egypt_2021.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Greece_2023.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Greece_2023.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Iceland_2020.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Iceland_2020.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "India_2022.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/India_2022.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Indonesia_2021.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Indonesia_2021.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Jordan_2019.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Jordan_2019.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Kenya_2019.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Kenya_2019.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Mexico_2022.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Mexico_2022.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Morocco_2019.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Morocco_2019.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Netherlands_2021.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Netherlands_2021.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "New_Zealand_2023.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/New_Zealand_2023.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Peru_2021.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Peru_2021.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Portugal_2019.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Portugal_2019.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Russia_2022.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Russia_2022.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Scotland_2020.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Scotland_2020.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "South_Africa_2022.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/South_Africa_2022.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Spain_2023.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Spain_2023.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Switzerland_2021.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Switzerland_2021.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Thailand_2020.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Thailand_2020.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Turkey_2023.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Turkey_2023.jpg",
+                    "children": []
+                  },
+                  {
+                    "name": "Vietnam_2021.jpg",
+                    "type": "file",
+                    "real_path": "demo_filesystem/Pictures/Personal/Travels/Vietnam_2021.jpg",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Screenshots",
+            "type": "directory",
+            "real_path": null,
+            "children": []
+          },
+          {
+            "name": "llama.jpg",
+            "type": "file",
+            "real_path": "demo_filesystem/Pictures/llama.jpg",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }

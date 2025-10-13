@@ -1,0 +1,79 @@
+{
+  "ride_history": [
+    {
+      "ride_id": "1d1f9428397b4f299ba99522f33e5cf7",
+      "status": "COMPLETED",
+      "service_type": "Default",
+      "start_location": "Airport",
+      "end_location": "Downtown",
+      "price": 25.5,
+      "duration": 30.0,
+      "time_stamp": 1759447217.2286022,
+      "distance_km": 15.0,
+      "delay": null,
+      "delay_history": []
+    },
+    {
+      "ride_id": "54f4461e4e54452196828d04ef0ef74d",
+      "status": "COMPLETED",
+      "service_type": "Premium",
+      "start_location": "Hotel",
+      "end_location": "Conference Center",
+      "price": 18.0,
+      "duration": 20.0,
+      "time_stamp": 1759530017.228603,
+      "distance_km": 8.0,
+      "delay": null,
+      "delay_history": []
+    }
+  ],
+  "quotation_history": [
+    {
+      "ride_id": "1d1f9428397b4f299ba99522f33e5cf7",
+      "status": "COMPLETED",
+      "service_type": "Default",
+      "start_location": "Airport",
+      "end_location": "Downtown",
+      "price": 25.5,
+      "duration": 30.0,
+      "time_stamp": 1759447217.2286022,
+      "distance_km": 15.0,
+      "delay": null,
+      "delay_history": []
+    },
+    {
+      "ride_id": "54f4461e4e54452196828d04ef0ef74d",
+      "status": "COMPLETED",
+      "service_type": "Premium",
+      "start_location": "Hotel",
+      "end_location": "Conference Center",
+      "price": 18.0,
+      "duration": 20.0,
+      "time_stamp": 1759530017.228603,
+      "distance_km": 8.0,
+      "delay": null,
+      "delay_history": []
+    }
+  ],
+  "on_going_ride": null,
+  "d_service_config": {
+    "Default": {
+      "nb_seats": 4,
+      "price_per_km": 1.0,
+      "base_delay_min": 5,
+      "max_distance_km": 25
+    },
+    "Premium": {
+      "nb_seats": 4,
+      "price_per_km": 2.0,
+      "base_delay_min": 3,
+      "max_distance_km": 25
+    },
+    "Van": {
+      "nb_seats": 6,
+      "price_per_km": 1.5,
+      "base_delay_min": 7,
+      "max_distance_km": 25
+    }
+  }
+}
