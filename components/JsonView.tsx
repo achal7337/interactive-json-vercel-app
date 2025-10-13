@@ -54,7 +54,7 @@ const TreeNode = memo(function TreeNode({ name, value, level }: { name?: string;
   );
 });
 
-function Row({ onToggle, open, name, type, count }: { onToggle: () => void; open: boolean; name?: string; type: 'object' | 'array'; count: number }) {
+function Row({ level, onToggle, open, name, type, count }: { level: number; onToggle: () => void; open: boolean; name?: string; type: 'object' | 'array'; count: number }) {
   return (
     <div style={{ padding: '2px 0', display: 'flex', alignItems: 'center', gap: 6 }}>
       <button onClick={onToggle} style={{ width: 18, height: 18, borderRadius: 4, border: '1px solid #2a3a52', background: '#0e141d', color: '#9fc1ff', cursor: 'pointer' }}>
