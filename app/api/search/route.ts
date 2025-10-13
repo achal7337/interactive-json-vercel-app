@@ -1,61 +1,66 @@
 // app/api/search/route.ts
+import { loadAll } from "../../../lib/load";  // relative import only
+
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-import { loadAll } from "../../../lib/load";
+// Recursively check if query string appears anywhere
+function containsDeep(node: unknown, q: string): boolean {
+  const term = q.toLowerCase();
 
-// Use standard Web Response to avoid depending on Next.js types
-function jsonResponse(obj: unknown, status = 200) {
-  return new Response(JSON.stringify(obj), {
-    status,
-    headers: { "Content-Type": "application/json" },
-  });
+  const matchPrim = (v: unknown) =>
+    v != null && String(v).toLowerCase().includes(term);
+
+  const visit = (x: any): boolean => {
+    if (x == null) return false;
+
+    if (Array.isArray(x)) {
+      return x.some((v) => visit(v));
+    }
+
+    if (typeof x === "object") {
+      for (const [k, v] of Object.entries(x)) {
+        if (String(k).toLowerCase().includes(term)) return true;
+        if (visit(v)) return true;
+      }
+      return false;
+    }
+
+    return matchPrim(x);
+  };
+
+  return visit(node);
 }
 
-type Hit = { dataset: string; file: string; path: string; value: unknown };
-
-function findMatches(root: unknown, query: string, dataset: string, file: string): Hit[] {
-  const q = query.toLowerCase();
-  const hits: Hit[] = [];
-
-  const isObject = (v: any) => v && typeof v === "object" && !Array.isArray(v);
-  const matchesPrimitive = (v: any) =>
-    v !== null && v !== undefined && String(v).toLowerCase().includes(q);
-
-  function walk(node: any, path: string) {
-    if (Array.isArray(node)) {
-      node.forEach((v, i) => walk(v, path ? `${path}.${i}` : String(i)));
-      return;
-    }
-    if (isObject(node)) {
-      const keyMatch = Object.keys(node).some((k) => k.toLowerCase().includes(q));
-      if (keyMatch) hits.push({ dataset, file, path, value: node });
-      for (const [k, v] of Object.entries(node)) {
-        const childPath = path ? `${path}.${k}` : k;
-        if (!isObject(v) && !Array.isArray(v) && matchesPrimitive(v)) {
-          hits.push({ dataset, file, path: childPath, value: v });
-        }
-        walk(v, childPath);
-      }
-      return;
-    }
-    if (matchesPrimitive(node)) hits.push({ dataset, file, path, value: node });
+export async function GET(req: Request) {
   const q = (new URL(req.url).searchParams.get("q") || "").trim();
-  if (!q) return jsonResponse({ ok: true, query: q, hits: [] });
+  if (!q)
+    return new Response(JSON.stringify({ ok: true, query: q, count: 0, datasets: [] }), {
+      headers: { "Content-Type": "application/json" },
+    });
 
   try {
-    const datasets = await loadAll();
-    const hits = datasets.flatMap((ds) => findMatches(ds.raw, q, ds.name, ds.file));
-    return jsonResponse({ ok: true, query: q, count: hits.length, hits });
+    const all = await loadAll();
+    const matched = all
+      .filter((ds) => containsDeep(ds.raw, q))
+      .map((ds) => ({ name: ds.name, file: ds.file, raw: ds.raw }));
+
+    return new Response(
+      JSON.stringify({
+        ok: true,
+        query: q,
+        count: matched.length,
+        datasets: matched,
+      }),
+      { headers: { "Content-Type": "application/json" } }
+    );
   } catch (err: any) {
-    console.error("search failed:", err?.message || err);
-    return jsonResponse({ ok: false, error: String(err?.message || err) }, 200);
-  }
-}
-    const hits = datasets.flatMap((ds) => findMatches(ds.raw, q, ds.name, ds.file));
-    return NextResponse.json({ ok: true, query: q, count: hits.length, hits });
-  } catch (err: any) {
-    console.error("search failed:", err?.message || err);
-    return NextResponse.json({ ok: false, error: String(err?.message || err) }, { status: 200 });
+    return new Response(
+      JSON.stringify({
+        ok: false,
+        error: String(err?.message || err),
+      }),
+      { status: 500, headers: { "Content-Type": "application/json" } }
+    );
   }
 }
