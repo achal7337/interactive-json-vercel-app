@@ -2,9 +2,9 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import JsonView from '../components/JsonView';
-import JsonSearch from '../components/JsonSearch';
-import FieldCascade from '../components/FieldCascade';
+import JsonView from "@/components/JsonView";
+import JsonSearch from "@/components/JsonSearch";
+import FieldCascade from "@/components/FieldCascade";
 import Link from 'next/link';
 
 type Dataset = { name: string; file: string; raw: any };
