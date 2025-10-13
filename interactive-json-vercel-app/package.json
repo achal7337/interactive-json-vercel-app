@@ -1,20 +1,6 @@
 {
-  "name": "json-viewer-search",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "14.2.5",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
-  },
   "devDependencies": {
-    "@types/node": "24.7.2",
-    "@types/react": "19.2.2",
-    "typescript": "5.9.3"
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2"
   }
 }
