@@ -1,0 +1,563 @@
+{
+  "conversations": {
+    "63ef461bec0e450dbe9ac25a27532def": {
+      "participant_ids": [
+        "+67412345678",
+        "+441223456789"
+      ],
+      "messages": [
+        {
+          "sender_id": "+67412345678",
+          "message_id": "8becb7783ad64eaabb183d05cbfb49b2",
+          "timestamp": 1728986700.0,
+          "content": "Rohini, I've been experimenting with some new sounds inspired by the principles of superposition in quantum mechanics. I think it could add a unique layer to our collaboration. Have you come across any interesting research on the application of quantum principles in music?"
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "6c2f03dc8aa640aa955479c2c1a59e6e",
+          "timestamp": 1728987300.0,
+          "content": "Kaidën, that sounds fascinating! I've actually been reading about the use of quantum-inspired algorithms in music composition. There's some interesting work being done on using quantum annealing to generate musical patterns. I can send you some papers on the topic if you're interested."
+        },
+        {
+          "sender_id": "+67412345678",
+          "message_id": "c63de4e47e8f4c2880a904363c875a0e",
+          "timestamp": 1728987900.0,
+          "content": "That would be great, thanks Rohini! I've been listening to some of the music composed by Hans Zimmer, and I'm fascinated by the way he uses mathematical concepts to create his scores. Do you think our collaboration could incorporate some of those elements?"
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "2842858744cc419f8f3b836b91ec6042",
+          "timestamp": 1728988500.0,
+          "content": "Kaidën, I think that's a fantastic idea! Hans Zimmer's work is incredibly inspiring. I've been meaning to ask, how's your family doing? How's your sister's dance studio going?"
+        },
+        {
+          "sender_id": "+67412345678",
+          "message_id": "d869be96b04d425288134cdd7f8fa0fd",
+          "timestamp": 1728989100.0,
+          "content": "Thanks for asking, Rohini! My sister's studio is doing great. She's actually been working with some of the local schools to develop a program that combines dance and science education. I've been helping her out with some of the music production for the program. It's been a lot of fun."
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "ab4660296c3a4d80b1cd2c9caffc3575",
+          "timestamp": 1728989700.0,
+          "content": "That sounds amazing, Kaidën! I'd love to hear more about the program. Maybe we could even collaborate on a project that combines music, dance, and science education. I've been thinking about developing a workshop that uses quantum-inspired games to teach kids about science concepts."
+        }
+      ],
+      "title": "Kaidën Jelani",
+      "conversation_id": "63ef461bec0e450dbe9ac25a27532def",
+      "last_updated": 1723390500.0
+    },
+    "d1399d3f904a4f24b156ffe009a5128f": {
+      "participant_ids": [
+        "+441223456789",
+        "+61894561234",
+        "+31612345678"
+      ],
+      "messages": [
+        {
+          "sender_id": "+31612345678",
+          "message_id": "894b2dac7f034917ba354f6815f070b9",
+          "timestamp": 1729001400.0,
+          "content": "Hamish, I've been meaning to ask you, have you ever thought of incorporating sustainable materials into your sports equipment designs? I've been reading a lot about the impact of plastic waste on the environment and I think it's an area where your company could make a real difference."
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "2e93cc0dbfc742d78f5cf58c1045ea0a",
+          "timestamp": 1729002000.0,
+          "content": "That's a great point, Saskia. I've been looking into the potential applications of quantum simulation in materials science and I think it could be a game-changer for sustainable design. Hamish, have you considered partnering with researchers in this field to explore new materials and designs?"
+        },
+        {
+          "sender_id": "+61894561234",
+          "message_id": "3b873432f8634235a3303e797087792c",
+          "timestamp": 1729002900.0,
+          "content": "Actually, Rohini, that's actually something we've been discussing internally. We've been looking at ways to reduce our carbon footprint and sustainable materials are definitely on the table. Saskia, I'd love to hear more about what you've been reading on the topic - are there any specific companies or initiatives that you think are doing it right?"
+        },
+        {
+          "sender_id": "+31612345678",
+          "message_id": "5e92619a827247d1a41f3d3cd5eefbb9",
+          "timestamp": 1729003800.0,
+          "content": "There are a few companies that come to mind, Hamish. Patagonia is one example - they've been using recycled materials in their products for years and have a really strong commitment to environmental responsibility. And then there are companies like Biome, who are using bioplastics and other sustainable materials in their designs. Rohini, have you come across any interesting research on the potential applications of quantum simulation in sustainable design?"
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "46b578e383b84ec5892d9bc500077638",
+          "timestamp": 1729004700.0,
+          "content": "Yes, I have actually. There's a researcher at the University of Cambridge who's been working on using quantum simulation to design more efficient solar cells. The potential for quantum simulation to accelerate the development of sustainable technologies is huge and I think it's an area that we should be exploring further. Hamish, would you be interested in setting up a call to discuss potential collaborations in this area?"
+        }
+      ],
+      "title": "Quantum Computing and Sports Equipment",
+      "conversation_id": "d1399d3f904a4f24b156ffe009a5128f",
+      "last_updated": 1722944700.0
+    },
+    "74f51f2f4a4d40dfa60024196d1df86f": {
+      "participant_ids": [
+        "+31612345668",
+        "+441223456789"
+      ],
+      "messages": [
+        {
+          "sender_id": "+31612345668",
+          "message_id": "cc79026a241c4b2d90b40bd05027737c",
+          "timestamp": 1729002600.0,
+          "content": "Rohini, I've been meaning to ask you, have you come across any interesting applications of quantum mechanics in the field of materials science? I've been reading about the potential for quantum computing to simulate complex materials and I'm fascinated by the possibilities."
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "549ecc7113974d26bc3e1a9201343650",
+          "timestamp": 1729003500.0,
+          "content": "Klaas, that's a great question! Actually, I've been working on a project that involves using quantum algorithms to simulate the behavior of certain materials at the molecular level. It's still in the early stages, but the potential for breakthroughs is huge. I'd love to discuss it more with you and get your perspective as a historian."
+        },
+        {
+          "sender_id": "+31612345668",
+          "message_id": "f11dd5519b9243f586a2daa246c2be4f",
+          "timestamp": 1729004400.0,
+          "content": "That sounds incredible, Rohini! I can see how the study of materials science could have a huge impact on our understanding of historical technologies. I've always been fascinated by the way that medieval craftsmen were able to create such intricate and durable materials with relatively simple tools. Do you think that quantum mechanics could help us better understand how they achieved those results?"
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "83f432a53de247d085eb3e6d05aad98c",
+          "timestamp": 1729005300.0,
+          "content": "Klaas, that's a great point! I think that quantum mechanics could definitely help us better understand the properties of historical materials. In fact, I've been thinking about collaborating with some historians to study the properties of medieval materials using quantum simulations. It could be a really exciting area of research. By the way, how's your family doing? I always love hearing about your kids' adventures."
+        },
+        {
+          "sender_id": "+31612345668",
+          "message_id": "db9fadfded7c48ca865cbfae0129ab35",
+          "timestamp": 1729006200.0,
+          "content": "Thanks for asking, Rohini! The kids are doing well. My daughter is actually getting into medieval crafts, just like her father. She's been learning how to make her own candles and soap using traditional techniques. And my son is still obsessed with playing the lute - he's even started composing his own music. I'm so proud of them both. Speaking of which, have you heard about the new exhibit on medieval music at the Museum of the History of Science in Oxford?"
+        }
+      ],
+      "title": "Klaas van der Meer",
+      "conversation_id": "74f51f2f4a4d40dfa60024196d1df86f",
+      "last_updated": 1725378300.0
+    },
+    "08146da64f1f49bfb5e0b05efbdcd009": {
+      "participant_ids": [
+        "+441223456789",
+        "+15051234567",
+        "+547984123456"
+      ],
+      "messages": [
+        {
+          "sender_id": "+547984123456",
+          "message_id": "b38746a476ef498d9abc6d0ea5a2bb26",
+          "timestamp": 1729001400.0,
+          "content": "Akira, I've been meaning to ask, have you considered partnering with local schools to educate children about the importance of renewable energy? I've seen some great initiatives in Cardiff where schools have installed solar panels and wind turbines, and it's really inspired the next generation to take action."
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "353a3cb8f75e49c9b1f77c0c84fbbd67",
+          "timestamp": 1729002000.0,
+          "content": "Bronwen, that's a fantastic idea! I've actually been in touch with some of the local schools in Cambridge, and they're very interested in exploring renewable energy options. Perhaps we could set up a conference call to discuss potential collaborations and share best practices?"
+        },
+        {
+          "sender_id": "+15051234567",
+          "message_id": "4001411f7106432691a1cbdfdef487d4",
+          "timestamp": 1729002600.0,
+          "content": "I love the idea of partnering with schools! We've had some great success with our own education initiatives here in Naschitti, and I think it would be really valuable to share our experiences with others. Rohini, have you come across any interesting research on the impact of renewable energy education on community engagement?"
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "aa9449f6515948af9b65195f468a272d",
+          "timestamp": 1729003200.0,
+          "content": "Actually, Akira, I've been reading a fascinating paper on the impact of renewable energy education on community engagement. It suggests that education initiatives can really help to build trust and increase support for renewable energy projects. I'd be happy to share the paper with you and discuss it further."
+        },
+        {
+          "sender_id": "+547984123456",
+          "message_id": "7647bf9cf7ae4895b53793977215bb37",
+          "timestamp": 1729003800.0,
+          "content": "Rohini, that sounds like a great resource! I'd love to take a look at the paper and discuss it with you. Perhaps we could also invite some of the local educators from Cardiff to join the conversation and share their perspectives on renewable energy education?"
+        }
+      ],
+      "title": "Renewable Energy and Sustainability",
+      "conversation_id": "08146da64f1f49bfb5e0b05efbdcd009",
+      "last_updated": 1723547700.0
+    },
+    "db6d70bd67ff4a47a01380e72fd52f40": {
+      "participant_ids": [
+        "+494012345678",
+        "+441223456789",
+        "+15051234567"
+      ],
+      "messages": [
+        {
+          "sender_id": "+15051234567",
+          "message_id": "cd601e4f2faa46f6bf53e8e60485dc5d",
+          "timestamp": 1729001400.0,
+          "content": "Helga, I've been thinking about your work on environmental policy, and I was wondering if you've had a chance to look into the new renewable energy initiatives being implemented in Germany. I've heard they're making some great strides in reducing carbon emissions."
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "b5df330cb6e04590b8ce5eb2b7dd064e",
+          "timestamp": 1729002000.0,
+          "content": "Akira, that's a great question. I've been following the developments in Germany, and it's impressive to see the progress they're making. Rohini, have you had a chance to look into the potential applications of quantum computing in renewable energy? I think it could be a game-changer."
+        },
+        {
+          "sender_id": "+494012345678",
+          "message_id": "66b77eaeabf14f928f9eba02937db3cd",
+          "timestamp": 1729002600.0,
+          "content": "Rohini, I think that's a fascinating area of research. I've been reading about the potential for quantum computing to optimize energy grids and improve energy storage. Akira, what are your thoughts on the potential for quantum computing to impact renewable energy development in Naschitti?"
+        },
+        {
+          "sender_id": "+15051234567",
+          "message_id": "2a6b93cda6424e32bb71aac2c4bde052",
+          "timestamp": 1729003200.0,
+          "content": "I think it's an exciting area of research, Helga. We're already seeing some innovative applications of quantum computing in renewable energy, and I think it has the potential to make a significant impact. Rohini, I've been meaning to ask you, how's your work on quantum algorithms for simulating complex molecular systems going? Any breakthroughs recently?"
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "b73033546e0f4374852a5e3f257978d6",
+          "timestamp": 1729003800.0,
+          "content": "Actually, Akira, we've made some significant progress recently. We've been able to simulate some complex molecular systems using quantum algorithms, and it's opening up new possibilities for materials science and pharmacology. Helga, I know you have a background in climatology, and I was wondering if you've had a chance to look into the potential impacts of climate change on renewable energy development?"
+        }
+      ],
+      "title": "Quantum Computing and Renewable Energy",
+      "conversation_id": "db6d70bd67ff4a47a01380e72fd52f40",
+      "last_updated": 1724843700.0
+    },
+    "a02a4a50cf6d4d9eab92329b90d945d5": {
+      "participant_ids": [
+        "+441223456789",
+        "+491724567890"
+      ],
+      "messages": [
+        {
+          "sender_id": "+491724567890",
+          "message_id": "e74494cd358f4a5ebfbd10ec510c1793",
+          "timestamp": 1729002600.0,
+          "content": "Rohini, I was thinking about our previous discussion on quantum computing in emergency medicine, and I had an idea. What if we could use quantum-inspired algorithms to optimize the allocation of emergency resources, such as ambulances or hospital beds?"
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "4894c369f19345d7a22f045f00ce333b",
+          "timestamp": 1729003500.0,
+          "content": "Klaus-Peter, that's a fascinating idea! I can see how quantum-inspired algorithms could help optimize resource allocation in emergency situations. Have you had a chance to explore any existing research in this area?"
+        },
+        {
+          "sender_id": "+491724567890",
+          "message_id": "69cdcf1e50b145c28c2ac27a121a0b7d",
+          "timestamp": 1729004400.0,
+          "content": "Actually, I've been reading about some research on using machine learning to optimize emergency resource allocation. But I think quantum-inspired algorithms could offer even more powerful solutions. Perhaps we could collaborate on a project to explore this further?"
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "e0fc43d2ef2b44d8baefc1bb9706a976",
+          "timestamp": 1729005300.0,
+          "content": "I'd love to collaborate on a project like that, Klaus-Peter! I think our combined expertise in quantum computing and emergency medicine could lead to some really innovative solutions. Let's discuss this further over our call next week."
+        },
+        {
+          "sender_id": "+491724567890",
+          "message_id": "678bc26df95c405abe29eb70955b2180",
+          "timestamp": 1729006200.0,
+          "content": "Sounds great, Rohini! I'm looking forward to our call. By the way, how's your family doing? I feel like I haven't asked about them in a while."
+        }
+      ],
+      "title": "Klaus-Peter Müller",
+      "conversation_id": "a02a4a50cf6d4d9eab92329b90d945d5",
+      "last_updated": 1723822200.0
+    },
+    "4c3b6f07ae6645d5a7679b7c6582e0e9": {
+      "participant_ids": [
+        "+61889412345",
+        "+441223456789"
+      ],
+      "messages": [
+        {
+          "sender_id": "+61889412345",
+          "message_id": "57234b2dbafb4b81a02296cedd6bc1ec",
+          "timestamp": 1729002600.0,
+          "content": "Rohini, I was thinking about our discussion on quantum algorithms and their potential applications in materials science. I had a conversation with my nephew, who's studying environmental science, and he was really interested in the possibilities of using quantum computing to simulate and optimize sustainable systems."
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "a20ca596eb324fe9affd5be6662341ae",
+          "timestamp": 1729003500.0,
+          "content": "Kymberley, that's fascinating! I'd love to hear more about your nephew's work and how we could potentially collaborate on a project that combines quantum computing and environmental science. Have you heard about the new research initiative at Cambridge on sustainable energy systems?"
+        },
+        {
+          "sender_id": "+61889412345",
+          "message_id": "34f4d197fa9544d3b7f3fda9f76bc0a2",
+          "timestamp": 1729004400.0,
+          "content": "Actually, Rohini, I haven't heard about that initiative, but it sounds like something that would really interest me. I've been following the work of the Indigenous-led conservation initiative in the Kimberley region, and I think there could be some great opportunities for collaboration and knowledge-sharing between our communities."
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "3a27a92076914e3aa0dd7165e11c1990",
+          "timestamp": 1729005300.0,
+          "content": "Kymberley, I completely agree. I think it's essential to recognize and respect the traditional knowledge and practices of Indigenous communities, especially when it comes to environmental conservation. I've been reading about the concept of 'caring for country' and how it relates to sustainable land management."
+        },
+        {
+          "sender_id": "+61889412345",
+          "message_id": "c7e830f3d812406aae580d2c585aaf07",
+          "timestamp": 1729006200.0,
+          "content": "Rohini, you're really getting to the heart of the matter! 'Caring for country' is a beautiful concept that encompasses not just environmental conservation but also cultural and spiritual connection to the land. I think it's something that we could explore further in our potential collaboration, perhaps by incorporating traditional knowledge and practices into our research on quantum algorithms and sustainable systems."
+        }
+      ],
+      "title": "Kymberley Ngurru",
+      "conversation_id": "4c3b6f07ae6645d5a7679b7c6582e0e9",
+      "last_updated": 1726745700.0
+    },
+    "c0a3d36debcc45e293881e176eca0d0a": {
+      "participant_ids": [
+        "+441223456789",
+        "+31612345678",
+        "+441311234867"
+      ],
+      "messages": [
+        {
+          "sender_id": "+441311234867",
+          "message_id": "81f9aee302ab49beb9ff1838bf6da036",
+          "timestamp": 1729002600.0,
+          "content": "Saskia, I've been thinking about your history classes and how you could incorporate more science into them. Have you considered inviting a guest speaker from the science department to talk to your students about the historical context of scientific discoveries?"
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "43bfd2a87d694e6da34e5b44e7844c89",
+          "timestamp": 1729003200.0,
+          "content": "Maureen, that's a great idea! I'd be happy to help arrange something like that. Saskia, what do you think about having a joint lecture series between the history and science departments?"
+        },
+        {
+          "sender_id": "+31612345678",
+          "message_id": "87636f46a87c426388bf16a527530a97",
+          "timestamp": 1729003800.0,
+          "content": "I think that's a fantastic idea, Rohini! It would be a great way to show our students how different disciplines can intersect and inform each other. Maureen, have you come across any interesting books or articles recently that might be relevant to our discussion?"
+        },
+        {
+          "sender_id": "+441311234867",
+          "message_id": "b1f58e7ca66148f1bf3034afff9f4445",
+          "timestamp": 1729004400.0,
+          "content": "Actually, Saskia, I just finished reading a fascinating book about the history of women in science. It's called 'The Radium Girls' and it's about the women who worked with radium in the early 20th century. I think it would be a great addition to your curriculum."
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "bc8b80ee76374bf982fc7e7939428eeb",
+          "timestamp": 1729005000.0,
+          "content": "Maureen, that sounds like a great book! I'll have to add it to my reading list. Saskia, I've been meaning to ask, how's your family doing? How's your partner and the kids?"
+        }
+      ],
+      "title": "Catching up and discussing books and science",
+      "conversation_id": "c0a3d36debcc45e293881e176eca0d0a",
+      "last_updated": 1722860100.0
+    },
+    "ac712c90d76e48358b500cc03dc7a4cd": {
+      "participant_ids": [
+        "+441223456789",
+        "+21412345678",
+        "+481764567890"
+      ],
+      "messages": [
+        {
+          "sender_id": "+481764567890",
+          "message_id": "bc365bc781a044b4bbd5180780d23e0d",
+          "timestamp": 1729002600.0,
+          "content": "Rohini, I've been meaning to ask you, have you had a chance to read that paper on quantum machine learning that we discussed last time? I found it really insightful and I'd love to hear your thoughts on it."
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "c8f933da0b5b4fc997f4b93b76543173",
+          "timestamp": 1729003500.0,
+          "content": "Saskia, I did get a chance to read it and I must say, it was quite thought-provoking. The authors' approach to using quantum computing for feature selection is really innovative. Kaito, what are your thoughts on this? Do you think we could apply similar techniques to our work in AI research?"
+        },
+        {
+          "sender_id": "+21412345678",
+          "message_id": "7c014455fccb4716b4c721bdcdb9b359",
+          "timestamp": 1729004400.0,
+          "content": "I think that's a great idea, Rohini. The potential for quantum computing to improve machine learning algorithms is vast. Saskia, have you considered exploring the applications of quantum machine learning in natural language processing? I think it could be a really fruitful area of research."
+        },
+        {
+          "sender_id": "+481764567890",
+          "message_id": "98449c8ed938477ba425b112f22eba93",
+          "timestamp": 1729005300.0,
+          "content": "Kaito, that's a great suggestion. I've actually been looking into that area and I think there's a lot of potential for quantum machine learning to improve language models. Rohini, how do you think we could collaborate on a project like that? Maybe we could work together on a paper or a research proposal?"
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "a5772e70516f48dfb6cff69369d43c0e",
+          "timestamp": 1729006200.0,
+          "content": "That sounds like a great idea, Saskia. I'd love to collaborate with you and Kaito on a project. Let's discuss the details further and see if we can come up with a proposal. Kaito, how's your family doing? I feel like it's been ages since we last caught up in person."
+        },
+        {
+          "sender_id": "+21412345678",
+          "message_id": "67e100ec39b449d880a25aad88ffcae2",
+          "timestamp": 1729007100.0,
+          "content": "My family is doing well, thanks for asking Rohini. My kids are keeping me busy with their sports and activities. Speaking of which, I've been meaning to ask you, have you ever been to the Melbourne Cricket Ground? I think you'd love it. Maybe we can plan a trip there soon?"
+        }
+      ],
+      "title": "Quantum Computing and Machine Learning",
+      "conversation_id": "ac712c90d76e48358b500cc03dc7a4cd",
+      "last_updated": 1725363300.0
+    },
+    "40afd9282cc44d9a8650fd4c95225e6d": {
+      "participant_ids": [
+        "+491578234567",
+        "+441223456789",
+        "+61412445678"
+      ],
+      "messages": [
+        {
+          "sender_id": "+491578234567",
+          "message_id": "9ba8a940046f4216bd6313e995928209",
+          "timestamp": 1729001400.0,
+          "content": "Kaidën, I've been thinking about your background in cryptography and I'm curious to know more about your experience with encryption methods. Have you had a chance to explore any of the newer quantum-resistant algorithms?"
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "d16a588e3e0e4389ac6a50a80bcb6a70",
+          "timestamp": 1729001700.0,
+          "content": "Saskia, that's a great question! Kaidën, I've been meaning to ask you about your thoughts on the potential applications of quantum computing in cryptography. Do you think it's a game-changer or just a niche area of research?"
+        },
+        {
+          "sender_id": "+61412445678",
+          "message_id": "f472ccd5922044bcbdf2801864a9f538",
+          "timestamp": 1729002000.0,
+          "content": "Rohini, I think it's definitely a game-changer. The potential for quantum computers to break certain types of encryption is a major concern. But at the same time, quantum computing also offers some amazing opportunities for creating unbreakable encryption methods. Saskia, what are your thoughts on the psychological impact of working with sensitive information and the pressure to keep it secure?"
+        },
+        {
+          "sender_id": "+491578234567",
+          "message_id": "e21985efd2d14dcc8d0f570c19b37e0f",
+          "timestamp": 1729002300.0,
+          "content": "Kaidën, that's a great point. As a psychiatrist, I've seen firsthand the toll that working with sensitive information can take on a person's mental health. The pressure to keep it secure can be overwhelming, and it's not uncommon for people to experience anxiety or burnout. Rohini, have you ever experienced anything like that in your work with quantum algorithms?"
+        },
+        {
+          "sender_id": "+441223456789",
+          "message_id": "41da00edca734aa1bb1b8b8e92abfe0a",
+          "timestamp": 1729002600.0,
+          "content": "Saskia, actually, I have experienced some of that pressure. Working on a project like quantum algorithms can be all-consuming, and it's easy to get caught up in the excitement of discovery. But I've learned to take a step back and prioritize my own well-being. Kaidën, I'm curious to know more about your experiences in the military and how you handled the stress of working in a high-pressure environment."
+        }
+      ],
+      "title": "Quantum Algorithms and Cryptography",
+      "conversation_id": "40afd9282cc44d9a8650fd4c95225e6d",
+      "last_updated": 1724758500.0
+    }
+  },
+  "messages_view_limit": 10,
+  "conversation_view_limit": 5,
+  "mode": "PHONE_NUMBER",
+  "name_to_id": {
+    "Kaidën Jelani": "+67412345678",
+    "Rohini Deshpande": "+441223456789",
+    "Saskia van der Meer": "+31612345678",
+    "Hamish MacTavish": "+61894561234",
+    "Klaas van der Meer": "+31612345668",
+    "Akira König": "+15051234567",
+    "Bronwen Pritchard": "+547984123456",
+    "Helga Müller-Krüger": "+494012345678",
+    "Klaus-Peter Müller": "+491724567890",
+    "Kymberley Ngurru": "+61889412345",
+    "Maureen Fletcher": "+441311234867",
+    "Kaito Nakamura": "+21412345678",
+    "Saskia Müller-Friedrich": "+481764567890",
+    "Saskia Müller-Klein": "+491578234567",
+    "Kaidën Janssen": "+61412445678",
+    "Siu-Fung De Vries": "+862112345678",
+    "Gerrit van der Meer": "+31703456789",
+    "Hendrika van der Meer": "+31612375678",
+    "Lea Müller": "+491764568890",
+    "Saskia Kaufmann": "+4915782345678",
+    "Reginald Fothergill": "+61298765432",
+    "Leila Özdemir": "+4915782347191",
+    "Klaasje Van der Meer": "+31652345678",
+    "Bronwyn McKenzie": "+61893876543",
+    "Katharina Schulze": "+49891234167",
+    "Stijn van der Meer": "+31612345578",
+    "Rohan Deshpande": "+447734567890",
+    "Geertruida van der Meer": "+31612345778",
+    "Kaida Nakamura": "+61412342678",
+    "Zoriana Kovalenko": "+61755219876",
+    "Aartje van der Meer": "+31612945678",
+    "Astrid Müller-Schulze": "+491764562890",
+    "Astrid Jensen": "+441316234517",
+    "Evangelia Papadopoulos": "+491762345678",
+    "Kaida Rylan": "+61412645678",
+    "Kaidën Nakamura": "+61412045678",
+    "Leonhard Kaufmann": "+49891234567",
+    "Kofi Adjei": "+991578234567",
+    "Akira Kaur": "+61415345678",
+    "Min-ji Kim": "+821012345678",
+    "Kaitlyn McKenzie": "+61893211234",
+    "Akira Tanaka": "+61412345677",
+    "Kymberley MacTiernan": "+61298765442",
+    "Akua Mensah": "+447771234567",
+    "Leonie Krüger": "+491578543210",
+    "Zephyrine (Zeph) Wong": "+61413345678",
+    "Ravinder Kaur": "+442071834567",
+    "Helga Müller-Schmidt": "+493012345678",
+    "Evelyn Fothergill": "+441132467890",
+    "Kymberley Papadopoulos": "+61414345678",
+    "Kavita Deshpande": "+447723456789",
+    "Kavita Rao": "+447945123456",
+    "Nalani Jensen": "+61412345478",
+    "Katharina Müller-Schmidt": "+498912395678",
+    "Kaida Nakahara": "+61412345978",
+    "Kymberley Janssen": "+61412345658",
+    "Kofi Nkrumah": "+61894563210",
+    "Rowan Fothergill": "+442071234566",
+    "Kymberley MacTavish": "+61746312345",
+    "Jamila Özdemir": "+491761567890",
+    "Min-ju Kim": "+725112345678"
+  },
+  "id_to_name": {
+    "+67412345678": "Kaidën Jelani",
+    "+441223456789": "Rohini Deshpande",
+    "+31612345678": "Saskia van der Meer",
+    "+61894561234": "Hamish MacTavish",
+    "+31612345668": "Klaas van der Meer",
+    "+15051234567": "Akira König",
+    "+547984123456": "Bronwen Pritchard",
+    "+494012345678": "Helga Müller-Krüger",
+    "+491724567890": "Klaus-Peter Müller",
+    "+61889412345": "Kymberley Ngurru",
+    "+441311234867": "Maureen Fletcher",
+    "+21412345678": "Kaito Nakamura",
+    "+481764567890": "Saskia Müller-Friedrich",
+    "+491578234567": "Saskia Müller-Klein",
+    "+61412445678": "Kaidën Janssen",
+    "+862112345678": "Siu-Fung De Vries",
+    "+31703456789": "Gerrit van der Meer",
+    "+31612375678": "Hendrika van der Meer",
+    "+491764568890": "Lea Müller",
+    "+4915782345678": "Saskia Kaufmann",
+    "+61298765432": "Reginald Fothergill",
+    "+4915782347191": "Leila Özdemir",
+    "+31652345678": "Klaasje Van der Meer",
+    "+61893876543": "Bronwyn McKenzie",
+    "+49891234167": "Katharina Schulze",
+    "+31612345578": "Stijn van der Meer",
+    "+447734567890": "Rohan Deshpande",
+    "+31612345778": "Geertruida van der Meer",
+    "+61412342678": "Kaida Nakamura",
+    "+61755219876": "Zoriana Kovalenko",
+    "+31612945678": "Aartje van der Meer",
+    "+491764562890": "Astrid Müller-Schulze",
+    "+441316234517": "Astrid Jensen",
+    "+491762345678": "Evangelia Papadopoulos",
+    "+61412645678": "Kaida Rylan",
+    "+61412045678": "Kaidën Nakamura",
+    "+49891234567": "Leonhard Kaufmann",
+    "+991578234567": "Kofi Adjei",
+    "+61415345678": "Akira Kaur",
+    "+821012345678": "Min-ji Kim",
+    "+61893211234": "Kaitlyn McKenzie",
+    "+61412345677": "Akira Tanaka",
+    "+61298765442": "Kymberley MacTiernan",
+    "+447771234567": "Akua Mensah",
+    "+491578543210": "Leonie Krüger",
+    "+61413345678": "Zephyrine (Zeph) Wong",
+    "+442071834567": "Ravinder Kaur",
+    "+493012345678": "Helga Müller-Schmidt",
+    "+441132467890": "Evelyn Fothergill",
+    "+61414345678": "Kymberley Papadopoulos",
+    "+447723456789": "Kavita Deshpande",
+    "+447945123456": "Kavita Rao",
+    "+61412345478": "Nalani Jensen",
+    "+498912395678": "Katharina Müller-Schmidt",
+    "+61412345978": "Kaida Nakahara",
+    "+61412345658": "Kymberley Janssen",
+    "+61894563210": "Kofi Nkrumah",
+    "+442071234566": "Rowan Fothergill",
+    "+61746312345": "Kymberley MacTavish",
+    "+491761567890": "Jamila Özdemir",
+    "+725112345678": "Min-ju Kim"
+  },
+  "current_user_id": "+441223456789",
+  "current_user_name": "Rohini Deshpande"
+}

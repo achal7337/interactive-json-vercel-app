@@ -1,0 +1,31 @@
+{
+  "reminders": {
+    "f51e4a13c16045b5bbec13dd2fae9f99": {
+      "reminder_id": "f51e4a13c16045b5bbec13dd2fae9f99",
+      "title": "Team Standup",
+      "due_datetime": 1759268443.554024,
+      "description": "Daily team standup meeting",
+      "repetition_unit": "day",
+      "repetition_value": 1,
+      "time_notified": null
+    },
+    "1e851cb4fd194f96bc3609a6bf748704": {
+      "reminder_id": "1e851cb4fd194f96bc3609a6bf748704",
+      "title": "Buy groceries",
+      "due_datetime": 1759272043.554024,
+      "description": "Weekly grocery shopping",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": null
+    },
+    "35b171ae26054a80bc367ce3c1b172e7": {
+      "reminder_id": "35b171ae26054a80bc367ce3c1b172e7",
+      "title": "Water plants",
+      "due_datetime": 1759351243.554024,
+      "description": "Water the office plants",
+      "repetition_unit": "week",
+      "repetition_value": 1,
+      "time_notified": null
+    }
+  }
+}
