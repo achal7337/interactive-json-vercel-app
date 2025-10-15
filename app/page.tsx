@@ -5,7 +5,6 @@ import { useEffect, useMemo, useState } from 'react';
 import JsonView from "@/components/JsonView";
 import JsonSearch from "@/components/JsonSearch";
 import FieldCascade from "@/components/FieldCascade";
-import Link from 'next/link';
 
 type Dataset = { name: string; file: string; raw: any };
 
@@ -31,7 +30,7 @@ export default function Page() {
   const [datasets, setDatasets] = useState<Dataset[]>([]);
   const [selectedDataset, setSelectedDataset] = useState<string>('');
   const [selectedPaths, setSelectedPaths] = useState<string[][]>([]);
-  const [currentPath, setCurrentPath] = useState<string[]>([]); // <— from cascade
+  const [currentPath, setCurrentPath] = useState<string[]>([]);
   const [includeCurrentOnSubmit, setIncludeCurrentOnSubmit] = useState(true);
   const [submittedJson, setSubmittedJson] = useState<any | null>(null);
   const [loading, setLoading] = useState(true);
@@ -64,7 +63,7 @@ export default function Page() {
   const current = datasets.find((d) => d.file === selectedDataset) || null;
 
   function addPath(path: string[]) {
-    if (!path || path.length === 0) return; // ignore <root>
+    if (!path || path.length === 0) return;
     const key = path.join('\u0000');
     setSelectedPaths(prev => {
       const has = new Set(prev.map(p => p.join('\u0000')));
@@ -75,7 +74,6 @@ export default function Page() {
   const removePath = (i: number) => setSelectedPaths(prev => prev.filter((_, idx) => idx !== i));
   const clearAll = () => setSelectedPaths([]);
 
-  // Build a JSON from a list of paths (each path brings the entire subtree)
   function buildJsonFromPaths(paths: string[][]) {
     if (!current) return null;
     const out: any = {};
@@ -90,7 +88,6 @@ export default function Page() {
     return out;
   }
 
-  // Live preview of what would be submitted (optional)
   const previewCombined = useMemo(() => {
     if (!current) return null;
     const candidate = [...selectedPaths];
@@ -103,7 +100,6 @@ export default function Page() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [current, selectedPaths, currentPath, includeCurrentOnSubmit]);
 
-  // SUBMIT: produce final JSON (includes current path if toggled)
   function handleSubmit() {
     const paths = [...selectedPaths];
     if (includeCurrentOnSubmit && currentPath.length > 0) {
@@ -137,6 +133,60 @@ export default function Page() {
         Pick a dataset → drill into nested keys/indices → add selections, or just submit the current path.
         Selecting a parent includes <strong>all of its children</strong>.
       </p>
+
+      {/* In-app short instructions + data locations */}
+      <div
+        className="card"
+        style={{
+          padding: 12,
+          marginTop: 12,
+          background: '#0e141d',
+          borderRadius: 10,
+          lineHeight: 1.6,
+        }}
+      >
+        <h3 style={{ marginTop: 0 }}>🧭 How to Use</h3>
+        <ul style={{ margin: 0, paddingLeft: '1.2rem' }}>
+          <li><strong>Select data.json</strong> (auto-loaded), drill into fields via dropdowns.</li>
+          <li><strong>Add selection</strong> to include the current field; <strong>Submit</strong> to build combined JSON.</li>
+          <li><strong>Search</strong> (top bar) to find a keyword. Multiple matches → only matching chunks; one match → full parent JSON.</li>
+        </ul>
+
+        <h4 style={{ marginTop: 16 }}>📍 Data locations inside <code>data.json</code></h4>
+        <ul style={{ margin: 0, paddingLeft: '1.2rem', fontSize: '0.9rem', color: '#9da5b4' }}>
+          <li><strong>Conversations:</strong><br/>
+            data['augmentation']['apps'][0]['app_state']['conversations']<br/>
+            data['augmentation']['apps'][1]['app_state']['conversations']<br/>
+            data['apps'][4]['app_state']['conversations']<br/>
+            data['apps'][5]['app_state']['conversations']
+          </li>
+          <li><strong>Email (folders):</strong><br/>
+            data['augmentation']['apps'][2]['app_state']['folders']<br/>
+            data['apps'][6]['app_state']['folders']
+          </li>
+          <li><strong>Products:</strong><br/>
+            data['augmentation']['apps'][4]['app_state']['products']<br/>
+            data['apps'][11]['app_state']['products']
+          </li>
+          <li><strong>Files:</strong><br/>
+            data['apps'][1]['app_state']['files']
+          </li>
+          <li><strong>Apartments:</strong><br/>
+            data['augmentation']['apps'][3]['app_state']['apartments']<br/>
+            data['apps'][8]['app_state']['apartments']
+          </li>
+          <li><strong>Calendar (events):</strong><br/>
+            data['apps'][7]['app_state']['events']
+          </li>
+          <li><strong>City (crime_data):</strong><br/>
+            data['apps'][9]['app_state']['crime_data']
+          </li>
+          <li><strong>Contacts:</strong><br/>
+            data['apps'][2]['app_state']['contacts']<br/>
+            data['apps'][3]['app_state']['contacts']
+          </li>
+        </ul>
+      </div>
 
       {/* Global search across all files */}
       <JsonSearch />
