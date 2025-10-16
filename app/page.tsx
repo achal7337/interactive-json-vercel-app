@@ -347,29 +347,6 @@ export default function Page() {
       )}
 
 
-      {/* Selections panel */}
-      <div className="card">
-        <div className="hstack" style={{ gap: 8, marginBottom: 8, flexWrap: 'wrap' }}>
-          <span className="tag">Selections: {selectedPaths.length}</span>
-          {selectedPaths.length > 0 && (
-            <button className="ghost" onClick={clearAll}>Clear all</button>
-          )}
-          {currentPath.length > 0 && <span className="tag">Current: {currentPath.join('.')}</span>}
-        </div>
-        {selectedPaths.length === 0 ? (
-          <div className="tag">Add a category above or use “Add selection”, then press Submit</div>
-        ) : (
-          <div className="vstack" style={{ gap: 6 }}>
-            {selectedPaths.map((p, i) => (
-              <div key={i} className="hstack" style={{ gap: 8, alignItems: 'center' }}>
-                <span className="tag">{p.join('.')}</span>
-                <button className="ghost" onClick={() => removePath(i)}>✖ Remove</button>
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
-
       {/* Final result (bottom) */}
       {submittedJson && (
         <div className="card">
