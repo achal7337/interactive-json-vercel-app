@@ -346,30 +346,6 @@ export default function Page() {
         </div>
       )}
 
-      {/* Cascading field selector */}
-      {current && (
-        <div className="card">
-          <FieldCascade
-            data={current.raw ?? {}}
-            onAddPath={addPath}
-            onPathChange={setCurrentPath}
-          />
-
-          {/* Submit bar for paths + added categories */}
-          <div className="hstack" style={{ gap: 12, marginTop: 12, alignItems: 'center', flexWrap: 'wrap' }}>
-            <label className="hstack" style={{ gap: 8 }}>
-              <input
-                type="checkbox"
-                checked={includeCurrentOnSubmit}
-                onChange={(e) => setIncludeCurrentOnSubmit(e.target.checked)}
-              />
-              Include current path on submit
-            </label>
-            <button onClick={handleSubmit}>Submit</button>
-            {previewCombined && <span className="tag">Preview ready</span>}
-          </div>
-        </div>
-      )}
 
       {/* Selections panel */}
       <div className="card">
