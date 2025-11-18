@@ -503,26 +503,32 @@ export default function Page() {
       {/* FieldCascade section */}
       <div className="card" style={{ marginTop: 12, padding: 12 }}>
         <FieldCascade
-          root={current.raw}
-          currentPath={currentPath}
-          onPathChange={setCurrentPath}
+          data={current.raw}
           onAddPath={addPath}
-          selectedPaths={selectedPaths}
-          onRemovePath={idx =>
-            setSelectedPaths(prev => prev.filter((_, i) => i !== idx))
-          }
-          onClearAll={() => setSelectedPaths([])}
-          includeCurrentOnSubmit={includeCurrentOnSubmit}
-          onIncludeCurrentOnSubmitChange={setIncludeCurrentOnSubmit}
-          previewCombined={previewCombined}
+          onPathChange={setCurrentPath}
         />
-        <button
-          type="button"
-          style={{ marginTop: 8 }}
-          onClick={handleSubmit}
-        >
-          Submit (build final JSON)
-        </button>
+        <div style={{ marginTop: 8, display: 'flex', gap: 8, alignItems: 'center' }}>
+          <label style={{ display: 'flex', gap: 4, alignItems: 'center' }}>
+            <input
+              type="checkbox"
+              checked={includeCurrentOnSubmit}
+              onChange={e => setIncludeCurrentOnSubmit(e.target.checked)}
+            />
+            Include current path on submit
+          </label>
+          <button
+            type="button"
+            onClick={() => setSelectedPaths([])}
+          >
+            Clear selected paths
+          </button>
+          <button
+            type="button"
+            onClick={handleSubmit}
+          >
+            Submit (build final JSON)
+          </button>
+        </div>
       </div>
     </div>
   );
