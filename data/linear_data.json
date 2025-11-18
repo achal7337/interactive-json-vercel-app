@@ -1,0 +1,978 @@
+{
+    "users": [
+        {
+            "id": "usr_001",
+            "email": "jordan.kim@vantage-lens.com",
+            "name": "Jordan Kim",
+            "display_name": "Jordan K.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Jordan+Kim&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-14T22:39:48Z",
+            "updated_at": "2025-10-21T00:39:48Z"
+        },
+        {
+            "id": "usr_002",
+            "email": "emily.nguyen@vantage-lens.com",
+            "name": "Emily Nguyen",
+            "display_name": "Emily N.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Emily+Nguyen&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-18T23:56:48Z",
+            "updated_at": "2025-10-24T23:56:48Z"
+        },
+        {
+            "id": "usr_003",
+            "email": "carlos.hernandez@vantage-lens.com",
+            "name": "Carlos Hernandez",
+            "display_name": "Carlos H.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Carlos+Hernandez&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-13T20:20:48Z",
+            "updated_at": "2025-10-18T19:20:48Z"
+        },
+        {
+            "id": "usr_004",
+            "email": "priya.sharma@vantage-lens.com",
+            "name": "Priya Sharma",
+            "display_name": "Priya S.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Priya+Sharma&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-17T22:55:48Z",
+            "updated_at": "2025-10-19T14:55:48Z"
+        },
+        {
+            "id": "usr_005",
+            "email": "liam.o'connor@vantage-lens.com",
+            "name": "Liam O'Connor",
+            "display_name": "Liam O.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Liam+O'Connor&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-17T15:35:48Z",
+            "updated_at": "2025-10-22T18:35:48Z"
+        },
+        {
+            "id": "usr_006",
+            "email": "fatima.zaid@vantage-lens.com",
+            "name": "Fatima Zaid",
+            "display_name": "Fatima Z.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Fatima+Zaid&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-17T17:47:48Z",
+            "updated_at": "2025-10-18T18:47:48Z"
+        },
+        {
+            "id": "usr_007",
+            "email": "robert.jackson@vantage-lens.com",
+            "name": "Robert Jackson",
+            "display_name": "Robert J.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Robert+Jackson&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-16T16:11:48Z",
+            "updated_at": "2025-10-18T16:11:48Z"
+        },
+        {
+            "id": "usr_008",
+            "email": "sofia.lopez@vantage-lens.com",
+            "name": "Sofia Lopez",
+            "display_name": "Sofia L.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Sofia+Lopez&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-17T22:26:48Z",
+            "updated_at": "2025-10-18T09:26:48Z"
+        },
+        {
+            "id": "usr_009",
+            "email": "amir.hassan@vantage-lens.com",
+            "name": "Amir Hassan",
+            "display_name": "Amir H.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Amir+Hassan&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-16T17:38:48Z",
+            "updated_at": "2025-10-21T01:38:48Z"
+        },
+        {
+            "id": "usr_010",
+            "email": "lisa.chang@vantage-lens.com",
+            "name": "Lisa Chang",
+            "display_name": "Lisa C.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Lisa+Chang&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-16T02:15:48Z",
+            "updated_at": "2025-10-21T21:15:48Z"
+        },
+        {
+            "id": "usr_011",
+            "email": "anwar.el-badawi@vantage-lens.com",
+            "name": "Anwar El-Badawi",
+            "display_name": "Anwar E.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Anwar+El-Badawi&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-14T07:29:48Z",
+            "updated_at": "2025-10-16T16:29:48Z"
+        },
+        {
+            "id": "usr_012",
+            "email": "nina.kozlov@vantage-lens.com",
+            "name": "Nina Kozlov",
+            "display_name": "Nina K.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Nina+Kozlov&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-14T16:53:48Z",
+            "updated_at": "2025-10-19T11:53:48Z"
+        },
+        {
+            "id": "usr_013",
+            "email": "javier.martinez@vantage-lens.com",
+            "name": "Javier Martinez",
+            "display_name": "Javier M.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Javier+Martinez&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-13T22:39:48Z",
+            "updated_at": "2025-10-16T22:39:48Z"
+        },
+        {
+            "id": "usr_014",
+            "email": "aisha.malik@vantage-lens.com",
+            "name": "Aisha Malik",
+            "display_name": "Aisha M.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Aisha+Malik&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-18T19:30:48Z",
+            "updated_at": "2025-10-23T17:30:48Z"
+        },
+        {
+            "id": "usr_015",
+            "email": "david.green@vantage-lens.com",
+            "name": "David Green",
+            "display_name": "David G.",
+            "avatar_url": "https://ui-avatars.com/api/?name=David+Green&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-15T17:57:48Z",
+            "updated_at": "2025-10-16T22:57:48Z"
+        },
+        {
+            "id": "usr_016",
+            "email": "mei.tan@vantage-lens.com",
+            "name": "Mei Tan",
+            "display_name": "Mei T.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Mei+Tan&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-17T08:14:48Z",
+            "updated_at": "2025-10-22T09:14:48Z"
+        },
+        {
+            "id": "usr_017",
+            "email": "oliver.thompson@vantage-lens.com",
+            "name": "Oliver Thompson",
+            "display_name": "Oliver T.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Oliver+Thompson&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-16T16:25:48Z",
+            "updated_at": "2025-10-17T03:25:48Z"
+        },
+        {
+            "id": "usr_018",
+            "email": "sara.ali@vantage-lens.com",
+            "name": "Sara Ali",
+            "display_name": "Sara A.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Sara+Ali&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-18T12:39:48Z",
+            "updated_at": "2025-10-18T17:39:48Z"
+        },
+        {
+            "id": "usr_019",
+            "email": "zhang.wei@vantage-lens.com",
+            "name": "Zhang Wei",
+            "display_name": "Zhang W.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Zhang+Wei&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-15T05:30:48Z",
+            "updated_at": "2025-10-17T00:30:48Z"
+        },
+        {
+            "id": "usr_020",
+            "email": "elena.petrov@vantage-lens.com",
+            "name": "Elena Petrov",
+            "display_name": "Elena P.",
+            "avatar_url": "https://ui-avatars.com/api/?name=Elena+Petrov&background=random",
+            "is_active": "1",
+            "created_at": "2025-10-13T20:02:48Z",
+            "updated_at": "2025-10-16T05:02:48Z"
+        }
+    ],
+    "teams": [
+        {
+            "id": "team_001",
+            "name": "Engineering",
+            "key": "ENG",
+            "description": "The Engineering team at VantageLens specializes in developing innovative SaaS solutions, focusing on scalable architecture and seamless integration to enhance user experience.",
+            "is_archived": "0",
+            "created_at": "2025-10-16T06:16:48Z",
+            "updated_at": "2025-10-16T21:16:48Z"
+        },
+        {
+            "id": "team_002",
+            "name": "Executive",
+            "key": "EXE",
+            "description": "The Executive team at VantageLens in SaaS Software is comprised of visionary leaders dedicated to driving innovation and delivering cutting-edge analytics solutions that empower businesses to make data-driven decisions.",
+            "is_archived": "0",
+            "created_at": "2025-10-16T11:02:48Z",
+            "updated_at": "2025-10-20T09:02:48Z"
+        },
+        {
+            "id": "team_003",
+            "name": "Operations",
+            "key": "OPE",
+            "description": "The Operations team at VantageLens ensures seamless delivery and optimal performance of its SaaS software solutions by streamlining processes and maintaining robust infrastructure.",
+            "is_archived": "0",
+            "created_at": "2025-10-16T16:54:48Z",
+            "updated_at": "2025-10-23T05:54:48Z"
+        },
+        {
+            "id": "team_004",
+            "name": "Product",
+            "key": "PRO",
+            "description": "The Product team at VantageLens focuses on developing innovative SaaS solutions that enhance user productivity and deliver seamless customer experiences.",
+            "is_archived": "0",
+            "created_at": "2025-10-16T06:49:48Z",
+            "updated_at": "2025-10-19T16:49:48Z"
+        },
+        {
+            "id": "team_005",
+            "name": "Sales",
+            "key": "SAL",
+            "description": "The Sales team at VantageLens excels in driving revenue growth by leveraging deep industry knowledge and a customer-centric approach to promote their innovative SaaS solutions.",
+            "is_archived": "0",
+            "created_at": "2025-10-15T07:36:48Z",
+            "updated_at": "2025-10-21T15:36:48Z"
+        },
+        {
+            "id": "team_006",
+            "name": "Support",
+            "key": "SUP",
+            "description": "The Support team at VantageLens excels at providing prompt and efficient assistance to SaaS software users, ensuring seamless operation and customer satisfaction.",
+            "is_archived": "0",
+            "created_at": "2025-10-18T20:12:48Z",
+            "updated_at": "2025-10-21T08:12:48Z"
+        }
+    ],
+    "team_memberships": [
+        {
+            "id": "tmem_001",
+            "team_id": "team_002",
+            "user_id": "usr_001",
+            "created_at": "2025-10-16T09:22:48Z"
+        },
+        {
+            "id": "tmem_002",
+            "team_id": "team_002",
+            "user_id": "usr_002",
+            "created_at": "2025-10-17T07:26:48Z"
+        },
+        {
+            "id": "tmem_003",
+            "team_id": "team_001",
+            "user_id": "usr_003",
+            "created_at": "2025-10-18T01:15:48Z"
+        },
+        {
+            "id": "tmem_004",
+            "team_id": "team_005",
+            "user_id": "usr_004",
+            "created_at": "2025-10-20T22:29:48Z"
+        },
+        {
+            "id": "tmem_005",
+            "team_id": "team_004",
+            "user_id": "usr_005",
+            "created_at": "2025-10-21T13:36:48Z"
+        },
+        {
+            "id": "tmem_006",
+            "team_id": "team_001",
+            "user_id": "usr_006",
+            "created_at": "2025-10-16T03:42:48Z"
+        },
+        {
+            "id": "tmem_007",
+            "team_id": "team_004",
+            "user_id": "usr_007",
+            "created_at": "2025-10-18T16:41:48Z"
+        },
+        {
+            "id": "tmem_008",
+            "team_id": "team_005",
+            "user_id": "usr_008",
+            "created_at": "2025-10-18T07:13:48Z"
+        },
+        {
+            "id": "tmem_009",
+            "team_id": "team_003",
+            "user_id": "usr_009",
+            "created_at": "2025-10-19T03:19:48Z"
+        },
+        {
+            "id": "tmem_010",
+            "team_id": "team_003",
+            "user_id": "usr_010",
+            "created_at": "2025-10-18T19:16:48Z"
+        },
+        {
+            "id": "tmem_011",
+            "team_id": "team_006",
+            "user_id": "usr_011",
+            "created_at": "2025-10-16T08:08:48Z"
+        },
+        {
+            "id": "tmem_012",
+            "team_id": "team_005",
+            "user_id": "usr_012",
+            "created_at": "2025-10-17T02:08:48Z"
+        },
+        {
+            "id": "tmem_013",
+            "team_id": "team_004",
+            "user_id": "usr_013",
+            "created_at": "2025-10-20T14:41:48Z"
+        },
+        {
+            "id": "tmem_014",
+            "team_id": "team_003",
+            "user_id": "usr_014",
+            "created_at": "2025-10-18T08:35:48Z"
+        },
+        {
+            "id": "tmem_015",
+            "team_id": "team_003",
+            "user_id": "usr_015",
+            "created_at": "2025-10-17T18:35:48Z"
+        },
+        {
+            "id": "tmem_016",
+            "team_id": "team_006",
+            "user_id": "usr_016",
+            "created_at": "2025-10-21T18:40:48Z"
+        },
+        {
+            "id": "tmem_017",
+            "team_id": "team_003",
+            "user_id": "usr_017",
+            "created_at": "2025-10-17T00:36:48Z"
+        },
+        {
+            "id": "tmem_018",
+            "team_id": "team_001",
+            "user_id": "usr_018",
+            "created_at": "2025-10-20T23:17:48Z"
+        },
+        {
+            "id": "tmem_019",
+            "team_id": "team_001",
+            "user_id": "usr_019",
+            "created_at": "2025-10-21T04:23:48Z"
+        },
+        {
+            "id": "tmem_020",
+            "team_id": "team_001",
+            "user_id": "usr_020",
+            "created_at": "2025-10-21T11:52:48Z"
+        }
+    ],
+    "projects": [
+        {
+            "id": "proj_001",
+            "team_id": "team_001",
+            "name": "VantageLens Inventory Optimizer",
+            "summary": "Enhance the VantageLens Inventory Optimizer to improve inventory accuracy, streamline stock management processes, and increase overall efficiency for businesses using advanced analytics and forecasting algorithms.",
+            "created_at": "2025-10-25T07:42:48Z",
+            "updated_at": "2025-10-29T09:42:48Z"
+        },
+        {
+            "id": "proj_002",
+            "team_id": "team_001",
+            "name": "VantageLens Customer Insights Explorer",
+            "summary": "The project aims to enhance the VantageLens Customer Insights Explorer by improving its data analytics capabilities, user interface, and integration with third-party data sources to provide deeper and more actionable insights for businesses.",
+            "created_at": "2025-10-19T10:21:48Z",
+            "updated_at": "2025-10-23T02:21:48Z"
+        },
+        {
+            "id": "proj_003",
+            "team_id": "team_001",
+            "name": "VantageLens Pricing Strategy Advisor",
+            "summary": "The project aims to improve the Pricing Strategy Advisor on the VantageLens platform by integrating advanced analytics and machine learning algorithms to provide more accurate and personalized pricing strategy recommendations.",
+            "created_at": "2025-10-24T06:44:48Z",
+            "updated_at": "2025-10-24T21:44:48Z"
+        },
+        {
+            "id": "proj_004",
+            "team_id": "team_001",
+            "name": "VantageLens Visual Merchandising Assistant",
+            "summary": "The project aims to upgrade the VantageLens Visual Merchandising Assistant tool by improving AI-driven layout recommendations, user interface design, and analytics capabilities to enhance retailers' in-store product placement efficiency.",
+            "created_at": "2025-10-25T10:25:48Z",
+            "updated_at": "2025-10-26T10:25:48Z"
+        },
+        {
+            "id": "proj_005",
+            "team_id": "team_001",
+            "name": "VantageLens Omni-Channel Insights Dashboard",
+            "summary": "The project aims to upgrade VantageLens Omni-Channel Insights Dashboard by integrating real-time analytics, improving user interface for better visualization, and expanding data sources for more comprehensive insights.",
+            "created_at": "2025-10-21T08:13:48Z",
+            "updated_at": "2025-10-24T22:13:48Z"
+        }
+    ],
+    "issues": [
+        {
+            "id": "issue_001",
+            "project_id": "proj_001",
+            "assignee_id": "usr_001",
+            "title": "Enhance Inventory Optimization Algorithm in VantageLens Tool",
+            "description": "**Feature Task: Integration of Predictive Analytics for Demand Forecasting**\n\nImplement a predictive analytics module within the VantageLens Inventory Optimizer to enhance the accuracy of demand forecasting. This module should utilize machine learning algorithms to analyze historical sales data, external market trends, and seasonal variations to predict future demand for each product in the inventory. The predictions should be seamlessly integrated into the inventory management dashboard, enabling users to adjust stock levels proactively and avoid overstock or stockouts. Acceptance Criteria: The predictive analytics feature must demonstrate at least a 10% improvement in forecasting accuracy compared to previous models, as measured by a reduction in stockouts and overstock incidents over a four-week trial period.",
+            "priority": "3",
+            "due_date": "2025-12-05",
+            "labels": "bug,tool",
+            "created_at": "2025-11-04T12:05:48Z",
+            "updated_at": "2025-11-05T23:05:48Z"
+        },
+        {
+            "id": "issue_002",
+            "project_id": "proj_001",
+            "assignee_id": "usr_002",
+            "title": "Enhance Algorithm Efficiency in VantageLens Inventory Optimizer",
+            "description": "Task: Redesign the \"Add New Inventory\" workflow in the VantageLens Inventory Optimizer to enhance usability and streamline data entry. This involves creating a more intuitive interface with clear, step-by-step guidance for users, minimizing the number of clicks needed to complete the task and ensuring key information, such as item details, quantity, and supplier contact, is easily accessible. Acceptance Criteria: The new \"Add New Inventory\" workflow should reduce user input time by 30% compared to the previous design and achieve a usability score of at least 85% in post-redesign user testing.",
+            "priority": "2",
+            "due_date": "2025-11-24",
+            "labels": "bug,tool",
+            "created_at": "2025-11-03T21:03:48Z",
+            "updated_at": "2025-11-09T01:03:48Z"
+        },
+        {
+            "id": "issue_003",
+            "project_id": "proj_001",
+            "assignee_id": "usr_003",
+            "title": "Enhance Algorithm Efficiency in Inventory Optimizer Tool",
+            "description": "**Bug Fix Task:** There is a bug in the VantageLens Inventory Optimizer where items with a quantity of zero are not being filtered out, resulting in these items appearing in restock recommendation reports. This leads to incorrect alerts and unnecessary inventory actions from warehouse personnel. The bug fix task involves modifying the inventory filtering function to properly exclude items with a zero quantity from both the user interface display and backend processes related to restock recommendations. Additionally, ensure that these changes do not affect the processing of items that are on backorder or have pending restock statuses. \n\n**Acceptance Criteria:** Zero quantity items must not appear in restock recommendation reports or the inventory display across all user levels, without impacting the visibility and processing of backordered or pending restock items.",
+            "priority": "2",
+            "due_date": "2025-12-04",
+            "labels": "performance,tool",
+            "created_at": "2025-11-03T18:16:48Z",
+            "updated_at": "2025-11-10T09:16:48Z"
+        },
+        {
+            "id": "issue_004",
+            "project_id": "proj_001",
+            "assignee_id": "usr_004",
+            "title": "Enhance Algorithm Efficiency for Inventory Optimizer in VantageLens Tool",
+            "description": "**Task Description:**\n\nA bug has been identified in the VantageLens Inventory Optimizer where the system erroneously suggests restocking items with a zero reorder point, even when inventory levels are above the minimum threshold. This issue results in unnecessary procurement costs and potential inventory overflow. The fix involves updating the algorithm to ensure that items with a zero reorder point are excluded from restocking recommendations if current stock levels meet or exceed set thresholds. Developers are tasked with modifying the reorder calculation logic to incorporate this condition and conducting testing across various inventory scenarios to validate accuracy.\n\n**Acceptance Criteria:**\n\nThe bug fix is accepted when the Inventory Optimizer consistently excludes items with a zero reorder point from restocking suggestions unless stock levels fall below predefined thresholds, as verified through a series of test cases covering different inventory conditions.",
+            "priority": "1",
+            "due_date": "2025-11-29",
+            "labels": "tool,infrastructure",
+            "created_at": "2025-11-03T20:06:48Z",
+            "updated_at": "2025-11-08T23:06:48Z"
+        },
+        {
+            "id": "issue_005",
+            "project_id": "proj_002",
+            "assignee_id": "usr_005",
+            "title": "Enhance User Interface for VantageLens Customer Insights Explorer",
+            "description": "**Feature Task: Implement Sentiment Analysis in VantageLens Customer Insights Explorer**\n\nThe objective of this feature task is to incorporate sentiment analysis into the Customer Insights Explorer, allowing users to gain a deeper understanding of customer feelings and attitudes from textual feedback. Users should be able to input customer reviews or feedback data, upon which the system will automatically analyze and display the sentiment as positive, negative, or neutral within the user interface. Additionally, an overall sentiment score should be provided for each batch of feedback analyzed. The sentiment analysis should be powered by a reliable natural language processing (NLP) algorithm and offer visualization options like sentiment distribution charts.\n\n*Acceptance Criteria*: The system must accurately categorize and display sentiment results with a minimum accuracy of 85% for all analyzed customer feedback pieces and provide a user-friendly chart for sentiment distribution visualization.",
+            "priority": "3",
+            "due_date": "2025-12-01",
+            "labels": "bug,solution",
+            "created_at": "2025-11-02T04:58:48Z",
+            "updated_at": "2025-11-07T14:58:48Z"
+        },
+        {
+            "id": "issue_006",
+            "project_id": "proj_002",
+            "assignee_id": "usr_006",
+            "title": "Enhance Data Visualization in Customer Insights Explorer",
+            "description": "A performance task for the VantageLens Customer Insights Explorer could be to analyze customer feedback from multiple channels (such as surveys, social media mentions, and customer service interactions) and generate a comprehensive report highlighting key trends, sentiment scores, and actionable insights within a specified time frame. Acceptance criteria: The task is considered successful if the report accurately synthesizes data from at least three different channels, categorizes customer feedback into positive, neutral, and negative sentiment with over 90% accuracy, and identifies at least three actionable insights with corresponding recommended actions.",
+            "priority": "3",
+            "due_date": "2025-12-06",
+            "labels": "design,solution",
+            "created_at": "2025-11-02T19:02:48Z",
+            "updated_at": "2025-11-03T21:02:48Z"
+        },
+        {
+            "id": "issue_007",
+            "project_id": "proj_002",
+            "assignee_id": "usr_007",
+            "title": "Enhance User Interface and Data Analysis Features for Customer Insights Explorer",
+            "description": "**Feature Task: Language Preference Customization**\n\nDevelop a feature within VantageLens Customer Insights Explorer that allows users to set and customize their language preferences for a personalized experience. This feature will offer a wide selection of languages and automatically update the interface and reports accordingly, enhancing accessibility for global users.\n\n**Acceptance Criteria:**\nThe language preference feature should allow users to select their preferred language from a list, automatically translating all interface elements, tooltips, and generated reports, and the selection should persist across sessions without manual resets.",
+            "priority": "2",
+            "due_date": "2025-12-12",
+            "labels": "design,solution",
+            "created_at": "2025-10-24T20:15:48Z",
+            "updated_at": "2025-10-26T09:15:48Z"
+        },
+        {
+            "id": "issue_008",
+            "project_id": "proj_002",
+            "assignee_id": "usr_008",
+            "title": "Enhance Data Visualization in Customer Insights Explorer",
+            "description": "The performance task for VantageLens Customer Insights Explorer involves analyzing customer feedback data to identify key trends and insights that can drive strategic business decisions. Users should be able to upload datasets, use the tool to generate visual reports that highlight customer sentiment and emerging trends, and export these reports for presentations or further analysis. Acceptance criteria: The task is complete when the tool successfully processes the dataset, identifies at least three significant customer insights or trends, and generates an exportable report within a 10-minute timeframe.",
+            "priority": "1",
+            "due_date": "2025-11-20",
+            "labels": "design,solution",
+            "created_at": "2025-10-25T18:12:48Z",
+            "updated_at": "2025-10-25T23:12:48Z"
+        },
+        {
+            "id": "issue_009",
+            "project_id": "proj_003",
+            "assignee_id": "usr_009",
+            "title": "Enhance Pricing Strategy Advisor Functionality on VantageLens Platform",
+            "description": "The performance task involves utilizing VantageLens Pricing Strategy Advisor to analyze a company's current pricing model, identify potential areas for optimization, and recommend a dynamic pricing strategy that aligns with market trends and consumer demand. The acceptance criteria: The recommended pricing strategy should demonstrate a projected revenue increase of at least 10% over the next quarter, align with industry benchmarks, and be supported by data-driven insights provided by VantageLens.",
+            "priority": "3",
+            "due_date": "2025-12-12",
+            "labels": "bug,platform",
+            "created_at": "2025-10-29T10:45:48Z",
+            "updated_at": "2025-11-03T22:45:48Z"
+        },
+        {
+            "id": "issue_010",
+            "project_id": "proj_003",
+            "assignee_id": "usr_010",
+            "title": "\"Enhance Pricing Strategy Advisor Algorithm for VantageLens Platform\"",
+            "description": "**Bug Fix Task:**\n\nIn VantageLens Pricing Strategy Advisor, there is a reported bug where the application fails to accurately update and display suggested pricing changes when the \"Competitive Pricing\" data is updated. The issue seems to occur because the cache is not being invalidated correctly when new competitive pricing data is fetched, leading to outdated or incorrect pricing strategy recommendations being shown to users. The task involves identifying the root cause of the caching issue, ensuring the cache is properly invalidated when new data is loaded, and thoroughly testing this functionality to prevent future occurrences.\n\n**Acceptance Criteria:** \n\nThe application must correctly update and display the latest pricing strategy recommendations within 5 minutes after input changes in the \"Competitive Pricing\" data, with intensive automated test coverage demonstrating successful cache invalidation and data update processes.",
+            "priority": "1",
+            "due_date": "2025-12-26",
+            "labels": "platform,infrastructure",
+            "created_at": "2025-11-01T08:51:48Z",
+            "updated_at": "2025-11-03T22:51:48Z"
+        },
+        {
+            "id": "issue_011",
+            "project_id": "proj_003",
+            "assignee_id": "usr_011",
+            "title": "Enhance Pricing Strategy Advisor Algorithm for VantageLens Platform",
+            "description": "Task: Conduct a usability test for the VantageLens Pricing Strategy Advisor to identify any pain points or areas for improvement in the user journey, specifically focusing on the ease of accessing and interpreting pricing analytics. Acceptance Criteria: The usability test must provide actionable insights into user engagement, with at least 80% of participants able to navigate from the dashboard to detailed pricing reports without any guidance and correctly interpret the key metrics presented.",
+            "priority": "2",
+            "due_date": "2025-12-20",
+            "labels": "platform,feature",
+            "created_at": "2025-10-28T18:29:48Z",
+            "updated_at": "2025-11-05T09:29:48Z"
+        },
+        {
+            "id": "issue_012",
+            "project_id": "proj_003",
+            "assignee_id": "usr_012",
+            "title": "Enhance Pricing Strategy Algorithm in VantageLens Platform",
+            "description": "Task: Conduct a comprehensive user experience (UX) evaluation of the VantageLens Pricing Strategy Advisor to identify areas for improved usability in the key advisor workflow. This assessment should focus on the clarity of navigation, ease of use in selecting and customizing pricing models, and overall user satisfaction with actionable insights. \n\nAcceptance Criteria: The UX evaluation must result in at least five specific, actionable recommendations for enhancing the clarity, efficiency, and user satisfaction of the Pricing Strategy Advisor's interface and workflow, validated by user testing or expert review.",
+            "priority": "2",
+            "due_date": "2025-12-10",
+            "labels": "bug,platform",
+            "created_at": "2025-10-30T16:42:48Z",
+            "updated_at": "2025-11-01T19:42:48Z"
+        },
+        {
+            "id": "issue_013",
+            "project_id": "proj_004",
+            "assignee_id": "usr_013",
+            "title": "Enhance User Interface for Visual Merchandising Assistant in VantageLens Tool",
+            "description": "The task is to fix a bug in the VantageLens Visual Merchandising Assistant where product images are not displaying correctly on the virtual storefront when users try to access them through the mobile interface. Upon investigation, it's found that the issue arises from incorrect image path mapping during mobile rendering. The fix involves updating the image sourcing logic to ensure paths are compatible with various mobile screen resolutions. Acceptance criteria: Product images must load and display correctly on the virtual storefront across all mobile devices, maintaining aspect ratios and resolution integrity.",
+            "priority": "2",
+            "due_date": "2025-12-20",
+            "labels": "design,tool",
+            "created_at": "2025-10-22T23:38:48Z",
+            "updated_at": "2025-10-25T06:38:48Z"
+        },
+        {
+            "id": "issue_014",
+            "project_id": "proj_004",
+            "assignee_id": "usr_014",
+            "title": "Enhance User Interface for VantageLens Visual Merchandising Assistant",
+            "description": "The performance task for the VantageLens Visual Merchandising Assistant involves creating a digital layout for a retail store display that optimizes the visual appeal and flow of customer traffic based on real-time analytics. The digital layout should increase customer engagement by 20% compared to previous setups, as measured by in-store traffic data and sales metrics within the first month of implementation.",
+            "priority": "3",
+            "due_date": "2025-12-15",
+            "labels": "tool,infrastructure",
+            "created_at": "2025-10-22T08:16:48Z",
+            "updated_at": "2025-10-28T15:16:48Z"
+        },
+        {
+            "id": "issue_015",
+            "project_id": "proj_004",
+            "assignee_id": "usr_015",
+            "title": "Enhance VantageLens Visual Merchandising Assistant UI for Better User Experience",
+            "description": "Task Description: Develop and showcase a virtual store layout using VantageLens Visual Merchandising Assistant that aligns with a specified brand\u2019s seasonal promotion theme. The layout should optimize product visibility and customer engagement through strategic positioning and use of digital elements such as displays, lighting, and interactive signage. Acceptance Criteria: The virtual store layout must reflect 90% of the brand\u2019s seasonal promotions, ensure 80% visibility of highlighted products from multiple angles, and demonstrate increased customer engagement metrics by 25% as compared to previous layouts as verified through VantageLens analytics tools.",
+            "priority": "2",
+            "due_date": "2025-12-06",
+            "labels": "performance,tool",
+            "created_at": "2025-11-01T00:15:48Z",
+            "updated_at": "2025-11-07T07:15:48Z"
+        },
+        {
+            "id": "issue_016",
+            "project_id": "proj_004",
+            "assignee_id": "usr_016",
+            "title": "Enhance Product Recommendation Algorithm for VantageLens Visual Merchandising Assistant",
+            "description": "**Feature Task: Implement Automated Planogram Suggestions**\n\nThe task is to develop a feature within the VantageLens Visual Merchandising Assistant that automatically suggests optimal planogram layouts for retail displays based on product type, sales data, and seasonal trends. The feature should use machine learning algorithms to analyze historical and real-time data, providing tailored suggestions that maximize shelf space utilization and sales effectiveness. These suggestions should update dynamically as new data becomes available or as parameters change, allowing merchandisers to quickly adapt their strategies. The suggestions must be accompanied by a confidence score and an easy-to-understand rationale for the proposed layout to aid decision-making.\n\n**Acceptance Criteria:** The automated planogram suggestion feature must provide at least three layout options for any given display, each supported by rationale and a confidence score, with an average accuracy of at least 85% in increasing sales when reviewed over a quarter.",
+            "priority": "2",
+            "due_date": "2025-12-01",
+            "labels": "bug,tool",
+            "created_at": "2025-10-27T14:36:48Z",
+            "updated_at": "2025-11-03T08:36:48Z"
+        },
+        {
+            "id": "issue_017",
+            "project_id": "proj_005",
+            "assignee_id": "usr_017",
+            "title": "Enhance Data Visualization for Omni-Channel Insights Dashboard",
+            "description": "Task: Address an issue in the VantageLens Omni-Channel Insights Dashboard where user filters are not consistently applying across different data widgets, causing discrepancies in the displayed metrics. The specific problem occurs when users apply a filter to narrow down data by specific regions, resulting in correct adjustments for some widgets while others remain unaffected, displaying global data instead. This inconsistency leads to confusion and inaccurate analysis for users relying on filtered views for strategic insights.  To fix the bug, ensure that all data widgets are updated in real-time to reflect any applied filters, maintaining synchronization across the entire dashboard.\n\nAcceptance Criteria: The dashboard must consistently apply user-defined filters across all widgets, confirming that each update accurately reflects the filtered data selection uniformly, and ensuring no discrepancies between widget displays after a filter is applied.",
+            "priority": "3",
+            "due_date": "2025-12-01",
+            "labels": "performance,software",
+            "created_at": "2025-10-22T16:41:48Z",
+            "updated_at": "2025-10-28T01:41:48Z"
+        },
+        {
+            "id": "issue_018",
+            "project_id": "proj_005",
+            "assignee_id": "usr_018",
+            "title": "Enhance Data Visualization on Omni-Channel Insights Dashboard",
+            "description": "**Bug Fix Task:**\n\nUsers have reported that the VantageLens Omni-Channel Insights Dashboard occasionally displays outdated data in the \"Real-Time Analytics\" widget, particularly during peak usage hours. The issue seems to originate from a caching problem that prevents the widget from fetching the most current data updates from the server. To address this, the development team must adjust the widget's cache settings to ensure it refreshes data every minute and verify that the cache invalidation logic properly triggers during data updates. Additionally, comprehensive testing should be conducted during peak usage simulations to confirm that users receive real-time data without any significant delay or performance impact on the dashboard.\n\n**Acceptance Criteria:**\n\nThe \"Real-Time Analytics\" widget must consistently display the most recent data, refreshing every minute, without any outdated information during peak and non-peak usage times.",
+            "priority": "2",
+            "due_date": "2025-11-29",
+            "labels": "software,infrastructure",
+            "created_at": "2025-11-01T19:21:48Z",
+            "updated_at": "2025-11-06T20:21:48Z"
+        },
+        {
+            "id": "issue_019",
+            "project_id": "proj_005",
+            "assignee_id": "usr_019",
+            "title": "Enhance Data Visualization on Omni-Channel Insights Dashboard",
+            "description": "**Bug Fix Task:**\n\nThe VantageLens Omni-Channel Insights Dashboard currently experiences a bug whereby filtering data by specific date ranges results in an incorrect display of data, with certain channels either missing or showing duplicate entries. This issue seems to arise from improper handling of the date filter logic within the code, possibly due to an incorrect conversion of date formats or misalignment in data fetching queries. The task involves debugging the filter logic, ensuring that the date range selection accurately filters the data to include all relevant channel insights without duplication or omission. \n\n**Acceptance Criteria:**\n\nThe date range filter must correctly display distinct entries for each channel within the specified dates, with all data accurately reflecting what is stored in the underlying database.",
+            "priority": "3",
+            "due_date": "2025-12-16",
+            "labels": "bug,software",
+            "created_at": "2025-11-05T04:25:48Z",
+            "updated_at": "2025-11-07T22:25:48Z"
+        },
+        {
+            "id": "issue_020",
+            "project_id": "proj_005",
+            "assignee_id": "usr_020",
+            "title": "Enhance Data Visualization on Omni-Channel Insights Dashboard",
+            "description": "**Bug Fix Task:** In the VantageLens Omni-Channel Insights Dashboard, users have reported that the filter panel intermittently fails to apply the selected date range, resulting in inaccurate data displays on subsequent dashboard widgets. The issue seems to occur sporadically and affects users regardless of their browser or operating system. To address this, investigate the root cause by reviewing the filter's event handling and state management logic, ensuring that date selections consistently update the dashboard in real-time. Additionally, implement comprehensive test cases to simulate various date range selections and verify their correct application across all widgets. \n\n**Acceptance Criteria:** The date range filter consistently applies selections across all dashboard widgets for every user and passes all specified test cases without any errors or discrepancies in displayed data.",
+            "priority": "2",
+            "due_date": "2025-12-27",
+            "labels": "performance,software",
+            "created_at": "2025-11-04T19:11:48Z",
+            "updated_at": "2025-11-12T18:11:48Z"
+        }
+    ],
+    "comments": [
+        {
+            "id": "comment_001",
+            "issue_id": "issue_001",
+            "author_id": "usr_001",
+            "parent_id": "",
+            "body": "Owner Jordan Kim <jordan.kim@vantage-lens.com> reports that significant progress has been made on enhancing the inventory optimization algorithm, with improved accuracy of supply predictions. Currently coordinating with Alex Chen to integrate user feedback into the next iteration. Further validation is underway to fine-tune the model.",
+            "is_edited": "0",
+            "created_at": "2025-11-12T20:09:48Z",
+            "updated_at": "2025-11-20T02:09:48Z"
+        },
+        {
+            "id": "comment_002",
+            "issue_id": "issue_002",
+            "author_id": "usr_002",
+            "parent_id": "",
+            "body": "We've optimized 70% of the algorithm, reducing processing time by 40%. However, complex SKU relationships remain a challenge. To mitigate this, we're consulting data specialists next week to devise a more efficient SKU mapping strategy. Owner: Emily Nguyen <emily.nguyen@vantage-lens.com>.",
+            "is_edited": "0",
+            "created_at": "2025-10-31T21:19:48Z",
+            "updated_at": "2025-11-02T02:19:48Z"
+        },
+        {
+            "id": "comment_003",
+            "issue_id": "issue_002",
+            "author_id": "usr_003",
+            "parent_id": "",
+            "body": "Emily Nguyen is leading enhancements on the VantageLens Inventory Optimizer algorithm, and significant progress has been made by reducing processing time by 30%. She is currently coordinating with Data Engineer James Liu to address remaining integration challenges between systems.",
+            "is_edited": "0",
+            "created_at": "2025-10-31T14:37:48Z",
+            "updated_at": "2025-11-02T18:37:48Z"
+        },
+        {
+            "id": "comment_004",
+            "issue_id": "issue_003",
+            "author_id": "usr_004",
+            "parent_id": "",
+            "body": "Carlos Hernandez has submitted a PR (#342) for enhancing the algorithm efficiency in the Inventory Optimizer Tool, and it's currently under review. The team is addressing some minor feedback, aiming for approval by the end of this week.",
+            "is_edited": "0",
+            "created_at": "2025-11-04T21:38:48Z",
+            "updated_at": "2025-11-05T12:38:48Z"
+        },
+        {
+            "id": "comment_005",
+            "issue_id": "issue_003",
+            "author_id": "usr_005",
+            "parent_id": "",
+            "body": "We have successfully improved the algorithm's efficiency in the Inventory Optimizer Tool, achieving a 20% reduction in computation time. However, we are encountering a blocker with data integration, which Carlos Hernandez is currently addressing. Progress continues as we aim to enhance overall performance.",
+            "is_edited": "0",
+            "created_at": "2025-10-29T09:33:48Z",
+            "updated_at": "2025-10-31T19:33:48Z"
+        },
+        {
+            "id": "comment_006",
+            "issue_id": "issue_004",
+            "author_id": "usr_006",
+            "parent_id": "",
+            "body": "We have successfully optimized the 'Order Processing' module within the Inventory Optimizer for VantageLens, reducing processing time by 30%. Priya Sharma (<priya.sharma@vantage-lens.com>) continues to lead efforts to further refine resource allocation strategies. No significant blockers at this stage.",
+            "is_edited": "0",
+            "created_at": "2025-11-04T05:27:48Z",
+            "updated_at": "2025-11-04T09:27:48Z"
+        },
+        {
+            "id": "comment_007",
+            "issue_id": "issue_004",
+            "author_id": "usr_007",
+            "parent_id": "",
+            "body": "We've made significant progress in enhancing the algorithm's efficiency for the Inventory Optimizer in the VantageLens tool. Priya Sharma is leading this effort, and she has been collaborating closely with Alex Cheng to integrate the latest optimization techniques. No blockers have been encountered so far.",
+            "is_edited": "0",
+            "created_at": "2025-10-28T08:56:48Z",
+            "updated_at": "2025-11-05T02:56:48Z"
+        },
+        {
+            "id": "comment_008",
+            "issue_id": "issue_005",
+            "author_id": "usr_008",
+            "parent_id": "",
+            "body": "The user interface enhancement for VantageLens Customer Insights Explorer, owned by Liam O'Connor, is on track with redesigned layouts in testing. A risk is the potential delay in user feedback integration; to mitigate this, we're increasing the feedback cycle frequency to ensure timely adjustments.",
+            "is_edited": "0",
+            "created_at": "2025-11-01T01:43:48Z",
+            "updated_at": "2025-11-05T11:43:48Z"
+        },
+        {
+            "id": "comment_009",
+            "issue_id": "issue_005",
+            "author_id": "usr_009",
+            "parent_id": "",
+            "body": "Liam O'Connor has made significant progress on enhancing the User Interface for the VantageLens Customer Insights Explorer, with PR #124 under review. The main enhancement involves streamlining dashboard interactions, and currently, the review team is resolving minor UI/UX design feedback before final approval.",
+            "is_edited": "0",
+            "created_at": "2025-11-04T20:11:48Z",
+            "updated_at": "2025-11-12T13:11:48Z"
+        },
+        {
+            "id": "comment_010",
+            "issue_id": "issue_006",
+            "author_id": "usr_010",
+            "parent_id": "",
+            "body": "Fatima Zaid <fatima.zaid@vantage-lens.com> reports significant progress on enhancing data visualization for the Customer Insights Explorer, integrating advanced charting libraries. Unit and integration tests have been thoroughly updated to ensure stability, though minor compatibility issues with legacy data formats are being addressed.",
+            "is_edited": "0",
+            "created_at": "2025-11-07T22:50:48Z",
+            "updated_at": "2025-11-12T00:50:48Z"
+        },
+        {
+            "id": "comment_011",
+            "issue_id": "issue_007",
+            "author_id": "usr_011",
+            "parent_id": "",
+            "body": "Robert Jackson is progressing well with the 'Enhance User Interface and Data Analysis Features for Customer Insights Explorer' project. The recent improvements are captured in PR #78, which is currently pending review. The main blocker is awaiting feedback from the design team.",
+            "is_edited": "0",
+            "created_at": "2025-10-30T13:04:48Z",
+            "updated_at": "2025-11-01T10:04:48Z"
+        },
+        {
+            "id": "comment_012",
+            "issue_id": "issue_007",
+            "author_id": "usr_012",
+            "parent_id": "",
+            "body": "We've made significant progress on upgrading the user interface and data analysis features for the Customer Insights Explorer. Owner Robert Jackson is coordinating this effort. Unit and integration tests have been updated to ensure compatibility with the new features, although we're currently addressing a minor data visualization issue blocking full implementation.",
+            "is_edited": "0",
+            "created_at": "2025-11-10T04:50:48Z",
+            "updated_at": "2025-11-16T18:50:48Z"
+        },
+        {
+            "id": "comment_013",
+            "issue_id": "issue_008",
+            "author_id": "usr_013",
+            "parent_id": "",
+            "body": "Sofia Lopez is making great progress on enhancing data visualization in the Customer Insights Explorer for VantageLens, having successfully integrated dynamic charts. However, a risk remains with potential data latency issues. To mitigate this, she's implementing caching strategies to ensure smooth user experience.",
+            "is_edited": "0",
+            "created_at": "2025-11-06T13:57:48Z",
+            "updated_at": "2025-11-10T15:57:48Z"
+        },
+        {
+            "id": "comment_014",
+            "issue_id": "issue_009",
+            "author_id": "usr_014",
+            "parent_id": "",
+            "body": "Amir Hassan is enhancing Pricing Strategy Advisor functionality on the VantageLens platform, coordinating closely with Sarah Lee to integrate advanced analytics. Progress has been steady, though they encountered a minor blocker with data synchronization, which is actively being addressed.",
+            "is_edited": "0",
+            "created_at": "2025-11-06T16:47:48Z",
+            "updated_at": "2025-11-06T17:47:48Z"
+        },
+        {
+            "id": "comment_015",
+            "issue_id": "issue_010",
+            "author_id": "usr_015",
+            "parent_id": "",
+            "body": "Lisa Chang has successfully integrated new predictive models into the Pricing Strategy Advisor Algorithm for the VantageLens Platform. Unit and integration tests have been updated accordingly, ensuring that the enhancements improve accuracy without introducing errors. Testing indicates significant improvement in predictive accuracy.",
+            "is_edited": "0",
+            "created_at": "2025-11-01T14:12:48Z",
+            "updated_at": "2025-11-07T06:12:48Z"
+        },
+        {
+            "id": "comment_016",
+            "issue_id": "issue_010",
+            "author_id": "usr_016",
+            "parent_id": "",
+            "body": "The enhancement of the Pricing Strategy Advisor Algorithm for VantageLens, owned by Lisa Chang, is progressing well with initial tests showing promising accuracy improvements. However, we're awaiting the final API documentation from the data integration team, which is crucial for full deployment.",
+            "is_edited": "0",
+            "created_at": "2025-11-12T12:05:48Z",
+            "updated_at": "2025-11-14T02:05:48Z"
+        },
+        {
+            "id": "comment_017",
+            "issue_id": "issue_011",
+            "author_id": "usr_017",
+            "parent_id": "",
+            "body": "The team has successfully integrated initial predictive analytics into the Pricing Strategy Advisor Algorithm, but we're awaiting data validation from the Data Insights team to calibrate the model effectively. Anwar El-Badawi is overseeing this phase, and we anticipate resolution within the next two weeks.",
+            "is_edited": "0",
+            "created_at": "2025-10-28T21:19:48Z",
+            "updated_at": "2025-11-04T17:19:48Z"
+        },
+        {
+            "id": "comment_018",
+            "issue_id": "issue_012",
+            "author_id": "usr_018",
+            "parent_id": "",
+            "body": "The Pricing Optimization Module in the VantageLens platform has successfully integrated machine learning models to better analyze market trends, but further testing is delayed due to data inconsistencies. Nina Kozlov is addressing this issue and coordinating with the data engineering team to ensure accuracy.",
+            "is_edited": "0",
+            "created_at": "2025-11-05T01:00:48Z",
+            "updated_at": "2025-11-10T07:00:48Z"
+        },
+        {
+            "id": "comment_019",
+            "issue_id": "issue_013",
+            "author_id": "usr_019",
+            "parent_id": "",
+            "body": "The enhancements to the Visual Merchandising Assistant UI in the VantageLens tool, owned by Javier Martinez, are progressing well, with a 20% increase in user satisfaction scores in initial tests. Currently, we are awaiting feedback on the updated design prototypes to address a minor alignment issue.",
+            "is_edited": "0",
+            "created_at": "2025-11-09T09:06:48Z",
+            "updated_at": "2025-11-10T14:06:48Z"
+        },
+        {
+            "id": "comment_020",
+            "issue_id": "issue_013",
+            "author_id": "usr_020",
+            "parent_id": "",
+            "body": "We have made significant progress on enhancing the dashboard component of the User Interface for the Visual Merchandising Assistant in the VantageLens Tool. Javier Martinez is leading the effort, and the team has successfully implemented a more intuitive layout, although we're facing a minor delay due to unexpected API integration issues.",
+            "is_edited": "0",
+            "created_at": "2025-11-07T13:47:48Z",
+            "updated_at": "2025-11-10T17:47:48Z"
+        },
+        {
+            "id": "comment_021",
+            "issue_id": "issue_014",
+            "author_id": "usr_001",
+            "parent_id": "",
+            "body": "The team has successfully integrated the new color palette, enhancing the overall appeal of the VantageLens Visual Merchandising Assistant. However, there's a blocker with the dynamic layout feature. Aisha Malik is coordinating with Jane Ramos to resolve this technical issue by week's end.",
+            "is_edited": "0",
+            "created_at": "2025-11-07T04:21:48Z",
+            "updated_at": "2025-11-12T17:21:48Z"
+        },
+        {
+            "id": "comment_022",
+            "issue_id": "issue_015",
+            "author_id": "usr_002",
+            "parent_id": "",
+            "body": "The 'Enhance VantageLens Visual Merchandising Assistant UI for Better User Experience' project, led by David Green, has improved the average task completion time by 15%, although alignment issues in the layout are still causing some bottlenecks that need to be addressed.",
+            "is_edited": "0",
+            "created_at": "2025-10-29T06:26:48Z",
+            "updated_at": "2025-10-30T08:26:48Z"
+        },
+        {
+            "id": "comment_023",
+            "issue_id": "issue_016",
+            "author_id": "usr_003",
+            "parent_id": "",
+            "body": "We've successfully integrated new variables into the product recommendation algorithm, resulting in a 15% increase in click-through rates. Mei Tan is spearheading the next phase to address a data integration challenge we've identified, which could further optimize recommendations.",
+            "is_edited": "0",
+            "created_at": "2025-11-03T14:16:48Z",
+            "updated_at": "2025-11-10T08:16:48Z"
+        },
+        {
+            "id": "comment_024",
+            "issue_id": "issue_016",
+            "author_id": "usr_004",
+            "parent_id": "",
+            "body": "The enhancement of the product recommendation algorithm for VantageLens is progressing smoothly under Mei Tan's leadership. We've successfully added unit and integration tests to ensure reliability, with minor adjustments pending to fine-tune performance metrics. No major blockers have been identified at this stage.",
+            "is_edited": "0",
+            "created_at": "2025-11-05T05:05:48Z",
+            "updated_at": "2025-11-12T09:05:48Z"
+        },
+        {
+            "id": "comment_025",
+            "issue_id": "issue_017",
+            "author_id": "usr_005",
+            "parent_id": "",
+            "body": "We've made significant progress on enhancing the data visualization for the Omni-Channel Insights Dashboard. Oliver Thompson is currently reviewing PR #432, which includes the latest design improvements. The PR is awaiting feedback, and no blockers have been identified at this stage.",
+            "is_edited": "0",
+            "created_at": "2025-11-08T07:01:48Z",
+            "updated_at": "2025-11-10T00:01:48Z"
+        },
+        {
+            "id": "comment_026",
+            "issue_id": "issue_018",
+            "author_id": "usr_006",
+            "parent_id": "",
+            "body": "Sara Ali is making significant progress on enhancing the data visualization features for the Omni-Channel Insights Dashboard. Pull Request #234 has been submitted and is currently under review, awaiting additional feedback from the team to ensure alignment with user experience goals.",
+            "is_edited": "0",
+            "created_at": "2025-11-08T08:38:48Z",
+            "updated_at": "2025-11-15T19:38:48Z"
+        },
+        {
+            "id": "comment_027",
+            "issue_id": "issue_018",
+            "author_id": "usr_007",
+            "parent_id": "",
+            "body": "Sara Ali has made significant progress on enhancing the data visualization within the 'Omni-Channel Insights Dashboard' by improving the interactive charts module. However, there's a temporary blocker due to API data inconsistencies, which is currently under investigation with the backend team for resolution.",
+            "is_edited": "0",
+            "created_at": "2025-10-31T02:00:48Z",
+            "updated_at": "2025-11-05T20:00:48Z"
+        },
+        {
+            "id": "comment_028",
+            "issue_id": "issue_019",
+            "author_id": "usr_008",
+            "parent_id": "",
+            "body": "Zhang Wei has made significant progress on enhancing the chart components within the Omni-Channel Insights Dashboard for VantageLens, focusing on improving interactivity and data accuracy. However, integration with the real-time data module is currently blocked due to a dependency on the API update scheduled for next week.",
+            "is_edited": "0",
+            "created_at": "2025-11-09T00:04:48Z",
+            "updated_at": "2025-11-13T14:04:48Z"
+        },
+        {
+            "id": "comment_029",
+            "issue_id": "issue_019",
+            "author_id": "usr_009",
+            "parent_id": "",
+            "body": "The enhancement of data visualization on the Omni-Channel Insights Dashboard is progressing well under the ownership of Zhang Wei. PR #289 is currently under review, with no significant blockers reported. Our team aims to integrate the feedback from this review by the end of the week.",
+            "is_edited": "0",
+            "created_at": "2025-10-30T05:36:48Z",
+            "updated_at": "2025-11-04T18:36:48Z"
+        },
+        {
+            "id": "comment_030",
+            "issue_id": "issue_020",
+            "author_id": "usr_010",
+            "parent_id": "",
+            "body": "The enhancement of data visualization on the Omni-Channel Insights Dashboard is progressing well, led by Elena Petrov. We've improved rendering speed by 30%, although we're currently addressing a minor scalability issue to ensure consistent performance with large data sets.",
+            "is_edited": "0",
+            "created_at": "2025-11-06T08:42:48Z",
+            "updated_at": "2025-11-09T21:42:48Z"
+        },
+        {
+            "id": "comment_031",
+            "issue_id": "issue_020",
+            "author_id": "usr_011",
+            "parent_id": "",
+            "body": "Elena Petrov has taken the lead on the 'Enhance Data Visualization on Omni-Channel Insights Dashboard' project for VantageLens. A pull request (#348) has been submitted and is currently under review, with initial feedback addressed. We await final approval to proceed with deployment.",
+            "is_edited": "0",
+            "created_at": "2025-10-29T18:24:48Z",
+            "updated_at": "2025-10-30T12:24:48Z"
+        }
+    ]
+}

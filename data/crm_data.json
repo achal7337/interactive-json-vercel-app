@@ -1,0 +1,3375 @@
+{
+  "contacts": [
+    {
+      "id": "302300000001",
+      "company_id": "198000000001",
+      "full_name": "Alice Johnson",
+      "address": null,
+      "city": null,
+      "company": "Retail Giants Inc",
+      "country": null,
+      "createdate": "2025-10-18T05:14:16.000Z",
+      "email": "alice.johnson@retailgiantsinc.com",
+      "jobtitle": "Chief Operations Officer",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000002",
+      "company_id": "198000000002",
+      "full_name": "Mark Thompson",
+      "address": null,
+      "city": null,
+      "company": "Wholesale Depot",
+      "country": null,
+      "createdate": "2025-10-21T09:08:16.000Z",
+      "email": "mark.thompson@wholesaledepot.com",
+      "jobtitle": "Inventory Manager",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000003",
+      "company_id": "198000000003",
+      "full_name": "Sophie Chang",
+      "address": null,
+      "city": null,
+      "company": "Trendsetters",
+      "country": null,
+      "createdate": "2025-10-22T06:25:16.000Z",
+      "email": "sophie.chang@trendsetters.com",
+      "jobtitle": "Head of Customer Experience",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000004",
+      "company_id": "198000000004",
+      "full_name": "Raj Patel",
+      "address": null,
+      "city": null,
+      "company": "ElectroMart",
+      "country": null,
+      "createdate": "2025-10-15T19:52:16.000Z",
+      "email": "raj.patel@electromart.com",
+      "jobtitle": "Head of Merchandising",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000005",
+      "company_id": "198000000005",
+      "full_name": "Lisa Tran",
+      "address": null,
+      "city": null,
+      "company": "HomeGoods Haven",
+      "country": null,
+      "createdate": "2025-10-16T17:17:16.000Z",
+      "email": "lisa.tran@homegoodshaven.com",
+      "jobtitle": "Sales Director",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000006",
+      "company_id": "198000000006",
+      "full_name": "David Kim",
+      "address": null,
+      "city": null,
+      "company": "Grocery Titans",
+      "country": null,
+      "createdate": "2025-10-20T06:38:16.000Z",
+      "email": "david.kim@grocerytitans.com",
+      "jobtitle": "Supply Chain Director",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000007",
+      "company_id": "198000000007",
+      "full_name": "Jonathan Lee",
+      "address": null,
+      "city": null,
+      "company": "Fashion Forward",
+      "country": null,
+      "createdate": "2025-10-19T23:29:16.000Z",
+      "email": "jonathan.lee@fashionforward.com",
+      "jobtitle": "Marketing VP",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000008",
+      "company_id": "198000000008",
+      "full_name": "Priya Nair",
+      "address": null,
+      "city": null,
+      "company": "TechBazaar",
+      "country": null,
+      "createdate": "2025-10-19T20:51:16.000Z",
+      "email": "priya.nair@techbazaar.com",
+      "jobtitle": "Business Analyst",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000009",
+      "company_id": "198000000009",
+      "full_name": "Carlos Diaz",
+      "address": null,
+      "city": null,
+      "company": "FreshMart Superstores",
+      "country": null,
+      "createdate": "2025-10-16T20:54:16.000Z",
+      "email": "carlos.diaz@freshmartsuperstores.com",
+      "jobtitle": "Head of Operations",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000010",
+      "company_id": "198000000010",
+      "full_name": "Emma Smith",
+      "address": null,
+      "city": null,
+      "company": "KidzKraze",
+      "country": null,
+      "createdate": "2025-10-16T19:20:16.000Z",
+      "email": "emma.smith@kidzkraze.com",
+      "jobtitle": "Product Manager",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000011",
+      "company_id": "198000000011",
+      "full_name": "Anna M\u00fcller",
+      "address": null,
+      "city": null,
+      "company": "Clothing Hub",
+      "country": null,
+      "createdate": "2025-10-15T11:40:16.000Z",
+      "email": "anna.m\u00fcller@clothinghub.com",
+      "jobtitle": "Chief Marketing Officer",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000012",
+      "company_id": "198000000012",
+      "full_name": "Cheng Wong",
+      "address": null,
+      "city": null,
+      "company": "WorldGadgets",
+      "country": null,
+      "createdate": "2025-10-15T09:23:16.000Z",
+      "email": "cheng.wong@worldgadgets.com",
+      "jobtitle": "General Manager",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000013",
+      "company_id": "198000000013",
+      "full_name": "Fatima Al-Farsi",
+      "address": null,
+      "city": null,
+      "company": "GreenEarth Grocers",
+      "country": null,
+      "createdate": "2025-10-17T01:00:16.000Z",
+      "email": "fatima.al-farsi@greenearthgrocers.com",
+      "jobtitle": "Operations Head",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000014",
+      "company_id": "198000000014",
+      "full_name": "Nina Kostova",
+      "address": null,
+      "city": null,
+      "company": "Style&More",
+      "country": null,
+      "createdate": "2025-10-16T01:20:16.000Z",
+      "email": "nina.kostova@stylemore.com",
+      "jobtitle": "Retail Manager",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000015",
+      "company_id": "198000000015",
+      "full_name": "Liam O'Malley",
+      "address": null,
+      "city": null,
+      "company": "Electro Universe",
+      "country": null,
+      "createdate": "2025-10-17T09:43:16.000Z",
+      "email": "liam.o'malley@electrouniverse.com",
+      "jobtitle": "Sales Director",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000016",
+      "company_id": "198000000016",
+      "full_name": "Olivia Evans",
+      "address": null,
+      "city": null,
+      "company": "Books & Beyond",
+      "country": null,
+      "createdate": "2025-10-17T12:34:16.000Z",
+      "email": "olivia.evans@booksbeyond.com",
+      "jobtitle": "Marketing Specialist",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000017",
+      "company_id": "198000000017",
+      "full_name": "George Papadopoulos",
+      "address": null,
+      "city": null,
+      "company": "AllTime Fashions",
+      "country": null,
+      "createdate": "2025-10-18T14:05:16.000Z",
+      "email": "george.papadopoulos@alltimefashions.com",
+      "jobtitle": "Owner",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000018",
+      "company_id": "198000000018",
+      "full_name": "Sarah Bennett",
+      "address": null,
+      "city": null,
+      "company": "Market Masters",
+      "country": null,
+      "createdate": "2025-10-18T04:34:16.000Z",
+      "email": "sarah.bennett@marketmasters.com",
+      "jobtitle": "Head of Insights",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000019",
+      "company_id": "198000000019",
+      "full_name": "Miguel Torres",
+      "address": null,
+      "city": null,
+      "company": "Urban Outfitters Now",
+      "country": null,
+      "createdate": "2025-10-15T15:36:16.000Z",
+      "email": "miguel.torres@urbanoutfittersnow.com",
+      "jobtitle": "Merchandising Lead",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000020",
+      "company_id": "198000000020",
+      "full_name": "Bethany Chandler",
+      "address": null,
+      "city": null,
+      "company": "PetParadise",
+      "country": null,
+      "createdate": "2025-10-16T21:09:16.000Z",
+      "email": "bethany.chandler@petparadise.com",
+      "jobtitle": "Retail Operations Manager",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000021",
+      "company_id": "198000000021",
+      "full_name": "Vito Amato",
+      "address": null,
+      "city": null,
+      "company": "FoodLovers Market",
+      "country": null,
+      "createdate": "2025-10-19T15:12:16.000Z",
+      "email": "vito.amato@foodloversmarket.com",
+      "jobtitle": "Supply Chain Head",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000022",
+      "company_id": "198000000022",
+      "full_name": "Kenji Watanabe",
+      "address": null,
+      "city": null,
+      "company": "TechWhiz Depot",
+      "country": null,
+      "createdate": "2025-10-21T13:59:16.000Z",
+      "email": "kenji.watanabe@techwhizdepot.com",
+      "jobtitle": "Product Analyst",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000023",
+      "company_id": "198000000023",
+      "full_name": "Chantal Dubois",
+      "address": null,
+      "city": null,
+      "company": "Glamour Glow",
+      "country": null,
+      "createdate": "2025-10-22T15:14:16.000Z",
+      "email": "chantal.dubois@glamourglow.com",
+      "jobtitle": "Lead Product Manager",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000024",
+      "company_id": "198000000024",
+      "full_name": "Sanjay Verma",
+      "address": null,
+      "city": null,
+      "company": "TechHaven",
+      "country": null,
+      "createdate": "2025-10-19T16:42:16.000Z",
+      "email": "sanjay.verma@techhaven.com",
+      "jobtitle": "Analytics Manager",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000025",
+      "company_id": "198000000025",
+      "full_name": "Elena Ionescu",
+      "address": null,
+      "city": null,
+      "company": "Harvest Fresh",
+      "country": null,
+      "createdate": "2025-10-20T21:11:16.000Z",
+      "email": "elena.ionescu@harvestfresh.com",
+      "jobtitle": "CEO",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000026",
+      "company_id": "198000000026",
+      "full_name": "Linda Zhang",
+      "address": null,
+      "city": null,
+      "company": "EcoMart",
+      "country": null,
+      "createdate": "2025-10-21T22:58:16.000Z",
+      "email": "linda.zhang@ecomart.com",
+      "jobtitle": "Founder",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000027",
+      "company_id": "198000000027",
+      "full_name": "Marisol Alvarez",
+      "address": null,
+      "city": null,
+      "company": "Gadget Kingdom",
+      "country": null,
+      "createdate": "2025-10-19T21:21:16.000Z",
+      "email": "marisol.alvarez@gadgetkingdom.com",
+      "jobtitle": "Chief Strategy Officer",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000028",
+      "company_id": "198000000028",
+      "full_name": "Aisha Abdel",
+      "address": null,
+      "city": null,
+      "company": "Bookshelf",
+      "country": null,
+      "createdate": "2025-10-16T04:42:16.000Z",
+      "email": "aisha.abdel@bookshelf.com",
+      "jobtitle": "Store Manager",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000029",
+      "company_id": "198000000029",
+      "full_name": "Peter Chan",
+      "address": null,
+      "city": null,
+      "company": "StyleUp",
+      "country": null,
+      "createdate": "2025-10-16T04:47:16.000Z",
+      "email": "peter.chan@styleup.com",
+      "jobtitle": "Director of E-commerce",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000030",
+      "company_id": "198000000030",
+      "full_name": "Sophia Rossi",
+      "address": null,
+      "city": null,
+      "company": "TechNests",
+      "country": null,
+      "createdate": "2025-10-19T23:27:16.000Z",
+      "email": "sophia.rossi@technests.com",
+      "jobtitle": "Operations Lead",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000031",
+      "company_id": "198000000031",
+      "full_name": "Mia Andersson",
+      "address": null,
+      "city": null,
+      "company": "DreamDwellers",
+      "country": null,
+      "createdate": "2025-10-18T17:10:16.000Z",
+      "email": "mia.andersson@dreamdwellers.com",
+      "jobtitle": "Marketing Executive",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000032",
+      "company_id": "198000000032",
+      "full_name": "Anton Perez",
+      "address": null,
+      "city": null,
+      "company": "FineFoods",
+      "country": null,
+      "createdate": "2025-10-19T20:11:16.000Z",
+      "email": "anton.perez@finefoods.com",
+      "jobtitle": "General Manager",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000033",
+      "company_id": "198000000033",
+      "full_name": "Rachel Johnson",
+      "address": null,
+      "city": null,
+      "company": "ToyLand",
+      "country": null,
+      "createdate": "2025-10-16T22:01:16.000Z",
+      "email": "rachel.johnson@toyland.com",
+      "jobtitle": "Sales Manager",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000034",
+      "company_id": "198000000034",
+      "full_name": "Tariq Khan",
+      "address": null,
+      "city": null,
+      "company": "World of Tech",
+      "country": null,
+      "createdate": "2025-10-22T17:22:16.000Z",
+      "email": "tariq.khan@worldoftech.com",
+      "jobtitle": "Chief Marketing Officer",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000035",
+      "company_id": "198000000035",
+      "full_name": "Marco Romano",
+      "address": null,
+      "city": null,
+      "company": "Coffee Craze",
+      "country": null,
+      "createdate": "2025-10-17T02:30:16.000Z",
+      "email": "marco.romano@coffeecraze.com",
+      "jobtitle": "Owner",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000036",
+      "company_id": "198000000036",
+      "full_name": "Fiona D\u00e9sir",
+      "address": null,
+      "city": null,
+      "company": "ExpressMart",
+      "country": null,
+      "createdate": "2025-10-17T16:47:16.000Z",
+      "email": "fiona.d\u00e9sir@expressmart.com",
+      "jobtitle": "Operations Manager",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000037",
+      "company_id": "198000000037",
+      "full_name": "Amelia Thompson",
+      "address": null,
+      "city": null,
+      "company": "Fresh Finds Supermarket",
+      "country": null,
+      "createdate": "2025-10-16T15:37:16.000Z",
+      "email": "amelia.thompson@freshfindssupermarket.com",
+      "jobtitle": "Head of Procurement",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000038",
+      "company_id": "198000000038",
+      "full_name": "Islam Halabi",
+      "address": null,
+      "city": null,
+      "company": "Digital Pulse",
+      "country": null,
+      "createdate": "2025-10-21T21:05:16.000Z",
+      "email": "islam.halabi@digitalpulse.com",
+      "jobtitle": "Head of Pricing",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000039",
+      "company_id": "198000000039",
+      "full_name": "Chloe Peterson",
+      "address": null,
+      "city": null,
+      "company": "Style Studio",
+      "country": null,
+      "createdate": "2025-10-16T06:23:16.000Z",
+      "email": "chloe.peterson@stylestudio.com",
+      "jobtitle": "Visual Merchandising Specialist",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000040",
+      "company_id": "198000000040",
+      "full_name": "Arya Singh",
+      "address": null,
+      "city": null,
+      "company": "All Things Books",
+      "country": null,
+      "createdate": "2025-10-22T16:26:16.000Z",
+      "email": "arya.singh@allthingsbooks.com",
+      "jobtitle": "Business Owner",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000041",
+      "company_id": "198000000041",
+      "full_name": "Martha Wallace",
+      "address": null,
+      "city": null,
+      "company": "BigBox Retailers",
+      "country": null,
+      "createdate": "2025-10-16T01:58:16.000Z",
+      "email": "martha.wallace@bigboxretailers.com",
+      "jobtitle": "Corporate Strategy Head",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000042",
+      "company_id": "198000000042",
+      "full_name": "Gretchen Klima",
+      "address": null,
+      "city": null,
+      "company": "Pet Essentials",
+      "country": null,
+      "createdate": "2025-10-21T12:40:16.000Z",
+      "email": "gretchen.klima@petessentials.com",
+      "jobtitle": "Sales and Marketing Head",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000043",
+      "company_id": "198000000043",
+      "full_name": "Samir Idris",
+      "address": null,
+      "city": null,
+      "company": "Gadget Scene",
+      "country": null,
+      "createdate": "2025-10-17T23:32:16.000Z",
+      "email": "samir.idris@gadgetscene.com",
+      "jobtitle": "Head of Retail",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000044",
+      "company_id": "198000000044",
+      "full_name": "Colette Boucher",
+      "address": null,
+      "city": null,
+      "company": "Belle & Co",
+      "country": null,
+      "createdate": "2025-10-18T13:28:16.000Z",
+      "email": "colette.boucher@belleco.com",
+      "jobtitle": "Lead Designer",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000045",
+      "company_id": "198000000045",
+      "full_name": "Jun Park",
+      "address": null,
+      "city": null,
+      "company": "Retail Spectrum",
+      "country": null,
+      "createdate": "2025-10-22T00:56:16.000Z",
+      "email": "jun.park@retailspectrum.com",
+      "jobtitle": "Operations Lead",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    },
+    {
+      "id": "302300000046",
+      "company_id": "198000000046",
+      "full_name": "Aiden Smith",
+      "address": null,
+      "city": null,
+      "company": "Gizmo World",
+      "country": null,
+      "createdate": "2025-10-19T19:54:16.000Z",
+      "email": "aiden.smith@gizmoworld.com",
+      "jobtitle": "Director of Sales",
+      "mobilephone": null,
+      "phone": null,
+      "state": null,
+      "website": null,
+      "zip": null
+    }
+  ],
+  "companies": [
+    {
+      "id": "198000000001",
+      "contact_ids": [
+        "302300000001"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-17T09:30:16.000Z",
+      "description": "VantageLens provides Retail Giants Inc with tailored SaaS solutions, addressing their critical needs for operational efficiency and sales forecasting. By resolving existing pain points such as outdated processes and sales visibility, VantageLens enhances Retail Giants' overall retail management strategy.",
+      "domain": "retailgiantsinc.com",
+      "industry": "Retail",
+      "name": "Retail Giants Inc",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000002",
+      "contact_ids": [
+        "302300000002"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-13T15:21:16.000Z",
+      "description": "VantageLens provides tailored SaaS solutions to Wholesale Depot, addressing their top needs for scalability and tracking. Our partnership helps mitigate their pain points of inefficiency and narrow system integration.",
+      "domain": "wholesaledepot.com",
+      "industry": "Wholesale",
+      "name": "Wholesale Depot",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000003",
+      "contact_ids": [
+        "302300000003"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-17T16:33:16.000Z",
+      "description": "VantageLens is engaging with Trendsetters to explore how its SaaS software can address the retailer's need for enhanced data analytics (D) and efficiency (e). Trendsetters is currently facing challenges with limited data insights (L) and inefficiencies in operations (a), making it a prime prospect for VantageLens's solutions.",
+      "domain": "trendsetters.com",
+      "industry": "Fashion Retail",
+      "name": "Trendsetters",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000004",
+      "contact_ids": [
+        "302300000004"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-17T15:58:16.000Z",
+      "description": "VantageLens provides ElectroMart with SaaS solutions that address their top needs in data analytics and automation, while working to alleviate pain points related to system inefficiencies and user-friendliness challenges. As a valued customer, ElectroMart relies on VantageLens to optimize their electronic retail operations through enhanced data insights and streamlined processes.",
+      "domain": "electromart.com",
+      "industry": "Electronics Retail",
+      "name": "ElectroMart",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000005",
+      "contact_ids": [
+        "302300000005"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-13T10:36:16.000Z",
+      "description": "VantageLens provides HomeGoods Haven with a robust SaaS solution that streamlines their operations and enhances user navigation, addressing their primary needs. By alleviating data integration and interoperability challenges, we help HomeGoods Haven maintain efficiency and improve customer experiences.",
+      "domain": "homegoodshaven.com",
+      "industry": "Home Goods Retail",
+      "name": "HomeGoods Haven",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000006",
+      "contact_ids": [
+        "302300000006"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-19T17:43:16.000Z",
+      "description": "VantageLens is currently engaging with Grocery Titans as a lead, focusing on addressing their top needs for innovative solutions to enhance their inventory management processes. Grocery Titans is experiencing pain points associated with scalability and integration, which VantageLens aims to resolve with its robust SaaS platform.",
+      "domain": "grocerytitans.com",
+      "industry": "Grocery",
+      "name": "Grocery Titans",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000007",
+      "contact_ids": [
+        "302300000007"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-14T21:45:16.000Z",
+      "description": "VantageLens is currently in the prospecting stage with Fashion Forward, an apparel retail company seeking a SaaS solution to enhance user experience and product navigation, while addressing their existing challenges with data integration and inefficiencies.",
+      "domain": "fashionforward.com",
+      "industry": "Apparel Retail",
+      "name": "Fashion Forward",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000008",
+      "contact_ids": [
+        "302300000008"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-16T13:19:16.000Z",
+      "description": "VantageLens is currently engaging with TechBazaar, a lead in the consumer electronics sector, to address their needs for automation and integration. The partnership aims to alleviate TechBazaar's challenges in centralized data management and user experience optimization.",
+      "domain": "techbazaar.com",
+      "industry": "Consumer Electronics",
+      "name": "TechBazaar",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000009",
+      "contact_ids": [
+        "302300000009"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-14T20:42:16.000Z",
+      "description": "VantageLens has been providing FreshMart Superstores with SaaS solutions, but the relationship is currently at risk due to unmet top needs in marketing and the user experience. The partnership is strained by FreshMart's dissatisfaction with the software's integration capabilities and navigating complex functionalities.",
+      "domain": "freshmartsuperstores.com",
+      "industry": "Retail",
+      "name": "FreshMart Superstores",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000010",
+      "contact_ids": [
+        "302300000010"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-18T08:24:16.000Z",
+      "description": "VantageLens is currently engaging with prospect KidzKraze in providing tailored SaaS software solutions to enhance their e-commerce capabilities and fulfillment processes. KidzKraze is seeking to address pain points related to platform integration and operational efficiency.",
+      "domain": "kidzkraze.com",
+      "industry": "Toy Retail",
+      "name": "KidzKraze",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000011",
+      "contact_ids": [
+        "302300000011"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-16T01:58:16.000Z",
+      "description": "VantageLens is engaging with Clothing Hub as a lead, focusing on addressing their top needs for innovation and market expansion. By resolving pain points related to inventory management and improving their integration capabilities, VantageLens aims to enhance Clothing Hub's operational efficiency and support their growth in the competitive apparel industry.",
+      "domain": "clothinghub.com",
+      "industry": "Apparel",
+      "name": "Clothing Hub",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000012",
+      "contact_ids": [
+        "302300000012"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-14T19:41:16.000Z",
+      "description": "VantageLens provides WorldGadgets with tailored SaaS solutions to efficiently manage their sales and transactions (S, t), addressing key challenges such as integration and network reliability (I, n). Through our platform, WorldGadgets enhances operational efficiency and improves customer engagement.",
+      "domain": "worldgadgets.com",
+      "industry": "Electronics",
+      "name": "WorldGadgets",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000013",
+      "contact_ids": [
+        "302300000013"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-18T01:33:16.000Z",
+      "description": "GreenEarth Grocers relies on VantageLens's SaaS solutions to enhance inventory management and streamline operations, aiming to significantly improve efficiency and sustainability. Addressing key issues around supply chain complexity and error-prone processes, VantageLens is crucial in driving their operational success.",
+      "domain": "greenearthgrocers.com",
+      "industry": "Grocery",
+      "name": "GreenEarth Grocers",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000014",
+      "contact_ids": [
+        "302300000014"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-17T14:35:16.000Z",
+      "description": "VantageLens has been facilitating Style&More's expansion by addressing their need for enhanced efficiency and streamlined operations. However, challenges remain in optimizing their processes and overcoming some operational inefficiencies.",
+      "domain": "style&more.com",
+      "industry": "Fashion",
+      "name": "Style&More",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000015",
+      "contact_ids": [
+        "302300000015"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-14T03:57:16.000Z",
+      "description": "VantageLens is in active discussions with prospect Electro Universe to address their top needs for optimization and process efficiency, focusing on alleviating their pain points related to productivity and resource management through our tailored SaaS solutions.",
+      "domain": "electrouniverse.com",
+      "industry": "Electronics",
+      "name": "Electro Universe",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000016",
+      "contact_ids": [
+        "302300000016"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-13T22:21:16.000Z",
+      "description": "VantageLens is currently in discussions with Books & Beyond, a lead in the book retail industry, to address their core needs for connectivity and usability. The potential collaboration aims to alleviate the customer's pain points related to lack of integration and inefficiency in their current systems.",
+      "domain": "books&beyond.com",
+      "industry": "Book Retail",
+      "name": "Books & Beyond",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000017",
+      "contact_ids": [
+        "302300000017"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-15T15:45:16.000Z",
+      "description": "VantageLens is currently engaged with AllTime Fashions, a retail customer seeking enhanced visualization and integration capabilities. The partnership focuses on addressing logistical inefficiencies and optimizing operational workflows.",
+      "domain": "alltimefashions.com",
+      "industry": "Retail",
+      "name": "AllTime Fashions",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000018",
+      "contact_ids": [
+        "302300000018"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-18T13:30:16.000Z",
+      "description": "VantageLens provides Market Masters with robust SaaS solutions tailored to enhance their operational efficiency and optimize inventory management. Despite benefiting from improved data analytics, Market Masters continues to face challenges with data integration and insight discovery.",
+      "domain": "marketmasters.com",
+      "industry": "Retail Chain",
+      "name": "Market Masters",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000019",
+      "contact_ids": [
+        "302300000019"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-14T06:01:16.000Z",
+      "description": "VantageLens provides Urban Outfitters with advanced SaaS solutions to enhance inventory management and merchandising capabilities, addressing critical issues of coordination and usability within their operations. Our ongoing partnership focuses on tailoring insights and support to meet their evolving needs in the dynamic apparel industry.",
+      "domain": "urbanoutfittersnow.com",
+      "industry": "Apparel",
+      "name": "Urban Outfitters Now",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000020",
+      "contact_ids": [
+        "302300000020"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-18T04:05:16.000Z",
+      "description": "VantageLens is in the prospect stage with PetParadise, a pet supplies company seeking advanced analytics and seamless integration to enhance their operations. Key pain points include data management inefficiencies and integration challenges with existing systems.",
+      "domain": "petparadise.com",
+      "industry": "Pet Supplies",
+      "name": "PetParadise",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000021",
+      "contact_ids": [
+        "302300000021"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-16T23:22:16.000Z",
+      "description": "VantageLens provides FoodLovers Market with tailored SaaS solutions that address their inventory management needs and accessibility challenges, helping streamline operations and improve efficiency. By focusing on intuitive integrations and robust data management, VantageLens ensures FoodLovers Market can effortlessly manage stock levels while enhancing the overall customer experience.",
+      "domain": "foodloversmarket.com",
+      "industry": "Grocery",
+      "name": "FoodLovers Market",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000022",
+      "contact_ids": [
+        "302300000022"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-17T12:57:16.000Z",
+      "description": "VantageLens is currently engaging with TechWhiz Depot, where we aim to address their critical needs for customer management and operational efficiency. Our software solutions are positioned to alleviate their challenges with data management and integration, fostering a seamless transition from prospect to valued client.",
+      "domain": "techwhizdepot.com",
+      "industry": "Electronics",
+      "name": "TechWhiz Depot",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000023",
+      "contact_ids": [
+        "302300000023"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-19T18:53:16.000Z",
+      "description": "VantageLens and Glamour Glow are at the lead stage, exploring a potential partnership to enhance Glamour Glow's beauty services with efficient software solutions. Glamour Glow is particularly interested in VantageLens' expertise in areas E and F, as they seek to address their current pain points I and N effectively.",
+      "domain": "glamourglow.com",
+      "industry": "Beauty",
+      "name": "Glamour Glow",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000024",
+      "contact_ids": [
+        "302300000024"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-13T16:18:16.000Z",
+      "description": "VantageLens is currently engaging with TechHaven, a prospect in the electronics industry, to address their pressing needs for A and D, while offering solutions to mitigate their pain points I and N with our innovative SaaS software solutions.",
+      "domain": "techhaven.com",
+      "industry": "Electronics",
+      "name": "TechHaven",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000025",
+      "contact_ids": [
+        "302300000025"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-18T07:15:16.000Z",
+      "description": "VantageLens is actively engaging with Harvest Fresh, a lead in the grocery retail sector, to address their top needs for operational efficiency and productivity enhancement. Our tailored SaaS solutions aim to resolve their pain points related to complex inventory management and inefficient internal processes.",
+      "domain": "harvestfresh.com",
+      "industry": "Grocery Retail",
+      "name": "Harvest Fresh",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000026",
+      "contact_ids": [
+        "302300000026"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-16T05:02:16.000Z",
+      "description": "VantageLens provides EcoMart with tailored SaaS solutions that streamline their eco-friendly retail operations, addressing their needs for data integration and enhanced e-commerce capabilities. By focusing on overcoming pain points related to data management and inventory inefficiencies, VantageLens strengthens EcoMart's commitment to sustainability and operational efficiency.",
+      "domain": "ecomart.com",
+      "industry": "Eco-Friendly Retail",
+      "name": "EcoMart",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000027",
+      "contact_ids": [
+        "302300000027"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-16T08:06:16.000Z",
+      "description": "VantageLens provides Gadget Kingdom with cutting-edge SaaS solutions tailored to enhance user-friendliness and navigation, addressing their primary needs while effectively mitigating ongoing challenges related to operational efficiency and process optimization.",
+      "domain": "gadgetkingdom.com",
+      "industry": "Gadgets & Electronics",
+      "name": "Gadget Kingdom",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000028",
+      "contact_ids": [
+        "302300000028"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-16T21:59:16.000Z",
+      "description": "VantageLens is currently in the prospecting stage with Bookshelf, a book retail company, which is seeking an intuitive SaaS solution to streamline inventory management and overcome their ongoing challenge of underutilized operational data.",
+      "domain": "bookshelf.com",
+      "industry": "Book Retail",
+      "name": "Bookshelf",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000029",
+      "contact_ids": [
+        "302300000029"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-16T20:18:16.000Z",
+      "description": "VantageLens provides StyleUp with a tailored SaaS solution that primarily addresses their needs for advanced analytics and integration capabilities. Despite benefiting from VantageLens's offerings, StyleUp faces challenges with system integration and navigation efficiency.",
+      "domain": "styleup.com",
+      "industry": "Fashion",
+      "name": "StyleUp",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000030",
+      "contact_ids": [
+        "302300000030"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-13T19:54:16.000Z",
+      "description": "VantageLens provides TechNests with a robust SaaS solution tailored to address their critical needs for customer retention and relationship management. Despite facing challenges with feature integration and resource allocation, our ongoing collaboration focuses on optimizing their tech retail operations.",
+      "domain": "technests.com",
+      "industry": "Technology Retail",
+      "name": "TechNests",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000031",
+      "contact_ids": [
+        "302300000031"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-15T07:46:16.000Z",
+      "description": "VantageLens is engaging with DreamDwellers, a furniture retail prospect, to address their inventory management and customer engagement challenges through tailored SaaS solutions, focusing on enhancing growth and agility. Our software aims to resolve inefficiencies and navigate market uncertainties, aligning with DreamDwellers' core business objectives.",
+      "domain": "dreamdwellers.com",
+      "industry": "Furniture Retail",
+      "name": "DreamDwellers",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000032",
+      "contact_ids": [
+        "302300000032"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-14T18:35:16.000Z",
+      "description": "VantageLens is currently nurturing a lead with FineFoods, a specialty foods retailer, by addressing their need for enhanced efficiency and flexibility, while focusing on alleviating the complexity and operational challenges FineFoods faces in their retail management processes.",
+      "domain": "finefoods.com",
+      "industry": "Specialty Foods Retail",
+      "name": "FineFoods",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000033",
+      "contact_ids": [
+        "302300000033"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-17T07:36:16.000Z",
+      "description": "VantageLens provides ToyLand with advanced SaaS solutions to enhance their visibility (V) and integrate inventory systems (i). Our collaboration addresses ToyLand's challenges in managing product proliferation (P) and optimizing operational efficiency (o).",
+      "domain": "toyland.com",
+      "industry": "Toys",
+      "name": "ToyLand",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000034",
+      "contact_ids": [
+        "302300000034"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-17T17:13:16.000Z",
+      "description": "VantageLens provides World of Tech with robust SaaS solutions that address their key needs for scalability and technology integration, while actively working to alleviate pain points related to system efficiency and user experience.",
+      "domain": "worldoftech.com",
+      "industry": "Electronics Retail",
+      "name": "World of Tech",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000035",
+      "contact_ids": [
+        "302300000035"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-18T08:18:16.000Z",
+      "description": "VantageLens, a SaaS software provider, is currently engaging with Coffee Craze to address their prospect status, focusing on delivering solutions that enhance visibility and integration. This partnership aims to resolve Coffee Craze's current issues with inventory management and a lack of streamlined operations.",
+      "domain": "coffeecraze.com",
+      "industry": "Cafe Retail",
+      "name": "Coffee Craze",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000036",
+      "contact_ids": [
+        "302300000036"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-14T20:46:16.000Z",
+      "description": "VantageLens provides ExpressMart with SaaS solutions tailored to enhance inventory management and streamline operations, addressing their top needs for insightful data analytics and network integration. By alleviating pain points related to system inefficiencies and inaccurate inventory tracking, we enable ExpressMart to improve operational efficiency and customer satisfaction.",
+      "domain": "expressmart.com",
+      "industry": "Retail",
+      "name": "ExpressMart",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000037",
+      "contact_ids": [
+        "302300000037"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-14T17:53:16.000Z",
+      "description": "VantageLens is engaging with Fresh Finds Supermarket as a lead, aiming to transform their supermarket management by addressing their lack of inventory optimization through intuitive SaaS solutions. By focusing on enhancing data insights, our software aims to resolve their current inefficiencies and streamline operations.",
+      "domain": "freshfindssupermarket.com",
+      "industry": "Grocery",
+      "name": "Fresh Finds Supermarket",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000038",
+      "contact_ids": [
+        "302300000038"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-14T01:01:16.000Z",
+      "description": "Digital Pulse is considering VantageLens for its SaaS software needs, aiming to address their top priorities (A and D) while overcoming challenges related to C and O.",
+      "domain": "digitalpulse.com",
+      "industry": "Electronics",
+      "name": "Digital Pulse",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000039",
+      "contact_ids": [
+        "302300000039"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-18T10:00:16.000Z",
+      "description": "VantageLens provides Style Studio with our SaaS software, addressing their primary needs for advanced marketing tools and enhanced e-commerce functionality, while helping alleviate challenges in market outreach and inventory management.",
+      "domain": "stylestudio.com",
+      "industry": "Fashion",
+      "name": "Style Studio",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000040",
+      "contact_ids": [
+        "302300000040"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-19T20:05:16.000Z",
+      "description": "VantageLens is actively engaging with All Things Books, a promising lead in the book retail sector, seeking improved inventory management and seamless integration. The primary pain points for All Things Books include limited data insights and inefficient logistics, which VantageLens is well-positioned to address.",
+      "domain": "allthingsbooks.com",
+      "industry": "Book Retail",
+      "name": "All Things Books",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000041",
+      "contact_ids": [
+        "302300000041"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-18T02:31:16.000Z",
+      "description": "VantageLens partners with BigBox Retailers to provide innovative SaaS solutions, addressing their top priorities of personalization and real-time analytics, while effectively mitigating challenges such as data integration and inefficient processes.",
+      "domain": "bigboxretailers.com",
+      "industry": "General Retail",
+      "name": "BigBox Retailers",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000042",
+      "contact_ids": [
+        "302300000042"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-19T08:07:16.000Z",
+      "description": "VantageLens is currently engaging with Pet Essentials, a prospect in the pet supplies sector, to address their top needs for improved inventory management and enhanced customer experience. Pet Essentials is seeking solutions to alleviate inefficiencies in their sales process and nurture customer loyalty.",
+      "domain": "petessentials.com",
+      "industry": "Pet Supplies",
+      "name": "Pet Essentials",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000043",
+      "contact_ids": [
+        "302300000043"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-13T12:28:16.000Z",
+      "description": "VantageLens provides Gadget Scene with tailored SaaS solutions that address their top needs of efficiency and functionality, while actively working to alleviate pain points in data management and integration. This partnership enhances Gadget Scene's operational capabilities and customer engagement strategies.",
+      "domain": "gadgetscene.com",
+      "industry": "Electronics Retail",
+      "name": "Gadget Scene",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000044",
+      "contact_ids": [
+        "302300000044"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-15T06:19:16.000Z",
+      "description": "VantageLens is strategically positioned to support Belle & Co in their transformation journey by addressing fashion-specific challenges such as inventory forecasting and trend analysis, which are crucial to their growth and operational efficiency. Given their status as a lead, our focus on providing actionable insights and seamless integrations can alleviate their pain points related to logistics management and analytics.",
+      "domain": "belle&co.com",
+      "industry": "Fashion",
+      "name": "Belle & Co",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000045",
+      "contact_ids": [
+        "302300000045"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-14T14:11:16.000Z",
+      "description": "VantageLens provides Retail Spectrum with tailored SaaS solutions that address their high-demand operational needs, while effectively alleviating their workflow inefficiencies and execution challenges. This partnership focuses on enhancing productivity and streamlining retail operations.",
+      "domain": "retailspectrum.com",
+      "industry": "Retail",
+      "name": "Retail Spectrum",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    },
+    {
+      "id": "198000000046",
+      "contact_ids": [
+        "302300000046"
+      ],
+      "address": null,
+      "address2": null,
+      "annualrevenue": null,
+      "city": null,
+      "country": null,
+      "createdate": "2025-10-16T06:55:16.000Z",
+      "description": "VantageLens is currently exploring a partnership with Gizmo World, a prospect in the gadgets and electronics sector, focusing on addressing their top needs and pain points related to inventory management and networking solutions.",
+      "domain": "gizmoworld.com",
+      "industry": "Gadgets and Electronics",
+      "name": "Gizmo World",
+      "numberofemployees": null,
+      "phone": null,
+      "state": null,
+      "type": null,
+      "zip": null
+    }
+  ],
+  "deals": [
+    {
+      "id": "202400000001",
+      "company_id": "198000000001",
+      "amount": "747",
+      "closedate": "2025-11-07T01:52:16.000Z",
+      "createdate": "2025-11-03T18:41:16.000Z",
+      "dealname": "Retail Giants Inc - VantageLens Inventory Optimizer",
+      "dealstage": "closedwon",
+      "description": "We successfully closed a deal with Retail Giants Inc for our VantageLens Inventory Optimizer, addressing their critical need to streamline inventory management and reduce stockouts, thereby enhancing operational efficiency and boosting sales potential.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000002",
+      "company_id": "198000000002",
+      "amount": "298",
+      "closedate": "2025-11-05T09:28:16.000Z",
+      "createdate": "2025-11-03T04:47:16.000Z",
+      "dealname": "Wholesale Depot - VantageLens Visual Merchandising Assistant",
+      "dealstage": "closedwon",
+      "description": "The deal with Wholesale Depot for the VantageLens Visual Merchandising Assistant has been successfully closed, addressing their need for enhanced visual merchandising efficiency and improved in-store product visibility to boost customer engagement and sales.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000003",
+      "company_id": "198000000003",
+      "amount": "447",
+      "closedate": null,
+      "createdate": "2025-11-01T15:21:16.000Z",
+      "dealname": "Trendsetters - VantageLens Visual Merchandising Assistant",
+      "dealstage": "appointmentscheduled",
+      "description": "We have scheduled an appointment with Trendsetters to discuss how the VantageLens Visual Merchandising Assistant can enhance their in-store displays and address their need to streamline visual merchandising processes for better customer engagement and increased sales efficiency.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000004",
+      "company_id": "198000000004",
+      "amount": "349",
+      "closedate": "2025-11-04T06:13:16.000Z",
+      "createdate": "2025-11-03T13:37:16.000Z",
+      "dealname": "ElectroMart - VantageLens Omni-Channel Insights Dashboard",
+      "dealstage": "closedwon",
+      "description": "We successfully closed a deal with ElectroMart for the VantageLens Omni-Channel Insights Dashboard, addressing their need for enhanced customer visibility and streamlined data integration across channels to optimize marketing strategies.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000005",
+      "company_id": "198000000005",
+      "amount": "447",
+      "closedate": "2025-11-06T16:52:16.000Z",
+      "createdate": "2025-11-08T23:03:16.000Z",
+      "dealname": "HomeGoods Haven - VantageLens Visual Merchandising Assistant",
+      "dealstage": "closedwon",
+      "description": "VantageLens Visual Merchandising Assistant successfully closed a deal with HomeGoods Haven, addressing their need for efficient in-store display management and enhancing visual appeal, ultimately driving increased customer engagement and sales.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000007",
+      "company_id": "198000000007",
+      "amount": "897",
+      "closedate": null,
+      "createdate": "2025-11-05T02:59:16.000Z",
+      "dealname": "Fashion Forward - VantageLens Pricing Strategy Advisor",
+      "dealstage": "appointmentscheduled",
+      "description": "Fashion Forward is seeking to optimize their pricing strategies to stay competitive and enhance profitability, and they have scheduled an appointment to explore how VantageLens Pricing Strategy Advisor can help them achieve these goals by providing data-driven insights and recommendations.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000009",
+      "company_id": "198000000009",
+      "amount": "299",
+      "closedate": "2025-11-11T19:01:16.000Z",
+      "createdate": "2025-11-09T14:22:16.000Z",
+      "dealname": "FreshMart Superstores - VantageLens Pricing Strategy Advisor",
+      "dealstage": "closedwon",
+      "description": "We successfully closed a deal with FreshMart Superstores for our VantageLens Pricing Strategy Advisor, addressing their need for more competitive pricing strategies and improved market analysis to boost profit margins and customer satisfaction.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000010",
+      "company_id": "198000000010",
+      "amount": "349",
+      "closedate": null,
+      "createdate": "2025-11-06T14:39:16.000Z",
+      "dealname": "KidzKraze - VantageLens Omni-Channel Insights Dashboard",
+      "dealstage": "appointmentscheduled",
+      "description": "The deal with KidzKraze for the VantageLens Omni-Channel Insights Dashboard is at the appointment scheduled stage, addressing their need for a comprehensive solution to unify customer data across multiple platforms and enhance their ability to make data-driven marketing decisions.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000012",
+      "company_id": "198000000012",
+      "amount": "199",
+      "closedate": "2025-11-12T13:17:16.000Z",
+      "createdate": "2025-11-06T12:57:16.000Z",
+      "dealname": "WorldGadgets - VantageLens Customer Insights Explorer",
+      "dealstage": "closedwon",
+      "description": "The deal with WorldGadgets for the VantageLens Customer Insights Explorer has successfully closed, addressing the company's need for more comprehensive customer behavior analysis and real-time insights to enhance decision-making.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000013",
+      "company_id": "198000000013",
+      "amount": "199",
+      "closedate": "2025-11-03T09:05:16.000Z",
+      "createdate": "2025-11-02T02:15:16.000Z",
+      "dealname": "GreenEarth Grocers - VantageLens Visual Merchandising Assistant",
+      "dealstage": "closedwon",
+      "description": "GreenEarth Grocers has successfully closed a deal for the VantageLens Visual Merchandising Assistant to enhance in-store product visibility and improve customer engagement, addressing their need for more effective inventory turnover and dynamic display solutions.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000014",
+      "company_id": "198000000014",
+      "amount": "447",
+      "closedate": "2025-11-05T22:49:16.000Z",
+      "createdate": "2025-10-31T15:53:16.000Z",
+      "dealname": "Style&More - VantageLens Visual Merchandising Assistant",
+      "dealstage": "closedwon",
+      "description": "Style&More has successfully closed a deal for the VantageLens Visual Merchandising Assistant, addressing their need for enhanced in-store visual presentation and efficient display management to boost customer engagement and drive sales. This solution will streamline their visual merchandising efforts, allowing for quicker and more impactful updates across their retail locations.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000015",
+      "company_id": "198000000015",
+      "amount": "698",
+      "closedate": null,
+      "createdate": "2025-10-31T18:34:16.000Z",
+      "dealname": "Electro Universe - VantageLens Omni-Channel Insights Dashboard",
+      "dealstage": "appointmentscheduled",
+      "description": "We have scheduled an appointment with Electro Universe to discuss the VantageLens Omni-Channel Insights Dashboard, which will address their need for a comprehensive view of customer interactions across various platforms to enhance engagement strategies and streamline data analytics.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000017",
+      "company_id": "198000000017",
+      "amount": "349",
+      "closedate": "2025-11-07T10:40:16.000Z",
+      "createdate": "2025-10-31T20:47:16.000Z",
+      "dealname": "AllTime Fashions - VantageLens Omni-Channel Insights Dashboard",
+      "dealstage": "closedwon",
+      "description": "We have successfully closed a deal with AllTime Fashions for our VantageLens Omni-Channel Insights Dashboard, addressing their critical need to seamlessly integrate multiple sales and marketing channels while providing real-time data insights to enhance strategic decision-making. This solution will empower AllTime Fashions to optimize their customer engagement and streamline operations across platforms.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000018",
+      "company_id": "198000000018",
+      "amount": "249",
+      "closedate": "2025-11-12T00:10:16.000Z",
+      "createdate": "2025-11-02T06:46:16.000Z",
+      "dealname": "Market Masters - VantageLens Inventory Optimizer",
+      "dealstage": "closedwon",
+      "description": "We successfully closed a deal with Market Masters for the VantageLens Inventory Optimizer, addressing their critical need to enhance inventory accuracy and reduce stockouts, ultimately streamlining their supply chain efficiency.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000019",
+      "company_id": "198000000019",
+      "amount": "598",
+      "closedate": "2025-11-09T23:04:16.000Z",
+      "createdate": "2025-11-08T10:05:16.000Z",
+      "dealname": "Urban Outfitters Now - VantageLens Pricing Strategy Advisor",
+      "dealstage": "closedwon",
+      "description": "Urban Outfitters Now has successfully integrated the VantageLens Pricing Strategy Advisor to enhance their pricing strategies, addressing their need for dynamic pricing adjustments and improved market competitiveness. This solution empowers them with real-time insights to optimize pricing and boost profitability.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000020",
+      "company_id": "198000000020",
+      "amount": "597",
+      "closedate": null,
+      "createdate": "2025-11-03T21:12:16.000Z",
+      "dealname": "PetParadise - VantageLens Customer Insights Explorer",
+      "dealstage": "appointmentscheduled",
+      "description": "PetParadise is keen to enhance its understanding of customer behavior and trends by exploring the capabilities of VantageLens Customer Insights Explorer, specifically to address challenges in tailoring marketing strategies and improving customer engagement. The deal is currently in the appointment scheduled stage, as PetParadise seeks a comprehensive solution to better analyze and utilize customer data.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000021",
+      "company_id": "198000000021",
+      "amount": "199",
+      "closedate": "2025-11-11T21:22:16.000Z",
+      "createdate": "2025-11-07T23:09:16.000Z",
+      "dealname": "FoodLovers Market - VantageLens Visual Merchandising Assistant",
+      "dealstage": "closedwon",
+      "description": "We've successfully closed a deal with FoodLovers Market to implement the VantageLens Visual Merchandising Assistant, addressing their need for enhanced in-store display efficiency and improved sales conversion through optimized product placements.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000022",
+      "company_id": "198000000022",
+      "amount": "897",
+      "closedate": null,
+      "createdate": "2025-11-07T00:46:16.000Z",
+      "dealname": "TechWhiz Depot - VantageLens Pricing Strategy Advisor",
+      "dealstage": "appointmentscheduled",
+      "description": "TechWhiz Depot has scheduled an appointment to explore the VantageLens Pricing Strategy Advisor, aiming to optimize their pricing models and enhance competitive edge in the market. They are seeking a solution to accurately analyze pricing trends and adjust strategies in real-time to boost profitability and customer satisfaction.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000024",
+      "company_id": "198000000024",
+      "amount": "299",
+      "closedate": null,
+      "createdate": "2025-10-31T03:09:16.000Z",
+      "dealname": "TechHaven - VantageLens Pricing Strategy Advisor",
+      "dealstage": "appointmentscheduled",
+      "description": "TechHaven has scheduled an appointment to explore the VantageLens Pricing Strategy Advisor, aiming to address their challenges with optimizing pricing strategies and enhancing competitive market positioning.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000026",
+      "company_id": "198000000026",
+      "amount": "299",
+      "closedate": "2025-11-03T13:22:16.000Z",
+      "createdate": "2025-11-05T00:00:16.000Z",
+      "dealname": "EcoMart - VantageLens Pricing Strategy Advisor",
+      "dealstage": "closedwon",
+      "description": "Deal Closed-Won: EcoMart has partnered with us for the VantageLens Pricing Strategy Advisor to optimize their pricing structure and increase profit margins in response to intensified market competition and fluctuating demand dynamics.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000027",
+      "company_id": "198000000027",
+      "amount": "1047",
+      "closedate": "2025-11-07T20:23:16.000Z",
+      "createdate": "2025-11-02T03:40:16.000Z",
+      "dealname": "Gadget Kingdom - VantageLens Omni-Channel Insights Dashboard",
+      "dealstage": "closedwon",
+      "description": "We successfully closed a deal with Gadget Kingdom for the VantageLens Omni-Channel Insights Dashboard, addressing their need for a comprehensive solution to streamline data integration and enhance visibility across multiple sales channels. This tool will empower Gadget Kingdom to make informed decisions and optimize their sales strategy effectively.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000028",
+      "company_id": "198000000028",
+      "amount": "349",
+      "closedate": null,
+      "createdate": "2025-11-05T14:16:16.000Z",
+      "dealname": "Bookshelf - VantageLens Omni-Channel Insights Dashboard",
+      "dealstage": "appointmentscheduled",
+      "description": "The deal with Bookshelf for the VantageLens Omni-Channel Insights Dashboard is in the \"appointment scheduled\" stage, aiming to address Bookshelf's need for seamless data integration and real-time analytics to enhance their decision-making process and optimize customer engagement across various platforms.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000029",
+      "company_id": "198000000029",
+      "amount": "598",
+      "closedate": "2025-11-03T16:59:16.000Z",
+      "createdate": "2025-11-01T04:41:16.000Z",
+      "dealname": "StyleUp - VantageLens Pricing Strategy Advisor",
+      "dealstage": "closedwon",
+      "description": "StyleUp has chosen to implement VantageLens Pricing Strategy Advisor to enhance their pricing optimization and boost profit margins, addressing their need for a more strategic approach to dynamic pricing and overcoming challenges with fluctuating market demands.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000030",
+      "company_id": "198000000030",
+      "amount": "698",
+      "closedate": "2025-11-05T19:33:16.000Z",
+      "createdate": "2025-11-05T04:02:16.000Z",
+      "dealname": "TechNests - VantageLens Omni-Channel Insights Dashboard",
+      "dealstage": "closedwon",
+      "description": "TechNests has successfully closed a deal for the VantageLens Omni-Channel Insights Dashboard, addressing the company's need for a cohesive view of customer interactions across various platforms and enhancing their ability to make data-driven decisions efficiently. This solution will streamline their analytics process and improve customer engagement strategies.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000031",
+      "company_id": "198000000031",
+      "amount": "698",
+      "closedate": null,
+      "createdate": "2025-11-04T18:17:16.000Z",
+      "dealname": "DreamDwellers - VantageLens Omni-Channel Insights Dashboard",
+      "dealstage": "appointmentscheduled",
+      "description": "The deal with DreamDwellers for the VantageLens Omni-Channel Insights Dashboard is in the \"appointment scheduled\" stage, aiming to address their need for a unified view of customer interactions and enhance data-driven decision-making across multiple channels.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000033",
+      "company_id": "198000000033",
+      "amount": "199",
+      "closedate": "2025-11-10T14:16:16.000Z",
+      "createdate": "2025-11-02T07:10:16.000Z",
+      "dealname": "ToyLand - VantageLens Customer Insights Explorer",
+      "dealstage": "closedwon",
+      "description": "We successfully closed a deal with ToyLand for the VantageLens Customer Insights Explorer, addressing their critical need to understand consumer behavior and enhance their market competitiveness through comprehensive data analytics and actionable insights.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000034",
+      "company_id": "198000000034",
+      "amount": "447",
+      "closedate": "2025-11-07T01:59:16.000Z",
+      "createdate": "2025-11-01T11:50:16.000Z",
+      "dealname": "World of Tech - VantageLens Visual Merchandising Assistant",
+      "dealstage": "closedwon",
+      "description": "We successfully closed a deal with World of Tech for the VantageLens Visual Merchandising Assistant to enhance their in-store presentation and automate inventory tracking, addressing their need for efficient merchandise management and improved customer engagement.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000035",
+      "company_id": "198000000035",
+      "amount": "698",
+      "closedate": null,
+      "createdate": "2025-10-31T00:35:16.000Z",
+      "dealname": "Coffee Craze - VantageLens Omni-Channel Insights Dashboard",
+      "dealstage": "appointmentscheduled",
+      "description": "The deal with Coffee Craze for the VantageLens Omni-Channel Insights Dashboard is at the appointment scheduled stage, aiming to address their need for a unified view of customer interactions across multiple platforms and to enhance decision-making with comprehensive data analytics.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000036",
+      "company_id": "198000000036",
+      "amount": "298",
+      "closedate": "2025-11-12T15:54:16.000Z",
+      "createdate": "2025-11-07T19:27:16.000Z",
+      "dealname": "ExpressMart - VantageLens Visual Merchandising Assistant",
+      "dealstage": "closedwon",
+      "description": "ExpressMart successfully closed the deal for the VantageLens Visual Merchandising Assistant, seeking to enhance their store display efficiency and improve product visibility, ultimately driving greater customer engagement and sales growth.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000038",
+      "company_id": "198000000038",
+      "amount": "447",
+      "closedate": null,
+      "createdate": "2025-11-06T14:48:16.000Z",
+      "dealname": "Digital Pulse - VantageLens Visual Merchandising Assistant",
+      "dealstage": "appointmentscheduled",
+      "description": "The deal with Digital Pulse for the VantageLens Visual Merchandising Assistant is in the appointment scheduled stage, aiming to address the company's need for more dynamic product displays and improved inventory visualization to enhance customer engagement and streamline merchandising operations.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000039",
+      "company_id": "198000000039",
+      "amount": "349",
+      "closedate": "2025-11-10T12:45:16.000Z",
+      "createdate": "2025-10-31T12:41:16.000Z",
+      "dealname": "Style Studio - VantageLens Omni-Channel Insights Dashboard",
+      "dealstage": "closedwon",
+      "description": "The deal with Style Studio for the VantageLens Omni-Channel Insights Dashboard has been successfully closed, addressing their need for enhanced customer engagement and actionable analytics by offering a unified view across all sales and marketing platforms.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000041",
+      "company_id": "198000000041",
+      "amount": "249",
+      "closedate": "2025-11-05T15:48:16.000Z",
+      "createdate": "2025-10-31T01:54:16.000Z",
+      "dealname": "BigBox Retailers - VantageLens Inventory Optimizer",
+      "dealstage": "closedwon",
+      "description": "We successfully closed a deal with BigBox Retailers for our VantageLens Inventory Optimizer, addressing their need to minimize overstocking and reduce supply chain inefficiencies, enhancing their inventory management capabilities.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000042",
+      "company_id": "198000000042",
+      "amount": "498",
+      "closedate": null,
+      "createdate": "2025-11-01T15:00:16.000Z",
+      "dealname": "Pet Essentials - VantageLens Inventory Optimizer",
+      "dealstage": "appointmentscheduled",
+      "description": "The deal with Pet Essentials for the VantageLens Inventory Optimizer has progressed to the appointment scheduled stage, focusing on addressing their need to enhance inventory accuracy and reduce overstock issues to improve operational efficiency and cost management.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000043",
+      "company_id": "198000000043",
+      "amount": "698",
+      "closedate": "2025-11-12T23:35:16.000Z",
+      "createdate": "2025-11-08T14:38:16.000Z",
+      "dealname": "Gadget Scene - VantageLens Omni-Channel Insights Dashboard",
+      "dealstage": "closedwon",
+      "description": "The deal with Gadget Scene for the VantageLens Omni-Channel Insights Dashboard has successfully closed, addressing their need for a unified platform that enhances visibility across multiple sales channels and alleviates challenges in aligning cross-channel marketing strategies.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000045",
+      "company_id": "198000000045",
+      "amount": "747",
+      "closedate": "2025-11-09T22:56:16.000Z",
+      "createdate": "2025-11-02T17:40:16.000Z",
+      "dealname": "Retail Spectrum - VantageLens Inventory Optimizer",
+      "dealstage": "closedwon",
+      "description": "The deal with Retail Spectrum for the VantageLens Inventory Optimizer, now at the closed-won stage, addresses their critical need to enhance inventory accuracy and reduce stockouts, enabling optimal stock levels and improving overall operational efficiency.",
+      "pipeline": "default"
+    },
+    {
+      "id": "202400000046",
+      "company_id": "198000000046",
+      "amount": "1047",
+      "closedate": null,
+      "createdate": "2025-11-09T15:49:16.000Z",
+      "dealname": "Gizmo World - VantageLens Omni-Channel Insights Dashboard",
+      "dealstage": "appointmentscheduled",
+      "description": "We have successfully scheduled an appointment with Gizmo World to discuss the VantageLens Omni-Channel Insights Dashboard, which addresses their need for integrated, real-time analytics and seamless data visualization across multiple platforms to optimize decision-making processes.",
+      "pipeline": "default"
+    }
+  ],
+  "leads": [
+    {
+      "id": "450100000003",
+      "company_id": "198000000003",
+      "full_name": "Sophie Chang",
+      "email": "sophie.chang@trendsetters.com",
+      "phone": "+19225142787",
+      "mobilephone": "+19225142787",
+      "company": "Trendsetters",
+      "jobtitle": "Head of Customer Experience",
+      "address": null,
+      "city": "London",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Fashion Retail",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "warm",
+      "notes": "D, L",
+      "createdate": "2025-10-21T15:30:16.000Z"
+    },
+    {
+      "id": "450100000006",
+      "company_id": "198000000006",
+      "full_name": "David Kim",
+      "email": "david.kim@grocerytitans.com",
+      "phone": "+17222932968",
+      "mobilephone": "+17222932968",
+      "company": "Grocery Titans",
+      "jobtitle": "Supply Chain Director",
+      "address": null,
+      "city": "Toronto",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Grocery",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "new",
+      "notes": "I, S",
+      "createdate": "2025-10-21T08:03:16.000Z"
+    },
+    {
+      "id": "450100000007",
+      "company_id": "198000000007",
+      "full_name": "Jonathan Lee",
+      "email": "jonathan.lee@fashionforward.com",
+      "phone": "+19877465622",
+      "mobilephone": "+19877465622",
+      "company": "Fashion Forward",
+      "jobtitle": "Marketing VP",
+      "address": null,
+      "city": "Paris",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Apparel Retail",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "warm",
+      "notes": "U, D",
+      "createdate": "2025-10-18T01:57:16.000Z"
+    },
+    {
+      "id": "450100000008",
+      "company_id": "198000000008",
+      "full_name": "Priya Nair",
+      "email": "priya.nair@techbazaar.com",
+      "phone": "+15777117532",
+      "mobilephone": "+15777117532",
+      "company": "TechBazaar",
+      "jobtitle": "Business Analyst",
+      "address": null,
+      "city": "Bangalore",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Consumer Electronics",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "new",
+      "notes": "A, C",
+      "createdate": "2025-10-20T08:06:16.000Z"
+    },
+    {
+      "id": "450100000010",
+      "company_id": "198000000010",
+      "full_name": "Emma Smith",
+      "email": "emma.smith@kidzkraze.com",
+      "phone": "+16134797427",
+      "mobilephone": "+16134797427",
+      "company": "KidzKraze",
+      "jobtitle": "Product Manager",
+      "address": null,
+      "city": "Chicago",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Toy Retail",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "warm",
+      "notes": "E, P",
+      "createdate": "2025-10-27T04:59:16.000Z"
+    },
+    {
+      "id": "450100000011",
+      "company_id": "198000000011",
+      "full_name": "Anna M\u00fcller",
+      "email": "anna.m\u00fcller@clothinghub.com",
+      "phone": "+18775039360",
+      "mobilephone": "+18775039360",
+      "company": "Clothing Hub",
+      "jobtitle": "Chief Marketing Officer",
+      "address": null,
+      "city": "Berlin",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Apparel",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "new",
+      "notes": "I, L",
+      "createdate": "2025-10-28T19:52:16.000Z"
+    },
+    {
+      "id": "450100000015",
+      "company_id": "198000000015",
+      "full_name": "Liam O'Malley",
+      "email": "liam.o'malley@electrouniverse.com",
+      "phone": "+13513145905",
+      "mobilephone": "+13513145905",
+      "company": "Electro Universe",
+      "jobtitle": "Sales Director",
+      "address": null,
+      "city": "Dublin",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Electronics",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "warm",
+      "notes": "O, P",
+      "createdate": "2025-10-23T03:51:16.000Z"
+    },
+    {
+      "id": "450100000016",
+      "company_id": "198000000016",
+      "full_name": "Olivia Evans",
+      "email": "olivia.evans@booksbeyond.com",
+      "phone": "+15209106614",
+      "mobilephone": "+15209106614",
+      "company": "Books & Beyond",
+      "jobtitle": "Marketing Specialist",
+      "address": null,
+      "city": "Seattle",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Book Retail",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "new",
+      "notes": "C, L",
+      "createdate": "2025-10-23T13:40:16.000Z"
+    },
+    {
+      "id": "450100000020",
+      "company_id": "198000000020",
+      "full_name": "Bethany Chandler",
+      "email": "bethany.chandler@petparadise.com",
+      "phone": "+12294854257",
+      "mobilephone": "+12294854257",
+      "company": "PetParadise",
+      "jobtitle": "Retail Operations Manager",
+      "address": null,
+      "city": "Auckland",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Pet Supplies",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "warm",
+      "notes": "E, D",
+      "createdate": "2025-10-18T12:33:16.000Z"
+    },
+    {
+      "id": "450100000022",
+      "company_id": "198000000022",
+      "full_name": "Kenji Watanabe",
+      "email": "kenji.watanabe@techwhizdepot.com",
+      "phone": "+15908979844",
+      "mobilephone": "+15908979844",
+      "company": "TechWhiz Depot",
+      "jobtitle": "Product Analyst",
+      "address": null,
+      "city": "Tokyo",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Electronics",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "warm",
+      "notes": "C, D",
+      "createdate": "2025-10-28T07:35:16.000Z"
+    },
+    {
+      "id": "450100000023",
+      "company_id": "198000000023",
+      "full_name": "Chantal Dubois",
+      "email": "chantal.dubois@glamourglow.com",
+      "phone": "+12069736450",
+      "mobilephone": "+12069736450",
+      "company": "Glamour Glow",
+      "jobtitle": "Lead Product Manager",
+      "address": null,
+      "city": "Paris",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Beauty",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "new",
+      "notes": "E, I",
+      "createdate": "2025-10-19T11:59:16.000Z"
+    },
+    {
+      "id": "450100000024",
+      "company_id": "198000000024",
+      "full_name": "Sanjay Verma",
+      "email": "sanjay.verma@techhaven.com",
+      "phone": "+15654927969",
+      "mobilephone": "+15654927969",
+      "company": "TechHaven",
+      "jobtitle": "Analytics Manager",
+      "address": null,
+      "city": "New Delhi",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Electronics",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "warm",
+      "notes": "A, I",
+      "createdate": "2025-10-25T23:32:16.000Z"
+    },
+    {
+      "id": "450100000025",
+      "company_id": "198000000025",
+      "full_name": "Elena Ionescu",
+      "email": "elena.ionescu@harvestfresh.com",
+      "phone": "+17765167420",
+      "mobilephone": "+17765167420",
+      "company": "Harvest Fresh",
+      "jobtitle": "CEO",
+      "address": null,
+      "city": "Bucharest",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Grocery Retail",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "new",
+      "notes": "O, H",
+      "createdate": "2025-10-28T01:16:16.000Z"
+    },
+    {
+      "id": "450100000028",
+      "company_id": "198000000028",
+      "full_name": "Aisha Abdel",
+      "email": "aisha.abdel@bookshelf.com",
+      "phone": "+15985526916",
+      "mobilephone": "+15985526916",
+      "company": "Bookshelf",
+      "jobtitle": "Store Manager",
+      "address": null,
+      "city": "Cairo",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Book Retail",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "warm",
+      "notes": "I, O",
+      "createdate": "2025-10-21T08:39:16.000Z"
+    },
+    {
+      "id": "450100000031",
+      "company_id": "198000000031",
+      "full_name": "Mia Andersson",
+      "email": "mia.andersson@dreamdwellers.com",
+      "phone": "+16674036407",
+      "mobilephone": "+16674036407",
+      "company": "DreamDwellers",
+      "jobtitle": "Marketing Executive",
+      "address": null,
+      "city": "Stockholm",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Furniture Retail",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "warm",
+      "notes": "G, I",
+      "createdate": "2025-10-19T01:19:16.000Z"
+    },
+    {
+      "id": "450100000032",
+      "company_id": "198000000032",
+      "full_name": "Anton Perez",
+      "email": "anton.perez@finefoods.com",
+      "phone": "+18406212794",
+      "mobilephone": "+18406212794",
+      "company": "FineFoods",
+      "jobtitle": "General Manager",
+      "address": null,
+      "city": "Barcelona",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Specialty Foods Retail",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "new",
+      "notes": "E, C",
+      "createdate": "2025-10-22T12:26:16.000Z"
+    },
+    {
+      "id": "450100000035",
+      "company_id": "198000000035",
+      "full_name": "Marco Romano",
+      "email": "marco.romano@coffeecraze.com",
+      "phone": "+16164712931",
+      "mobilephone": "+16164712931",
+      "company": "Coffee Craze",
+      "jobtitle": "Owner",
+      "address": null,
+      "city": "Milan",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Cafe Retail",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "warm",
+      "notes": "V, I",
+      "createdate": "2025-10-26T21:45:16.000Z"
+    },
+    {
+      "id": "450100000037",
+      "company_id": "198000000037",
+      "full_name": "Amelia Thompson",
+      "email": "amelia.thompson@freshfindssupermarket.com",
+      "phone": "+14992774531",
+      "mobilephone": "+14992774531",
+      "company": "Fresh Finds Supermarket",
+      "jobtitle": "Head of Procurement",
+      "address": null,
+      "city": "Houston",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Grocery",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "new",
+      "notes": "I, H",
+      "createdate": "2025-10-19T17:20:16.000Z"
+    },
+    {
+      "id": "450100000038",
+      "company_id": "198000000038",
+      "full_name": "Islam Halabi",
+      "email": "islam.halabi@digitalpulse.com",
+      "phone": "+13562209458",
+      "mobilephone": "+13562209458",
+      "company": "Digital Pulse",
+      "jobtitle": "Head of Pricing",
+      "address": null,
+      "city": "Cairo",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Electronics",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "warm",
+      "notes": "A, C",
+      "createdate": "2025-10-26T00:49:16.000Z"
+    },
+    {
+      "id": "450100000040",
+      "company_id": "198000000040",
+      "full_name": "Arya Singh",
+      "email": "arya.singh@allthingsbooks.com",
+      "phone": "+16658393786",
+      "mobilephone": "+16658393786",
+      "company": "All Things Books",
+      "jobtitle": "Business Owner",
+      "address": null,
+      "city": "Delhi",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Book Retail",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "new",
+      "notes": "I, L",
+      "createdate": "2025-10-24T19:33:16.000Z"
+    },
+    {
+      "id": "450100000042",
+      "company_id": "198000000042",
+      "full_name": "Gretchen Klima",
+      "email": "gretchen.klima@petessentials.com",
+      "phone": "+19974422268",
+      "mobilephone": "+19974422268",
+      "company": "Pet Essentials",
+      "jobtitle": "Sales and Marketing Head",
+      "address": null,
+      "city": "Vienna",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Pet Supplies",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "warm",
+      "notes": "B, I",
+      "createdate": "2025-10-20T02:44:16.000Z"
+    },
+    {
+      "id": "450100000044",
+      "company_id": "198000000044",
+      "full_name": "Colette Boucher",
+      "email": "colette.boucher@belleco.com",
+      "phone": "+19786194852",
+      "mobilephone": "+19786194852",
+      "company": "Belle & Co",
+      "jobtitle": "Lead Designer",
+      "address": null,
+      "city": "Lyon",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Fashion",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "new",
+      "notes": "F, L",
+      "createdate": "2025-10-21T22:30:16.000Z"
+    },
+    {
+      "id": "450100000046",
+      "company_id": "198000000046",
+      "full_name": "Aiden Smith",
+      "email": "aiden.smith@gizmoworld.com",
+      "phone": "+14092696993",
+      "mobilephone": "+14092696993",
+      "company": "Gizmo World",
+      "jobtitle": "Director of Sales",
+      "address": null,
+      "city": "Sydney",
+      "state": null,
+      "zip": null,
+      "country": null,
+      "website": null,
+      "industry": "Gadgets and Electronics",
+      "annualrevenue": null,
+      "numberofemployees": null,
+      "leadsource": "Website",
+      "rating": "warm",
+      "notes": "I, I",
+      "createdate": "2025-10-22T00:09:16.000Z"
+    }
+  ],
+  "engagements": [
+    {
+      "id": "240060000001",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000001"
+      ],
+      "company_ids": [
+        "198000000001"
+      ],
+      "title": "Initial Status: Retail Giants Inc.",
+      "body": "Met with Retail Giants Inc. to discuss their current needs for enhanced efficiency and flexibility in their supply chain management. They expressed pain points around outdated ordering systems and visibility issues impacting their inventory turnover. Suggested scheduling a demo of our integrated inventory software to illustrate how it can address these challenges effectively.",
+      "description": "Met with Retail Giants Inc. to discuss their current needs for enhanced efficiency and flexibility in their supply chain management. They ex",
+      "phone": null,
+      "createdate": "2025-10-25T12:59:16.000Z"
+    },
+    {
+      "id": "240060000002",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000002"
+      ],
+      "company_ids": [
+        "198000000002"
+      ],
+      "title": "Initial Status: Wholesale Depot",
+      "body": "**Note:** I had an initial call with Wholesale Depot to understand their needs and identify any pain points. They currently face challenges with inventory management (I) and are seeking a more streamlined system to better track stock levels and reduce overhead costs (S, n). They are also looking to expand their supplier network and need insights on market trends (t). I suggested setting up a demo of our inventory management solution and potentially scheduling a follow-up meeting with our team of market analysts to address their supplier network concerns.",
+      "description": "**Note:** I had an initial call with Wholesale Depot to understand their needs and identify any pain points. They currently face challenges ",
+      "phone": null,
+      "createdate": "2025-10-26T14:09:16.000Z"
+    },
+    {
+      "id": "240060000003",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000003"
+      ],
+      "company_ids": [
+        "198000000003"
+      ],
+      "title": "Trendsetters - Prospect Status Update",
+      "body": "**Note:** Initial contact with Trendsetters\n\nDuring today's introductory call with Trendsetters, it became evident that their primary needs involve streamlining their design processes and enhancing their e-commerce capabilities. They expressed frustration with their current system's lack of integration, leading to inefficiencies and missed opportunities. To address these concerns, I recommend scheduling a demo of our integrated solution, which could potentially alleviate their pain points and optimize their operations. Let's arrange this for next week to maintain momentum.",
+      "description": "**Note:** Initial contact with Trendsetters\n\nDuring today's introductory call with Trendsetters, it became evident that their primary needs ",
+      "phone": null,
+      "createdate": "2025-11-02T03:01:16.000Z"
+    },
+    {
+      "id": "240060000004",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000004"
+      ],
+      "company_ids": [
+        "198000000004"
+      ],
+      "title": "ElectroMart Customer Status Update",
+      "body": "I connected with ElectroMart today to gather initial insights into their current needs and challenges. They are focused on expanding their distribution network (D) while also seeking advanced analytics (a) solutions to better understand customer trends. However, they're currently facing stock management inefficiencies (S) and underutilized data (u), which are hindering growth. I recommend setting up a follow-up meeting to discuss tailored solutions that address both their distribution goals and analytical needs.",
+      "description": "I connected with ElectroMart today to gather initial insights into their current needs and challenges. They are focused on expanding their d",
+      "phone": null,
+      "createdate": "2025-10-25T03:25:16.000Z"
+    },
+    {
+      "id": "240060000005",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000005"
+      ],
+      "company_ids": [
+        "198000000005"
+      ],
+      "title": "\"New Customer: HomeGoods Haven Status\"",
+      "body": "*HomeGoods Haven* reached out to explore options for streamlining their inventory management system after encountering challenges with overstock and missed sales opportunities due to stockouts. They expressed a need for an automated system that integrates directly with their sales platform to provide real-time inventory updates and alerts. During our discussion, they also mentioned difficulties in tracking customer preferences, which impacts their ability to tailor marketing efforts. As a next step, I recommend scheduling a demo of our inventory management solution to showcase its capabilities and discuss integration possibilities with their existing systems.",
+      "description": "*HomeGoods Haven* reached out to explore options for streamlining their inventory management system after encountering challenges with overs",
+      "phone": null,
+      "createdate": "2025-10-23T20:36:16.000Z"
+    },
+    {
+      "id": "240060000006",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000006"
+      ],
+      "company_ids": [
+        "198000000006"
+      ],
+      "title": "Grocery Titans: Lead Qualification Status",
+      "body": "Met with Grocery Titans to discuss their current operational challenges. They expressed a need for an integrated inventory management system (I) that can provide real-time stock updates across their multiple locations (n). They are currently using a legacy system that lacks scalability and results in frequent stockouts and overstock situations (S, i). Suggested setting up a demo of our inventory solutions to explore how it can address their needs and streamline their processes.",
+      "description": "Met with Grocery Titans to discuss their current operational challenges. They expressed a need for an integrated inventory management system",
+      "phone": null,
+      "createdate": "2025-11-02T06:05:16.000Z"
+    },
+    {
+      "id": "240060000007",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000007"
+      ],
+      "company_ids": [
+        "198000000007"
+      ],
+      "title": "New Fashion Forward Prospect Identified",
+      "body": "Met with the team at Fashion Forward to understand their current challenges and needs. They are looking to upgrade their outdated inventory management system (U) to streamline operations and enhance customer satisfaction. Currently, they struggle with delayed order processing (D) and inaccurate inventory counts (i), leading to lost sales opportunities. Suggested a demo of our inventory solution to address these pain points; follow up to schedule a demo next week.",
+      "description": "Met with the team at Fashion Forward to understand their current challenges and needs. They are looking to upgrade their outdated inventory ",
+      "phone": null,
+      "createdate": "2025-10-30T20:55:16.000Z"
+    },
+    {
+      "id": "240060000008",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000008"
+      ],
+      "company_ids": [
+        "198000000008"
+      ],
+      "title": "TechBazaar Lead: Initial Status Update",
+      "body": "Met with TechBazaar's procurement team to discuss their current challenges and needs. They are looking for solutions to streamline their inventory management (A) and improve their internal communication systems (I). Currently, they struggle with outdated software that lacks integration capabilities (C) and often results in inefficient operations (u). Suggested that we schedule a demo of our integrated platform to showcase how it can address their specific requirements and pain points.",
+      "description": "Met with TechBazaar's procurement team to discuss their current challenges and needs. They are looking for solutions to streamline their inv",
+      "phone": null,
+      "createdate": "2025-11-03T19:26:16.000Z"
+    },
+    {
+      "id": "240060000009",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000009"
+      ],
+      "company_ids": [
+        "198000000009"
+      ],
+      "title": "FreshMart Account: At-risk Status",
+      "body": "Met with FreshMart Superstores to discuss their interest in enhancing their supply chain management through a more unified system and the need for improved real-time inventory updates. They are currently facing inefficiencies in managing multiple vendors and delayed stock replenishment notifications, leading to frequent stockouts. Suggested scheduling a demo of our integrated inventory management solution to showcase its benefits and alignment with their operational goals.",
+      "description": "Met with FreshMart Superstores to discuss their interest in enhancing their supply chain management through a more unified system and the ne",
+      "phone": null,
+      "createdate": "2025-10-27T10:48:16.000Z"
+    },
+    {
+      "id": "240060000010",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000010"
+      ],
+      "company_ids": [
+        "198000000010"
+      ],
+      "title": "Prospect Status: KidzKraze Evaluation",
+      "body": "Met with Sarah Lin from KidzKraze, a company specializing in educational toys for children ages 3-8. They are eager to expand their online presence (E) and improve fulfillment processes (f). Currently facing challenges with outdated e-commerce platforms (P) and finding it difficult to manage inventory efficiently (o). Suggested scheduling a demo of our integrated e-commerce and inventory management solutions to address these issues.",
+      "description": "Met with Sarah Lin from KidzKraze, a company specializing in educational toys for children ages 3-8. They are eager to expand their online p",
+      "phone": null,
+      "createdate": "2025-11-02T18:35:16.000Z"
+    },
+    {
+      "id": "240060000011",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000011"
+      ],
+      "company_ids": [
+        "198000000011"
+      ],
+      "title": "Clothing Hub: Lead Status Overview",
+      "body": "Prospective client Clothing Hub is interested in streamlining their inventory management system (I) to improve efficiency and reduce overstock issues. They are currently struggling with managing their logistics processes (L), which is causing delays and impacting their overall customer satisfaction. To address these challenges, I recommend scheduling a demo of our integrated inventory and logistics solution to showcase how it can enhance their operational efficiency and boost customer experience.",
+      "description": "Prospective client Clothing Hub is interested in streamlining their inventory management system (I) to improve efficiency and reduce oversto",
+      "phone": null,
+      "createdate": "2025-10-27T22:53:16.000Z"
+    },
+    {
+      "id": "240060000012",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000012"
+      ],
+      "company_ids": [
+        "198000000012"
+      ],
+      "title": "WorldGadgets Status: New Customer Setup",
+      "body": "Met with WorldGadgets to understand their current challenges and requirements. They are seeking a solution to streamline their supply chain management (S) and improve their time-to-market (t) for new product launches. Current systems are inefficient (I) and not integrating well with newer technologies (n), causing delays and increased overheads. Recommend scheduling a demo of our integrated supply chain software to address these issues and outline potential benefits.",
+      "description": "Met with WorldGadgets to understand their current challenges and requirements. They are seeking a solution to streamline their supply chain ",
+      "phone": null,
+      "createdate": "2025-10-29T10:45:16.000Z"
+    },
+    {
+      "id": "240060000013",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000013"
+      ],
+      "company_ids": [
+        "198000000013"
+      ],
+      "title": "New Customer Onboarding: GreenEarth Grocers",
+      "body": "Initial meeting with GreenEarth Grocers reveals they are looking to enhance their supply chain efficiency (I) and reduce food waste (n). They are currently struggling with inconsistent delivery schedules, which is impacting their ability to keep fresh produce in stock (S), and experiencing higher costs due to waste (e). Recommended scheduling a follow-up call to discuss potential solutions around improving inventory management systems and exploring vendor partnerships that prioritize freshness.",
+      "description": "Initial meeting with GreenEarth Grocers reveals they are looking to enhance their supply chain efficiency (I) and reduce food waste (n). The",
+      "phone": null,
+      "createdate": "2025-10-25T15:34:16.000Z"
+    },
+    {
+      "id": "240060000014",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000014"
+      ],
+      "company_ids": [
+        "198000000014"
+      ],
+      "title": "New Customer Status: Style&More",
+      "body": "During our initial conversation with Style&More, the team expressed the need to enhance their e-commerce capabilities (E) and expand their online presence to reach a broader audience (n). They mentioned facing challenges with their existing platform, which lacks scalability and has frequent outages during peak shopping times (P, o). To address these concerns, I recommend scheduling a follow-up meeting with our e-commerce solutions specialist to explore tailored platform options that can support their growth objectives and ensure reliability.",
+      "description": "During our initial conversation with Style&More, the team expressed the need to enhance their e-commerce capabilities (E) and expand their o",
+      "phone": null,
+      "createdate": "2025-10-30T23:42:16.000Z"
+    },
+    {
+      "id": "240060000015",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000015"
+      ],
+      "company_ids": [
+        "198000000015"
+      ],
+      "title": "Electro Universe: Prospect Status Overview",
+      "body": "Met with Electro Universe's representative, who expressed a need for optimizing their supply chain operations (O) and enhancing product visibility (p) across various markets. They are currently struggling with outdated inventory systems (P) and lack of real-time data reporting, which hampers decision-making and efficiencies (r). Suggest scheduling a demo of our integrated logistics solution to showcase how it can address their challenges and improve overall operational efficiency.",
+      "description": "Met with Electro Universe's representative, who expressed a need for optimizing their supply chain operations (O) and enhancing product visi",
+      "phone": null,
+      "createdate": "2025-11-02T09:37:16.000Z"
+    },
+    {
+      "id": "240060000016",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000016"
+      ],
+      "company_ids": [
+        "198000000016"
+      ],
+      "title": "Books & Beyond Lead Update",
+      "body": "During our initial conversation with Books & Beyond, the client (C) expressed a need to streamline their inventory management and expand their online presence due to current limitations (L) in reaching a wider audience. They are currently utilizing (u) an outdated system that fails to integrate with newer e-commerce platforms, which has led to inefficiencies and increased overhead (i). As a next step, we should schedule a demo to showcase how our solution can seamlessly integrate with existing operations and provide enhanced online capabilities.",
+      "description": "During our initial conversation with Books & Beyond, the client (C) expressed a need to streamline their inventory management and expand the",
+      "phone": null,
+      "createdate": "2025-10-27T18:38:16.000Z"
+    },
+    {
+      "id": "240060000017",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000017"
+      ],
+      "company_ids": [
+        "198000000017"
+      ],
+      "title": "AllTime Fashions Status Update",
+      "body": "Met with AllTime Fashions today to discuss their interest in expanding their online presence (V) and improving inventory management (i). They are currently experiencing challenges with logistics (L), especially in maintaining timely deliveries, and are seeking solutions to optimize operations (o). Suggested arranging a demo of our integrated e-commerce and inventory management solution next week to address their needs and pain points.",
+      "description": "Met with AllTime Fashions today to discuss their interest in expanding their online presence (V) and improving inventory management (i). The",
+      "phone": null,
+      "createdate": "2025-10-25T08:11:16.000Z"
+    },
+    {
+      "id": "240060000018",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000018"
+      ],
+      "company_ids": [
+        "198000000018"
+      ],
+      "title": "Market Masters: Initial Status Update",
+      "body": "Contacted Market Masters to understand their current needs and challenges in their marketing strategies. They are highly interested in optimizing their online presence (o) but are facing difficulties integrating new digital tools with their existing systems (D). Additionally, there's a noticeable inconsistency in reaching their target audience effectively (i). Suggested scheduling a demo to showcase our digital optimization tools and integration capabilities, which could address their immediate concerns.",
+      "description": "Contacted Market Masters to understand their current needs and challenges in their marketing strategies. They are highly interested in optim",
+      "phone": null,
+      "createdate": "2025-10-27T16:33:16.000Z"
+    },
+    {
+      "id": "240060000019",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000019"
+      ],
+      "company_ids": [
+        "198000000019"
+      ],
+      "title": "Urban Outfitters: Onboarded as Customer",
+      "body": "**Note:** During our initial conversation with Urban Outfitters Now, they expressed interest in a more intuitive inventory management system to improve operational efficiency (needs: I, m). Currently, they are facing challenges with an outdated system that is unable to meet their growing inventory demands and results in frequent stock discrepancies (pain points: C, u). I recommend scheduling a follow-up meeting with our product specialist to provide a tailored demo that highlights how our solutions can streamline their inventory processes and address their specific concerns.",
+      "description": "**Note:** During our initial conversation with Urban Outfitters Now, they expressed interest in a more intuitive inventory management system",
+      "phone": null,
+      "createdate": "2025-10-25T13:58:16.000Z"
+    },
+    {
+      "id": "240060000020",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000020"
+      ],
+      "company_ids": [
+        "198000000020"
+      ],
+      "title": "New Prospect: PetParadise Inquiry",
+      "body": "Date: October 26, 2023  \nContact Name: Jenna Thompson  \nCompany: PetParadise\n\nSpoke with Jenna Thompson from PetParadise, an online retailer specializing in eco-friendly pet products. She emphasized their need for a more efficient inventory management system (E, n) and expressed frustration with the current software's lack of integration capabilities (D, i), which is causing delays in order processing and fulfillment. Suggested scheduling a demo of our dynamic inventory solution that seamlessly integrates with existing e-commerce platforms to alleviate these issues. Jenna is open to a follow-up call next week to discuss further.",
+      "description": "Date: October 26, 2023  \nContact Name: Jenna Thompson  \nCompany: PetParadise\n\nSpoke with Jenna Thompson from PetParadise, an online retailer",
+      "phone": null,
+      "createdate": "2025-10-26T06:41:16.000Z"
+    },
+    {
+      "id": "240060000021",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000021"
+      ],
+      "company_ids": [
+        "198000000021"
+      ],
+      "title": "FoodLovers Market Onboarding Call",
+      "body": "I spoke with Jamie from FoodLovers Market today, and they expressed an interest in expanding their local organic produce offerings (I). They are currently struggling with sourcing reliable suppliers who meet their quality standards and can deliver consistently (M, i). I suggested scheduling a follow-up call next week to discuss our network of vetted local suppliers and explore potential partnerships.",
+      "description": "I spoke with Jamie from FoodLovers Market today, and they expressed an interest in expanding their local organic produce offerings (I). They",
+      "phone": null,
+      "createdate": "2025-10-25T06:16:16.000Z"
+    },
+    {
+      "id": "240060000022",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000022"
+      ],
+      "company_ids": [
+        "198000000022"
+      ],
+      "title": "TechWhiz Depot: New Prospect Status",
+      "body": "TechWhiz Depot recently expressed interest in upgrading their internal IT infrastructure to enhance operational efficiency and reduce downtime. Currently, they are struggling with outdated systems that result in frequent service interruptions, leading to decreased productivity and increased customer dissatisfaction. To address these issues, it would be beneficial to arrange a consultation meeting to discuss potential solutions and assess their specific technical requirements. Suggested next step: Schedule a call with their IT manager to understand their infrastructure needs in detail and recommend suitable technology upgrades.",
+      "description": "TechWhiz Depot recently expressed interest in upgrading their internal IT infrastructure to enhance operational efficiency and reduce downti",
+      "phone": null,
+      "createdate": "2025-10-29T08:01:16.000Z"
+    },
+    {
+      "id": "240060000023",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000023"
+      ],
+      "company_ids": [
+        "198000000023"
+      ],
+      "title": "New Lead: Glamour Glow Status",
+      "body": "During today's initial call with Glamour Glow, the client expressed a need for enhancing their customer engagement (E, f) as they're currently facing challenges with retaining long-term customers due to inconsistent follow-up processes (I, n). They mentioned that their current CRM system doesn't integrate well with their marketing tools, which complicates tracking customer interactions. I recommend scheduling a demo of our CRM solution tailored to their specific requirements and integration needs.",
+      "description": "During today's initial call with Glamour Glow, the client expressed a need for enhancing their customer engagement (E, f) as they're current",
+      "phone": null,
+      "createdate": "2025-10-23T03:29:16.000Z"
+    },
+    {
+      "id": "240060000024",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000024"
+      ],
+      "company_ids": [
+        "198000000024"
+      ],
+      "title": "Initial Prospect Assessment: TechHaven",
+      "body": "**Note: Initial Record for TechHaven**\n\nDuring our initial conversation with TechHaven, they expressed a need for a more robust analytics system (A) to track their customer engagement, as their current tool lacks depth in data insights (I). Additionally, they are finding it challenging to integrate new solutions without disrupting their existing processes (d, n). Recommend scheduling a demo to showcase how our analytics platform provides comprehensive insights and smooth integration with their current systems.",
+      "description": "**Note: Initial Record for TechHaven**\n\nDuring our initial conversation with TechHaven, they expressed a need for a more robust analytics sy",
+      "phone": null,
+      "createdate": "2025-10-30T12:31:16.000Z"
+    },
+    {
+      "id": "240060000025",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000025"
+      ],
+      "company_ids": [
+        "198000000025"
+      ],
+      "title": "Lead Introduction: Harvest Fresh Status",
+      "body": "Met with Harvest Fresh to discuss their current operations and pain points. They are looking to optimize their supply chain operations (O) and boost productivity (p) across their distribution channels. However, they are currently facing challenges with high inventory costs (H) and inconsistent delivery schedules (i). Suggested scheduling a demo of our inventory management solution to illustrate how it can address their needs and alleviate pain points.",
+      "description": "Met with Harvest Fresh to discuss their current operations and pain points. They are looking to optimize their supply chain operations (O) a",
+      "phone": null,
+      "createdate": "2025-10-24T23:06:16.000Z"
+    },
+    {
+      "id": "240060000026",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000026"
+      ],
+      "company_ids": [
+        "198000000026"
+      ],
+      "title": "EcoMart Prospect Evaluation",
+      "body": "Initial contact with EcoMart was made to understand their current distribution (D) and efficiency (e) challenges in their supply chain. The key pain points identified include delays in distribution (D) leading to inventory shortages, and inefficiencies (i) in their logistics processes, which are impacting their overall operational performance. It would be beneficial to schedule a detailed consultation to explore tailored solutions that can enhance their distribution network and streamline their logistics for improved efficiency.",
+      "description": "Initial contact with EcoMart was made to understand their current distribution (D) and efficiency (e) challenges in their supply chain. The ",
+      "phone": null,
+      "createdate": "2025-10-30T10:18:16.000Z"
+    },
+    {
+      "id": "240060000027",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000027"
+      ],
+      "company_ids": [
+        "198000000027"
+      ],
+      "title": "Gadget Kingdom Customer Status Update",
+      "body": "Met with Gadget Kingdom's procurement manager, who expressed a need for more efficient inventory management systems (U, n). They are currently facing challenges with outdated software that leads to stock discrepancies and order fulfillment delays (O, p). Suggested a follow-up meeting to discuss our integrated inventory solutions that could streamline their process and reduce errors.",
+      "description": "Met with Gadget Kingdom's procurement manager, who expressed a need for more efficient inventory management systems (U, n). They are current",
+      "phone": null,
+      "createdate": "2025-11-01T17:54:16.000Z"
+    },
+    {
+      "id": "240060000028",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000028"
+      ],
+      "company_ids": [
+        "198000000028"
+      ],
+      "title": "Prospect: Bookshelf Update Needed",
+      "body": "Bookshelf is a small independent bookstore looking to expand its online presence to increase sales and reach a wider audience. The owner mentioned their current website is outdated and not user-friendly, which has led to decreased online sales and customer frustration. They are interested in exploring e-commerce solutions that integrate well with their existing inventory system. Suggested next step: Schedule a demo to showcase our e-commerce platform and discuss how it can streamline their operations and enhance customer experience.",
+      "description": "Bookshelf is a small independent bookstore looking to expand its online presence to increase sales and reach a wider audience. The owner men",
+      "phone": null,
+      "createdate": "2025-10-26T03:10:16.000Z"
+    },
+    {
+      "id": "240060000029",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000029"
+      ],
+      "company_ids": [
+        "198000000029"
+      ],
+      "title": "New StyleUp Customer Status Update",
+      "body": "**Note:** Spoke with Grace Williams, the founder of StyleUp, a growing online fashion retailer. Grace expressed the need for an advanced inventory management system (A) that can integrate seamlessly with their existing platform (I) to streamline operations and handle increasing demand. They are currently facing challenges with inventory inaccuracies (I) and experiencing delays in order fulfillment (n), both of which are impacting customer satisfaction. Proposed a follow-up demo of our inventory solution next week to demonstrate how it addresses these specific pain points and improves overall efficiency.",
+      "description": "**Note:** Spoke with Grace Williams, the founder of StyleUp, a growing online fashion retailer. Grace expressed the need for an advanced inv",
+      "phone": null,
+      "createdate": "2025-10-30T18:20:16.000Z"
+    },
+    {
+      "id": "240060000030",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000030"
+      ],
+      "company_ids": [
+        "198000000030"
+      ],
+      "title": "TechNests Onboarding Status Update",
+      "body": "**Note:** TechNests is a startup specializing in developing AI-driven project management tools tailored for tech companies. The company is looking to expand its software capabilities to better accommodate remote teams (needs - C, r). Currently, their primary pain point is the difficulty in effectively tracking project progress and ensuring seamless communication among dispersed team members (pain points - F, r). Suggested next step: Schedule a discovery call to further explore how our solutions can enhance their remote project management and address their communication challenges.",
+      "description": "**Note:** TechNests is a startup specializing in developing AI-driven project management tools tailored for tech companies. The company is l",
+      "phone": null,
+      "createdate": "2025-10-23T03:49:16.000Z"
+    },
+    {
+      "id": "240060000031",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000031"
+      ],
+      "company_ids": [
+        "198000000031"
+      ],
+      "title": "DreamDwellers Prospect Status Update",
+      "body": "During our initial conversation with DreamDwellers, we learned that they are seeking a comprehensive solution for their growing sales team that can streamline administrative tasks and strengthen team collaboration (G, a). They are currently struggling with inefficient processes and a lack of integration between their existing tools, which is causing delays and impacting productivity (I, n). I recommend scheduling a demo to showcase how our platform can address these challenges and support their expansion goals.",
+      "description": "During our initial conversation with DreamDwellers, we learned that they are seeking a comprehensive solution for their growing sales team t",
+      "phone": null,
+      "createdate": "2025-10-27T02:53:16.000Z"
+    },
+    {
+      "id": "240060000032",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000032"
+      ],
+      "company_ids": [
+        "198000000032"
+      ],
+      "title": "FineFoods Lead Status Update",
+      "body": "FineFoods is exploring solutions to enhance their e-commerce efficiency and is particularly focused on streamlining their fulfillment processes. Currently, they face challenges with coordinating their delivery logistics, which often results in delayed shipments and compromised customer satisfaction. To address these issues, it would be beneficial to schedule a discovery call to better understand their specific logistics hurdles and explore tailored solutions that can seamlessly integrate into their existing systems. Suggest setting up a meeting for next week to dive deeper into their needs and discuss potential strategies.",
+      "description": "FineFoods is exploring solutions to enhance their e-commerce efficiency and is particularly focused on streamlining their fulfillment proces",
+      "phone": null,
+      "createdate": "2025-11-02T16:19:16.000Z"
+    },
+    {
+      "id": "240060000033",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000033"
+      ],
+      "company_ids": [
+        "198000000033"
+      ],
+      "title": "Evaluate ToyLand's Business Potential",
+      "body": "**Note:** Initial contact with ToyLand indicates they are seeking to expand their inventory variety (V) to include more educational toys, as they are noticing a drop in customer engagement with their current offerings (P). They expressed interest in exploring products that could integrate interactive technology (i) but are concerned about high costs affecting their profit margins (o). I suggest scheduling a product demo and pricing discussion with our EdTech line specialist to address their needs and concerns efficiently.",
+      "description": "**Note:** Initial contact with ToyLand indicates they are seeking to expand their inventory variety (V) to include more educational toys, as",
+      "phone": null,
+      "createdate": "2025-10-25T04:55:16.000Z"
+    },
+    {
+      "id": "240060000034",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000034"
+      ],
+      "company_ids": [
+        "198000000034"
+      ],
+      "title": "World of Tech Initial Status",
+      "body": "**Note Body:**\n\nI had an introductory call with World of Tech's procurement manager, Sarah Thompson. Their team is currently expanding and experiencing challenges with scaling their customer support systems (E), leading to delayed response times and customer dissatisfaction (x). Sarah is looking for a more robust CRM solution that can integrate seamlessly with their existing tools and handle increased ticket volumes (S, t). I suggested scheduling a product demo to showcase how our platform can streamline their support processes and enhance customer experience, and she seemed interested in setting that up next week.",
+      "description": "**Note Body:**\n\nI had an introductory call with World of Tech's procurement manager, Sarah Thompson. Their team is currently expanding and e",
+      "phone": null,
+      "createdate": "2025-10-27T00:42:16.000Z"
+    },
+    {
+      "id": "240060000035",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000035"
+      ],
+      "company_ids": [
+        "198000000035"
+      ],
+      "title": "Coffee Craze Prospect Evaluation",
+      "body": "Met with Coffee Craze's team to discuss their vision of expanding their brand presence through innovative coffee blends. They expressed the immediate need for improved inventory management as current systems are not scaling well with their growth, resulting in frequent stockouts. Suggested we schedule a demo of our inventory management solution to showcase how it can resolve their pain points efficiently. Next step: Arrange a product demo call with their operations manager next week.",
+      "description": "Met with Coffee Craze's team to discuss their vision of expanding their brand presence through innovative coffee blends. They expressed the ",
+      "phone": null,
+      "createdate": "2025-10-23T00:55:16.000Z"
+    },
+    {
+      "id": "240060000036",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000036"
+      ],
+      "company_ids": [
+        "198000000036"
+      ],
+      "title": "ExpressMart Customer Initial Status",
+      "body": "Initial contact with ExpressMart reveals their need to streamline inventory management (I) to keep up with rapid growth and fluctuating demand. They are currently experiencing significant delays and errors in stock replenishment (S), leading to lost sales opportunities and customer dissatisfaction (a). Recommend scheduling a demo of our inventory management solution to demonstrate how it can automate and optimize their restocking process, potentially alleviating these issues.",
+      "description": "Initial contact with ExpressMart reveals their need to streamline inventory management (I) to keep up with rapid growth and fluctuating dema",
+      "phone": null,
+      "createdate": "2025-10-29T14:27:16.000Z"
+    },
+    {
+      "id": "240060000037",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000037"
+      ],
+      "company_ids": [
+        "198000000037"
+      ],
+      "title": "Lead Status: Fresh Finds Supermarket",
+      "body": "Met with Fresh Finds Supermarket to understand their current needs and pain points. They are seeking a more efficient inventory management system (I) as their current setup is causing frequent stockouts and overstock situations (H). They also express the need for a streamlined order tracking process to enhance supply chain visibility (n). Recommend scheduling a demo of our inventory solution to showcase how it can address these challenges and improve their operational efficiency.",
+      "description": "Met with Fresh Finds Supermarket to understand their current needs and pain points. They are seeking a more efficient inventory management s",
+      "phone": null,
+      "createdate": "2025-11-02T14:44:16.000Z"
+    },
+    {
+      "id": "240060000038",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000038"
+      ],
+      "company_ids": [
+        "198000000038"
+      ],
+      "title": "Digital Pulse: Prospect Status Update",
+      "body": "During our initial conversation, the team at Digital Pulse expressed a pressing need for a more streamlined digital marketing strategy to boost their online presence and drive lead generation. They have been struggling with inconsistent brand messaging and outdated tools that fail to provide actionable insights, leading to missed opportunities and declining engagement. To address these challenges, I recommend scheduling a follow-up call to conduct a detailed assessment of their current marketing platforms and discuss potential solutions tailored to their specific objectives.",
+      "description": "During our initial conversation, the team at Digital Pulse expressed a pressing need for a more streamlined digital marketing strategy to bo",
+      "phone": null,
+      "createdate": "2025-10-26T15:16:16.000Z"
+    },
+    {
+      "id": "240060000039",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000039"
+      ],
+      "company_ids": [
+        "198000000039"
+      ],
+      "title": "New Style Studio Lead Entry",
+      "body": "Met with the team at Style Studio today to discuss their current challenges with inventory management and customer engagement. They are seeking a more efficient system to track inventory (M) and improve customer interaction scores (e), as their current tools feel disjointed and inadequate for their growing database (i). I suggested scheduling a demo of our integrated CRM solution to showcase its capabilities in addressing both inventory management and customer engagement. Let's set up a call next week to discuss this further and tailor a demonstration to their specific needs.",
+      "description": "Met with the team at Style Studio today to discuss their current challenges with inventory management and customer engagement. They are seek",
+      "phone": null,
+      "createdate": "2025-10-31T14:19:16.000Z"
+    },
+    {
+      "id": "240060000040",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000040"
+      ],
+      "company_ids": [
+        "198000000040"
+      ],
+      "title": "All Things Books - Lead Status",
+      "body": "Met with Sarah from All Things Books to discuss their current inventory management challenges. They are experiencing inefficiencies due to outdated software, causing delays and errors in order fulfillment. Sarah is particularly interested in exploring more integrated solutions to streamline operations and improve customer satisfaction. Suggested scheduling a demo of our inventory management platform to showcase how it can resolve these issues.",
+      "description": "Met with Sarah from All Things Books to discuss their current inventory management challenges. They are experiencing inefficiencies due to o",
+      "phone": null,
+      "createdate": "2025-10-22T06:03:16.000Z"
+    },
+    {
+      "id": "240060000041",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000041"
+      ],
+      "company_ids": [
+        "198000000041"
+      ],
+      "title": "BigBox Retailers Account Overview",
+      "body": "On today's call with BigBox Retailers, we learned that they are prioritizing enhancing their point-of-sale systems to better accommodate high-volume transactions and improve overall efficiency (P, r). They expressed frustration with frequent system downtimes and lag times that are impacting customer satisfaction and operational productivity (D, i). As a next step, I recommend setting up a demo of our advanced, reliable POS solutions to illustrate how we can address these challenges.",
+      "description": "On today's call with BigBox Retailers, we learned that they are prioritizing enhancing their point-of-sale systems to better accommodate hig",
+      "phone": null,
+      "createdate": "2025-10-25T06:37:16.000Z"
+    },
+    {
+      "id": "240060000042",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000042"
+      ],
+      "company_ids": [
+        "198000000042"
+      ],
+      "title": "Pet Essentials: Initial Prospect Status",
+      "body": "Initial contact with Pet Essentials highlighted their focus on sourcing high-quality, eco-friendly pet products to meet a growing demographic of environmentally conscious consumers (B, e). Currently, they are facing challenges with inventory management and lack of streamlined processes, which have been causing delays and inefficiencies in fulfilling orders (I, n). Recommend scheduling a demo of our inventory management system to address these pain points and discuss potential solutions tailored to their needs.",
+      "description": "Initial contact with Pet Essentials highlighted their focus on sourcing high-quality, eco-friendly pet products to meet a growing demographi",
+      "phone": null,
+      "createdate": "2025-11-01T10:56:16.000Z"
+    },
+    {
+      "id": "240060000043",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000043"
+      ],
+      "company_ids": [
+        "198000000043"
+      ],
+      "title": "Gadget Scene Customer Status Update",
+      "body": "During our initial conversation with Gadget Scene, Emily, the operations manager, expressed the need for an efficient fulfillment solution to handle their increasing e-commerce orders, particularly ahead of the holiday season. They are currently facing delays and inaccuracies due to their outdated inventory system, which impacts customer satisfaction and retention. I recommend setting up a demo to showcase how our integrated inventory management platform can streamline their process and improve accuracy.",
+      "description": "During our initial conversation with Gadget Scene, Emily, the operations manager, expressed the need for an efficient fulfillment solution t",
+      "phone": null,
+      "createdate": "2025-10-24T19:53:16.000Z"
+    },
+    {
+      "id": "240060000044",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000044"
+      ],
+      "company_ids": [
+        "198000000044"
+      ],
+      "title": "Belle & Co: New Lead Status",
+      "body": "Contacted Belle & Co. to discuss their current operational needs and challenges. They are seeking a flexible accounting solution that can seamlessly integrate with their existing systems, as they are currently struggling with the lack of automation in their financial reporting processes. Suggested scheduling a demo to showcase our software\u2019s integration capabilities and automation features to address these issues.",
+      "description": "Contacted Belle & Co. to discuss their current operational needs and challenges. They are seeking a flexible accounting solution that can se",
+      "phone": null,
+      "createdate": "2025-10-31T15:25:16.000Z"
+    },
+    {
+      "id": "240060000045",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000045"
+      ],
+      "company_ids": [
+        "198000000045"
+      ],
+      "title": "Initial Consultation: Retail Spectrum Status",
+      "body": "**Note:** Initial contact with Retail Spectrum revealed a need for enhanced inventory management (H) and optimization of in-store operations (o). The main pain points are difficulties with warehouse oversupply (W) and inefficient employee scheduling (e), which are affecting overall productivity. I recommend scheduling a discovery call to further assess their needs and explore tailored solutions that address these specific challenges.",
+      "description": "**Note:** Initial contact with Retail Spectrum revealed a need for enhanced inventory management (H) and optimization of in-store operations",
+      "phone": null,
+      "createdate": "2025-10-28T02:38:16.000Z"
+    },
+    {
+      "id": "240060000046",
+      "engagement_type": "NOTE",
+      "contact_ids": [
+        "302300000046"
+      ],
+      "company_ids": [
+        "198000000046"
+      ],
+      "title": "Gizmo World - Prospect Status",
+      "body": "Met with the purchasing manager from Gizmo World to discuss their current needs and challenges. They are actively looking for a more efficient inventory management system to streamline operations and reduce excess stock, which has been tying up capital and storage space. Additionally, they are experiencing slow turnaround times due to their outdated software. Recommended scheduling a demo of our inventory management solution that addresses these pain points to see if it aligns with their requirements.",
+      "description": "Met with the purchasing manager from Gizmo World to discuss their current needs and challenges. They are actively looking for a more efficie",
+      "phone": null,
+      "createdate": "2025-10-22T13:49:16.000Z"
+    }
+  ]
+}

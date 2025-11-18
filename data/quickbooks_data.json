@@ -1,0 +1,6925 @@
+{
+  "customers": [
+    {
+      "Id": "1",
+      "SyncToken": "0",
+      "DisplayName": "Retail Giants Inc",
+      "GivenName": "Alice",
+      "FamilyName": "Johnson",
+      "FullyQualifiedName": "Retail Giants Inc",
+      "CompanyName": "Retail Giants Inc",
+      "PrintOnCheckName": "Retail Giants Inc",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+19134539663"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "alice.johnson@retailgiantsinc.com"
+      },
+      "WebAddr": {
+        "URI": "http://retailgiantsinc.com"
+      },
+      "BillAddr": {
+        "Id": "1",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "1",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-16T23:59:27-07:00",
+        "LastUpdatedTime": "2025-10-23T21:59:27-07:00"
+      },
+      "V4IDPseudonym": "b4ae483a4d9840afa760ade192d9",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "2",
+      "SyncToken": "0",
+      "DisplayName": "Wholesale Depot",
+      "GivenName": "Mark",
+      "FamilyName": "Thompson",
+      "FullyQualifiedName": "Wholesale Depot",
+      "CompanyName": "Wholesale Depot",
+      "PrintOnCheckName": "Wholesale Depot",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+17792293719"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "mark.thompson@wholesaledepot.com"
+      },
+      "WebAddr": {
+        "URI": "http://wholesaledepot.com"
+      },
+      "BillAddr": {
+        "Id": "2",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "2",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-16T10:14:27-07:00",
+        "LastUpdatedTime": "2025-10-18T01:14:27-07:00"
+      },
+      "V4IDPseudonym": "023c5b17cb294cfa880e24268bc5",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "3",
+      "SyncToken": "0",
+      "DisplayName": "Trendsetters",
+      "GivenName": "Sophie",
+      "FamilyName": "Chang",
+      "FullyQualifiedName": "Trendsetters",
+      "CompanyName": "Trendsetters",
+      "PrintOnCheckName": "Trendsetters",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+19225142787"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "sophie.chang@trendsetters.com"
+      },
+      "WebAddr": {
+        "URI": "http://trendsetters.com"
+      },
+      "BillAddr": {
+        "Id": "3",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "3",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-16T09:09:27-07:00",
+        "LastUpdatedTime": "2025-10-21T04:09:27-07:00"
+      },
+      "V4IDPseudonym": "1fd3e91204d348148dbd6ee7fc81",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "4",
+      "SyncToken": "0",
+      "DisplayName": "ElectroMart",
+      "GivenName": "Raj",
+      "FamilyName": "Patel",
+      "FullyQualifiedName": "ElectroMart",
+      "CompanyName": "ElectroMart",
+      "PrintOnCheckName": "ElectroMart",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+13544074977"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "raj.patel@electromart.com"
+      },
+      "WebAddr": {
+        "URI": "http://electromart.com"
+      },
+      "BillAddr": {
+        "Id": "4",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "4",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-14T07:41:27-07:00",
+        "LastUpdatedTime": "2025-10-16T11:41:27-07:00"
+      },
+      "V4IDPseudonym": "a8669c81cffb45a7a09e4025b7fd",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "5",
+      "SyncToken": "0",
+      "DisplayName": "HomeGoods Haven",
+      "GivenName": "Lisa",
+      "FamilyName": "Tran",
+      "FullyQualifiedName": "HomeGoods Haven",
+      "CompanyName": "HomeGoods Haven",
+      "PrintOnCheckName": "HomeGoods Haven",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+12815798464"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "lisa.tran@homegoodshaven.com"
+      },
+      "WebAddr": {
+        "URI": "http://homegoodshaven.com"
+      },
+      "BillAddr": {
+        "Id": "5",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "5",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-17T21:02:27-07:00",
+        "LastUpdatedTime": "2025-10-21T06:02:27-07:00"
+      },
+      "V4IDPseudonym": "9ccdc362f642425487bb26c7e903",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "6",
+      "SyncToken": "0",
+      "DisplayName": "Grocery Titans",
+      "GivenName": "David",
+      "FamilyName": "Kim",
+      "FullyQualifiedName": "Grocery Titans",
+      "CompanyName": "Grocery Titans",
+      "PrintOnCheckName": "Grocery Titans",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+17222932968"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "david.kim@grocerytitans.com"
+      },
+      "WebAddr": {
+        "URI": "http://grocerytitans.com"
+      },
+      "BillAddr": {
+        "Id": "6",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "6",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-14T18:57:27-07:00",
+        "LastUpdatedTime": "2025-10-17T20:57:27-07:00"
+      },
+      "V4IDPseudonym": "7a9335eaabdf4985b40e560f4546",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "7",
+      "SyncToken": "0",
+      "DisplayName": "Fashion Forward",
+      "GivenName": "Jonathan",
+      "FamilyName": "Lee",
+      "FullyQualifiedName": "Fashion Forward",
+      "CompanyName": "Fashion Forward",
+      "PrintOnCheckName": "Fashion Forward",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+19877465622"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "jonathan.lee@fashionforward.com"
+      },
+      "WebAddr": {
+        "URI": "http://fashionforward.com"
+      },
+      "BillAddr": {
+        "Id": "7",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "7",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-15T19:56:27-07:00",
+        "LastUpdatedTime": "2025-10-19T07:56:27-07:00"
+      },
+      "V4IDPseudonym": "b052f35d94c74e45a7fb4a3f4ee9",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "8",
+      "SyncToken": "0",
+      "DisplayName": "TechBazaar",
+      "GivenName": "Priya",
+      "FamilyName": "Nair",
+      "FullyQualifiedName": "TechBazaar",
+      "CompanyName": "TechBazaar",
+      "PrintOnCheckName": "TechBazaar",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+15777117532"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "priya.nair@techbazaar.com"
+      },
+      "WebAddr": {
+        "URI": "http://techbazaar.com"
+      },
+      "BillAddr": {
+        "Id": "8",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "8",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-15T07:03:27-07:00",
+        "LastUpdatedTime": "2025-10-20T18:03:27-07:00"
+      },
+      "V4IDPseudonym": "0bf9b25f13ec4e4e8af4cbfa2cce",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "9",
+      "SyncToken": "0",
+      "DisplayName": "FreshMart Superstores",
+      "GivenName": "Carlos",
+      "FamilyName": "Diaz",
+      "FullyQualifiedName": "FreshMart Superstores",
+      "CompanyName": "FreshMart Superstores",
+      "PrintOnCheckName": "FreshMart Superstores",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+16722669584"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "carlos.diaz@freshmartsuperstores.com"
+      },
+      "WebAddr": {
+        "URI": "http://freshmartsuperstores.com"
+      },
+      "BillAddr": {
+        "Id": "9",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "9",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-19T05:03:27-07:00",
+        "LastUpdatedTime": "2025-10-19T12:03:27-07:00"
+      },
+      "V4IDPseudonym": "89a6017534a74b0ebef206a9e147",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "10",
+      "SyncToken": "0",
+      "DisplayName": "KidzKraze",
+      "GivenName": "Emma",
+      "FamilyName": "Smith",
+      "FullyQualifiedName": "KidzKraze",
+      "CompanyName": "KidzKraze",
+      "PrintOnCheckName": "KidzKraze",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+16134797427"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "emma.smith@kidzkraze.com"
+      },
+      "WebAddr": {
+        "URI": "http://kidzkraze.com"
+      },
+      "BillAddr": {
+        "Id": "10",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "10",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-19T22:42:27-07:00",
+        "LastUpdatedTime": "2025-10-22T19:42:27-07:00"
+      },
+      "V4IDPseudonym": "c072cf933b3e44a28cf368412c91",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "11",
+      "SyncToken": "0",
+      "DisplayName": "Clothing Hub",
+      "GivenName": "Anna",
+      "FamilyName": "M\u00fcller",
+      "FullyQualifiedName": "Clothing Hub",
+      "CompanyName": "Clothing Hub",
+      "PrintOnCheckName": "Clothing Hub",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+18775039360"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "anna.m\u00fcller@clothinghub.com"
+      },
+      "WebAddr": {
+        "URI": "http://clothinghub.com"
+      },
+      "BillAddr": {
+        "Id": "11",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "11",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-17T17:41:27-07:00",
+        "LastUpdatedTime": "2025-10-19T10:41:27-07:00"
+      },
+      "V4IDPseudonym": "8af030f69d4749c0b2dc76409113",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "12",
+      "SyncToken": "0",
+      "DisplayName": "WorldGadgets",
+      "GivenName": "Cheng",
+      "FamilyName": "Wong",
+      "FullyQualifiedName": "WorldGadgets",
+      "CompanyName": "WorldGadgets",
+      "PrintOnCheckName": "WorldGadgets",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+19525852596"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "cheng.wong@worldgadgets.com"
+      },
+      "WebAddr": {
+        "URI": "http://worldgadgets.com"
+      },
+      "BillAddr": {
+        "Id": "12",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "12",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-17T00:59:27-07:00",
+        "LastUpdatedTime": "2025-10-20T12:59:27-07:00"
+      },
+      "V4IDPseudonym": "61c56d83ac49409b8225d937c173",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "13",
+      "SyncToken": "0",
+      "DisplayName": "GreenEarth Grocers",
+      "GivenName": "Fatima",
+      "FamilyName": "Al-Farsi",
+      "FullyQualifiedName": "GreenEarth Grocers",
+      "CompanyName": "GreenEarth Grocers",
+      "PrintOnCheckName": "GreenEarth Grocers",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+18347683834"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "fatima.al-farsi@greenearthgrocers.com"
+      },
+      "WebAddr": {
+        "URI": "http://greenearthgrocers.com"
+      },
+      "BillAddr": {
+        "Id": "13",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "13",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-17T01:30:27-07:00",
+        "LastUpdatedTime": "2025-10-21T10:30:27-07:00"
+      },
+      "V4IDPseudonym": "50bf85fdbcdd4382ba55f4e98eb5",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "14",
+      "SyncToken": "0",
+      "DisplayName": "Style&More",
+      "GivenName": "Nina",
+      "FamilyName": "Kostova",
+      "FullyQualifiedName": "Style&More",
+      "CompanyName": "Style&More",
+      "PrintOnCheckName": "Style&More",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+18505602686"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "nina.kostova@stylemore.com"
+      },
+      "WebAddr": {
+        "URI": "http://style&more.com"
+      },
+      "BillAddr": {
+        "Id": "14",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "14",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-18T11:56:27-07:00",
+        "LastUpdatedTime": "2025-10-26T01:56:27-07:00"
+      },
+      "V4IDPseudonym": "9c226c837c184f2491dfe8b5b65c",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "15",
+      "SyncToken": "0",
+      "DisplayName": "Electro Universe",
+      "GivenName": "Liam",
+      "FamilyName": "O'Malley",
+      "FullyQualifiedName": "Electro Universe",
+      "CompanyName": "Electro Universe",
+      "PrintOnCheckName": "Electro Universe",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+13513145905"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "liam.o'malley@electrouniverse.com"
+      },
+      "WebAddr": {
+        "URI": "http://electrouniverse.com"
+      },
+      "BillAddr": {
+        "Id": "15",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "15",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-17T19:59:27-07:00",
+        "LastUpdatedTime": "2025-10-19T15:59:27-07:00"
+      },
+      "V4IDPseudonym": "284c6e44ad954f089485822c7a04",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "16",
+      "SyncToken": "0",
+      "DisplayName": "Books & Beyond",
+      "GivenName": "Olivia",
+      "FamilyName": "Evans",
+      "FullyQualifiedName": "Books & Beyond",
+      "CompanyName": "Books & Beyond",
+      "PrintOnCheckName": "Books & Beyond",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+15209106614"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "olivia.evans@booksbeyond.com"
+      },
+      "WebAddr": {
+        "URI": "http://books&beyond.com"
+      },
+      "BillAddr": {
+        "Id": "16",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "16",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-17T09:23:27-07:00",
+        "LastUpdatedTime": "2025-10-24T03:23:27-07:00"
+      },
+      "V4IDPseudonym": "6ab435edab5d4f53bf980d8099f5",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "17",
+      "SyncToken": "0",
+      "DisplayName": "AllTime Fashions",
+      "GivenName": "George",
+      "FamilyName": "Papadopoulos",
+      "FullyQualifiedName": "AllTime Fashions",
+      "CompanyName": "AllTime Fashions",
+      "PrintOnCheckName": "AllTime Fashions",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+16407388803"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "george.papadopoulos@alltimefashions.com"
+      },
+      "WebAddr": {
+        "URI": "http://alltimefashions.com"
+      },
+      "BillAddr": {
+        "Id": "17",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "17",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-13T02:08:27-07:00",
+        "LastUpdatedTime": "2025-10-19T14:08:27-07:00"
+      },
+      "V4IDPseudonym": "fbdfee08aeeb434ca78c3ca4dbc0",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "18",
+      "SyncToken": "0",
+      "DisplayName": "Market Masters",
+      "GivenName": "Sarah",
+      "FamilyName": "Bennett",
+      "FullyQualifiedName": "Market Masters",
+      "CompanyName": "Market Masters",
+      "PrintOnCheckName": "Market Masters",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+12403948816"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "sarah.bennett@marketmasters.com"
+      },
+      "WebAddr": {
+        "URI": "http://marketmasters.com"
+      },
+      "BillAddr": {
+        "Id": "18",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "18",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-13T04:36:27-07:00",
+        "LastUpdatedTime": "2025-10-21T01:36:27-07:00"
+      },
+      "V4IDPseudonym": "007c2f22b8634bd29a59e9dd6974",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "19",
+      "SyncToken": "0",
+      "DisplayName": "Urban Outfitters Now",
+      "GivenName": "Miguel",
+      "FamilyName": "Torres",
+      "FullyQualifiedName": "Urban Outfitters Now",
+      "CompanyName": "Urban Outfitters Now",
+      "PrintOnCheckName": "Urban Outfitters Now",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+17486201507"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "miguel.torres@urbanoutfittersnow.com"
+      },
+      "WebAddr": {
+        "URI": "http://urbanoutfittersnow.com"
+      },
+      "BillAddr": {
+        "Id": "19",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "19",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-15T13:13:27-07:00",
+        "LastUpdatedTime": "2025-10-15T21:13:27-07:00"
+      },
+      "V4IDPseudonym": "c91c85385cb84e0888e1a43ad916",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "20",
+      "SyncToken": "0",
+      "DisplayName": "PetParadise",
+      "GivenName": "Bethany",
+      "FamilyName": "Chandler",
+      "FullyQualifiedName": "PetParadise",
+      "CompanyName": "PetParadise",
+      "PrintOnCheckName": "PetParadise",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+12294854257"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "bethany.chandler@petparadise.com"
+      },
+      "WebAddr": {
+        "URI": "http://petparadise.com"
+      },
+      "BillAddr": {
+        "Id": "20",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "20",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-14T08:48:27-07:00",
+        "LastUpdatedTime": "2025-10-21T01:48:27-07:00"
+      },
+      "V4IDPseudonym": "82dd2aec459a4d04a4581abfa869",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "21",
+      "SyncToken": "0",
+      "DisplayName": "FoodLovers Market",
+      "GivenName": "Vito",
+      "FamilyName": "Amato",
+      "FullyQualifiedName": "FoodLovers Market",
+      "CompanyName": "FoodLovers Market",
+      "PrintOnCheckName": "FoodLovers Market",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+16345378661"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "vito.amato@foodloversmarket.com"
+      },
+      "WebAddr": {
+        "URI": "http://foodloversmarket.com"
+      },
+      "BillAddr": {
+        "Id": "21",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "21",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-13T13:28:27-07:00",
+        "LastUpdatedTime": "2025-10-19T21:28:27-07:00"
+      },
+      "V4IDPseudonym": "af66fdd175ae4846978c04744186",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "22",
+      "SyncToken": "0",
+      "DisplayName": "TechWhiz Depot",
+      "GivenName": "Kenji",
+      "FamilyName": "Watanabe",
+      "FullyQualifiedName": "TechWhiz Depot",
+      "CompanyName": "TechWhiz Depot",
+      "PrintOnCheckName": "TechWhiz Depot",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+15908979844"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "kenji.watanabe@techwhizdepot.com"
+      },
+      "WebAddr": {
+        "URI": "http://techwhizdepot.com"
+      },
+      "BillAddr": {
+        "Id": "22",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "22",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-13T16:36:27-07:00",
+        "LastUpdatedTime": "2025-10-18T07:36:27-07:00"
+      },
+      "V4IDPseudonym": "d7926adafd5e4d3abee0d435538d",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "23",
+      "SyncToken": "0",
+      "DisplayName": "Glamour Glow",
+      "GivenName": "Chantal",
+      "FamilyName": "Dubois",
+      "FullyQualifiedName": "Glamour Glow",
+      "CompanyName": "Glamour Glow",
+      "PrintOnCheckName": "Glamour Glow",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+12069736450"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "chantal.dubois@glamourglow.com"
+      },
+      "WebAddr": {
+        "URI": "http://glamourglow.com"
+      },
+      "BillAddr": {
+        "Id": "23",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "23",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-13T06:36:27-07:00",
+        "LastUpdatedTime": "2025-10-16T14:36:27-07:00"
+      },
+      "V4IDPseudonym": "4adab0a7d8c440edb3090f1fe1aa",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "24",
+      "SyncToken": "0",
+      "DisplayName": "TechHaven",
+      "GivenName": "Sanjay",
+      "FamilyName": "Verma",
+      "FullyQualifiedName": "TechHaven",
+      "CompanyName": "TechHaven",
+      "PrintOnCheckName": "TechHaven",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+15654927969"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "sanjay.verma@techhaven.com"
+      },
+      "WebAddr": {
+        "URI": "http://techhaven.com"
+      },
+      "BillAddr": {
+        "Id": "24",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "24",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-14T04:22:27-07:00",
+        "LastUpdatedTime": "2025-10-16T09:22:27-07:00"
+      },
+      "V4IDPseudonym": "0bd8d303cc124045bba03d042c82",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "25",
+      "SyncToken": "0",
+      "DisplayName": "Harvest Fresh",
+      "GivenName": "Elena",
+      "FamilyName": "Ionescu",
+      "FullyQualifiedName": "Harvest Fresh",
+      "CompanyName": "Harvest Fresh",
+      "PrintOnCheckName": "Harvest Fresh",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+17765167420"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "elena.ionescu@harvestfresh.com"
+      },
+      "WebAddr": {
+        "URI": "http://harvestfresh.com"
+      },
+      "BillAddr": {
+        "Id": "25",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "25",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-19T20:47:27-07:00",
+        "LastUpdatedTime": "2025-10-23T10:47:27-07:00"
+      },
+      "V4IDPseudonym": "4ef1e5bf034f4572ab084bdc5cdc",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "26",
+      "SyncToken": "0",
+      "DisplayName": "EcoMart",
+      "GivenName": "Linda",
+      "FamilyName": "Zhang",
+      "FullyQualifiedName": "EcoMart",
+      "CompanyName": "EcoMart",
+      "PrintOnCheckName": "EcoMart",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+17672062352"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "linda.zhang@ecomart.com"
+      },
+      "WebAddr": {
+        "URI": "http://ecomart.com"
+      },
+      "BillAddr": {
+        "Id": "26",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "26",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-15T17:34:27-07:00",
+        "LastUpdatedTime": "2025-10-23T02:34:27-07:00"
+      },
+      "V4IDPseudonym": "684b11ee8e3443cc88db240b01f7",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "27",
+      "SyncToken": "0",
+      "DisplayName": "Gadget Kingdom",
+      "GivenName": "Marisol",
+      "FamilyName": "Alvarez",
+      "FullyQualifiedName": "Gadget Kingdom",
+      "CompanyName": "Gadget Kingdom",
+      "PrintOnCheckName": "Gadget Kingdom",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+15665864361"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "marisol.alvarez@gadgetkingdom.com"
+      },
+      "WebAddr": {
+        "URI": "http://gadgetkingdom.com"
+      },
+      "BillAddr": {
+        "Id": "27",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "27",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-15T03:12:27-07:00",
+        "LastUpdatedTime": "2025-10-19T23:12:27-07:00"
+      },
+      "V4IDPseudonym": "526c8a6bd61741e887042d923196",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "28",
+      "SyncToken": "0",
+      "DisplayName": "Bookshelf",
+      "GivenName": "Aisha",
+      "FamilyName": "Abdel",
+      "FullyQualifiedName": "Bookshelf",
+      "CompanyName": "Bookshelf",
+      "PrintOnCheckName": "Bookshelf",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+15985526916"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "aisha.abdel@bookshelf.com"
+      },
+      "WebAddr": {
+        "URI": "http://bookshelf.com"
+      },
+      "BillAddr": {
+        "Id": "28",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "28",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-13T21:02:27-07:00",
+        "LastUpdatedTime": "2025-10-16T06:02:27-07:00"
+      },
+      "V4IDPseudonym": "0910b6357eea460aad47813ea150",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "29",
+      "SyncToken": "0",
+      "DisplayName": "StyleUp",
+      "GivenName": "Peter",
+      "FamilyName": "Chan",
+      "FullyQualifiedName": "StyleUp",
+      "CompanyName": "StyleUp",
+      "PrintOnCheckName": "StyleUp",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+17649659902"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "peter.chan@styleup.com"
+      },
+      "WebAddr": {
+        "URI": "http://styleup.com"
+      },
+      "BillAddr": {
+        "Id": "29",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "29",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-18T11:56:27-07:00",
+        "LastUpdatedTime": "2025-10-22T09:56:27-07:00"
+      },
+      "V4IDPseudonym": "0ea3dbeade4848498528a8266bde",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "30",
+      "SyncToken": "0",
+      "DisplayName": "TechNests",
+      "GivenName": "Sophia",
+      "FamilyName": "Rossi",
+      "FullyQualifiedName": "TechNests",
+      "CompanyName": "TechNests",
+      "PrintOnCheckName": "TechNests",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+12552377878"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "sophia.rossi@technests.com"
+      },
+      "WebAddr": {
+        "URI": "http://technests.com"
+      },
+      "BillAddr": {
+        "Id": "30",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "30",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-16T11:18:27-07:00",
+        "LastUpdatedTime": "2025-10-23T06:18:27-07:00"
+      },
+      "V4IDPseudonym": "52f41b9a48774b3fadb7714f1ea7",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "31",
+      "SyncToken": "0",
+      "DisplayName": "DreamDwellers",
+      "GivenName": "Mia",
+      "FamilyName": "Andersson",
+      "FullyQualifiedName": "DreamDwellers",
+      "CompanyName": "DreamDwellers",
+      "PrintOnCheckName": "DreamDwellers",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+16674036407"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "mia.andersson@dreamdwellers.com"
+      },
+      "WebAddr": {
+        "URI": "http://dreamdwellers.com"
+      },
+      "BillAddr": {
+        "Id": "31",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "31",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-14T01:50:27-07:00",
+        "LastUpdatedTime": "2025-10-19T01:50:27-07:00"
+      },
+      "V4IDPseudonym": "5e7327839fd848eda3e63eb6bcc6",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "32",
+      "SyncToken": "0",
+      "DisplayName": "FineFoods",
+      "GivenName": "Anton",
+      "FamilyName": "Perez",
+      "FullyQualifiedName": "FineFoods",
+      "CompanyName": "FineFoods",
+      "PrintOnCheckName": "FineFoods",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+18406212794"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "anton.perez@finefoods.com"
+      },
+      "WebAddr": {
+        "URI": "http://finefoods.com"
+      },
+      "BillAddr": {
+        "Id": "32",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "32",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-18T00:56:27-07:00",
+        "LastUpdatedTime": "2025-10-23T08:56:27-07:00"
+      },
+      "V4IDPseudonym": "286851c51c4a430287ab750aa1b4",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "33",
+      "SyncToken": "0",
+      "DisplayName": "ToyLand",
+      "GivenName": "Rachel",
+      "FamilyName": "Johnson",
+      "FullyQualifiedName": "ToyLand",
+      "CompanyName": "ToyLand",
+      "PrintOnCheckName": "ToyLand",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+13223085749"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "rachel.johnson@toyland.com"
+      },
+      "WebAddr": {
+        "URI": "http://toyland.com"
+      },
+      "BillAddr": {
+        "Id": "33",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "33",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-17T09:06:27-07:00",
+        "LastUpdatedTime": "2025-10-19T00:06:27-07:00"
+      },
+      "V4IDPseudonym": "eecc2db26493490887b4f1b76382",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "34",
+      "SyncToken": "0",
+      "DisplayName": "World of Tech",
+      "GivenName": "Tariq",
+      "FamilyName": "Khan",
+      "FullyQualifiedName": "World of Tech",
+      "CompanyName": "World of Tech",
+      "PrintOnCheckName": "World of Tech",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+18882455903"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "tariq.khan@worldoftech.com"
+      },
+      "WebAddr": {
+        "URI": "http://worldoftech.com"
+      },
+      "BillAddr": {
+        "Id": "34",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "34",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-17T07:01:27-07:00",
+        "LastUpdatedTime": "2025-10-25T05:01:27-07:00"
+      },
+      "V4IDPseudonym": "55022c838ea140aa9ed1777611af",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "35",
+      "SyncToken": "0",
+      "DisplayName": "Coffee Craze",
+      "GivenName": "Marco",
+      "FamilyName": "Romano",
+      "FullyQualifiedName": "Coffee Craze",
+      "CompanyName": "Coffee Craze",
+      "PrintOnCheckName": "Coffee Craze",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+16164712931"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "marco.romano@coffeecraze.com"
+      },
+      "WebAddr": {
+        "URI": "http://coffeecraze.com"
+      },
+      "BillAddr": {
+        "Id": "35",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "35",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-15T23:00:27-07:00",
+        "LastUpdatedTime": "2025-10-17T22:00:27-07:00"
+      },
+      "V4IDPseudonym": "aa60a48d65b34d98a489c1471795",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "36",
+      "SyncToken": "0",
+      "DisplayName": "ExpressMart",
+      "GivenName": "Fiona",
+      "FamilyName": "D\u00e9sir",
+      "FullyQualifiedName": "ExpressMart",
+      "CompanyName": "ExpressMart",
+      "PrintOnCheckName": "ExpressMart",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+16642651634"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "fiona.d\u00e9sir@expressmart.com"
+      },
+      "WebAddr": {
+        "URI": "http://expressmart.com"
+      },
+      "BillAddr": {
+        "Id": "36",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "36",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-19T17:57:27-07:00",
+        "LastUpdatedTime": "2025-10-20T21:57:27-07:00"
+      },
+      "V4IDPseudonym": "211a0fddfcd343f78ed8c8546f12",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "37",
+      "SyncToken": "0",
+      "DisplayName": "Fresh Finds Supermarket",
+      "GivenName": "Amelia",
+      "FamilyName": "Thompson",
+      "FullyQualifiedName": "Fresh Finds Supermarket",
+      "CompanyName": "Fresh Finds Supermarket",
+      "PrintOnCheckName": "Fresh Finds Supermarket",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+14992774531"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "amelia.thompson@freshfindssupermarket.com"
+      },
+      "WebAddr": {
+        "URI": "http://freshfindssupermarket.com"
+      },
+      "BillAddr": {
+        "Id": "37",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "37",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-19T01:46:27-07:00",
+        "LastUpdatedTime": "2025-10-26T22:46:27-07:00"
+      },
+      "V4IDPseudonym": "fbfcb826cb4746849611348cc7e7",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "38",
+      "SyncToken": "0",
+      "DisplayName": "Digital Pulse",
+      "GivenName": "Islam",
+      "FamilyName": "Halabi",
+      "FullyQualifiedName": "Digital Pulse",
+      "CompanyName": "Digital Pulse",
+      "PrintOnCheckName": "Digital Pulse",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+13562209458"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "islam.halabi@digitalpulse.com"
+      },
+      "WebAddr": {
+        "URI": "http://digitalpulse.com"
+      },
+      "BillAddr": {
+        "Id": "38",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "38",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-16T07:48:27-07:00",
+        "LastUpdatedTime": "2025-10-18T07:48:27-07:00"
+      },
+      "V4IDPseudonym": "b453d2b51fb9493eab89c5998390",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "39",
+      "SyncToken": "0",
+      "DisplayName": "Style Studio",
+      "GivenName": "Chloe",
+      "FamilyName": "Peterson",
+      "FullyQualifiedName": "Style Studio",
+      "CompanyName": "Style Studio",
+      "PrintOnCheckName": "Style Studio",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+18574348741"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "chloe.peterson@stylestudio.com"
+      },
+      "WebAddr": {
+        "URI": "http://stylestudio.com"
+      },
+      "BillAddr": {
+        "Id": "39",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "39",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-16T04:00:27-07:00",
+        "LastUpdatedTime": "2025-10-20T19:00:27-07:00"
+      },
+      "V4IDPseudonym": "9f2b9669a11a4ec28ce350ddb603",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "40",
+      "SyncToken": "0",
+      "DisplayName": "All Things Books",
+      "GivenName": "Arya",
+      "FamilyName": "Singh",
+      "FullyQualifiedName": "All Things Books",
+      "CompanyName": "All Things Books",
+      "PrintOnCheckName": "All Things Books",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+16658393786"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "arya.singh@allthingsbooks.com"
+      },
+      "WebAddr": {
+        "URI": "http://allthingsbooks.com"
+      },
+      "BillAddr": {
+        "Id": "40",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "40",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-15T04:48:27-07:00",
+        "LastUpdatedTime": "2025-10-16T21:48:27-07:00"
+      },
+      "V4IDPseudonym": "7781857eff624a9fa8b969e43325",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "41",
+      "SyncToken": "0",
+      "DisplayName": "BigBox Retailers",
+      "GivenName": "Martha",
+      "FamilyName": "Wallace",
+      "FullyQualifiedName": "BigBox Retailers",
+      "CompanyName": "BigBox Retailers",
+      "PrintOnCheckName": "BigBox Retailers",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+13778848280"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "martha.wallace@bigboxretailers.com"
+      },
+      "WebAddr": {
+        "URI": "http://bigboxretailers.com"
+      },
+      "BillAddr": {
+        "Id": "41",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "41",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-15T17:42:27-07:00",
+        "LastUpdatedTime": "2025-10-22T07:42:27-07:00"
+      },
+      "V4IDPseudonym": "58897ea3a8634ef2969f2d1f795f",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "42",
+      "SyncToken": "0",
+      "DisplayName": "Pet Essentials",
+      "GivenName": "Gretchen",
+      "FamilyName": "Klima",
+      "FullyQualifiedName": "Pet Essentials",
+      "CompanyName": "Pet Essentials",
+      "PrintOnCheckName": "Pet Essentials",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+19974422268"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "gretchen.klima@petessentials.com"
+      },
+      "WebAddr": {
+        "URI": "http://petessentials.com"
+      },
+      "BillAddr": {
+        "Id": "42",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "42",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-18T07:22:27-07:00",
+        "LastUpdatedTime": "2025-10-23T22:22:27-07:00"
+      },
+      "V4IDPseudonym": "8f85e224374f4b83b94654b65883",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "43",
+      "SyncToken": "0",
+      "DisplayName": "Gadget Scene",
+      "GivenName": "Samir",
+      "FamilyName": "Idris",
+      "FullyQualifiedName": "Gadget Scene",
+      "CompanyName": "Gadget Scene",
+      "PrintOnCheckName": "Gadget Scene",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+12766675921"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "samir.idris@gadgetscene.com"
+      },
+      "WebAddr": {
+        "URI": "http://gadgetscene.com"
+      },
+      "BillAddr": {
+        "Id": "43",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "43",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-14T01:13:27-07:00",
+        "LastUpdatedTime": "2025-10-21T18:13:27-07:00"
+      },
+      "V4IDPseudonym": "75b7acc673a747c39c8eb8ab6977",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "44",
+      "SyncToken": "0",
+      "DisplayName": "Belle & Co",
+      "GivenName": "Colette",
+      "FamilyName": "Boucher",
+      "FullyQualifiedName": "Belle & Co",
+      "CompanyName": "Belle & Co",
+      "PrintOnCheckName": "Belle & Co",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+19786194852"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "colette.boucher@belleco.com"
+      },
+      "WebAddr": {
+        "URI": "http://belle&co.com"
+      },
+      "BillAddr": {
+        "Id": "44",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "44",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-18T22:26:27-07:00",
+        "LastUpdatedTime": "2025-10-20T06:26:27-07:00"
+      },
+      "V4IDPseudonym": "a988265eed714901b2e161d35cb9",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "45",
+      "SyncToken": "0",
+      "DisplayName": "Retail Spectrum",
+      "GivenName": "Jun",
+      "FamilyName": "Park",
+      "FullyQualifiedName": "Retail Spectrum",
+      "CompanyName": "Retail Spectrum",
+      "PrintOnCheckName": "Retail Spectrum",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+18399109608"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "jun.park@retailspectrum.com"
+      },
+      "WebAddr": {
+        "URI": "http://retailspectrum.com"
+      },
+      "BillAddr": {
+        "Id": "45",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "45",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-15T07:50:27-07:00",
+        "LastUpdatedTime": "2025-10-20T06:50:27-07:00"
+      },
+      "V4IDPseudonym": "adbe59442f1b497fb605853faa64",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "46",
+      "SyncToken": "0",
+      "DisplayName": "Gizmo World",
+      "GivenName": "Aiden",
+      "FamilyName": "Smith",
+      "FullyQualifiedName": "Gizmo World",
+      "CompanyName": "Gizmo World",
+      "PrintOnCheckName": "Gizmo World",
+      "Active": true,
+      "PrimaryPhone": {
+        "FreeFormNumber": "+14092696993"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "aiden.smith@gizmoworld.com"
+      },
+      "WebAddr": {
+        "URI": "http://gizmoworld.com"
+      },
+      "BillAddr": {
+        "Id": "46",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "ShipAddr": {
+        "Id": "46",
+        "Line1": "",
+        "City": "",
+        "CountrySubDivisionCode": "",
+        "PostalCode": "",
+        "Lat": "INVALID",
+        "Long": "INVALID"
+      },
+      "Notes": "",
+      "Taxable": true,
+      "DefaultTaxCodeRef": {
+        "value": "2"
+      },
+      "SalesTermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "PaymentMethodRef": {
+        "value": "1",
+        "name": "Cash"
+      },
+      "Balance": 0,
+      "BalanceWithJobs": 0,
+      "PreferredDeliveryMethod": "Email",
+      "Job": false,
+      "BillWithParent": false,
+      "Level": 0,
+      "IsProject": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-18T03:43:27-07:00",
+        "LastUpdatedTime": "2025-10-18T11:43:27-07:00"
+      },
+      "V4IDPseudonym": "fc36e06753534730b2128ddf71b3",
+      "domain": "QBO",
+      "sparse": false
+    }
+  ],
+  "items": [
+    {
+      "Id": "1",
+      "Name": "VantageLens Inventory Optimizer",
+      "Description": "A sophisticated tool designed to streamline inventory management by leveraging predictive analytics to forecast demand, reducing overstock and stockouts. Retailers can significantly improve inventory turnover rates and minimize holding costs.",
+      "Type": "Service",
+      "Taxable": true,
+      "UnitPrice": 249.99,
+      "IncomeAccountRef": {
+        "value": "79",
+        "name": "Sales of Product Income"
+      }
+    },
+    {
+      "Id": "2",
+      "Name": "VantageLens Customer Insights Explorer",
+      "Description": "An advanced analytics solution that offers deep insights into customer behavior and preferences. Retailers can tailor marketing strategies and personalize shopping experiences to drive engagement and sales.",
+      "Type": "Service",
+      "Taxable": false,
+      "UnitPrice": 199.99,
+      "IncomeAccountRef": {
+        "value": "79",
+        "name": "Sales of Product Income"
+      }
+    },
+    {
+      "Id": "3",
+      "Name": "VantageLens Pricing Strategy Advisor",
+      "Description": "A comprehensive platform that utilizes AI-driven analytics to devise optimal pricing strategies for retail products. This helps businesses remain competitive while maximizing profit margins.",
+      "Type": "Service",
+      "Taxable": false,
+      "UnitPrice": 299.99,
+      "IncomeAccountRef": {
+        "value": "79",
+        "name": "Sales of Product Income"
+      }
+    },
+    {
+      "Id": "4",
+      "Name": "VantageLens Visual Merchandising Assistant",
+      "Description": "A tool crafted to enhance in-store layout and product placement through data-driven insights. It aids retailers in designing visually appealing store arrangements that boost customer attraction and sales conversion rates.",
+      "Type": "Service",
+      "Taxable": true,
+      "UnitPrice": 149.99,
+      "IncomeAccountRef": {
+        "value": "79",
+        "name": "Sales of Product Income"
+      }
+    },
+    {
+      "Id": "5",
+      "Name": "VantageLens Omni-Channel Insights Dashboard",
+      "Description": "An all-in-one dashboard providing comprehensive insights across various sales channels. Retail businesses can seamlessly track and analyze performance, ensuring a cohesive and integrated approach to their sales strategy.",
+      "Type": "Service",
+      "Taxable": true,
+      "UnitPrice": 349.99,
+      "IncomeAccountRef": {
+        "value": "79",
+        "name": "Sales of Product Income"
+      }
+    }
+  ],
+  "vendors": [
+    {
+      "Id": "1",
+      "SyncToken": "0",
+      "DisplayName": "Tech Supplies Inc",
+      "CompanyName": "Tech Supplies Incorporated",
+      "PrintOnCheckName": "Tech Supplies Incorporated",
+      "Active": true,
+      "Balance": 0,
+      "Vendor1099": false,
+      "PrimaryPhone": {
+        "FreeFormNumber": "415-555-0101"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "contact@techsuppliesinc.com"
+      },
+      "BillAddr": {
+        "Id": "1",
+        "Line1": "123 Tech Blvd",
+        "City": "San Francisco",
+        "CountrySubDivisionCode": "CA",
+        "PostalCode": "94103",
+        "Lat": "",
+        "Long": ""
+      },
+      "TermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-18T08:27:27-07:00",
+        "LastUpdatedTime": "2025-10-18T22:27:27-07:00"
+      },
+      "V4IDPseudonym": "92b6866dc4944680ad6421de53980b48",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "2",
+      "SyncToken": "0",
+      "DisplayName": "Software Tools Co",
+      "CompanyName": "Software Tools Company",
+      "PrintOnCheckName": "Software Tools Company",
+      "Active": true,
+      "Balance": 0,
+      "Vendor1099": false,
+      "PrimaryPhone": {
+        "FreeFormNumber": "415-555-0202"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "sales@softwaretoolsco.com"
+      },
+      "BillAddr": {
+        "Id": "2",
+        "Line1": "456 App Ave",
+        "City": "San Francisco",
+        "CountrySubDivisionCode": "CA",
+        "PostalCode": "94107",
+        "Lat": "",
+        "Long": ""
+      },
+      "TermRef": {
+        "value": "3",
+        "name": "Net 15"
+      },
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-18T00:48:27-07:00",
+        "LastUpdatedTime": "2025-10-24T14:48:27-07:00"
+      },
+      "V4IDPseudonym": "5d8d46b28b9e427190282294c085a888",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "3",
+      "SyncToken": "0",
+      "DisplayName": "Global Cloud Partners",
+      "CompanyName": "Global Cloud Partners LLC",
+      "PrintOnCheckName": "Global Cloud Partners LLC",
+      "Active": true,
+      "Balance": 0,
+      "Vendor1099": false,
+      "PrimaryPhone": {
+        "FreeFormNumber": "415-555-0303"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "info@globalcloudpartners.com"
+      },
+      "BillAddr": {
+        "Id": "3",
+        "Line1": "789 Innovate Way",
+        "City": "San Francisco",
+        "CountrySubDivisionCode": "CA",
+        "PostalCode": "94108",
+        "Lat": "",
+        "Long": ""
+      },
+      "TermRef": {
+        "value": "3",
+        "name": "Due on receipt"
+      },
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-14T04:13:27-07:00",
+        "LastUpdatedTime": "2025-10-17T17:13:27-07:00"
+      },
+      "V4IDPseudonym": "c34262be6a01409696b0f92aad58fda5",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "4",
+      "SyncToken": "0",
+      "DisplayName": "Data Center Solutions",
+      "CompanyName": "Data Center Solutions Ltd",
+      "PrintOnCheckName": "Data Center Solutions Ltd",
+      "Active": true,
+      "Balance": 0,
+      "Vendor1099": false,
+      "PrimaryPhone": {
+        "FreeFormNumber": "415-555-0404"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "support@datacentersolutions.com"
+      },
+      "BillAddr": {
+        "Id": "4",
+        "Line1": "321 Network St",
+        "City": "San Francisco",
+        "CountrySubDivisionCode": "CA",
+        "PostalCode": "94105",
+        "Lat": "",
+        "Long": ""
+      },
+      "TermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-19T22:39:27-07:00",
+        "LastUpdatedTime": "2025-10-23T18:39:27-07:00"
+      },
+      "V4IDPseudonym": "6f6b7d545c9644c18818a98b2e355edc",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "5",
+      "SyncToken": "0",
+      "DisplayName": "Office Essentials",
+      "CompanyName": "Office Essentials Inc",
+      "PrintOnCheckName": "Office Essentials Inc",
+      "Active": true,
+      "Balance": 0,
+      "Vendor1099": false,
+      "PrimaryPhone": {
+        "FreeFormNumber": "415-555-0505"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "orders@officeessentials.com"
+      },
+      "BillAddr": {
+        "Id": "5",
+        "Line1": "654 Workspace Rd",
+        "City": "San Francisco",
+        "CountrySubDivisionCode": "CA",
+        "PostalCode": "94109",
+        "Lat": "",
+        "Long": ""
+      },
+      "TermRef": {
+        "value": "3",
+        "name": "Net 15"
+      },
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-13T11:49:27-07:00",
+        "LastUpdatedTime": "2025-10-17T14:49:27-07:00"
+      },
+      "V4IDPseudonym": "aae601fa399e410cbc77a08dee94263f",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "6",
+      "SyncToken": "0",
+      "DisplayName": "Cloud Infrastructure Ltd",
+      "CompanyName": "Cloud Infrastructure Limited",
+      "PrintOnCheckName": "Cloud Infrastructure Limited",
+      "Active": true,
+      "Balance": 0,
+      "Vendor1099": false,
+      "PrimaryPhone": {
+        "FreeFormNumber": "415-555-0606"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "sales@cloudinfraltd.com"
+      },
+      "BillAddr": {
+        "Id": "6",
+        "Line1": "888 Sky Lane",
+        "City": "San Francisco",
+        "CountrySubDivisionCode": "CA",
+        "PostalCode": "94110",
+        "Lat": "",
+        "Long": ""
+      },
+      "TermRef": {
+        "value": "3",
+        "name": "Due on receipt"
+      },
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-17T20:03:27-07:00",
+        "LastUpdatedTime": "2025-10-23T18:03:27-07:00"
+      },
+      "V4IDPseudonym": "ed30851ea00a4a0a937d959ad404da2f",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "7",
+      "SyncToken": "0",
+      "DisplayName": "IT Support Services",
+      "CompanyName": "IT Support Services LLC",
+      "PrintOnCheckName": "IT Support Services LLC",
+      "Active": true,
+      "Balance": 0,
+      "Vendor1099": false,
+      "PrimaryPhone": {
+        "FreeFormNumber": "415-555-0707"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "helpdesk@itsupportservices.com"
+      },
+      "BillAddr": {
+        "Id": "7",
+        "Line1": "910 IT Drive",
+        "City": "San Francisco",
+        "CountrySubDivisionCode": "CA",
+        "PostalCode": "94111",
+        "Lat": "",
+        "Long": ""
+      },
+      "TermRef": {
+        "value": "3",
+        "name": "Net 30"
+      },
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-14T18:29:27-07:00",
+        "LastUpdatedTime": "2025-10-20T10:29:27-07:00"
+      },
+      "V4IDPseudonym": "fcd070df60844a21bfc74ffe4c1b6340",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "8",
+      "SyncToken": "0",
+      "DisplayName": "Hardware Warehouse",
+      "CompanyName": "Hardware Warehouse Corp",
+      "PrintOnCheckName": "Hardware Warehouse Corp",
+      "Active": true,
+      "Balance": 0,
+      "Vendor1099": false,
+      "PrimaryPhone": {
+        "FreeFormNumber": "415-555-0808"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "purchases@hardwarewarehouse.com"
+      },
+      "BillAddr": {
+        "Id": "8",
+        "Line1": "112 Tech Park",
+        "City": "San Francisco",
+        "CountrySubDivisionCode": "CA",
+        "PostalCode": "94112",
+        "Lat": "",
+        "Long": ""
+      },
+      "TermRef": {
+        "value": "3",
+        "name": "Net 15"
+      },
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-13T21:23:27-07:00",
+        "LastUpdatedTime": "2025-10-20T22:23:27-07:00"
+      },
+      "V4IDPseudonym": "afadc101940049578ba9ba7cfe63ac2a",
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "9",
+      "SyncToken": "0",
+      "DisplayName": "Digital Solutions Group",
+      "CompanyName": "Digital Solutions Group Inc",
+      "PrintOnCheckName": "Digital Solutions Group Inc",
+      "Active": true,
+      "Balance": 0,
+      "Vendor1099": false,
+      "PrimaryPhone": {
+        "FreeFormNumber": "415-555-0909"
+      },
+      "PrimaryEmailAddr": {
+        "Address": "contact@digitalsolutionsgroup.com"
+      },
+      "BillAddr": {
+        "Id": "9",
+        "Line1": "135 Web Circle",
+        "City": "San Francisco",
+        "CountrySubDivisionCode": "CA",
+        "PostalCode": "94113",
+        "Lat": "",
+        "Long": ""
+      },
+      "TermRef": {
+        "value": "3",
+        "name": "Due on receipt"
+      },
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-13T09:00:27-07:00",
+        "LastUpdatedTime": "2025-10-14T16:00:27-07:00"
+      },
+      "V4IDPseudonym": "199efc55011f4e30ae1c491877866d29",
+      "domain": "QBO",
+      "sparse": false
+    }
+  ],
+  "accounts": [
+    {
+      "Id": "71",
+      "SyncToken": "0",
+      "Name": "Sales Revenue",
+      "FullyQualifiedName": "Sales Revenue",
+      "Active": true,
+      "Classification": "Revenue",
+      "AccountType": "Income",
+      "AccountSubType": "Sales of Product Income",
+      "CurrentBalance": 0,
+      "CurrentBalanceWithSubAccounts": 0,
+      "SubAccount": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-19T14:02:27-07:00",
+        "LastUpdatedTime": "2025-10-27T05:02:27-07:00"
+      },
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "72",
+      "SyncToken": "0",
+      "Name": "Service Revenue",
+      "FullyQualifiedName": "Service Revenue",
+      "Active": true,
+      "Classification": "Revenue",
+      "AccountType": "Income",
+      "AccountSubType": "Service/Fee Income",
+      "CurrentBalance": 0,
+      "CurrentBalanceWithSubAccounts": 0,
+      "SubAccount": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-20T03:16:27-07:00",
+        "LastUpdatedTime": "2025-10-23T18:16:27-07:00"
+      },
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "73",
+      "SyncToken": "0",
+      "Name": "Bank Account",
+      "FullyQualifiedName": "Bank Account",
+      "Active": true,
+      "Classification": "Asset",
+      "AccountType": "Bank",
+      "AccountSubType": "Checking",
+      "CurrentBalance": 0,
+      "CurrentBalanceWithSubAccounts": 0,
+      "SubAccount": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-17T09:04:27-07:00",
+        "LastUpdatedTime": "2025-10-23T23:04:27-07:00"
+      },
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "74",
+      "SyncToken": "0",
+      "Name": "Accounts Payable",
+      "FullyQualifiedName": "Accounts Payable",
+      "Active": true,
+      "Classification": "Liability",
+      "AccountType": "Accounts Payable",
+      "AccountSubType": "Accounts Payable",
+      "CurrentBalance": 0,
+      "CurrentBalanceWithSubAccounts": 0,
+      "SubAccount": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-17T09:28:27-07:00",
+        "LastUpdatedTime": "2025-10-22T08:28:27-07:00"
+      },
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "75",
+      "SyncToken": "0",
+      "Name": "Office Supplies Expense",
+      "FullyQualifiedName": "Office Supplies Expense",
+      "Active": true,
+      "Classification": "Expense",
+      "AccountType": "Expenses",
+      "AccountSubType": "Supplies & Materials",
+      "CurrentBalance": 0,
+      "CurrentBalanceWithSubAccounts": 0,
+      "SubAccount": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-16T02:54:27-07:00",
+        "LastUpdatedTime": "2025-10-16T13:54:27-07:00"
+      },
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "76",
+      "SyncToken": "0",
+      "Name": "Rent Expense",
+      "FullyQualifiedName": "Rent Expense",
+      "Active": true,
+      "Classification": "Expense",
+      "AccountType": "Expenses",
+      "AccountSubType": "Rent & Lease",
+      "CurrentBalance": 0,
+      "CurrentBalanceWithSubAccounts": 0,
+      "SubAccount": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-21T17:01:27-07:00",
+        "LastUpdatedTime": "2025-10-24T09:01:27-07:00"
+      },
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "77",
+      "SyncToken": "0",
+      "Name": "Utilities Expense",
+      "FullyQualifiedName": "Utilities Expense",
+      "Active": true,
+      "Classification": "Expense",
+      "AccountType": "Expenses",
+      "AccountSubType": "Utilities",
+      "CurrentBalance": 0,
+      "CurrentBalanceWithSubAccounts": 0,
+      "SubAccount": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-19T03:12:27-07:00",
+        "LastUpdatedTime": "2025-10-26T02:12:27-07:00"
+      },
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "78",
+      "SyncToken": "0",
+      "Name": "Insurance Expense",
+      "FullyQualifiedName": "Insurance Expense",
+      "Active": true,
+      "Classification": "Expense",
+      "AccountType": "Expenses",
+      "AccountSubType": "Insurance",
+      "CurrentBalance": 0,
+      "CurrentBalanceWithSubAccounts": 0,
+      "SubAccount": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-20T04:58:27-07:00",
+        "LastUpdatedTime": "2025-10-26T19:58:27-07:00"
+      },
+      "domain": "QBO",
+      "sparse": false
+    },
+    {
+      "Id": "79",
+      "SyncToken": "0",
+      "Name": "Payroll Expense",
+      "FullyQualifiedName": "Payroll Expense",
+      "Active": true,
+      "Classification": "Expense",
+      "AccountType": "Expenses",
+      "AccountSubType": "Wages & Salaries",
+      "CurrentBalance": 0,
+      "CurrentBalanceWithSubAccounts": 0,
+      "SubAccount": false,
+      "CurrencyRef": {
+        "value": "USD",
+        "name": "United States Dollar"
+      },
+      "MetaData": {
+        "CreateTime": "2025-10-17T14:04:27-07:00",
+        "LastUpdatedTime": "2025-10-21T02:04:27-07:00"
+      },
+      "domain": "QBO",
+      "sparse": false
+    }
+  ],
+  "invoices": [
+    {
+      "Id": "1",
+      "CustomerRef": {
+        "value": "1"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 1049.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "5",
+              "name": "VantageLens Omni-Channel Insights Dashboard"
+            },
+            "Qty": 3,
+            "UnitPrice": 349.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-25",
+      "TotalAmt": 1049.97,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-31T13:10:27-07:00",
+        "LastUpdatedTime": "2025-11-01T10:10:27-07:00"
+      }
+    },
+    {
+      "Id": "2",
+      "CustomerRef": {
+        "value": "2"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 149.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "4",
+              "name": "VantageLens Visual Merchandising Assistant"
+            },
+            "Qty": 1,
+            "UnitPrice": 149.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 149.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "4",
+              "name": "VantageLens Visual Merchandising Assistant"
+            },
+            "Qty": 1,
+            "UnitPrice": 149.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-28",
+      "TotalAmt": 299.98,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-28T01:12:27-07:00",
+        "LastUpdatedTime": "2025-10-30T06:12:27-07:00"
+      }
+    },
+    {
+      "Id": "3",
+      "CustomerRef": {
+        "value": "3"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 749.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 3,
+            "UnitPrice": 249.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-03",
+      "TotalAmt": 749.97,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-03T17:32:27-07:00",
+        "LastUpdatedTime": "2025-11-11T03:32:27-07:00"
+      }
+    },
+    {
+      "Id": "4",
+      "CustomerRef": {
+        "value": "4"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 599.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "2",
+              "name": "VantageLens Customer Insights Explorer"
+            },
+            "Qty": 3,
+            "UnitPrice": 199.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-01",
+      "TotalAmt": 599.97,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-03T09:16:27-07:00",
+        "LastUpdatedTime": "2025-11-07T09:16:27-07:00"
+      }
+    },
+    {
+      "Id": "5",
+      "CustomerRef": {
+        "value": "5"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 449.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "4",
+              "name": "VantageLens Visual Merchandising Assistant"
+            },
+            "Qty": 3,
+            "UnitPrice": 149.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 599.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "3",
+              "name": "VantageLens Pricing Strategy Advisor"
+            },
+            "Qty": 2,
+            "UnitPrice": 299.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-29",
+      "TotalAmt": 1049.95,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-06T11:47:27-07:00",
+        "LastUpdatedTime": "2025-11-13T00:47:27-07:00"
+      }
+    },
+    {
+      "Id": "6",
+      "CustomerRef": {
+        "value": "6"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 599.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "2",
+              "name": "VantageLens Customer Insights Explorer"
+            },
+            "Qty": 3,
+            "UnitPrice": 199.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 749.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 3,
+            "UnitPrice": 249.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-05",
+      "TotalAmt": 1349.94,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-27T08:45:27-07:00",
+        "LastUpdatedTime": "2025-11-03T12:45:27-07:00"
+      }
+    },
+    {
+      "Id": "7",
+      "CustomerRef": {
+        "value": "7"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 749.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 3,
+            "UnitPrice": 249.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 249.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 1,
+            "UnitPrice": 249.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-28",
+      "TotalAmt": 999.96,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-28T05:44:27-07:00",
+        "LastUpdatedTime": "2025-10-29T16:44:27-07:00"
+      }
+    },
+    {
+      "Id": "8",
+      "CustomerRef": {
+        "value": "8"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 199.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "2",
+              "name": "VantageLens Customer Insights Explorer"
+            },
+            "Qty": 1,
+            "UnitPrice": 199.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 1049.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "5",
+              "name": "VantageLens Omni-Channel Insights Dashboard"
+            },
+            "Qty": 3,
+            "UnitPrice": 349.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-29",
+      "TotalAmt": 1249.96,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-05T09:28:27-07:00",
+        "LastUpdatedTime": "2025-11-05T10:28:27-07:00"
+      }
+    },
+    {
+      "Id": "9",
+      "CustomerRef": {
+        "value": "9"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 499.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 2,
+            "UnitPrice": 249.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-02",
+      "TotalAmt": 499.98,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-29T07:57:27-07:00",
+        "LastUpdatedTime": "2025-10-31T02:57:27-07:00"
+      }
+    },
+    {
+      "Id": "10",
+      "CustomerRef": {
+        "value": "10"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 499.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 2,
+            "UnitPrice": 249.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-27",
+      "TotalAmt": 499.98,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-31T14:56:27-07:00",
+        "LastUpdatedTime": "2025-11-02T02:56:27-07:00"
+      }
+    },
+    {
+      "Id": "11",
+      "CustomerRef": {
+        "value": "11"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 249.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 1,
+            "UnitPrice": 249.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-29",
+      "TotalAmt": 249.99,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-31T07:00:27-07:00",
+        "LastUpdatedTime": "2025-11-02T21:00:27-07:00"
+      }
+    },
+    {
+      "Id": "12",
+      "CustomerRef": {
+        "value": "12"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 899.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "3",
+              "name": "VantageLens Pricing Strategy Advisor"
+            },
+            "Qty": 3,
+            "UnitPrice": 299.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 1049.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "5",
+              "name": "VantageLens Omni-Channel Insights Dashboard"
+            },
+            "Qty": 3,
+            "UnitPrice": 349.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-28",
+      "TotalAmt": 1949.94,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-06T14:06:27-07:00",
+        "LastUpdatedTime": "2025-11-06T23:06:27-07:00"
+      }
+    },
+    {
+      "Id": "13",
+      "CustomerRef": {
+        "value": "13"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 199.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "2",
+              "name": "VantageLens Customer Insights Explorer"
+            },
+            "Qty": 1,
+            "UnitPrice": 199.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-26",
+      "TotalAmt": 199.99,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-01T00:41:27-07:00",
+        "LastUpdatedTime": "2025-11-02T06:41:27-07:00"
+      }
+    },
+    {
+      "Id": "14",
+      "CustomerRef": {
+        "value": "14"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 449.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "4",
+              "name": "VantageLens Visual Merchandising Assistant"
+            },
+            "Qty": 3,
+            "UnitPrice": 149.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 399.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "2",
+              "name": "VantageLens Customer Insights Explorer"
+            },
+            "Qty": 2,
+            "UnitPrice": 199.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-01",
+      "TotalAmt": 849.95,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-05T19:19:27-07:00",
+        "LastUpdatedTime": "2025-11-11T23:19:27-07:00"
+      }
+    },
+    {
+      "Id": "15",
+      "CustomerRef": {
+        "value": "15"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 899.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "3",
+              "name": "VantageLens Pricing Strategy Advisor"
+            },
+            "Qty": 3,
+            "UnitPrice": 299.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 699.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "5",
+              "name": "VantageLens Omni-Channel Insights Dashboard"
+            },
+            "Qty": 2,
+            "UnitPrice": 349.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-27",
+      "TotalAmt": 1599.95,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-30T00:38:27-07:00",
+        "LastUpdatedTime": "2025-11-06T16:38:27-07:00"
+      }
+    },
+    {
+      "Id": "16",
+      "CustomerRef": {
+        "value": "16"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 1049.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "5",
+              "name": "VantageLens Omni-Channel Insights Dashboard"
+            },
+            "Qty": 3,
+            "UnitPrice": 349.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-26",
+      "TotalAmt": 1049.97,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-01T07:58:27-07:00",
+        "LastUpdatedTime": "2025-11-03T01:58:27-07:00"
+      }
+    },
+    {
+      "Id": "17",
+      "CustomerRef": {
+        "value": "17"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 599.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "2",
+              "name": "VantageLens Customer Insights Explorer"
+            },
+            "Qty": 3,
+            "UnitPrice": 199.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 699.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "5",
+              "name": "VantageLens Omni-Channel Insights Dashboard"
+            },
+            "Qty": 2,
+            "UnitPrice": 349.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-29",
+      "TotalAmt": 1299.95,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-30T07:47:27-07:00",
+        "LastUpdatedTime": "2025-11-03T13:47:27-07:00"
+      }
+    },
+    {
+      "Id": "18",
+      "CustomerRef": {
+        "value": "18"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 599.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "3",
+              "name": "VantageLens Pricing Strategy Advisor"
+            },
+            "Qty": 2,
+            "UnitPrice": 299.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-03",
+      "TotalAmt": 599.98,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-05T06:10:27-07:00",
+        "LastUpdatedTime": "2025-11-12T02:10:27-07:00"
+      }
+    },
+    {
+      "Id": "19",
+      "CustomerRef": {
+        "value": "19"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 499.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 2,
+            "UnitPrice": 249.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 299.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "3",
+              "name": "VantageLens Pricing Strategy Advisor"
+            },
+            "Qty": 1,
+            "UnitPrice": 299.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-27",
+      "TotalAmt": 799.97,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-27T15:50:27-07:00",
+        "LastUpdatedTime": "2025-11-01T02:50:27-07:00"
+      }
+    },
+    {
+      "Id": "20",
+      "CustomerRef": {
+        "value": "20"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 299.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "3",
+              "name": "VantageLens Pricing Strategy Advisor"
+            },
+            "Qty": 1,
+            "UnitPrice": 299.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-02",
+      "TotalAmt": 299.99,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-30T08:10:27-07:00",
+        "LastUpdatedTime": "2025-11-03T09:10:27-07:00"
+      }
+    },
+    {
+      "Id": "21",
+      "CustomerRef": {
+        "value": "21"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 299.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "3",
+              "name": "VantageLens Pricing Strategy Advisor"
+            },
+            "Qty": 1,
+            "UnitPrice": 299.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 499.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 2,
+            "UnitPrice": 249.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-25",
+      "TotalAmt": 799.97,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-29T08:45:27-07:00",
+        "LastUpdatedTime": "2025-10-29T09:45:27-07:00"
+      }
+    },
+    {
+      "Id": "22",
+      "CustomerRef": {
+        "value": "22"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 299.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "3",
+              "name": "VantageLens Pricing Strategy Advisor"
+            },
+            "Qty": 1,
+            "UnitPrice": 299.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 249.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 1,
+            "UnitPrice": 249.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-01",
+      "TotalAmt": 549.98,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-06T17:58:27-07:00",
+        "LastUpdatedTime": "2025-11-08T04:58:27-07:00"
+      }
+    },
+    {
+      "Id": "23",
+      "CustomerRef": {
+        "value": "23"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 399.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "2",
+              "name": "VantageLens Customer Insights Explorer"
+            },
+            "Qty": 2,
+            "UnitPrice": 199.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 699.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "5",
+              "name": "VantageLens Omni-Channel Insights Dashboard"
+            },
+            "Qty": 2,
+            "UnitPrice": 349.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-29",
+      "TotalAmt": 1099.96,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-30T09:18:27-07:00",
+        "LastUpdatedTime": "2025-10-31T19:18:27-07:00"
+      }
+    },
+    {
+      "Id": "24",
+      "CustomerRef": {
+        "value": "24"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 199.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "2",
+              "name": "VantageLens Customer Insights Explorer"
+            },
+            "Qty": 1,
+            "UnitPrice": 199.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-26",
+      "TotalAmt": 199.99,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-31T12:52:27-07:00",
+        "LastUpdatedTime": "2025-11-06T04:52:27-07:00"
+      }
+    },
+    {
+      "Id": "25",
+      "CustomerRef": {
+        "value": "25"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 499.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 2,
+            "UnitPrice": 249.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 449.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "4",
+              "name": "VantageLens Visual Merchandising Assistant"
+            },
+            "Qty": 3,
+            "UnitPrice": 149.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-03",
+      "TotalAmt": 949.95,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-05T17:41:27-07:00",
+        "LastUpdatedTime": "2025-11-08T06:41:27-07:00"
+      }
+    },
+    {
+      "Id": "26",
+      "CustomerRef": {
+        "value": "26"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 499.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 2,
+            "UnitPrice": 249.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 749.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 3,
+            "UnitPrice": 249.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-05",
+      "TotalAmt": 1249.95,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-30T00:35:27-07:00",
+        "LastUpdatedTime": "2025-11-02T06:35:27-07:00"
+      }
+    },
+    {
+      "Id": "27",
+      "CustomerRef": {
+        "value": "27"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 699.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "5",
+              "name": "VantageLens Omni-Channel Insights Dashboard"
+            },
+            "Qty": 2,
+            "UnitPrice": 349.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-30",
+      "TotalAmt": 699.98,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-31T18:22:27-07:00",
+        "LastUpdatedTime": "2025-11-02T01:22:27-07:00"
+      }
+    },
+    {
+      "Id": "28",
+      "CustomerRef": {
+        "value": "28"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 149.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "4",
+              "name": "VantageLens Visual Merchandising Assistant"
+            },
+            "Qty": 1,
+            "UnitPrice": 149.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 449.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "4",
+              "name": "VantageLens Visual Merchandising Assistant"
+            },
+            "Qty": 3,
+            "UnitPrice": 149.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-06",
+      "TotalAmt": 599.96,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-31T00:58:27-07:00",
+        "LastUpdatedTime": "2025-11-04T04:58:27-07:00"
+      }
+    },
+    {
+      "Id": "29",
+      "CustomerRef": {
+        "value": "29"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 149.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "4",
+              "name": "VantageLens Visual Merchandising Assistant"
+            },
+            "Qty": 1,
+            "UnitPrice": 149.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 899.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "3",
+              "name": "VantageLens Pricing Strategy Advisor"
+            },
+            "Qty": 3,
+            "UnitPrice": 299.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-06",
+      "TotalAmt": 1049.96,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-01T03:29:27-07:00",
+        "LastUpdatedTime": "2025-11-03T08:29:27-07:00"
+      }
+    },
+    {
+      "Id": "30",
+      "CustomerRef": {
+        "value": "30"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 699.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "5",
+              "name": "VantageLens Omni-Channel Insights Dashboard"
+            },
+            "Qty": 2,
+            "UnitPrice": 349.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 399.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "2",
+              "name": "VantageLens Customer Insights Explorer"
+            },
+            "Qty": 2,
+            "UnitPrice": 199.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-29",
+      "TotalAmt": 1099.96,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-30T20:09:27-07:00",
+        "LastUpdatedTime": "2025-11-07T14:09:27-07:00"
+      }
+    },
+    {
+      "Id": "31",
+      "CustomerRef": {
+        "value": "31"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 749.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 3,
+            "UnitPrice": 249.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 1049.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "5",
+              "name": "VantageLens Omni-Channel Insights Dashboard"
+            },
+            "Qty": 3,
+            "UnitPrice": 349.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-03",
+      "TotalAmt": 1799.94,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-30T17:01:27-07:00",
+        "LastUpdatedTime": "2025-11-03T11:01:27-07:00"
+      }
+    },
+    {
+      "Id": "32",
+      "CustomerRef": {
+        "value": "32"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 149.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "4",
+              "name": "VantageLens Visual Merchandising Assistant"
+            },
+            "Qty": 1,
+            "UnitPrice": 149.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-27",
+      "TotalAmt": 149.99,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-30T13:15:27-07:00",
+        "LastUpdatedTime": "2025-10-31T06:15:27-07:00"
+      }
+    },
+    {
+      "Id": "33",
+      "CustomerRef": {
+        "value": "33"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 349.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "5",
+              "name": "VantageLens Omni-Channel Insights Dashboard"
+            },
+            "Qty": 1,
+            "UnitPrice": 349.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-28",
+      "TotalAmt": 349.99,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-25T13:04:27-07:00",
+        "LastUpdatedTime": "2025-11-02T08:04:27-07:00"
+      }
+    },
+    {
+      "Id": "34",
+      "CustomerRef": {
+        "value": "34"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 299.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "4",
+              "name": "VantageLens Visual Merchandising Assistant"
+            },
+            "Qty": 2,
+            "UnitPrice": 149.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-04",
+      "TotalAmt": 299.98,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-26T19:05:27-07:00",
+        "LastUpdatedTime": "2025-10-28T20:05:27-07:00"
+      }
+    },
+    {
+      "Id": "35",
+      "CustomerRef": {
+        "value": "35"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 299.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "4",
+              "name": "VantageLens Visual Merchandising Assistant"
+            },
+            "Qty": 2,
+            "UnitPrice": 149.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 699.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "5",
+              "name": "VantageLens Omni-Channel Insights Dashboard"
+            },
+            "Qty": 2,
+            "UnitPrice": 349.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-06",
+      "TotalAmt": 999.96,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-30T19:04:27-07:00",
+        "LastUpdatedTime": "2025-11-01T14:04:27-07:00"
+      }
+    },
+    {
+      "Id": "36",
+      "CustomerRef": {
+        "value": "36"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 399.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "2",
+              "name": "VantageLens Customer Insights Explorer"
+            },
+            "Qty": 2,
+            "UnitPrice": 199.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-28",
+      "TotalAmt": 399.98,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-02T20:03:27-07:00",
+        "LastUpdatedTime": "2025-11-03T18:03:27-07:00"
+      }
+    },
+    {
+      "Id": "37",
+      "CustomerRef": {
+        "value": "37"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 349.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "5",
+              "name": "VantageLens Omni-Channel Insights Dashboard"
+            },
+            "Qty": 1,
+            "UnitPrice": 349.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 499.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 2,
+            "UnitPrice": 249.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-02",
+      "TotalAmt": 849.97,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-04T19:01:27-07:00",
+        "LastUpdatedTime": "2025-11-06T19:01:27-07:00"
+      }
+    },
+    {
+      "Id": "38",
+      "CustomerRef": {
+        "value": "38"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 749.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 3,
+            "UnitPrice": 249.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-02",
+      "TotalAmt": 749.97,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-04T11:29:27-07:00",
+        "LastUpdatedTime": "2025-11-07T03:29:27-07:00"
+      }
+    },
+    {
+      "Id": "39",
+      "CustomerRef": {
+        "value": "39"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 749.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 3,
+            "UnitPrice": 249.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 349.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "5",
+              "name": "VantageLens Omni-Channel Insights Dashboard"
+            },
+            "Qty": 1,
+            "UnitPrice": 349.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-02",
+      "TotalAmt": 1099.96,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-01T13:48:27-07:00",
+        "LastUpdatedTime": "2025-11-07T08:48:27-07:00"
+      }
+    },
+    {
+      "Id": "40",
+      "CustomerRef": {
+        "value": "40"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 299.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "3",
+              "name": "VantageLens Pricing Strategy Advisor"
+            },
+            "Qty": 1,
+            "UnitPrice": 299.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 899.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "3",
+              "name": "VantageLens Pricing Strategy Advisor"
+            },
+            "Qty": 3,
+            "UnitPrice": 299.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-01",
+      "TotalAmt": 1199.96,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-31T19:50:27-07:00",
+        "LastUpdatedTime": "2025-11-03T18:50:27-07:00"
+      }
+    },
+    {
+      "Id": "41",
+      "CustomerRef": {
+        "value": "41"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 249.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 1,
+            "UnitPrice": 249.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-30",
+      "TotalAmt": 249.99,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-04T13:05:27-07:00",
+        "LastUpdatedTime": "2025-11-07T17:05:27-07:00"
+      }
+    },
+    {
+      "Id": "42",
+      "CustomerRef": {
+        "value": "42"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 899.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "3",
+              "name": "VantageLens Pricing Strategy Advisor"
+            },
+            "Qty": 3,
+            "UnitPrice": 299.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 599.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "2",
+              "name": "VantageLens Customer Insights Explorer"
+            },
+            "Qty": 3,
+            "UnitPrice": 199.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-05",
+      "TotalAmt": 1499.94,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-29T18:01:27-07:00",
+        "LastUpdatedTime": "2025-11-05T05:01:27-07:00"
+      }
+    },
+    {
+      "Id": "43",
+      "CustomerRef": {
+        "value": "43"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 299.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "4",
+              "name": "VantageLens Visual Merchandising Assistant"
+            },
+            "Qty": 2,
+            "UnitPrice": 149.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 449.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "4",
+              "name": "VantageLens Visual Merchandising Assistant"
+            },
+            "Qty": 3,
+            "UnitPrice": 149.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-03",
+      "TotalAmt": 749.95,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-03T21:43:27-07:00",
+        "LastUpdatedTime": "2025-11-09T11:43:27-07:00"
+      }
+    },
+    {
+      "Id": "44",
+      "CustomerRef": {
+        "value": "44"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 399.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "2",
+              "name": "VantageLens Customer Insights Explorer"
+            },
+            "Qty": 2,
+            "UnitPrice": 199.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-02",
+      "TotalAmt": 399.98,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-05T08:07:27-07:00",
+        "LastUpdatedTime": "2025-11-12T04:07:27-07:00"
+      }
+    },
+    {
+      "Id": "45",
+      "CustomerRef": {
+        "value": "45"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 749.97,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 3,
+            "UnitPrice": 249.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 299.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "4",
+              "name": "VantageLens Visual Merchandising Assistant"
+            },
+            "Qty": 2,
+            "UnitPrice": 149.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-29",
+      "TotalAmt": 1049.95,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-04T05:14:27-07:00",
+        "LastUpdatedTime": "2025-11-04T13:14:27-07:00"
+      }
+    },
+    {
+      "Id": "46",
+      "CustomerRef": {
+        "value": "46"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 499.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 2,
+            "UnitPrice": 249.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-31",
+      "TotalAmt": 499.98,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-01T20:06:27-07:00",
+        "LastUpdatedTime": "2025-11-05T17:06:27-07:00"
+      }
+    },
+    {
+      "Id": "47",
+      "CustomerRef": {
+        "value": "1"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 249.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "1",
+              "name": "VantageLens Inventory Optimizer"
+            },
+            "Qty": 1,
+            "UnitPrice": 249.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 149.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "4",
+              "name": "VantageLens Visual Merchandising Assistant"
+            },
+            "Qty": 1,
+            "UnitPrice": 149.99
+          }
+        }
+      ],
+      "TxnDate": "2025-10-29",
+      "TotalAmt": 399.98,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-31T07:15:27-07:00",
+        "LastUpdatedTime": "2025-11-08T04:15:27-07:00"
+      }
+    },
+    {
+      "Id": "48",
+      "CustomerRef": {
+        "value": "2"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 199.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "2",
+              "name": "VantageLens Customer Insights Explorer"
+            },
+            "Qty": 1,
+            "UnitPrice": 199.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 149.99,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "4",
+              "name": "VantageLens Visual Merchandising Assistant"
+            },
+            "Qty": 1,
+            "UnitPrice": 149.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-03",
+      "TotalAmt": 349.98,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-01T07:41:27-07:00",
+        "LastUpdatedTime": "2025-11-07T01:41:27-07:00"
+      }
+    },
+    {
+      "Id": "49",
+      "CustomerRef": {
+        "value": "3"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 399.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "2",
+              "name": "VantageLens Customer Insights Explorer"
+            },
+            "Qty": 2,
+            "UnitPrice": 199.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 399.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "2",
+              "name": "VantageLens Customer Insights Explorer"
+            },
+            "Qty": 2,
+            "UnitPrice": 199.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-03",
+      "TotalAmt": 799.96,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-27T06:09:27-07:00",
+        "LastUpdatedTime": "2025-10-31T11:09:27-07:00"
+      }
+    },
+    {
+      "Id": "50",
+      "CustomerRef": {
+        "value": "4"
+      },
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 399.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "2",
+              "name": "VantageLens Customer Insights Explorer"
+            },
+            "Qty": 2,
+            "UnitPrice": 199.99
+          }
+        },
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 599.98,
+          "SalesItemLineDetail": {
+            "ItemRef": {
+              "value": "3",
+              "name": "VantageLens Pricing Strategy Advisor"
+            },
+            "Qty": 2,
+            "UnitPrice": 299.99
+          }
+        }
+      ],
+      "TxnDate": "2025-11-05",
+      "TotalAmt": 999.96,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-27T07:11:27-07:00",
+        "LastUpdatedTime": "2025-10-30T00:11:27-07:00"
+      }
+    }
+  ],
+  "bills": [
+    {
+      "Id": "1",
+      "VendorRef": {
+        "value": "1",
+        "name": "Tech Supplies Inc"
+      },
+      "TxnDate": "2025-11-06",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 400.53,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "75",
+              "name": "Office Supplies Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 400.53,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-29T13:57:27-07:00",
+        "LastUpdatedTime": "2025-11-01T10:57:27-07:00"
+      }
+    },
+    {
+      "Id": "2",
+      "VendorRef": {
+        "value": "2",
+        "name": "Software Tools Co"
+      },
+      "TxnDate": "2025-10-29",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 408.4,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "76",
+              "name": "Rent Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 408.4,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-31T16:06:27-07:00",
+        "LastUpdatedTime": "2025-11-04T11:06:27-07:00"
+      }
+    },
+    {
+      "Id": "3",
+      "VendorRef": {
+        "value": "3",
+        "name": "Global Cloud Partners"
+      },
+      "TxnDate": "2025-10-30",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 59.84,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "78",
+              "name": "Insurance Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 59.84,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-26T16:01:27-07:00",
+        "LastUpdatedTime": "2025-10-27T17:01:27-07:00"
+      }
+    },
+    {
+      "Id": "4",
+      "VendorRef": {
+        "value": "4",
+        "name": "Data Center Solutions"
+      },
+      "TxnDate": "2025-10-27",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 498.43,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "77",
+              "name": "Utilities Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 498.43,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-25T02:26:27-07:00",
+        "LastUpdatedTime": "2025-10-27T01:26:27-07:00"
+      }
+    },
+    {
+      "Id": "5",
+      "VendorRef": {
+        "value": "5",
+        "name": "Office Essentials"
+      },
+      "TxnDate": "2025-10-31",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 198.45,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "77",
+              "name": "Utilities Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 198.45,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-06T18:34:27-07:00",
+        "LastUpdatedTime": "2025-11-11T19:34:27-07:00"
+      }
+    },
+    {
+      "Id": "6",
+      "VendorRef": {
+        "value": "6",
+        "name": "Cloud Infrastructure Ltd"
+      },
+      "TxnDate": "2025-11-02",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 110.32,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "79",
+              "name": "Payroll Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 110.32,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-25T04:20:27-07:00",
+        "LastUpdatedTime": "2025-10-28T16:20:27-07:00"
+      }
+    },
+    {
+      "Id": "7",
+      "VendorRef": {
+        "value": "7",
+        "name": "IT Support Services"
+      },
+      "TxnDate": "2025-10-30",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 245.63,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "78",
+              "name": "Insurance Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 245.63,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-28T11:14:27-07:00",
+        "LastUpdatedTime": "2025-11-03T16:14:27-07:00"
+      }
+    },
+    {
+      "Id": "8",
+      "VendorRef": {
+        "value": "8",
+        "name": "Hardware Warehouse"
+      },
+      "TxnDate": "2025-10-27",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 304.93,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "76",
+              "name": "Rent Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 304.93,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-26T10:33:27-07:00",
+        "LastUpdatedTime": "2025-10-28T07:33:27-07:00"
+      }
+    },
+    {
+      "Id": "9",
+      "VendorRef": {
+        "value": "9",
+        "name": "Digital Solutions Group"
+      },
+      "TxnDate": "2025-11-01",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 489.11,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "78",
+              "name": "Insurance Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 489.11,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-28T06:37:27-07:00",
+        "LastUpdatedTime": "2025-10-30T02:37:27-07:00"
+      }
+    },
+    {
+      "Id": "10",
+      "VendorRef": {
+        "value": "1",
+        "name": "Tech Supplies Inc"
+      },
+      "TxnDate": "2025-11-02",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 129.4,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "79",
+              "name": "Payroll Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 129.4,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-06T02:13:27-07:00",
+        "LastUpdatedTime": "2025-11-08T06:13:27-07:00"
+      }
+    },
+    {
+      "Id": "11",
+      "VendorRef": {
+        "value": "2",
+        "name": "Software Tools Co"
+      },
+      "TxnDate": "2025-11-05",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 466.68,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "75",
+              "name": "Office Supplies Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 466.68,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-06T12:30:27-07:00",
+        "LastUpdatedTime": "2025-11-13T11:30:27-07:00"
+      }
+    },
+    {
+      "Id": "12",
+      "VendorRef": {
+        "value": "3",
+        "name": "Global Cloud Partners"
+      },
+      "TxnDate": "2025-11-01",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 158.59,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "75",
+              "name": "Office Supplies Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 158.59,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-03T14:58:27-07:00",
+        "LastUpdatedTime": "2025-11-05T13:58:27-07:00"
+      }
+    },
+    {
+      "Id": "13",
+      "VendorRef": {
+        "value": "4",
+        "name": "Data Center Solutions"
+      },
+      "TxnDate": "2025-11-06",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 418.11,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "75",
+              "name": "Office Supplies Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 418.11,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-02T20:20:27-07:00",
+        "LastUpdatedTime": "2025-11-03T16:20:27-07:00"
+      }
+    },
+    {
+      "Id": "14",
+      "VendorRef": {
+        "value": "5",
+        "name": "Office Essentials"
+      },
+      "TxnDate": "2025-10-25",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 439.58,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "79",
+              "name": "Payroll Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 439.58,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-02T15:34:27-07:00",
+        "LastUpdatedTime": "2025-11-04T01:34:27-07:00"
+      }
+    },
+    {
+      "Id": "15",
+      "VendorRef": {
+        "value": "6",
+        "name": "Cloud Infrastructure Ltd"
+      },
+      "TxnDate": "2025-10-31",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 145.08,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "75",
+              "name": "Office Supplies Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 145.08,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-31T05:49:27-07:00",
+        "LastUpdatedTime": "2025-11-04T02:49:27-07:00"
+      }
+    },
+    {
+      "Id": "16",
+      "VendorRef": {
+        "value": "7",
+        "name": "IT Support Services"
+      },
+      "TxnDate": "2025-10-29",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 305.15,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "79",
+              "name": "Payroll Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 305.15,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-29T15:05:27-07:00",
+        "LastUpdatedTime": "2025-11-05T22:05:27-07:00"
+      }
+    },
+    {
+      "Id": "17",
+      "VendorRef": {
+        "value": "8",
+        "name": "Hardware Warehouse"
+      },
+      "TxnDate": "2025-10-26",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 66.49,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "75",
+              "name": "Office Supplies Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 66.49,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-31T11:10:27-07:00",
+        "LastUpdatedTime": "2025-11-03T08:10:27-07:00"
+      }
+    },
+    {
+      "Id": "18",
+      "VendorRef": {
+        "value": "9",
+        "name": "Digital Solutions Group"
+      },
+      "TxnDate": "2025-11-05",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 392.05,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "77",
+              "name": "Utilities Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 392.05,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-05T19:42:27-07:00",
+        "LastUpdatedTime": "2025-11-06T05:42:27-07:00"
+      }
+    },
+    {
+      "Id": "19",
+      "VendorRef": {
+        "value": "1",
+        "name": "Tech Supplies Inc"
+      },
+      "TxnDate": "2025-10-27",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 378.2,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "78",
+              "name": "Insurance Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 378.2,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-04T15:20:27-07:00",
+        "LastUpdatedTime": "2025-11-05T04:20:27-07:00"
+      }
+    },
+    {
+      "Id": "20",
+      "VendorRef": {
+        "value": "2",
+        "name": "Software Tools Co"
+      },
+      "TxnDate": "2025-10-29",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 452.16,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "79",
+              "name": "Payroll Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 452.16,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-26T17:11:27-07:00",
+        "LastUpdatedTime": "2025-11-03T14:11:27-07:00"
+      }
+    },
+    {
+      "Id": "21",
+      "VendorRef": {
+        "value": "3",
+        "name": "Global Cloud Partners"
+      },
+      "TxnDate": "2025-10-31",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 215.75,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "76",
+              "name": "Rent Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 215.75,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-06T11:55:27-07:00",
+        "LastUpdatedTime": "2025-11-06T14:55:27-07:00"
+      }
+    },
+    {
+      "Id": "22",
+      "VendorRef": {
+        "value": "4",
+        "name": "Data Center Solutions"
+      },
+      "TxnDate": "2025-11-02",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 454.9,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "77",
+              "name": "Utilities Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 454.9,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-27T03:56:27-07:00",
+        "LastUpdatedTime": "2025-10-29T00:56:27-07:00"
+      }
+    },
+    {
+      "Id": "23",
+      "VendorRef": {
+        "value": "5",
+        "name": "Office Essentials"
+      },
+      "TxnDate": "2025-11-02",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 340.87,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "79",
+              "name": "Payroll Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 340.87,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-02T18:20:27-07:00",
+        "LastUpdatedTime": "2025-11-10T14:20:27-07:00"
+      }
+    },
+    {
+      "Id": "24",
+      "VendorRef": {
+        "value": "6",
+        "name": "Cloud Infrastructure Ltd"
+      },
+      "TxnDate": "2025-10-26",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 424.38,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "76",
+              "name": "Rent Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 424.38,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-01T19:30:27-07:00",
+        "LastUpdatedTime": "2025-11-06T12:30:27-07:00"
+      }
+    },
+    {
+      "Id": "25",
+      "VendorRef": {
+        "value": "7",
+        "name": "IT Support Services"
+      },
+      "TxnDate": "2025-11-02",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 92.15,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "75",
+              "name": "Office Supplies Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 92.15,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-27T00:13:27-07:00",
+        "LastUpdatedTime": "2025-11-02T15:13:27-07:00"
+      }
+    },
+    {
+      "Id": "26",
+      "VendorRef": {
+        "value": "8",
+        "name": "Hardware Warehouse"
+      },
+      "TxnDate": "2025-11-04",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 342.58,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "76",
+              "name": "Rent Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 342.58,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-05T18:47:27-07:00",
+        "LastUpdatedTime": "2025-11-06T12:47:27-07:00"
+      }
+    },
+    {
+      "Id": "27",
+      "VendorRef": {
+        "value": "9",
+        "name": "Digital Solutions Group"
+      },
+      "TxnDate": "2025-10-28",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 244.93,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "78",
+              "name": "Insurance Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 244.93,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-04T06:39:27-07:00",
+        "LastUpdatedTime": "2025-11-07T18:39:27-07:00"
+      }
+    },
+    {
+      "Id": "28",
+      "VendorRef": {
+        "value": "1",
+        "name": "Tech Supplies Inc"
+      },
+      "TxnDate": "2025-11-04",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 104.9,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "78",
+              "name": "Insurance Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 104.9,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-30T02:53:27-07:00",
+        "LastUpdatedTime": "2025-11-02T02:53:27-07:00"
+      }
+    },
+    {
+      "Id": "29",
+      "VendorRef": {
+        "value": "2",
+        "name": "Software Tools Co"
+      },
+      "TxnDate": "2025-11-03",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 320.19,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "78",
+              "name": "Insurance Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 320.19,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-30T15:20:27-07:00",
+        "LastUpdatedTime": "2025-10-31T22:20:27-07:00"
+      }
+    },
+    {
+      "Id": "30",
+      "VendorRef": {
+        "value": "3",
+        "name": "Global Cloud Partners"
+      },
+      "TxnDate": "2025-11-02",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 430.88,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "78",
+              "name": "Insurance Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 430.88,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-29T13:56:27-07:00",
+        "LastUpdatedTime": "2025-10-31T06:56:27-07:00"
+      }
+    },
+    {
+      "Id": "31",
+      "VendorRef": {
+        "value": "4",
+        "name": "Data Center Solutions"
+      },
+      "TxnDate": "2025-11-01",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 318.52,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "77",
+              "name": "Utilities Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 318.52,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-06T11:29:27-07:00",
+        "LastUpdatedTime": "2025-11-10T14:29:27-07:00"
+      }
+    },
+    {
+      "Id": "32",
+      "VendorRef": {
+        "value": "5",
+        "name": "Office Essentials"
+      },
+      "TxnDate": "2025-10-29",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 98.86,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "78",
+              "name": "Insurance Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 98.86,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-27T07:41:27-07:00",
+        "LastUpdatedTime": "2025-11-03T11:41:27-07:00"
+      }
+    },
+    {
+      "Id": "33",
+      "VendorRef": {
+        "value": "6",
+        "name": "Cloud Infrastructure Ltd"
+      },
+      "TxnDate": "2025-11-02",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 471.0,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "75",
+              "name": "Office Supplies Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 471.0,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-01T09:45:27-07:00",
+        "LastUpdatedTime": "2025-11-08T08:45:27-07:00"
+      }
+    },
+    {
+      "Id": "34",
+      "VendorRef": {
+        "value": "7",
+        "name": "IT Support Services"
+      },
+      "TxnDate": "2025-11-06",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 201.68,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "79",
+              "name": "Payroll Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 201.68,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-02T03:42:27-07:00",
+        "LastUpdatedTime": "2025-11-03T13:42:27-07:00"
+      }
+    },
+    {
+      "Id": "35",
+      "VendorRef": {
+        "value": "8",
+        "name": "Hardware Warehouse"
+      },
+      "TxnDate": "2025-11-02",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 164.95,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "77",
+              "name": "Utilities Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 164.95,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-30T07:45:27-07:00",
+        "LastUpdatedTime": "2025-10-30T13:45:27-07:00"
+      }
+    },
+    {
+      "Id": "36",
+      "VendorRef": {
+        "value": "9",
+        "name": "Digital Solutions Group"
+      },
+      "TxnDate": "2025-11-01",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 140.1,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "77",
+              "name": "Utilities Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 140.1,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-26T16:29:27-07:00",
+        "LastUpdatedTime": "2025-11-02T07:29:27-07:00"
+      }
+    },
+    {
+      "Id": "37",
+      "VendorRef": {
+        "value": "1",
+        "name": "Tech Supplies Inc"
+      },
+      "TxnDate": "2025-10-25",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 299.98,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "75",
+              "name": "Office Supplies Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 299.98,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-03T08:32:27-07:00",
+        "LastUpdatedTime": "2025-11-03T23:32:27-07:00"
+      }
+    },
+    {
+      "Id": "38",
+      "VendorRef": {
+        "value": "2",
+        "name": "Software Tools Co"
+      },
+      "TxnDate": "2025-10-30",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 387.13,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "76",
+              "name": "Rent Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 387.13,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-05T23:53:27-07:00",
+        "LastUpdatedTime": "2025-11-10T00:53:27-07:00"
+      }
+    },
+    {
+      "Id": "39",
+      "VendorRef": {
+        "value": "3",
+        "name": "Global Cloud Partners"
+      },
+      "TxnDate": "2025-11-02",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 266.87,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "77",
+              "name": "Utilities Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 266.87,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-26T09:28:27-07:00",
+        "LastUpdatedTime": "2025-10-30T12:28:27-07:00"
+      }
+    },
+    {
+      "Id": "40",
+      "VendorRef": {
+        "value": "4",
+        "name": "Data Center Solutions"
+      },
+      "TxnDate": "2025-10-26",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 301.37,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "77",
+              "name": "Utilities Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 301.37,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-31T07:40:27-07:00",
+        "LastUpdatedTime": "2025-11-01T01:40:27-07:00"
+      }
+    },
+    {
+      "Id": "41",
+      "VendorRef": {
+        "value": "5",
+        "name": "Office Essentials"
+      },
+      "TxnDate": "2025-10-26",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 458.72,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "79",
+              "name": "Payroll Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 458.72,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-05T22:26:27-07:00",
+        "LastUpdatedTime": "2025-11-07T07:26:27-07:00"
+      }
+    },
+    {
+      "Id": "42",
+      "VendorRef": {
+        "value": "6",
+        "name": "Cloud Infrastructure Ltd"
+      },
+      "TxnDate": "2025-11-06",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 98.61,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "76",
+              "name": "Rent Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 98.61,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-28T18:13:27-07:00",
+        "LastUpdatedTime": "2025-10-31T06:13:27-07:00"
+      }
+    },
+    {
+      "Id": "43",
+      "VendorRef": {
+        "value": "7",
+        "name": "IT Support Services"
+      },
+      "TxnDate": "2025-10-27",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 182.11,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "77",
+              "name": "Utilities Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 182.11,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-02T05:59:27-07:00",
+        "LastUpdatedTime": "2025-11-03T20:59:27-07:00"
+      }
+    },
+    {
+      "Id": "44",
+      "VendorRef": {
+        "value": "8",
+        "name": "Hardware Warehouse"
+      },
+      "TxnDate": "2025-10-28",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 483.38,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "79",
+              "name": "Payroll Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 483.38,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-27T06:21:27-07:00",
+        "LastUpdatedTime": "2025-10-31T18:21:27-07:00"
+      }
+    },
+    {
+      "Id": "45",
+      "VendorRef": {
+        "value": "9",
+        "name": "Digital Solutions Group"
+      },
+      "TxnDate": "2025-10-27",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 343.16,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "76",
+              "name": "Rent Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 343.16,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-04T02:54:27-07:00",
+        "LastUpdatedTime": "2025-11-09T17:54:27-07:00"
+      }
+    },
+    {
+      "Id": "46",
+      "VendorRef": {
+        "value": "1",
+        "name": "Tech Supplies Inc"
+      },
+      "TxnDate": "2025-10-25",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 287.67,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "77",
+              "name": "Utilities Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 287.67,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-27T07:46:27-07:00",
+        "LastUpdatedTime": "2025-10-27T13:46:27-07:00"
+      }
+    },
+    {
+      "Id": "47",
+      "VendorRef": {
+        "value": "2",
+        "name": "Software Tools Co"
+      },
+      "TxnDate": "2025-10-26",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 396.93,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "79",
+              "name": "Payroll Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 396.93,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-27T08:40:27-07:00",
+        "LastUpdatedTime": "2025-10-29T08:40:27-07:00"
+      }
+    },
+    {
+      "Id": "48",
+      "VendorRef": {
+        "value": "3",
+        "name": "Global Cloud Partners"
+      },
+      "TxnDate": "2025-11-01",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 78.28,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "77",
+              "name": "Utilities Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 78.28,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-30T18:40:27-07:00",
+        "LastUpdatedTime": "2025-10-30T18:40:27-07:00"
+      }
+    },
+    {
+      "Id": "49",
+      "VendorRef": {
+        "value": "4",
+        "name": "Data Center Solutions"
+      },
+      "TxnDate": "2025-11-01",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 150.13,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "77",
+              "name": "Utilities Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 150.13,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-11-02T17:58:27-07:00",
+        "LastUpdatedTime": "2025-11-03T20:58:27-07:00"
+      }
+    },
+    {
+      "Id": "50",
+      "VendorRef": {
+        "value": "5",
+        "name": "Office Essentials"
+      },
+      "TxnDate": "2025-10-25",
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 333.42,
+          "AccountBasedExpenseLineDetail": {
+            "AccountRef": {
+              "value": "78",
+              "name": "Insurance Expense"
+            },
+            "BillableStatus": "NotBillable"
+          },
+          "Description": "Vendor expense"
+        }
+      ],
+      "TotalAmt": 333.42,
+      "Balance": 0,
+      "MetaData": {
+        "CreateTime": "2025-10-27T09:27:27-07:00",
+        "LastUpdatedTime": "2025-10-28T09:27:27-07:00"
+      }
+    }
+  ]
+}

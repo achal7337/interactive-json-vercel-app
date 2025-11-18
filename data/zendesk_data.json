@@ -1,0 +1,2562 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "name": "Jordan Kim",
+            "email": "jordan.kim@vantage-lens.com",
+            "role": "admin",
+            "is_active": "true",
+            "last_login_at": "2025-11-01 16:06:06"
+        },
+        {
+            "id": "2",
+            "name": "Amir Hassan",
+            "email": "amir.hassan@vantage-lens.com",
+            "role": "agent",
+            "is_active": "true",
+            "last_login_at": "2025-10-27 10:58:06"
+        },
+        {
+            "id": "3",
+            "name": "Lisa Chang",
+            "email": "lisa.chang@vantage-lens.com",
+            "role": "agent",
+            "is_active": "true",
+            "last_login_at": "2025-11-06 00:33:06"
+        },
+        {
+            "id": "4",
+            "name": "Anwar El-Badawi",
+            "email": "anwar.el-badawi@vantage-lens.com",
+            "role": "agent",
+            "is_active": "true",
+            "last_login_at": "2025-11-05 10:09:06"
+        },
+        {
+            "id": "5",
+            "name": "Aisha Malik",
+            "email": "aisha.malik@vantage-lens.com",
+            "role": "agent",
+            "is_active": "true",
+            "last_login_at": "2025-10-14 17:36:06"
+        },
+        {
+            "id": "6",
+            "name": "David Green",
+            "email": "david.green@vantage-lens.com",
+            "role": "agent",
+            "is_active": "true",
+            "last_login_at": "2025-11-03 16:36:06"
+        },
+        {
+            "id": "7",
+            "name": "Mei Tan",
+            "email": "mei.tan@vantage-lens.com",
+            "role": "agent",
+            "is_active": "true",
+            "last_login_at": "2025-10-15 06:49:06"
+        },
+        {
+            "id": "8",
+            "name": "Oliver Thompson",
+            "email": "oliver.thompson@vantage-lens.com",
+            "role": "agent",
+            "is_active": "true",
+            "last_login_at": "2025-10-13 14:41:06"
+        },
+        {
+            "id": "9",
+            "name": "Fiona D\u00e9sir",
+            "email": "fiona.d\u00e9sir@expressmart.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-19 07:55:06"
+        },
+        {
+            "id": "10",
+            "name": "Anna M\u00fcller",
+            "email": "anna.m\u00fcller@clothinghub.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-15 14:10:06"
+        },
+        {
+            "id": "11",
+            "name": "Jonathan Lee",
+            "email": "jonathan.lee@fashionforward.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-11-01 04:07:06"
+        },
+        {
+            "id": "12",
+            "name": "Chantal Dubois",
+            "email": "chantal.dubois@glamourglow.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-14 22:10:06"
+        },
+        {
+            "id": "13",
+            "name": "Linda Zhang",
+            "email": "linda.zhang@ecomart.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-15 01:58:06"
+        },
+        {
+            "id": "14",
+            "name": "Sophie Chang",
+            "email": "sophie.chang@trendsetters.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-16 13:57:06"
+        },
+        {
+            "id": "15",
+            "name": "Liam O'Malley",
+            "email": "liam.o'malley@electrouniverse.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-11-11 05:25:06"
+        },
+        {
+            "id": "16",
+            "name": "Priya Nair",
+            "email": "priya.nair@techbazaar.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-24 02:58:06"
+        },
+        {
+            "id": "17",
+            "name": "Miguel Torres",
+            "email": "miguel.torres@urbanoutfittersnow.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-25 22:14:06"
+        },
+        {
+            "id": "18",
+            "name": "Jun Park",
+            "email": "jun.park@retailspectrum.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-14 07:21:06"
+        },
+        {
+            "id": "19",
+            "name": "Gretchen Klima",
+            "email": "gretchen.klima@petessentials.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-17 16:10:06"
+        },
+        {
+            "id": "20",
+            "name": "Chloe Peterson",
+            "email": "chloe.peterson@stylestudio.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-22 06:38:06"
+        },
+        {
+            "id": "21",
+            "name": "Mark Thompson",
+            "email": "mark.thompson@wholesaledepot.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-21 15:37:06"
+        },
+        {
+            "id": "22",
+            "name": "Sarah Bennett",
+            "email": "sarah.bennett@marketmasters.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-11-12 02:34:06"
+        },
+        {
+            "id": "23",
+            "name": "Arya Singh",
+            "email": "arya.singh@allthingsbooks.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-17 04:24:06"
+        },
+        {
+            "id": "24",
+            "name": "Bethany Chandler",
+            "email": "bethany.chandler@petparadise.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-26 10:43:06"
+        },
+        {
+            "id": "25",
+            "name": "Vito Amato",
+            "email": "vito.amato@foodloversmarket.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-24 08:03:06"
+        },
+        {
+            "id": "26",
+            "name": "Rachel Johnson",
+            "email": "rachel.johnson@toyland.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-11-05 14:43:06"
+        },
+        {
+            "id": "27",
+            "name": "Alice Johnson",
+            "email": "alice.johnson@retailgiantsinc.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-11-04 10:26:06"
+        },
+        {
+            "id": "28",
+            "name": "Marisol Alvarez",
+            "email": "marisol.alvarez@gadgetkingdom.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-18 20:02:06"
+        },
+        {
+            "id": "29",
+            "name": "Aiden Smith",
+            "email": "aiden.smith@gizmoworld.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-11-10 00:34:06"
+        },
+        {
+            "id": "30",
+            "name": "Aisha Abdel",
+            "email": "aisha.abdel@bookshelf.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-19 07:20:06"
+        },
+        {
+            "id": "31",
+            "name": "Mia Andersson",
+            "email": "mia.andersson@dreamdwellers.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-28 17:44:06"
+        },
+        {
+            "id": "32",
+            "name": "Cheng Wong",
+            "email": "cheng.wong@worldgadgets.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-13 23:08:06"
+        },
+        {
+            "id": "33",
+            "name": "Raj Patel",
+            "email": "raj.patel@electromart.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-23 05:29:06"
+        },
+        {
+            "id": "34",
+            "name": "Sophia Rossi",
+            "email": "sophia.rossi@technests.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-13 01:28:06"
+        },
+        {
+            "id": "35",
+            "name": "Peter Chan",
+            "email": "peter.chan@styleup.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-28 01:58:06"
+        },
+        {
+            "id": "36",
+            "name": "Fatima Al-Farsi",
+            "email": "fatima.al-farsi@greenearthgrocers.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-14 13:40:06"
+        },
+        {
+            "id": "37",
+            "name": "Nina Kostova",
+            "email": "nina.kostova@stylemore.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-13 19:54:06"
+        },
+        {
+            "id": "38",
+            "name": "Emma Smith",
+            "email": "emma.smith@kidzkraze.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-11-02 10:54:06"
+        },
+        {
+            "id": "39",
+            "name": "Olivia Evans",
+            "email": "olivia.evans@booksbeyond.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-11-09 11:21:06"
+        },
+        {
+            "id": "40",
+            "name": "Amelia Thompson",
+            "email": "amelia.thompson@freshfindssupermarket.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-18 16:52:06"
+        },
+        {
+            "id": "41",
+            "name": "Marco Romano",
+            "email": "marco.romano@coffeecraze.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-11-01 00:28:06"
+        },
+        {
+            "id": "42",
+            "name": "Tariq Khan",
+            "email": "tariq.khan@worldoftech.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-11-07 07:12:06"
+        },
+        {
+            "id": "43",
+            "name": "David Kim",
+            "email": "david.kim@grocerytitans.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-29 00:44:06"
+        },
+        {
+            "id": "44",
+            "name": "Colette Boucher",
+            "email": "colette.boucher@belleco.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-29 10:57:06"
+        },
+        {
+            "id": "45",
+            "name": "George Papadopoulos",
+            "email": "george.papadopoulos@alltimefashions.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-21 12:20:06"
+        },
+        {
+            "id": "46",
+            "name": "Carlos Diaz",
+            "email": "carlos.diaz@freshmartsuperstores.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-24 13:13:06"
+        },
+        {
+            "id": "47",
+            "name": "Kenji Watanabe",
+            "email": "kenji.watanabe@techwhizdepot.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-11-03 16:10:06"
+        },
+        {
+            "id": "48",
+            "name": "Samir Idris",
+            "email": "samir.idris@gadgetscene.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-13 14:05:06"
+        },
+        {
+            "id": "49",
+            "name": "Sanjay Verma",
+            "email": "sanjay.verma@techhaven.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-19 04:22:06"
+        },
+        {
+            "id": "50",
+            "name": "Anton Perez",
+            "email": "anton.perez@finefoods.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-11-09 23:28:06"
+        },
+        {
+            "id": "51",
+            "name": "Lisa Tran",
+            "email": "lisa.tran@homegoodshaven.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-21 23:25:06"
+        },
+        {
+            "id": "52",
+            "name": "Islam Halabi",
+            "email": "islam.halabi@digitalpulse.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-27 22:02:06"
+        },
+        {
+            "id": "53",
+            "name": "Martha Wallace",
+            "email": "martha.wallace@bigboxretailers.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-10-23 03:27:06"
+        },
+        {
+            "id": "54",
+            "name": "Elena Ionescu",
+            "email": "elena.ionescu@harvestfresh.com",
+            "role": "customer",
+            "is_active": "true",
+            "last_login_at": "2025-11-07 20:11:06"
+        }
+    ],
+    "tickets": [
+        {
+            "id": "1",
+            "subject": "VantageLens Issue/Query from Fiona D\u00e9sir at ExpressMart",
+            "description": "Ticket Description: Subject: Invoice Discrepancy on Invoice #36 Dated November 02, 2025 Hello VantageLens Support Team, My name is Fiona D\u00e9sir from ExpressMart, and I am reaching out regarding an issue with Invoice #36 dated November 02, 2025. It appears that there is a discrepancy in the billed amount compared to our agreed-upon pricing terms. I would appreciate it if you could review the invoice details and provide clarification. If any amendments are necessary, please let me know how this can be resolved. I can be reached at fiona.d\u00e9sir@expressmart.com for further communication. Thank you for your assistance. Best regards, Fiona D\u00e9sir ExpressMart",
+            "status": "pending",
+            "priority": "normal",
+            "type": "problem",
+            "requester_id": "9",
+            "assignee_id": "2",
+            "due_at": "2025-11-15 01:01:06",
+            "first_response_at": "2025-11-10 02:29:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-11-10 01:01:06",
+            "updated_at": "2025-11-10 04:04:06"
+        },
+        {
+            "id": "2",
+            "subject": "Anna M\u00fcller - Inquiry/Issue with VantageLens (Ref: Invoice #11, Oct 31, 2025)",
+            "description": "Anna M\u00fcller from Clothing Hub is experiencing an issue with VantageLens's product related to a malfunctioning feature. The specific feature appears to be producing inaccurate analytics, negatively impacting operational efficiency. Anna requests an urgent review and resolution. Alternatively, if this ticket is about a billing inquiry, Anna is seeking clarification regarding invoice #11 dated October 31, 2025, possibly due to discrepancies in the billed amount or service descriptions. She prefers contact via email at anna.m\u00fcller@clothinghub.com. Prompt assistance in resolving these matters would be appreciated.",
+            "status": "closed",
+            "priority": "normal",
+            "type": "problem",
+            "requester_id": "10",
+            "assignee_id": "3",
+            "due_at": "2025-10-30 13:13:06",
+            "first_response_at": "",
+            "resolved_at": "2025-10-31 14:55:06",
+            "is_deleted": "false",
+            "created_at": "2025-10-29 13:13:06",
+            "updated_at": "2025-10-31 15:24:06"
+        },
+        {
+            "id": "3",
+            "subject": "Issue with VantageLens - Invoice #7, October 28, 2025",
+            "description": "**Ticket Description: Issue with VantageLens Product** Jonathan Lee from Fashion Forward is reaching out regarding an issue with the VantageLens product. The system has been underperforming, which is impacting our ability to analyze trends efficiently. This has led to delays in decision-making processes. Jonathan has requested a prompt review and resolution of the issue. For further communication, please contact Jonathan at jonathan.lee@fashionforward.com. **Alternate Ticket Description: Billing/Invoice Question** Jonathan Lee from Fashion Forward has a question regarding invoice #7 dated October 28, 2025, from VantageLens. There appears to be a discrepancy in the billed amount compared to the agreed contract terms. Jonathan is seeking clarification and a possible adjustment if necessary. Please address this inquiry at your earliest convenience by contacting him at jonathan.lee@fashionforward.com.",
+            "status": "open",
+            "priority": "high",
+            "type": "incident",
+            "requester_id": "11",
+            "assignee_id": "4",
+            "due_at": "",
+            "first_response_at": "2025-11-07 19:58:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-11-07 19:42:06",
+            "updated_at": "2025-11-07 22:22:06"
+        },
+        {
+            "id": "4",
+            "subject": "VantageLens Inquiry - Chantal Dubois at Glamour Glow",
+            "description": "**Subject: Issue with Recent VantageLens Product and Billing Query** Hello VantageLens Support Team, My name is Chantal Dubois, and I am contacting you from Glamour Glow regarding an issue we have encountered with one of your products, as well as a billing question. We recently received a shipment that included several units of your product, but we have noticed a discrepancy in the performance quality compared to previous orders. Additionally, I would like to clarify some points on invoice #23 dated October 30, 2025, as the total amount seems higher than anticipated. Please assist us in resolving these issues at your earliest convenience. You can reach me via my email: chantal.dubois@glamourglow.com. Thank you for your assistance. Best regards, Chantal Dubois Glamour Glow",
+            "status": "solved",
+            "priority": "normal",
+            "type": "task",
+            "requester_id": "12",
+            "assignee_id": "5",
+            "due_at": "2025-10-30 08:59:06",
+            "first_response_at": "2025-10-23 09:38:06",
+            "resolved_at": "2025-10-24 11:47:06",
+            "is_deleted": "false",
+            "created_at": "2025-10-23 08:59:06",
+            "updated_at": "2025-10-24 15:40:06"
+        },
+        {
+            "id": "5",
+            "subject": "Issue with VantageLens Feature - Linda Zhang, EcoMart",
+            "description": "Linda Zhang from EcoMart has encountered a billing issue related to VantageLens and needs assistance. The concern involves invoice #26, dated October 30, 2025, which seems to contain discrepancies. Linda requires clarification on certain charges listed on the invoice. Please reach out to her at linda.zhang@ecomart.com for further details and to resolve any billing issues promptly.",
+            "status": "pending",
+            "priority": "normal",
+            "type": "question",
+            "requester_id": "13",
+            "assignee_id": "6",
+            "due_at": "",
+            "first_response_at": "2025-10-28 23:51:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-10-28 23:06:06",
+            "updated_at": "2025-10-29 02:15:06"
+        },
+        {
+            "id": "6",
+            "subject": "VantageLens Issue/Inquiry from Sophie Chang at Trendsetters",
+            "description": "Subject: Issue with VantageLens Product Hello VantageLens Support Team, I am experiencing an issue with one of your products and need assistance. We've encountered a problem that is affecting our team's workflow and are hoping for a resolution as soon as possible. Specifically, we are noticing unexpected behavior when using the analytics dashboard, where data is either missing or inaccurately displayed. Please look into this matter urgently so we can continue to use the full features of your product effectively. Should you need more information, feel free to contact me at sophie.chang@trendsetters.com. Thank you for your assistance. Best regards, Sophie Chang Trendsetters",
+            "status": "solved",
+            "priority": "high",
+            "type": "question",
+            "requester_id": "14",
+            "assignee_id": "7",
+            "due_at": "",
+            "first_response_at": "2025-10-14 20:21:06",
+            "resolved_at": "2025-10-15 22:36:06",
+            "is_deleted": "false",
+            "created_at": "2025-10-14 18:51:06",
+            "updated_at": "2025-10-15 23:34:06"
+        },
+        {
+            "id": "7",
+            "subject": "VantageLens Inquiry from Liam O'Malley at Electro Universe",
+            "description": "Subject: Inquiry Regarding Invoice #15 Dated October 30, 2025 Hi VantageLens Support Team, I\u2019m reaching out from Electro Universe regarding an issue with invoice #15, dated October 30, 2025. We've noticed a discrepancy in the billed amount compared to the agreed terms outlined in our contract. I would appreciate it if you could review this invoice and provide clarification or a corrected version. Please feel free to contact me directly via email at liam.o'malley@electrouniverse.com if further information is required. Thank you for your prompt attention to this matter. Best regards, Liam O'Malley Electro Universe",
+            "status": "pending",
+            "priority": "urgent",
+            "type": "incident",
+            "requester_id": "15",
+            "assignee_id": "8",
+            "due_at": "",
+            "first_response_at": "2025-11-04 10:13:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-11-04 09:59:06",
+            "updated_at": "2025-11-04 13:19:06"
+        },
+        {
+            "id": "8",
+            "subject": "VantageLens Issue: Assistance Needed (Invoice #8, Nov 05, 2025)",
+            "description": "Ticket Description: Priya Nair from TechBazaar is reaching out regarding a billing issue related to an invoice from VantageLens. Specifically, there is a discrepancy with invoice #8 dated November 05, 2025. Priya needs clarification on certain charges that appear to be inconsistent with their current service agreement. She requests a detailed breakdown of the charges listed on this invoice to resolve the issue promptly. Please contact her at priya.nair@techbazaar.com for further details or to discuss this matter.",
+            "status": "new",
+            "priority": "normal",
+            "type": "question",
+            "requester_id": "16",
+            "assignee_id": "2",
+            "due_at": "",
+            "first_response_at": "",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-10-29 19:20:06",
+            "updated_at": "2025-10-29 20:32:06"
+        },
+        {
+            "id": "9",
+            "subject": "Issue with VantageLens - Invoice #19 Dated October 27, 2025",
+            "description": "**Ticket Description: Issue with VantageLens Platform Performance** Miguel Torres from Urban Outfitters Now is experiencing a significant issue with the VantageLens platform's performance. Users have reported frequent lags and unresponsiveness while navigating through the application, which severely affects productivity and user satisfaction. The issue needs immediate resolution to ensure that the platform meets operational demands. For further information, please contact Miguel at miguel.torres@urbanoutfittersnow.com.",
+            "status": "on-hold",
+            "priority": "high",
+            "type": "task",
+            "requester_id": "17",
+            "assignee_id": "3",
+            "due_at": "2025-10-21 19:34:06",
+            "first_response_at": "2025-10-20 20:42:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-10-20 19:34:06",
+            "updated_at": "2025-10-20 22:30:06"
+        },
+        {
+            "id": "10",
+            "subject": "VantageLens Inquiry from Jun Park at Retail Spectrum (Ref: Invoice #45, Nov 04, 2025)",
+            "description": "Ticket Description: Jun Park from Retail Spectrum is experiencing an issue with VantageLens's product. The issue seems to be related to inaccurate data analytics outputs that are affecting business operations. Jun is seeking assistance to resolve this quickly to avoid further disruption. Alternatively, in case of a billing or invoice inquiry: Jun Park from Retail Spectrum has a question concerning a discrepancy found in invoice #45 dated November 04, 2025. It appears that the billed amount does not match the expected charges for the services provided. Jun is requesting a detailed review of the invoice to ensure accuracy. Please reach out to Jun at jun.park@retailspectrum.com for further details and assistance.",
+            "status": "on-hold",
+            "priority": "low",
+            "type": "question",
+            "requester_id": "18",
+            "assignee_id": "4",
+            "due_at": "",
+            "first_response_at": "2025-11-05 07:25:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-11-05 06:51:06",
+            "updated_at": "2025-11-05 08:26:06"
+        },
+        {
+            "id": "11",
+            "subject": "Gretchen Klima's VantageLens Issue/Inquiry - Pet Essentials",
+            "description": "Ticket Description: Gretchen Klima from Pet Essentials has encountered an issue with VantageLens's product. The problem needs immediate attention to ensure their operations remain uninterrupted. Alternatively, if this inquiry is regarding billing, Gretchen has a question about Invoice #42, which is dated October 29, 2025. She requires clarification on specific charges listed on the invoice and would appreciate a swift resolution. For further correspondence, she can be reached at gretchen.klima@petessentials.com.",
+            "status": "open",
+            "priority": "high",
+            "type": "task",
+            "requester_id": "19",
+            "assignee_id": "5",
+            "due_at": "2025-10-26 18:59:06",
+            "first_response_at": "2025-10-25 19:26:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-10-25 18:59:06",
+            "updated_at": "2025-10-25 21:17:06"
+        },
+        {
+            "id": "12",
+            "subject": "VantageLens Inquiry - Style Studio (Chloe Peterson)",
+            "description": "Subject: Issue with VantageLens Product Performance Hi VantageLens Support Team, I am writing to report an issue we're experiencing with one of your products at Style Studio. We've noticed that the VantageLens analysis tool is not functioning as expected, particularly with data syncing issues that started occurring last week. This problem is significantly affecting our operations, and we urgently need assistance to resolve it. Additionally, I have questions regarding invoice #39 dated November 01, 2025, as there seems to be a discrepancy with the billed amount. Could you please help clarify the charges listed on this invoice? You can reach me via my email at chloe.peterson@stylestudio.com. Thank you for your prompt attention to these matters. Best regards, Chloe Peterson Style Studio",
+            "status": "closed",
+            "priority": "high",
+            "type": "problem",
+            "requester_id": "20",
+            "assignee_id": "6",
+            "due_at": "2025-10-24 07:56:06",
+            "first_response_at": "",
+            "resolved_at": "2025-10-20 10:09:06",
+            "is_deleted": "false",
+            "created_at": "2025-10-20 07:56:06",
+            "updated_at": "2025-10-20 11:57:06"
+        },
+        {
+            "id": "13",
+            "subject": "VantageLens Issue: Mark Thompson, Wholesale Depot",
+            "description": "Customer Mark Thompson from Wholesale Depot has reported an issue regarding invoice #2 dated October 28, 2025, from VantageLens. He is seeking clarification on certain charges that appear inconsistent with their prior agreement. Mark requests a detailed breakdown of the invoice to verify the charges. He can be reached for further discussion via email at mark.thompson@wholesaledepot.com. Please prioritize this inquiry and provide a prompt response.",
+            "status": "on-hold",
+            "priority": "normal",
+            "type": "problem",
+            "requester_id": "21",
+            "assignee_id": "7",
+            "due_at": "2025-11-02 10:48:06",
+            "first_response_at": "2025-10-27 12:45:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-10-27 10:48:06",
+            "updated_at": "2025-10-27 15:12:06"
+        },
+        {
+            "id": "14",
+            "subject": "VantageLens Inquiry from Sarah Bennett (Market Masters) - Reference: Invoice #18 (Nov 05, 2025)",
+            "description": "**Ticket Description:** Subject: Issue with VantageLens Product and Billing Inquiry Hello VantageLens Support Team, I am experiencing an issue with the VantageLens product regarding its data visualization feature, which has become unresponsive over the past few days. This is impacting our workflow, and we need immediate assistance to resolve this. Additionally, I have a question concerning invoice #18 dated November 05, 2025. There seems to be a discrepancy in the billed amount compared to the agreed service plan. I would appreciate your prompt support in addressing these two concerns. You can reach me via email at sarah.bennett@marketmasters.com. Thank you for your attention to these matters. Best, Sarah Bennett Market Masters",
+            "status": "closed",
+            "priority": "high",
+            "type": "task",
+            "requester_id": "22",
+            "assignee_id": "8",
+            "due_at": "2025-10-20 06:52:06",
+            "first_response_at": "",
+            "resolved_at": "2025-10-19 08:43:06",
+            "is_deleted": "false",
+            "created_at": "2025-10-16 06:52:06",
+            "updated_at": "2025-10-19 11:44:06"
+        },
+        {
+            "id": "15",
+            "subject": "VantageLens Query - Invoice #40, Oct 31, 2025, All Things Books",
+            "description": "Ticket Title: Issue with VantageLens Product Functionality Description: Hello, I am Arya Singh from All Things Books. We are experiencing an issue with VantageLens's product functionality. The tool has started showing discrepancies in the data analytics module, specifically in generating end-of-month reports. These reports are crucial for our monthly business reviews, and this has occurred frequently over the past week. I\u2019d appreciate your prompt assistance in addressing this matter. Please reach out via email at arya.singh@allthingsbooks.com for any further information you might need. Thank you.",
+            "status": "closed",
+            "priority": "high",
+            "type": "problem",
+            "requester_id": "23",
+            "assignee_id": "2",
+            "due_at": "2025-11-13 20:09:06",
+            "first_response_at": "",
+            "resolved_at": "2025-11-12 23:05:06",
+            "is_deleted": "false",
+            "created_at": "2025-11-12 20:09:06",
+            "updated_at": "2025-11-13 02:25:06"
+        },
+        {
+            "id": "16",
+            "subject": "Issue with VantageLens - PetParadise (Ref: Invoice #20, Oct 30, 2025)",
+            "description": "**Subject:** Issue with Invoice #20 Dated October 30, 2025 **Description:** Hi Team, I am reaching out regarding a discrepancy I noticed with Invoice #20 dated October 30, 2025. The total amount seems higher than what we had agreed upon in our contract. Could you please provide a detailed breakdown of the charges? Additionally, it appears that a discount we were eligible for has not been applied. Your timely assistance in rectifying this matter would be greatly appreciated. Please contact me via email at bethany.chandler@petparadise.com for any further clarification. Thank you, Bethany Chandler PetParadise",
+            "status": "solved",
+            "priority": "low",
+            "type": "incident",
+            "requester_id": "24",
+            "assignee_id": "3",
+            "due_at": "",
+            "first_response_at": "2025-10-30 05:14:06",
+            "resolved_at": "2025-11-02 06:11:06",
+            "is_deleted": "false",
+            "created_at": "2025-10-30 04:24:06",
+            "updated_at": "2025-11-02 08:27:06"
+        },
+        {
+            "id": "17",
+            "subject": "Vito Amato Inquiry on VantageLens Issue (Invoice #21, Oct 29, 2025)",
+            "description": "Subject: Issue with VantageLens Product/Billing for Invoice #21 Hello VantageLens Support Team, I am reaching out regarding an issue we encountered with your product. Recently, we've noticed some discrepancies in the data visualization feature that are impacting our ability to accurately analyze market trends. Additionally, I have a question about Invoice #21 dated October 29, 2025, which seems to include charges that we were not expecting. Could you please provide clarification on these charges and assist in resolving the product functionality issue? You can reach me at vito.amato@foodloversmarket.com for further communication. Thank you for your assistance. Best regards, Vito Amato FoodLovers Market",
+            "status": "new",
+            "priority": "high",
+            "type": "problem",
+            "requester_id": "25",
+            "assignee_id": "4",
+            "due_at": "2025-11-04 21:50:06",
+            "first_response_at": "",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-10-31 21:50:06",
+            "updated_at": "2025-10-31 22:58:06"
+        },
+        {
+            "id": "18",
+            "subject": "VantageLens Query from Rachel Johnson at ToyLand",
+            "description": "**Ticket Description: Billing Discrepancy on Invoice #33** Rachel Johnson from ToyLand has contacted us regarding a billing issue with invoice #33 dated October 25, 2025. Rachel noticed a discrepancy in the amounts charged and the terms that were previously agreed upon. She is seeking clarification on these charges and a possible adjustment. Rachel can be reached via email at rachel.johnson@toyland.com for further communication. Please prioritize this inquiry to resolve the issue promptly.",
+            "status": "open",
+            "priority": "low",
+            "type": "question",
+            "requester_id": "26",
+            "assignee_id": "5",
+            "due_at": "",
+            "first_response_at": "2025-11-09 12:20:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-11-09 11:22:06",
+            "updated_at": "2025-11-09 16:04:06"
+        },
+        {
+            "id": "19",
+            "subject": "Inquiry from Alice Johnson at Retail Giants Inc Regarding VantageLens",
+            "description": "Subject: Issue with VantageLens Product Integration Hello VantageLens Support Team, We have encountered an issue with the integration of your product into our system at Retail Giants Inc. The problem seems to arise during the data synchronization phase, where we notice discrepancies in the data being transferred. This issue is affecting our ability to effectively utilize your solution. We are looking for assistance to resolve this matter promptly. Please reach out to me at alice.johnson@retailgiantsinc.com for further discussion and troubleshooting. Thank you for your attention to this urgent matter. Best regards, Alice Johnson Retail Giants Inc.",
+            "status": "on-hold",
+            "priority": "normal",
+            "type": "question",
+            "requester_id": "27",
+            "assignee_id": "6",
+            "due_at": "",
+            "first_response_at": "2025-10-20 02:30:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-10-20 01:43:06",
+            "updated_at": "2025-10-20 05:15:06"
+        },
+        {
+            "id": "20",
+            "subject": "VantageLens Issue Inquiry from Marisol Alvarez - Invoice #27, Oct 31, 2025",
+            "description": "Ticket Description: Marisol Alvarez from Gadget Kingdom has encountered an issue with an invoice from VantageLens. The query relates to invoice #27, dated October 31, 2025. There seems to be a discrepancy in the billing amount listed on the invoice compared to what was initially agreed upon in the contract. Marisol is seeking clarification and a prompt resolution to ensure accurate financial records. For further correspondence, please contact her via email at marisol.alvarez@gadgetkingdom.com.",
+            "status": "pending",
+            "priority": "high",
+            "type": "incident",
+            "requester_id": "28",
+            "assignee_id": "7",
+            "due_at": "",
+            "first_response_at": "2025-11-01 15:30:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-11-01 14:44:06",
+            "updated_at": "2025-11-01 16:25:06"
+        },
+        {
+            "id": "21",
+            "subject": "Aiden Smith: Inquiry/Issue with VantageLens at Gizmo World",
+            "description": "Ticket Description: Aiden Smith from Gizmo World is experiencing an issue with a recent invoice from VantageLens. The invoice in question is #46, dated November 01, 2025. Aiden seeks clarification regarding some discrepancies in the billed amounts compared to the services agreed upon in their contract. The amounts seem to not match what was initially discussed. Aiden would appreciate a detailed breakdown or explanation to ensure that all charges are accurate. Please contact Aiden at aiden.smith@gizmoworld.com for further details or to resolve the issue.",
+            "status": "closed",
+            "priority": "urgent",
+            "type": "incident",
+            "requester_id": "29",
+            "assignee_id": "8",
+            "due_at": "",
+            "first_response_at": "",
+            "resolved_at": "2025-10-20 08:01:06",
+            "is_deleted": "false",
+            "created_at": "2025-10-18 05:18:06",
+            "updated_at": "2025-10-20 09:08:06"
+        },
+        {
+            "id": "22",
+            "subject": "Aisha Abdel - Inquiry on VantageLens Functionality",
+            "description": "Ticket Description: Aisha Abdel from Bookshelf has encountered an issue with VantageLens's product. The specific problem pertains to a malfunctioning feature within the software, which is significantly affecting their workflow. They need urgent assistance to resolve this technical problem. Alternatively, there might be a question regarding invoice #28, dated October 31, 2025, as some discrepancies have been noticed in the billing details. Aisha needs clarification on the billing summary and requires prompt resolution. For further information or to provide assistance, Aisha can be contacted via email at aisha.abdel@bookshelf.com.",
+            "status": "closed",
+            "priority": "urgent",
+            "type": "problem",
+            "requester_id": "30",
+            "assignee_id": "2",
+            "due_at": "2025-11-01 11:43:06",
+            "first_response_at": "",
+            "resolved_at": "2025-10-30 13:13:06",
+            "is_deleted": "false",
+            "created_at": "2025-10-27 11:43:06",
+            "updated_at": "2025-10-30 15:43:06"
+        },
+        {
+            "id": "23",
+            "subject": "VantageLens Issue for Mia Andersson - Invoice #31 Dated October 30, 2025",
+            "description": "Subject: Inquiry Regarding Invoice #31 and Product Feature Issue Hello, I am Mia Andersson from DreamDwellers, and I am writing to address a couple of concerns regarding VantageLens. Firstly, we have a billing inquiry related to invoice #31 dated October 30, 2025. We noticed some discrepancies in the amount charged compared to our previous invoices, and we would appreciate some clarification. Additionally, we are experiencing an issue with one of the features in the VantageLens product, which is impacting our workflow. Could you please let us know how to proceed with these issues? You can contact me via email at mia.andersson@dreamdwellers.com. Thank you for your prompt assistance. Best regards, Mia Andersson",
+            "status": "on-hold",
+            "priority": "low",
+            "type": "problem",
+            "requester_id": "31",
+            "assignee_id": "3",
+            "due_at": "2025-10-19 06:25:06",
+            "first_response_at": "2025-10-18 07:20:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-10-18 06:25:06",
+            "updated_at": "2025-10-18 10:22:06"
+        },
+        {
+            "id": "24",
+            "subject": "Cheng Wong Inquiry on VantageLens (Invoice #12: Nov 06, 2025)",
+            "description": "Subject: Issue with VantageLens Product Hi VantageLens Support Team, I am reaching out regarding a problem we've encountered with one of the VantageLens products we recently purchased. The device has been experiencing intermittent functionality issues, which is impacting our operations. Could you please provide assistance on how to resolve this issue? Thank you for your prompt attention to this matter. You can reach me at cheng.wong@worldgadgets.com for any further information you may need. Best regards, Cheng Wong WorldGadgets",
+            "status": "solved",
+            "priority": "low",
+            "type": "task",
+            "requester_id": "32",
+            "assignee_id": "4",
+            "due_at": "2025-11-06 00:47:06",
+            "first_response_at": "2025-11-05 01:26:06",
+            "resolved_at": "2025-11-07 01:36:06",
+            "is_deleted": "false",
+            "created_at": "2025-11-05 00:47:06",
+            "updated_at": "2025-11-07 01:41:06"
+        },
+        {
+            "id": "25",
+            "subject": "ElectroMart: Raj Patel - VantageLens Inquiry/Issue",
+            "description": "Subject: Issue with VantageLens Product and Billing Inquiry Hello VantageLens Support Team, I am Raj Patel from ElectroMart, reaching out to address a couple of issues we're currently experiencing. Firstly, we are encountering some difficulties with your product; it does not seem to function as expected, and we would appreciate assistance in resolving this matter. Additionally, there is a billing inquiry related to Invoice #4 dated November 03, 2025. Could you please provide clarification on a discrepancy we noticed? For further assistance, feel free to contact me at raj.patel@electromart.com. Thank you for your prompt attention to these matters. Best regards, Raj Patel",
+            "status": "on-hold",
+            "priority": "normal",
+            "type": "incident",
+            "requester_id": "33",
+            "assignee_id": "5",
+            "due_at": "",
+            "first_response_at": "2025-11-10 15:10:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-11-10 14:25:06",
+            "updated_at": "2025-11-10 16:59:06"
+        },
+        {
+            "id": "26",
+            "subject": "Sophia Rossi Billing Inquiry: Invoice #30 - VantageLens",
+            "description": "Ticket Description: Sophia Rossi from TechNests is experiencing an issue with VantageLens's product. The specific problem includes frequent system crashes and slow performance, which is affecting daily operations. Immediate assistance is needed to troubleshoot and resolve these technical difficulties to restore optimal functionality. Additionally, please review the billing discrepancy concerning invoice #30 dated October 30, 2025, as the charges appear inconsistent with the agreed terms. For further information or clarification, Sophia can be reached via email at sophia.rossi@technests.com.",
+            "status": "on-hold",
+            "priority": "urgent",
+            "type": "problem",
+            "requester_id": "34",
+            "assignee_id": "6",
+            "due_at": "2025-11-13 11:35:06",
+            "first_response_at": "2025-11-06 11:40:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-11-06 11:35:06",
+            "updated_at": "2025-11-06 11:49:06"
+        },
+        {
+            "id": "27",
+            "subject": "StyleUp Customer Inquiry: VantageLens Issue or Question (Ref: Invoice #29, Nov 01, 2025)",
+            "description": "Subject: Issues with VantageLens Product and Billing Inquiry - Invoice #29 Hello VantageLens Support Team, I am reaching out regarding two concerns we have encountered. Firstly, we are experiencing issues with your product, which seems to be malfunctioning and not performing as expected for our needs at StyleUp. Additionally, we have a billing inquiry regarding Invoice #29 dated November 01, 2025. We would appreciate it if you could review the invoice details and provide clarification on the charges incurred. For further discussion, please reach me via email at peter.chan@styleup.com. Thank you for your assistance. Best regards, Peter Chan",
+            "status": "closed",
+            "priority": "urgent",
+            "type": "task",
+            "requester_id": "35",
+            "assignee_id": "7",
+            "due_at": "2025-11-12 14:10:06",
+            "first_response_at": "",
+            "resolved_at": "2025-11-13 14:26:06",
+            "is_deleted": "false",
+            "created_at": "2025-11-11 14:10:06",
+            "updated_at": "2025-11-13 17:45:06"
+        },
+        {
+            "id": "28",
+            "subject": "Fatima Al-Farsi: VantageLens Inquiry (Invoice #13, Nov 01, 2025)",
+            "description": "Subject: Issue with VantageLens Product and Invoice #13 Hello VantageLens Support Team, I am Fatima Al-Farsi from GreenEarth Grocers, and I am writing to report two issues we are currently facing. Firstly, we have encountered a problem with the performance of VantageLens's product not aligning with the specifications promised during our purchase agreement, impacting our operations negatively. Secondly, I have a query regarding Invoice #13, dated November 01, 2025, as there seems to be a discrepancy in the billed amount compared to our original contract. Could you please look into these matters and provide a resolution at your earliest convenience? You can reach me at fatima.al-farsi@greenearthgrocers.com. Thank you for your prompt attention to these issues. Best regards, Fatima Al-Farsi",
+            "status": "closed",
+            "priority": "normal",
+            "type": "incident",
+            "requester_id": "36",
+            "assignee_id": "8",
+            "due_at": "",
+            "first_response_at": "",
+            "resolved_at": "2025-10-30 13:13:06",
+            "is_deleted": "false",
+            "created_at": "2025-10-28 12:32:06",
+            "updated_at": "2025-10-30 15:25:06"
+        },
+        {
+            "id": "29",
+            "subject": "VantageLens Issue/Inquiry - Nina Kostova, Ref: Invoice #14 (Nov 05, 2025)",
+            "description": "**Ticket Description:** Subject: Billing Inquiry for Invoice #14 Hello VantageLens Support Team, I hope this message finds you well. I am writing to inquire about a discrepancy I noticed in Invoice #14, dated November 05, 2025. It appears there is an unexpected charge that was not discussed in our original agreement. Could you please provide clarification on this charge? Your prompt assistance in resolving this matter would be greatly appreciated. Thank you for your attention to this issue. Best regards, Nina Kostova Email: nina.kostova@stylemore.com",
+            "status": "open",
+            "priority": "normal",
+            "type": "question",
+            "requester_id": "37",
+            "assignee_id": "2",
+            "due_at": "",
+            "first_response_at": "2025-11-06 21:02:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-11-06 20:12:06",
+            "updated_at": "2025-11-06 22:49:06"
+        },
+        {
+            "id": "30",
+            "subject": "VantageLens Issue/Question from Emma Smith at KidzKraze",
+            "description": "Subject: Inquiry Regarding Invoice #10 Dated October 31, 2025 Hello VantageLens Support Team, I am writing to discuss an issue related to Invoice #10 dated October 31, 2025. It appears that there might be a discrepancy in the billed amount compared to the service agreement we have. Additionally, I have a few questions about specific line items listed in the invoice that need clarification. Please contact me at your earliest convenience through my email, emma.smith@kidzkraze.com, to assist with resolving these issues. Thank you for your prompt attention to this matter. Best regards, Emma Smith KidzKraze",
+            "status": "on-hold",
+            "priority": "high",
+            "type": "question",
+            "requester_id": "38",
+            "assignee_id": "3",
+            "due_at": "",
+            "first_response_at": "2025-10-28 22:02:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-10-28 21:24:06",
+            "updated_at": "2025-10-28 22:34:06"
+        },
+        {
+            "id": "31",
+            "subject": "VantageLens Issue/Inquiries - Olivia Evans (Books & Beyond)",
+            "description": "Olivia Evans from Books & Beyond has reported an issue related to a recent invoice received from VantageLens. The invoice in question, #16, dated November 01, 2025, appears to contain discrepancies regarding the billed amounts as well as potential errors in the service charges listed. Olivia is requesting assistance in clarifying the charges and correcting any mistakes. She can be reached via email at olivia.evans@booksbeyond.com for further details and correspondence regarding this matter.",
+            "status": "solved",
+            "priority": "normal",
+            "type": "task",
+            "requester_id": "39",
+            "assignee_id": "4",
+            "due_at": "2025-10-30 01:03:06",
+            "first_response_at": "2025-10-27 01:16:06",
+            "resolved_at": "2025-10-29 02:55:06",
+            "is_deleted": "false",
+            "created_at": "2025-10-27 01:03:06",
+            "updated_at": "2025-10-29 05:27:06"
+        },
+        {
+            "id": "32",
+            "subject": "VantageLens Inquiry from Amelia Thompson at Fresh Finds Supermarket",
+            "description": "Ticket Description: Amelia Thompson from Fresh Finds Supermarket has encountered an issue related to a recent invoice from VantageLens. The invoice in question is #37, dated November 04, 2025. There seems to be a discrepancy in the billed amount compared to what was agreed upon in the initial contract. Additionally, Amelia is experiencing difficulties accessing detailed breakdowns for the services charged. She requests clarification and a corrected invoice at your earliest convenience. Please contact her at amelia.thompson@freshfindssupermarket.com for further details or updates.",
+            "status": "open",
+            "priority": "low",
+            "type": "incident",
+            "requester_id": "40",
+            "assignee_id": "5",
+            "due_at": "",
+            "first_response_at": "2025-10-14 14:45:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-10-14 13:35:06",
+            "updated_at": "2025-10-14 15:47:06"
+        },
+        {
+            "id": "33",
+            "subject": "Marco Romano - VantageLens Inquiry/Billing Issue (Invoice #35 - 10/30/2025)",
+            "description": "Subject: Issue with VantageLens Product Feature Hello VantageLens Support Team, I am Marco Romano from Coffee Craze, and we are experiencing an issue with one of the features in the VantageLens product. It appears that the analytics dashboard is not updating in real-time as expected, causing disruptions in our data monitoring processes. This has become a critical concern as we rely on up-to-date data for decision-making. Please advise on how this can be resolved at your earliest convenience. You can reach me via email at marco.romano@coffeecraze.com for further information or clarification. Thank you, Marco Romano",
+            "status": "new",
+            "priority": "high",
+            "type": "question",
+            "requester_id": "41",
+            "assignee_id": "6",
+            "due_at": "",
+            "first_response_at": "",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-10-14 06:56:06",
+            "updated_at": "2025-10-14 07:39:06"
+        },
+        {
+            "id": "34",
+            "subject": "VantageLens Issue Report\u2013 Invoice #34, Dated Oct 26, 2025",
+            "description": "Subject: Issue with VantageLens Product Functionality Hello VantageLens Support, I am Tariq Khan from World of Tech, and I am experiencing an issue with one of your products. Our team recently encountered a malfunction where the data visualization component of the VantageLens software intermittently fails to display graphs and charts. This has been impacting our ability to effectively analyze data and make informed decisions. We would appreciate your guidance on resolving this issue promptly. Please reach me via email at tariq.khan@worldoftech.com for further details or to arrange a support session. Thank you for your attention to this matter. Best regards, Tariq Khan World of Tech",
+            "status": "solved",
+            "priority": "high",
+            "type": "question",
+            "requester_id": "42",
+            "assignee_id": "7",
+            "due_at": "",
+            "first_response_at": "2025-10-30 09:42:06",
+            "resolved_at": "2025-10-30 11:18:06",
+            "is_deleted": "false",
+            "created_at": "2025-10-30 09:25:06",
+            "updated_at": "2025-10-30 11:38:06"
+        },
+        {
+            "id": "35",
+            "subject": "VantageLens Inquiry from David Kim at Grocery Titans",
+            "description": "Subject: Inquiry Regarding Invoice #6 and Product Functionality Issue Hello VantageLens Support, I am reaching out on behalf of Grocery Titans concerning two matters that require your attention. First, we have received Invoice #6 dated October 27, 2025, and I need some clarification regarding specific charges listed in it. Could you please provide a detailed breakdown to ensure everything is correct? Additionally, we have encountered an issue with VantageLens's product where certain key features are not functioning as expected, which is impacting our operations. We would appreciate your assistance in resolving this matter at your earliest convenience. For further communication, please contact me at david.kim@grocerytitans.com. Thank you for your prompt attention to these issues. Best regards, David Kim",
+            "status": "open",
+            "priority": "normal",
+            "type": "problem",
+            "requester_id": "43",
+            "assignee_id": "8",
+            "due_at": "2025-11-05 00:13:06",
+            "first_response_at": "2025-11-03 01:38:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-11-03 00:13:06",
+            "updated_at": "2025-11-03 04:25:06"
+        },
+        {
+            "id": "36",
+            "subject": "VantageLens Issue at Belle & Co (Invoice #44, Nov 05, 2025)",
+            "description": "Colette Boucher from Belle & Co has encountered an issue with VantageLens's product and requires assistance. She has been experiencing a recurring problem where the product dashboard fails to load completely, causing disruptions in her team's workflow. Additionally, there is a billing inquiry regarding Invoice #44, dated November 05, 2025, where some charges appear to be inconsistently applied compared to previous invoices. Colette seeks a clarification and a resolution for both the product functionality and the billing discrepancy. She can be reached at colette.boucher@belleco.com for further correspondence.",
+            "status": "solved",
+            "priority": "low",
+            "type": "task",
+            "requester_id": "44",
+            "assignee_id": "2",
+            "due_at": "2025-10-28 16:24:06",
+            "first_response_at": "2025-10-21 17:41:06",
+            "resolved_at": "2025-10-21 20:06:06",
+            "is_deleted": "false",
+            "created_at": "2025-10-21 16:24:06",
+            "updated_at": "2025-10-21 22:16:06"
+        },
+        {
+            "id": "37",
+            "subject": "VantageLens Query from George Papadopoulos at AllTime Fashions",
+            "description": "Subject: Issue with Product Performance - Immediate Assistance Required Hello VantageLens Support Team, I'm George Papadopoulos from AllTime Fashions, emailing regarding an issue we've encountered with one of your products. We recently integrated the VantageLens system into our operations, but we've been experiencing inconsistent data analytics results which are affecting our decision-making processes. This has become a pressing concern, and we need immediate assistance to resolve the discrepancies and ensure accurate performance. Please contact me at george.papadopoulos@alltimefashions.com for further details and to discuss the necessary steps to rectify this issue as soon as possible. Thank you for your attention to this urgent matter. Best regards, George Papadopoulos",
+            "status": "solved",
+            "priority": "low",
+            "type": "problem",
+            "requester_id": "45",
+            "assignee_id": "3",
+            "due_at": "2025-11-13 00:05:06",
+            "first_response_at": "2025-11-08 00:21:06",
+            "resolved_at": "2025-11-10 02:07:06",
+            "is_deleted": "false",
+            "created_at": "2025-11-08 00:05:06",
+            "updated_at": "2025-11-10 02:23:06"
+        },
+        {
+            "id": "38",
+            "subject": "VantageLens Inquiry - FreshMart Superstores - Invoice #9 (Oct 29, 2025)",
+            "description": "Subject: Inquiry Regarding Invoice #9 Date October 29, 2025 Hi VantageLens Support Team, I am Carlos Diaz from FreshMart Superstores, and I am reaching out regarding an issue with the invoice #9 dated October 29, 2025. It appears there might be a discrepancy in the billing amount compared to our agreed-upon terms. Could you please provide a detailed breakdown or clarification on the charges listed? Your assistance in resolving this matter would be greatly appreciated. You can reach me via email at carlos.diaz@freshmartsuperstores.com. Thank you for your prompt attention to this issue. Best regards, Carlos Diaz",
+            "status": "on-hold",
+            "priority": "high",
+            "type": "problem",
+            "requester_id": "46",
+            "assignee_id": "4",
+            "due_at": "2025-11-13 12:07:06",
+            "first_response_at": "2025-11-07 13:57:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-11-07 12:07:06",
+            "updated_at": "2025-11-07 15:16:06"
+        },
+        {
+            "id": "39",
+            "subject": "Kenji Watanabe: VantageLens Issue/Inquiry (Ref: Invoice #22, Nov 06, 2025)",
+            "description": "Subject: Issue with VantageLens Product Performance Hello VantageLens Support Team, I am writing to report a persistent issue with one of our VantageLens products. We have been experiencing inconsistent performance and frequent system crashes that severely impact our operations. This has been occurring since our last software update, and despite basic troubleshooting, the issue remains unresolved. We need guidance or a fix at the earliest to mitigate these disruptions. You can reach me at kenji.watanabe@techwhizdepot.com for more details. Thank you for your assistance. Best regards, Kenji Watanabe TechWhiz Depot Email: kenji.watanabe@techwhizdepot.com",
+            "status": "closed",
+            "priority": "low",
+            "type": "task",
+            "requester_id": "47",
+            "assignee_id": "5",
+            "due_at": "2025-10-30 16:45:06",
+            "first_response_at": "",
+            "resolved_at": "2025-10-29 17:28:06",
+            "is_deleted": "false",
+            "created_at": "2025-10-26 16:45:06",
+            "updated_at": "2025-10-29 19:58:06"
+        },
+        {
+            "id": "40",
+            "subject": "VantageLens Inquiry from Gadget Scene - Invoice #43, Nov 03, 2025",
+            "description": "Subject: Issue with VantageLens Product Hello VantageLens Support Team, I am reaching out on behalf of Gadget Scene regarding a problem we are experiencing with one of your products. The device we purchased has been malfunctioning and is not performing as expected, which is impacting our operations. Could you please assist us in resolving this issue? You can reach me at samir.idris@gadgetscene.com for further details on the product and the specific issues occurring. Thank you for your assistance. Best regards, Samir Idris Gadget Scene",
+            "status": "pending",
+            "priority": "low",
+            "type": "task",
+            "requester_id": "48",
+            "assignee_id": "6",
+            "due_at": "2025-11-01 09:18:06",
+            "first_response_at": "2025-10-27 09:41:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-10-27 09:18:06",
+            "updated_at": "2025-10-27 13:04:06"
+        },
+        {
+            "id": "41",
+            "subject": "VantageLens Issue Inquiry from Sanjay Verma at TechHaven",
+            "description": "Ticket Description: Hello VantageLens Support, This is Sanjay Verma from TechHaven, reaching out regarding a billing concern related to invoice #24 dated October 31, 2025. Upon reviewing the invoice, I noticed a discrepancy in the billed amount compared to our agreement. Could you please provide a detailed breakdown and explanation of the charges? Your prompt assistance in resolving this matter would be greatly appreciated. You can contact me via email at sanjay.verma@techhaven.com. Thank you, Sanjay Verma",
+            "status": "new",
+            "priority": "normal",
+            "type": "incident",
+            "requester_id": "49",
+            "assignee_id": "7",
+            "due_at": "",
+            "first_response_at": "",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-10-18 06:35:06",
+            "updated_at": "2025-10-18 08:54:06"
+        },
+        {
+            "id": "42",
+            "subject": "Anton Perez: VantageLens Inquiry (Ref: Invoice #32, Oct 30, 2025)",
+            "description": "Subject: Issue Regarding VantageLens Product/Billing Inquiry - Invoice #32 Hello VantageLens Support Team, My name is Anton Perez from FineFoods, and I am reaching out regarding an issue with your product as well as a billing question. We have encountered a functionality problem that affects our daily operations and need assistance resolving it promptly. Additionally, we have a query regarding Invoice #32, dated October 30, 2025, as there appears to be a discrepancy in the billed amount compared to our expected charges. Please get back to me at your earliest convenience to address these concerns. You can reach me at anton.perez@finefoods.com. Thank you for your assistance. Best regards, Anton Perez FineFoods",
+            "status": "open",
+            "priority": "urgent",
+            "type": "question",
+            "requester_id": "50",
+            "assignee_id": "8",
+            "due_at": "",
+            "first_response_at": "2025-10-15 16:08:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-10-15 14:45:06",
+            "updated_at": "2025-10-15 19:27:06"
+        },
+        {
+            "id": "43",
+            "subject": "Lisa Tran: Inquiry about VantageLens - Invoice #5 from Nov 06, 2025",
+            "description": "Subject: Urgent Inquiry Regarding Billing Issue on Invoice #5 Dear VantageLens Support Team, I am reaching out concerning an issue with the recent invoice #5 dated November 06, 2025. Upon reviewing the details, it appears there may be discrepancies in the billing amount compared to our agreed terms. I would appreciate it if you could provide a breakdown of the charges listed and help clarify the situation. Could we schedule a time to discuss this further? You can reach me at lisa.tran@homegoodshaven.com. Thank you for your prompt attention to this matter. Best regards, Lisa Tran HomeGoods Haven",
+            "status": "solved",
+            "priority": "urgent",
+            "type": "problem",
+            "requester_id": "51",
+            "assignee_id": "2",
+            "due_at": "2025-10-29 12:13:06",
+            "first_response_at": "2025-10-28 12:37:06",
+            "resolved_at": "2025-10-28 14:07:06",
+            "is_deleted": "false",
+            "created_at": "2025-10-28 12:13:06",
+            "updated_at": "2025-10-28 16:43:06"
+        },
+        {
+            "id": "44",
+            "subject": "VantageLens Issue/Inquiry from Islam Halabi, Digital Pulse (Ref: Invoice #38, Nov 04, 2025)",
+            "description": "Subject: Issue with VantageLens Product/Billing Inquiry - Invoice #38 Hello VantageLens Support Team, I am writing to raise a concern regarding a recent issue we have encountered with your product at Digital Pulse. We have been experiencing unexpected functionality problems that are affecting our workflow and would appreciate your assistance in resolving this. Additionally, I have a question regarding Invoice #38 dated November 04, 2025. Could you please clarify a few charges that seem unusual? For further communication, please reach out to me via email at islam.halabi@digitalpulse.com. Thank you for your attention to these matters. Best regards, Islam Halabi",
+            "status": "closed",
+            "priority": "urgent",
+            "type": "question",
+            "requester_id": "52",
+            "assignee_id": "3",
+            "due_at": "",
+            "first_response_at": "",
+            "resolved_at": "2025-10-29 19:00:06",
+            "is_deleted": "false",
+            "created_at": "2025-10-27 17:39:06",
+            "updated_at": "2025-10-29 19:41:06"
+        },
+        {
+            "id": "45",
+            "subject": "Issue with VantageLens - Martha Wallace, BigBox Retailers",
+            "description": "Ticket Title: Billing Discrepancy on Invoice #41 Description: Hello, this is Martha Wallace from BigBox Retailers. I am reaching out regarding a billing concern related to invoice #41 dated November 04, 2025. It appears there may be an error in the charged amount, which does not align with our agreed-upon pricing terms. Could you please review and provide clarification on the discrepancy? You can contact me via email at martha.wallace@bigboxretailers.com. Thank you for your assistance in resolving this matter promptly.",
+            "status": "pending",
+            "priority": "low",
+            "type": "question",
+            "requester_id": "53",
+            "assignee_id": "4",
+            "due_at": "",
+            "first_response_at": "2025-10-16 09:23:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-10-16 08:56:06",
+            "updated_at": "2025-10-16 11:45:06"
+        },
+        {
+            "id": "46",
+            "subject": "Elena Ionescu at Harvest Fresh: VantageLens Issue/Inquiry",
+            "description": "Ticket Description: Elena Ionescu from Harvest Fresh is reaching out regarding an issue with VantageLens's product functionality that is impacting daily operations. Specifically, there appears to be a recurring problem with the analytics dashboard, where data refreshes are delayed, leading to outdated information being displayed. This issue has been persistent over the last week and is critical to resolve as it affects decision-making processes. Alternatively, if the concern is related to billing, Elena needs clarification on a discrepancy found in invoice #25 dated November 05, 2025. She would appreciate it if the support team could look into this matter promptly. For further communication, please contact her via email at elena.ionescu@harvestfresh.com.",
+            "status": "new",
+            "priority": "normal",
+            "type": "incident",
+            "requester_id": "54",
+            "assignee_id": "5",
+            "due_at": "",
+            "first_response_at": "",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-10-14 02:20:06",
+            "updated_at": "2025-10-14 02:48:06"
+        },
+        {
+            "id": "47",
+            "subject": "VantageLens Inquiry from Fiona D\u00e9sir at ExpressMart",
+            "description": "Subject: Urgent: Issue with VantageLens Product Usage Hello VantageLens Support, I am writing to report a concern we have encountered with one of your products used by ExpressMart. We have experienced consistent disruptions in the analytics functionalities that we rely on for our retail insights. This issue has been affecting our operations, and we need a resolution at the earliest possible convenience. Additionally, there is a discrepancy on Invoice #36 dated November 02, 2025. It appears the amount charged does not align with our agreed-upon terms. Please assist in clarifying these concerns. You can reach me via email at fiona.d\u00e9sir@expressmart.com for further details. Thank you for your attention to these matters. Best regards, Fiona D\u00e9sir ExpressMart",
+            "status": "on-hold",
+            "priority": "normal",
+            "type": "problem",
+            "requester_id": "9",
+            "assignee_id": "6",
+            "due_at": "2025-11-02 21:17:06",
+            "first_response_at": "2025-10-30 23:15:06",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-10-30 21:17:06",
+            "updated_at": "2025-10-31 02:54:06"
+        },
+        {
+            "id": "48",
+            "subject": "VantageLens Issue/Inquiry from Anna M\u00fcller, Clothing Hub (Ref: Invoice #11, Oct 31, 2025)",
+            "description": "Subject: Billing Issue with Invoice #11 dated October 31, 2025 Dear VantageLens Support Team, I am reaching out from Clothing Hub regarding a discrepancy found in Invoice #11 dated October 31, 2025. Upon reviewing the invoice, we noticed some charges that do not align with our service agreement and require clarification. Please assist us in resolving this issue at your earliest convenience to ensure our accounts remain accurate and up-to-date. You can reach me via email at anna.m\u00fcller@clothinghub.com for further discussion. Thank you for your assistance. Best regards, Anna M\u00fcller Clothing Hub",
+            "status": "closed",
+            "priority": "low",
+            "type": "problem",
+            "requester_id": "10",
+            "assignee_id": "7",
+            "due_at": "2025-10-18 14:29:06",
+            "first_response_at": "",
+            "resolved_at": "2025-10-15 16:44:06",
+            "is_deleted": "false",
+            "created_at": "2025-10-14 14:29:06",
+            "updated_at": "2025-10-15 19:54:06"
+        },
+        {
+            "id": "49",
+            "subject": "Jonathan Lee - Issue/Question on VantageLens (Ref. Invoice #7 - Oct 28, 2025)",
+            "description": "Subject: Issue with VantageLens Product Features Hi VantageLens Support, I\u2019m writing from Fashion Forward about an issue we've encountered with a feature on the VantageLens platform. We're experiencing difficulties accessing the detailed analytics dashboard, as it seems the data isn't updating in real-time as expected. This has been impacting our ability to make timely business decisions. Can someone please assist us with this issue at your earliest convenience? You can reach me at jonathan.lee@fashionforward.com for further details. Thank you, Jonathan Lee",
+            "status": "new",
+            "priority": "high",
+            "type": "question",
+            "requester_id": "11",
+            "assignee_id": "8",
+            "due_at": "",
+            "first_response_at": "",
+            "resolved_at": "",
+            "is_deleted": "false",
+            "created_at": "2025-11-03 05:44:06",
+            "updated_at": "2025-11-03 07:14:06"
+        },
+        {
+            "id": "50",
+            "subject": "VantageLens Inquiry - Invoice #23 (Oct 30, 2025)",
+            "description": "Ticket Description: Subject: Issue with VantageLens Product / Billing Inquiry for Invoice #23 Hello VantageLens Support Team, I hope this message finds you well. I am writing on behalf of Glamour Glow regarding a concern with one of your products. We are experiencing a technical issue that is affecting our operations and would appreciate your prompt assistance in resolving it. Additionally, I have a question about Invoice #23 dated October 30, 2025, as some charges appear to be inconsistent. Please contact me at chantal.dubois@glamourglow.com to discuss these matters further. Your prompt attention to these issues would be greatly appreciated. Best regards, Chantal Dubois Glamour Glow",
+            "status": "closed",
+            "priority": "low",
+            "type": "problem",
+            "requester_id": "12",
+            "assignee_id": "2",
+            "due_at": "2025-11-10 13:51:06",
+            "first_response_at": "",
+            "resolved_at": "2025-11-08 16:08:06",
+            "is_deleted": "false",
+            "created_at": "2025-11-08 13:51:06",
+            "updated_at": "2025-11-08 18:48:06"
+        }
+    ],
+    "tags": [
+        {
+            "ticket_id": "1",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "1",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "2",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "2",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "3",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "3",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "4",
+            "tag": "performance"
+        },
+        {
+            "ticket_id": "4",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "4",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "5",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "5",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "6",
+            "tag": "task"
+        },
+        {
+            "ticket_id": "6",
+            "tag": "question"
+        },
+        {
+            "ticket_id": "7",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "7",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "8",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "8",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "9",
+            "tag": "performance"
+        },
+        {
+            "ticket_id": "9",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "9",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "10",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "10",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "11",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "11",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "12",
+            "tag": "performance"
+        },
+        {
+            "ticket_id": "12",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "12",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "13",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "13",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "14",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "14",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "15",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "15",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "16",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "16",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "17",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "17",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "18",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "18",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "19",
+            "tag": "ui"
+        },
+        {
+            "ticket_id": "19",
+            "tag": "question"
+        },
+        {
+            "ticket_id": "20",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "20",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "21",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "21",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "22",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "22",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "23",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "23",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "24",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "24",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "25",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "25",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "26",
+            "tag": "performance"
+        },
+        {
+            "ticket_id": "26",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "26",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "27",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "27",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "28",
+            "tag": "performance"
+        },
+        {
+            "ticket_id": "28",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "28",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "29",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "29",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "30",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "30",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "31",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "31",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "32",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "32",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "33",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "33",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "34",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "34",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "35",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "35",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "36",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "36",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "37",
+            "tag": "performance"
+        },
+        {
+            "ticket_id": "38",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "38",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "39",
+            "tag": "performance"
+        },
+        {
+            "ticket_id": "39",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "39",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "40",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "40",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "41",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "41",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "42",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "42",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "43",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "43",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "44",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "44",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "45",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "45",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "46",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "46",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "47",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "47",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "48",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "48",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "49",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "49",
+            "tag": "billing"
+        },
+        {
+            "ticket_id": "50",
+            "tag": "invoice"
+        },
+        {
+            "ticket_id": "50",
+            "tag": "billing"
+        }
+    ],
+    "comments": [
+        {
+            "ticket_id": "1",
+            "author_id": "2",
+            "body": "Subject: Re: VantageLens Issue/Query Dear Fiona, Thank you for reaching out. To assist you better, could you please provide more specifics regarding the issue you're facing with the VantageLens service? If this is related to billing, specifically invoice #36 dated November 02, 2025, kindly share the details so we can investigate and address the matter promptly. Looking forward to your response to help resolve this quickly. Best regards, Amir Hassan",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-10 04:09:06",
+            "updated_at": "2025-11-10 04:09:06"
+        },
+        {
+            "ticket_id": "1",
+            "author_id": "2",
+            "body": "Dear Fiona, Thank you for reaching out with your issue/query regarding VantageLens. To assist you better, could you please provide more specific details about the problem you're experiencing? If your issue is related to billing or invoices, kindly refer to invoice #36 dated November 02, 2025, in your response. Once we have more information, we will be able to address your concern promptly. Best regards, Amir Hassan",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-11-11 08:09:06",
+            "updated_at": "2025-11-11 08:09:06"
+        },
+        {
+            "ticket_id": "2",
+            "author_id": "10",
+            "body": "Dear Anna M\u00fcller, Thank you for your inquiry regarding VantageLens. To resolve your issue, please provide the specific details of the problem you are experiencing. If it's related to the billing on Invoice #11 dated October 31, 2025, attached any relevant documents or describe the discrepancy. Once I have more information, I'll ensure this is addressed promptly. Best regards, Anna M\u00fcller",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-29 14:02:06",
+            "updated_at": "2025-10-29 14:02:06"
+        },
+        {
+            "ticket_id": "2",
+            "author_id": "3",
+            "body": "Subject: Re: Issue with Invoice #11 - VantageLens Dear Anna, Thank you for reaching out regarding Invoice #11 dated October 31, 2025. To assist you further, could you please provide specific details about the issue you are experiencing? Whether it is related to billing discrepancies, technical problems, or accessing certain features, your clarification will help us expedite a resolution. Please email me the details, and I will address it promptly. Best regards, Lisa Chang",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-31 06:02:06",
+            "updated_at": "2025-10-31 06:02:06"
+        },
+        {
+            "ticket_id": "2",
+            "author_id": "3",
+            "body": "Subject: Re: Inquiry/Issue with VantageLens (Ref: Invoice #11, Oct 31, 2025) Dear Anna, Thank you for reaching out to us regarding your issue with VantageLens related to Invoice #11 dated October 31, 2025. Can you please provide more details about the specific issue you're experiencing? This will help us assist you more effectively. Once we have this information, we can direct your concern to the proper department or provide an immediate solution. Best regards, Lisa Chang lisa.chang@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-31 22:02:06",
+            "updated_at": "2025-10-31 22:02:06"
+        },
+        {
+            "ticket_id": "3",
+            "author_id": "4",
+            "body": "Subject: Follow-Up on Invoice Issue - Invoice #7 Hi Jonathan, Thank you for reaching out regarding the issue with Invoice #7 dated October 28, 2025. To address this, please review the invoice details attached to your most recent email for accuracy. If discrepancies persist, kindly send us a screenshot of the invoice and transaction details for further investigation. We aim to resolve this promptly. Best regards, Anwar El-Badawi anwar.el-badawi@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-07 22:37:06",
+            "updated_at": "2025-11-07 22:37:06"
+        },
+        {
+            "ticket_id": "3",
+            "author_id": "4",
+            "body": "Subject: Re: Issue with VantageLens - Invoice #7, October 28, 2025 Dear Jonathan, Thank you for reaching out regarding the issue with Invoice #7 dated October 28, 2025. I have forwarded your concern to our billing department for further investigation. They will review the details and get back to you with a resolution, typically within 3 business days. Meanwhile, if you have any additional information or questions, please let us know. Best regards, Anwar El-Badawi",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-11-09 07:37:06",
+            "updated_at": "2025-11-09 07:37:06"
+        },
+        {
+            "ticket_id": "3",
+            "author_id": "4",
+            "body": "Subject: Re: Issue with VantageLens - Invoice #7 Hi Jonathan, Thank you for reaching out about the issue with invoice #7 dated October 28, 2025. Please rest assured that we are looking into the matter. In the meantime, could you please clarify the specific issue or error you are experiencing with this invoice? Once we have more details, we can escalate this to our billing department to ensure a swift resolution. Best regards, Anwar El-Badawi anwar.el-badawi@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-09 16:37:06",
+            "updated_at": "2025-11-09 16:37:06"
+        },
+        {
+            "ticket_id": "4",
+            "author_id": "12",
+            "body": "Subject: Re: VantageLens Inquiry - Chantal Dubois at Glamour Glow Dear Customer, Thank you for reaching out regarding your inquiry. To proceed, please provide additional details about the specific features or issues you're experiencing with VantageLens. Once we have this information, our team will be able to assist you more effectively. If your inquiry is related to billing, please reference invoice #23 dated October 30, 2025, so we can review the details promptly. Best regards, Chantal Dubois chantal.dubois@glamourglow.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-23 12:49:06",
+            "updated_at": "2025-10-23 12:49:06"
+        },
+        {
+            "ticket_id": "5",
+            "author_id": "6",
+            "body": "Subject: Re: Issue with VantageLens Feature Hi Linda, Thank you for reaching out about the issue you're experiencing with a VantageLens feature. To help us resolve this as efficiently as possible, could you please provide more details about the specific problem you are encountering? In the meantime, I recommend checking if any recent updates need installation, as this might resolve the issue. If it pertains to any billing queries, please refer to invoice #26 dated October 30, 2025, and let me know if you need any further clarification. Best regards, David Green",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-29 01:06:06",
+            "updated_at": "2025-10-29 01:06:06"
+        },
+        {
+            "ticket_id": "5",
+            "author_id": "6",
+            "body": "Subject: Re: Issue with VantageLens Feature Hi Linda, Thank you for reaching out regarding the issue with the VantageLens feature. To address this promptly, could you please provide a brief description of the problem you're experiencing? This information will help us assist you more effectively. Additionally, once we identify the issue, we may need to look into your account in detail, referencing invoice #26 dated October 30, 2025, as part of our troubleshooting process. Looking forward to your response. Best regards, David Green Vantage-Lens Support Team",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-30 11:06:06",
+            "updated_at": "2025-10-30 11:06:06"
+        },
+        {
+            "ticket_id": "6",
+            "author_id": "14",
+            "body": "Subject: Re: VantageLens Issue/Inquiry Hi, Thank you for reaching out regarding the issue with VantageLens. To assist you better, please provide specific details about the problem you're encountering. If this pertains to billing concerns, kindly refer to invoice #3 dated November 03, 2025, and I will investigate further. Looking forward to your reply so we can resolve this promptly. Best regards, Sophie Chang sophie.chang@trendsetters.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-14 21:35:06",
+            "updated_at": "2025-10-14 21:35:06"
+        },
+        {
+            "ticket_id": "7",
+            "author_id": "15",
+            "body": "Hello, Thank you for reaching out regarding your inquiry about VantageLens. Please provide more specific details or questions you might have, so I can assist you effectively. If this is regarding billing or invoices, please refer to invoice #15 dated October 30, 2025, for clarity. Looking forward to assisting you further. Best regards, Liam O'Malley",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-04 12:37:06",
+            "updated_at": "2025-11-04 12:37:06"
+        },
+        {
+            "ticket_id": "7",
+            "author_id": "8",
+            "body": "Subject: RE: VantageLens Inquiry Hi Liam, Thank you for reaching out with your inquiry. To assist you further, could you please provide more details regarding the specific issue or question you have? If this is related to billing or an invoice, you might want to refer to invoice #15 dated October 30, 2025, for any discrepancies. Looking forward to your response to address your concern effectively. Best regards, Oliver Thompson oliver.thompson@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-11-05 23:37:06",
+            "updated_at": "2025-11-05 23:37:06"
+        },
+        {
+            "ticket_id": "7",
+            "author_id": "8",
+            "body": "Subject: Re: VantageLens Inquiry Dear Liam, Thank you for reaching out with your inquiry. Could you please provide more specific details about your request or issue? This will help us assist you more effectively. If your inquiry relates to billing, kindly refer to invoice #15 dated October 30, 2025, for ease of reference. Once we receive more information, we can respond with specific solutions or next steps. Best regards, Oliver Thompson oliver.thompson@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-07 14:37:06",
+            "updated_at": "2025-11-07 14:37:06"
+        },
+        {
+            "ticket_id": "8",
+            "author_id": "2",
+            "body": "Subject: Re: VantageLens Issue: Assistance Needed (Invoice #8, Nov 05, 2025) Hi Priya, Thank you for reaching out regarding Invoice #8 dated November 05, 2025. To resolve the issue, could you please clarify if it's related to billing discrepancies or service details? Meanwhile, I recommend checking the Billing section of your VantageLens account for any updates or changes. If there's any specific detail or document that you require, feel free to let me know, and I'll be happy to assist further. Best regards, Amir Hassan",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-29 23:14:06",
+            "updated_at": "2025-10-29 23:14:06"
+        },
+        {
+            "ticket_id": "8",
+            "author_id": "2",
+            "body": "Subject: Re: Assistance Needed with Invoice #8 \u2013 November 05, 2025 Dear Priya, Thank you for reaching out regarding Invoice #8 dated November 05, 2025. To assist you further, could you please specify the issue you are encountering with this invoice? Whether it's a discrepancy in billing, payment concerns, or accessing invoice details, I am here to help. Once you provide more details, I will ensure prompt resolution. Best regards, Amir Hassan amir.hassan@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-31 09:14:06",
+            "updated_at": "2025-10-31 09:14:06"
+        },
+        {
+            "ticket_id": "8",
+            "author_id": "2",
+            "body": "Subject: Re: Assistance Needed with Invoice #8 Hi Priya, Thank you for reaching out regarding Invoice #8 dated November 05, 2025. To assist you further, could you please clarify if you are facing an issue with the amount, payment status, or any specific detail related to this invoice? Let me know the issue, and I\u2019ll make sure to address it promptly or connect you with our billing department for further assistance. Best regards, Amir Hassan amir.hassan@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-02 09:14:06",
+            "updated_at": "2025-11-02 09:14:06"
+        },
+        {
+            "ticket_id": "9",
+            "author_id": "3",
+            "body": "Subject: Re: Issue with VantageLens - Invoice #19 Dated October 27, 2025 Dear Miguel, Thank you for reaching out regarding Invoice #19 dated October 27, 2025. To help resolve the issue, can you please provide more details on the specific problem you are experiencing with this invoice? Once we have additional information, we can address the issue promptly. If necessary, you can attach any relevant documents or screenshots to assist us in identifying the problem. Best regards, Lisa Chang lisa.chang@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-20 22:00:06",
+            "updated_at": "2025-10-20 22:00:06"
+        },
+        {
+            "ticket_id": "9",
+            "author_id": "3",
+            "body": "Dear Miguel, Thank you for reaching out about the issue with Invoice #19 dated October 27, 2025. To assist you better, could you please specify the nature of the problem you're encountering? Once you provide more details, I'll ensure we address and resolve the issue promptly. Best regards, Lisa Chang lisa.chang@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-22 03:00:06",
+            "updated_at": "2025-10-22 03:00:06"
+        },
+        {
+            "ticket_id": "10",
+            "author_id": "4",
+            "body": "Subject: Re: VantageLens Inquiry (Ref: Invoice #45, Nov 04, 2025) Dear Jun, Thank you for reaching out regarding your inquiry. Could you please provide more details about the issue with Invoice #45 dated November 04, 2025? This information will help us address your concern more efficiently. If this is related to a billing discrepancy, kindly attach any supporting documents as well. Once we have this information, we can move forward with resolving your issue. Best regards, Anwar El-Badawi anwar.el-badawi@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-05 07:06:06",
+            "updated_at": "2025-11-05 07:06:06"
+        },
+        {
+            "ticket_id": "11",
+            "author_id": "5",
+            "body": "Subject: Re: VantageLens Issue/Inquiry - Pet Essentials Hi Gretchen, Thank you for reaching out regarding your issue with VantageLens. To assist you further, could you please elaborate on the specific issue you're encountering? If your inquiry is related to billing or an invoice concern, kindly refer to invoice #42 dated October 29, 2025. Once we have more details, we can promptly address your concern. Best regards, Aisha Malik aisha.malik@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-25 19:46:06",
+            "updated_at": "2025-10-25 19:46:06"
+        },
+        {
+            "ticket_id": "12",
+            "author_id": "6",
+            "body": "Subject: Re: VantageLens Inquiry - Style Studio Hi Chloe, Thank you for reaching out regarding your inquiry about VantageLens. Could you please provide more specific details about your question or concern? If your inquiry is related to a billing issue concerning invoice #39 dated November 01, 2025, please confirm. This will help us assist you more effectively. Looking forward to your response. Best regards, David Green",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-20 09:00:06",
+            "updated_at": "2025-10-20 09:00:06"
+        },
+        {
+            "ticket_id": "13",
+            "author_id": "7",
+            "body": "Subject: Re: VantageLens Issue Dear Mark, Thank you for reaching out. To address the issue you're experiencing, could you please provide more details or any error messages you've encountered? Once we have this information, we can determine the next steps or escalate the matter if necessary. Regarding billing, I see there's reference to invoice #2 dated October 28, 2025; if this is related to your concern, please let me know so we can look into it further. Best regards, Mei Tan",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-27 12:25:06",
+            "updated_at": "2025-10-27 12:25:06"
+        },
+        {
+            "ticket_id": "13",
+            "author_id": "7",
+            "body": "Subject: Re: VantageLens Issue Resolution Hi Mark, Thank you for reaching out. Could you please provide more details regarding the issue you're experiencing? If this is related to billing, kindly refer to invoice #2 dated October 28, 2025, so I can better assist you. Once I have more information, I can offer a specific resolution or escalate your case to the appropriate team. Best regards, Mei Tan",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-28 08:25:06",
+            "updated_at": "2025-10-28 08:25:06"
+        },
+        {
+            "ticket_id": "14",
+            "author_id": "22",
+            "body": "Thank you for reaching out regarding your inquiry about VantageLens and referencing Invoice #18, dated November 05, 2025. To assist you further, could you please provide additional details regarding your specific concerns or questions about the invoice or the VantageLens service? Once I receive more information, I'll be able to guide you on the appropriate next steps. Best regards, Sarah Bennett",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-16 08:05:06",
+            "updated_at": "2025-10-16 08:05:06"
+        },
+        {
+            "ticket_id": "14",
+            "author_id": "8",
+            "body": "Subject: Re: VantageLens Inquiry - Invoice #18 Hi Sarah, Thank you for reaching out regarding Invoice #18 dated November 05, 2025. To assist you properly, could you please provide more details about your inquiry? If it's related to a billing issue or clarification on the charges, feel free to specify, and I'll be happy to help further. You can also call our billing department for a more immediate response. Best regards, Oliver Thompson oliver.thompson@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-16 09:05:06",
+            "updated_at": "2025-10-16 09:05:06"
+        },
+        {
+            "ticket_id": "15",
+            "author_id": "23",
+            "body": "I'm reaching out regarding your query on Invoice #40 dated October 31, 2025. It appears that there may have been a mix-up as emails seem to have crossed paths. Please verify the invoice and let us know if the details are correct on your end, or if there's any specific issue you'd like addressed. Once verified, I can assist further to resolve any concerns or provide more information as needed. Best regards, Arya Singh arya.singh@allthingsbooks.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-12 20:41:06",
+            "updated_at": "2025-11-12 20:41:06"
+        },
+        {
+            "ticket_id": "16",
+            "author_id": "24",
+            "body": "Thank you for reaching out with your concerns regarding VantageLens and the billing issue associated with Invoice #20 dated October 30, 2025. I've reviewed the details and understand your concerns. As the next step, I will escalate this matter to our billing team for a thorough review and resolution. You can expect to hear back from us within the next 3 business days with a resolution or an update. Best regards, Bethany Chandler",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-30 04:43:06",
+            "updated_at": "2025-10-30 04:43:06"
+        },
+        {
+            "ticket_id": "16",
+            "author_id": "3",
+            "body": "Subject: Re: Issue with VantageLens - PetParadise (Ref: Invoice #20, Oct 30, 2025) Hi Bethany, Thank you for contacting us about the issue you're experiencing with VantageLens. To assist you better, could you please provide more details about the specific problem? If it relates to billing, please refer to Invoice #20 dated October 30, 2025. Once we have more information, we can determine the appropriate next steps to resolve this issue promptly. Best regards, Lisa Chang",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-30 20:43:06",
+            "updated_at": "2025-10-30 20:43:06"
+        },
+        {
+            "ticket_id": "16",
+            "author_id": "3",
+            "body": "Subject: Re: Issue with VantageLens - PetParadise (Ref: Invoice #20, Oct 30, 2025) Hi Bethany, Thank you for reaching out regarding the issue with VantageLens and the reference to Invoice #20 dated October 30, 2025. To help resolve this, could you please provide more details about the specific issue you are encountering? Once we have this information, we can look into it further and work toward a resolution. If your concern is related to billing, kindly clarify, and I will coordinate with our billing department to address it promptly. Best regards, Lisa Chang lisa.chang@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-31 19:43:06",
+            "updated_at": "2025-10-31 19:43:06"
+        },
+        {
+            "ticket_id": "17",
+            "author_id": "4",
+            "body": "Subject: Re: Inquiry on VantageLens Issue (Invoice #21, Oct 29, 2025) Dear Vito, Thank you for reaching out regarding the issue with your recent invoice (#21, dated October 29, 2025). To move forward, please provide further details about the specific problem you're experiencing, whether it concerns payment processing, itemization, or any discrepancies noted. Once we have this information, we can work on resolving it promptly. Looking forward to your response. Best regards, Anwar El-Badawi anwar.el-badawi@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-01 01:27:06",
+            "updated_at": "2025-11-01 01:27:06"
+        },
+        {
+            "ticket_id": "17",
+            "author_id": "4",
+            "body": "Subject: Re: Inquiry on VantageLens Issue (Invoice #21, Oct 29, 2025) Dear Vito, Thank you for reaching out regarding the issue with Invoice #21 dated October 29, 2025. Could you please provide more details about the specific problem you are encountering? Once we have more information, we can assist further. Meanwhile, make sure all software updates are installed for optimal performance. Best regards, Anwar El-Badawi anwar.el-badawi@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-11-02 15:27:06",
+            "updated_at": "2025-11-02 15:27:06"
+        },
+        {
+            "ticket_id": "17",
+            "author_id": "4",
+            "body": "Subject: Re: Vito Amato Inquiry on VantageLens Issue (Invoice #21, Oct 29, 2025) Dear Vito, Thank you for reaching out regarding the issue with Invoice #21 dated October 29, 2025. To assist you effectively, could you please specify the exact nature of the problem you're experiencing? This will help us address your concern more accurately. Once you provide further details, we can proceed with resolving the issue promptly. Best regards, Anwar El-Badawi Vantage-Lens Support Team anwar.el-badawi@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-03 04:27:06",
+            "updated_at": "2025-11-03 04:27:06"
+        },
+        {
+            "ticket_id": "18",
+            "author_id": "26",
+            "body": "Subject: Re: VantageLens Query Dear Rachel, Thank you for reaching out regarding VantageLens. To assist you better, could you please provide more details about your specific query or the issue you are experiencing? If your query relates to billing, for example, please refer to invoice #33 dated October 25, 2025. Once I have more information, I can ensure you're connected with the right support department. Best regards, Rachel Johnson",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-09 13:39:06",
+            "updated_at": "2025-11-09 13:39:06"
+        },
+        {
+            "ticket_id": "19",
+            "author_id": "6",
+            "body": "Subject: RE: Inquiry Regarding VantageLens Hi Alice, Thank you for reaching out with your inquiry. To provide the best assistance, could you please specify the details or questions you have regarding VantageLens? If this pertains to a billing issue, kindly refer to invoice #47 dated October 31, 2025, so I can expedite the process. Looking forward to your response to address this promptly. Best regards, David Green david.green@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-20 05:41:06",
+            "updated_at": "2025-10-20 05:41:06"
+        },
+        {
+            "ticket_id": "19",
+            "author_id": "6",
+            "body": "Subject: Re: Inquiry Regarding VantageLens Hi Alice, Thank you for reaching out to us with your inquiry. To assist you better, could you please provide more details about your inquiry related to VantageLens? If your question is related to an invoice, please refer to invoice #47 dated October 31, 2025. Once I have more information, I'll be able to guide you on the next steps. Best regards, David Green david.green@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-20 16:41:06",
+            "updated_at": "2025-10-20 16:41:06"
+        },
+        {
+            "ticket_id": "20",
+            "author_id": "7",
+            "body": "Subject: Re: VantageLens Issue Inquiry - Invoice #27 Hi Marisol, Thank you for reaching out regarding your inquiry. I would be happy to assist with any issues related to Invoice #27 dated October 31, 2025. Please provide specific details about the issue you're experiencing, so I can address it more effectively. If it's a billing discrepancy, please check the attached document and let us know which part needs clarification. Once we have that information, we can proceed with the necessary adjustments or provide further support. Best regards, Mei Tan",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-01 14:52:06",
+            "updated_at": "2025-11-01 14:52:06"
+        },
+        {
+            "ticket_id": "21",
+            "author_id": "8",
+            "body": "Subject: Re: Inquiry/Issue with VantageLens at Gizmo World Hi Aiden, Thank you for reaching out regarding your issue with VantageLens. To better assist you, could you please provide more details about the specific problem you are encountering? If your inquiry involves billing, please refer to invoice #46 dated November 01, 2025, so we can address it accurately. Once I have this information, I will be able to provide you with the appropriate next steps. Best regards, Oliver Thompson oliver.thompson@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-18 08:05:06",
+            "updated_at": "2025-10-18 08:05:06"
+        },
+        {
+            "ticket_id": "21",
+            "author_id": "8",
+            "body": "Subject: Re: Inquiry/Issue with VantageLens at Gizmo World Hi Aiden, Thank you for reaching out regarding your issue with VantageLens. To assist you further, could you please provide more details about the specific problem you are encountering? If this involves billing or invoices, kindly refer to invoice #46 dated November 01, 2025, to expedite the resolution. Looking forward to assisting you. Best regards, Oliver Thompson oliver.thompson@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-18 14:05:06",
+            "updated_at": "2025-10-18 14:05:06"
+        },
+        {
+            "ticket_id": "21",
+            "author_id": "8",
+            "body": "Dear Aiden, Thank you for reaching out about your issue with VantageLens. To assist you further, could you please provide more details regarding the specific problem you're encountering? If your inquiry is related to billing, please confirm if it pertains to invoice #46 dated November 01, 2025. Your input will help ensure that we address this as swiftly as possible. Best regards, Oliver Thompson",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-20 05:05:06",
+            "updated_at": "2025-10-20 05:05:06"
+        },
+        {
+            "ticket_id": "22",
+            "author_id": "2",
+            "body": "Subject: Re: Inquiry on VantageLens Functionality Hello Aisha, Thank you for reaching out with your inquiry about VantageLens functionality. To assist you better, could you please specify which features or aspects of the platform you'd like more information on? If this is regarding a feature covered under invoice #28 dated October 31, 2025, I can provide specific guidance or troubleshooting steps. Looking forward to your response so we can ensure you get the support you need. Best regards, Amir Hassan amir.hassan@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-27 11:54:06",
+            "updated_at": "2025-10-27 11:54:06"
+        },
+        {
+            "ticket_id": "22",
+            "author_id": "2",
+            "body": "Subject: Re: Inquiry on VantageLens Functionality Dear Aisha, Thank you for reaching out with your inquiry about VantageLens functionality. Could you please specify which features or issues you are particularly interested in so we can provide you with detailed assistance? If this is related to an invoice or billing issue, such as the recent Invoice #28 dated October 31, 2025, please let me know so I can direct your query accordingly. Looking forward to your response. Best regards, Amir Hassan amir.hassan@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-28 02:54:06",
+            "updated_at": "2025-10-28 02:54:06"
+        },
+        {
+            "ticket_id": "22",
+            "author_id": "2",
+            "body": "Dear Aisha, Thank you for reaching out with your inquiry on VantageLens functionality. To better assist you, could you please specify which particular feature or functionality you're having trouble with? This will help us address your concern more effectively. Additionally, if your question relates to any recent changes, kindly check if your system is updated with the latest software version. If this involves billing, please provide further details referring to invoice #28 dated October 31, 2025, so we can assist accordingly. Best regards, Amir Hassan",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-28 17:54:06",
+            "updated_at": "2025-10-28 17:54:06"
+        },
+        {
+            "ticket_id": "23",
+            "author_id": "3",
+            "body": "Subject: Re: Invoice #31 Dated October 30, 2025 - VantageLens Issue Hi Mia, Thanks for reaching out regarding the issue with Invoice #31 dated October 30, 2025. To assist you further, could you please clarify the specific issue you're experiencing with this invoice? Once I have more details, I'll be able to provide a more targeted solution or forward your concern to the appropriate department. Best regards, Lisa Chang lisa.chang@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-18 09:36:06",
+            "updated_at": "2025-10-18 09:36:06"
+        },
+        {
+            "ticket_id": "23",
+            "author_id": "3",
+            "body": "Subject: Re: VantageLens Issue for Invoice #31 Dated October 30, 2025 Hi Mia, Thank you for reaching out regarding your query on Invoice #31, dated October 30, 2025. To assist you further, could you please provide more details about the specific issue you're experiencing? Once we have that information, we\u2019ll investigate the matter and aim to resolve it promptly. Best regards, Lisa Chang lisa.chang@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-19 12:36:06",
+            "updated_at": "2025-10-19 12:36:06"
+        },
+        {
+            "ticket_id": "23",
+            "author_id": "3",
+            "body": "Subject: Re: VantageLens Issue - Invoice #31 Dated October 30, 2025 Hi Mia, Thank you for reaching out regarding Invoice #31 dated October 30, 2025. To assist you further, could you please provide more details about the specific issue you are experiencing? Once we have more information, we will promptly address your concerns. In the meantime, if this relates to a billing discrepancy or payment issue, please also check the payment status on your account portal. Best regards, Lisa Chang lisa.chang@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-20 14:36:06",
+            "updated_at": "2025-10-20 14:36:06"
+        },
+        {
+            "ticket_id": "24",
+            "author_id": "4",
+            "body": "Dear Cheng Wong, Thank you for reaching out regarding your inquiry on Invoice #12 dated November 06, 2025. To assist you better, could you please clarify the specific aspect of the invoice or any particular question you have? Once we have this information, we'll be able to provide you with detailed assistance. Best regards, Anwar El-Badawi",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-05 02:21:06",
+            "updated_at": "2025-11-05 02:21:06"
+        },
+        {
+            "ticket_id": "24",
+            "author_id": "4",
+            "body": "Hello Cheng, Thank you for reaching out regarding Invoice #12 dated November 06, 2025. To assist you further, could you please provide more details on your inquiry related to this invoice? Kindly email any specific questions or issues to billing@vantage-lens.com, and our team will be happy to assist you promptly. Best regards, Anwar El-Badawi",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-11-06 14:21:06",
+            "updated_at": "2025-11-06 14:21:06"
+        },
+        {
+            "ticket_id": "24",
+            "author_id": "4",
+            "body": "Subject: Inquiry on Invoice #12: Nov 06, 2025 Dear Cheng Wong, Thank you for reaching out regarding Invoice #12 dated November 06, 2025. To assist you further, could you please specify the nature of your inquiry\u2014whether it relates to a billing discrepancy, service details, or another issue? Once we have more details, we can address your concern promptly. Please reply to this email with the requested information. Best regards, Anwar El-Badawi anwar.el-badawi@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-07 23:21:06",
+            "updated_at": "2025-11-07 23:21:06"
+        },
+        {
+            "ticket_id": "25",
+            "author_id": "33",
+            "body": "Subject: Re: VantageLens Inquiry/Issue Dear Raj Patel, Thank you for reaching out regarding your VantageLens inquiry. To further assist you, could you please provide more specific details about the issue you are experiencing? If it's related to billing or invoices, kindly reference invoice #4 dated November 03, 2025, to help us address your concerns promptly. Best regards, Raj Patel",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-10 15:41:06",
+            "updated_at": "2025-11-10 15:41:06"
+        },
+        {
+            "ticket_id": "25",
+            "author_id": "5",
+            "body": "Subject: Re: VantageLens Inquiry/Issue - Raj Patel Dear Raj, Thank you for reaching out. To resolve your issue, could you please provide more details regarding the specific problem you are experiencing? If it pertains to billing or invoices, kindly refer to invoice #4 dated November 03, 2025. Once we have this information, we can assist you more efficiently. Best regards, Aisha Malik aisha.malik@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-11-11 16:41:06",
+            "updated_at": "2025-11-11 16:41:06"
+        },
+        {
+            "ticket_id": "26",
+            "author_id": "6",
+            "body": "Dear Sophia, Thank you for reaching out regarding your billing inquiry on Invoice #30 dated October 30, 2025. To assist you better, could you please specify the particular issue or question you have regarding this invoice? Once I have more detailed information, I will be able to provide you with the appropriate next steps or resolution. Best regards, David Green",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-06 15:13:06",
+            "updated_at": "2025-11-06 15:13:06"
+        },
+        {
+            "ticket_id": "26",
+            "author_id": "6",
+            "body": "Subject: Re: Billing Inquiry: Invoice #30 - VantageLens Hi Sophia, Thank you for reaching out regarding your billing inquiry for Invoice #30 dated October 30, 2025. To assist you further, could you please provide more details about the specific issue you're experiencing, such as discrepancies you might have noticed? Once I have more information, I can investigate and get this resolved for you promptly. Best regards, David Green david.green@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-11-07 19:13:06",
+            "updated_at": "2025-11-07 19:13:06"
+        },
+        {
+            "ticket_id": "26",
+            "author_id": "6",
+            "body": "Dear Sophia, Thank you for reaching out regarding your billing inquiry for Invoice #30 dated October 30, 2025. After reviewing the invoice, I recommend our next step is to clarify any specific discrepancies or questions you have. Please provide more details, and I'll ensure we address any concerns promptly. Best regards, David Green",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-09 07:13:06",
+            "updated_at": "2025-11-09 07:13:06"
+        },
+        {
+            "ticket_id": "27",
+            "author_id": "35",
+            "body": "I'm sorry, but it seems there might be an error with the email address provided, as both yours and mine appear to be the same. Could you please verify and resend your email address to ensure proper communication? Meanwhile, regarding the VantageLens issue, please provide additional details or specific concerns you are encountering. This will help us assist you more effectively. If you have questions related to billing for Invoice #29 dated November 01, 2025, kindly mention them and I'll provide the necessary assistance. Best regards, Peter Chan",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-11 16:38:06",
+            "updated_at": "2025-11-11 16:38:06"
+        },
+        {
+            "ticket_id": "27",
+            "author_id": "7",
+            "body": "Subject: Re: VantageLens Issue or Question (Ref: Invoice #29, Nov 01, 2025) Dear Peter, Thank you for reaching out to us regarding your inquiry related to Invoice #29, dated November 01, 2025. To assist you promptly, could you please provide more details about the issue or question you are experiencing? Once I have this information, I can ensure that the appropriate team addresses your concerns swiftly. Best regards, Mei Tan mei.tan@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-11-13 05:38:06",
+            "updated_at": "2025-11-13 05:38:06"
+        },
+        {
+            "ticket_id": "28",
+            "author_id": "8",
+            "body": "Subject: Re: VantageLens Inquiry (Invoice #13, Nov 01, 2025) Hi Fatima, Thank you for reaching out regarding Invoice #13 dated November 01, 2025. To better assist you, could you please provide more details about your inquiry? If it concerns a billing discrepancy or a clarification needed on the invoice, I'll be happy to investigate further once I have more specifics. Best regards, Oliver Thompson oliver.thompson@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-28 15:33:06",
+            "updated_at": "2025-10-28 15:33:06"
+        },
+        {
+            "ticket_id": "28",
+            "author_id": "8",
+            "body": "Subject: Re: VantageLens Inquiry (Invoice #13, Nov 01, 2025) Dear Fatima, Thank you for reaching out regarding Invoice #13 dated November 01, 2025. To assist you further, could you please specify whether your inquiry is related to billing details or product-related questions? Once I have more information, I can provide you with the appropriate support or clarification you need. Best regards, Oliver Thompson oliver.thompson@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-28 19:33:06",
+            "updated_at": "2025-10-28 19:33:06"
+        },
+        {
+            "ticket_id": "28",
+            "author_id": "8",
+            "body": "Subject: Re: VantageLens Inquiry (Invoice #13, Nov 01, 2025) Dear Fatima, Thank you for reaching out regarding invoice #13 dated November 01, 2025. To assist you better, could you please provide more details regarding the issue or question you have about this invoice? Once we have more information, we can proceed with resolving this matter promptly. Best regards, Oliver Thompson oliver.thompson@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-30 08:33:06",
+            "updated_at": "2025-10-30 08:33:06"
+        },
+        {
+            "ticket_id": "29",
+            "author_id": "2",
+            "body": "Subject: Re: VantageLens Issue/Inquiry - Ref: Invoice #14 (Nov 05, 2025) Dear Nina, Thank you for reaching out regarding Invoice #14 dated November 05, 2025. To assist you further, could you please specify the details of your inquiry or the issue you are experiencing with this invoice? Once I have more information, I will be able to provide a more detailed response and the necessary assistance. Best regards, Amir Hassan",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-06 21:26:06",
+            "updated_at": "2025-11-06 21:26:06"
+        },
+        {
+            "ticket_id": "29",
+            "author_id": "2",
+            "body": "Dear Nina, Thank you for reaching out regarding your inquiry about Invoice #14 dated November 05, 2025. To assist you further, could you please provide additional details about the specific issue you are experiencing? Once we have this information, we can promptly address your concerns or rectify any discrepancies. Looking forward to your response. Best regards, Amir Hassan",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-11-07 22:26:06",
+            "updated_at": "2025-11-07 22:26:06"
+        },
+        {
+            "ticket_id": "30",
+            "author_id": "3",
+            "body": "Subject: RE: VantageLens Issue/Question Hi Emma, Thank you for reaching out to us. To better assist you, could you please provide more details about the issue or question you're experiencing? If it's related to billing, please reference invoice #10 dated October 31, 2025, so we can look into it for you. Once we have this information, we'll be able to provide more specific assistance. Best regards, Lisa Chang lisa.chang@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-28 23:51:06",
+            "updated_at": "2025-10-28 23:51:06"
+        },
+        {
+            "ticket_id": "31",
+            "author_id": "39",
+            "body": "It seems there\u2019s been some confusion, as this email belongs to me, Olivia Evans. If you have any specific inquiries or issues related to VantageLens, please clarify your question or concern so that I can assist you further. For billing issues, please ensure to reference any relevant invoices, such as invoice #16 dated November 01, 2025. Looking forward to your reply to better assist with your needs. Best regards, Olivia Evans",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-27 02:54:06",
+            "updated_at": "2025-10-27 02:54:06"
+        },
+        {
+            "ticket_id": "32",
+            "author_id": "40",
+            "body": "Subject: Follow-Up on VantageLens Inquiry Dear VantageLens Team, Thank you for reaching out. To proceed with our inquiry, could you please provide a detailed proposal outlining how VantageLens can align with Fresh Finds Supermarket's current objectives and integrations? If any billing issues need clarification, please ensure they reference invoice #37 dated November 04, 2025. Looking forward to your prompt response. Best regards, Amelia Thompson amelia.thompson@freshfindssupermarket.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-14 16:44:06",
+            "updated_at": "2025-10-14 16:44:06"
+        },
+        {
+            "ticket_id": "33",
+            "author_id": "6",
+            "body": "Subject: Re: VantageLens Inquiry/Billing Issue (Invoice #35 - 10/30/2025) Hi Marco, Thank you for reaching out regarding the billing issue associated with Invoice #35 dated October 30, 2025. To resolve this matter, please review the specified invoice details in your account for any discrepancies. If everything appears in order and the issue persists, kindly forward any relevant documents to support@vantage-lens.com for further investigation. We're here to make sure this is sorted out promptly. Best regards, David Green",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-14 09:47:06",
+            "updated_at": "2025-10-14 09:47:06"
+        },
+        {
+            "ticket_id": "33",
+            "author_id": "6",
+            "body": "Subject: Re: VantageLens Inquiry/Billing Issue (Invoice #35 - 10/30/2025) Dear Marco, Thank you for reaching out about the billing issue with Invoice #35 dated October 30, 2025. I will review the invoice details and get back to you with a resolution within the next two business days. In the meantime, if there are specific discrepancies you'd like to highlight, please feel free to share those details with me. Best regards, David Green david.green@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-16 06:47:06",
+            "updated_at": "2025-10-16 06:47:06"
+        },
+        {
+            "ticket_id": "34",
+            "author_id": "42",
+            "body": "It seems there is a misunderstanding with the email address used; you're reaching out to an internal address at World of Tech. Please direct your inquiry to our support team at support@worldoftech.com. Once they receive your message, they will investigate the issue reported for VantageLens and assist you further. Make sure to include your Invoice #34 dated October 26, 2025, for quicker resolution. Best regards, Tariq Khan",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-30 10:59:06",
+            "updated_at": "2025-10-30 10:59:06"
+        },
+        {
+            "ticket_id": "34",
+            "author_id": "7",
+            "body": "Subject: Re: VantageLens Issue Report - Invoice #34, Dated Oct 26, 2025 Dear Tariq, Thank you for reaching out regarding Invoice #34, dated October 26, 2025. To address this issue, we will thoroughly review the details and get back to you within 48 hours with a resolution. If there are any specific points you would like us to focus on, please let us know. Best regards, Mei Tan",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-30 20:59:06",
+            "updated_at": "2025-10-30 20:59:06"
+        },
+        {
+            "ticket_id": "34",
+            "author_id": "7",
+            "body": "Subject: Re: VantageLens Issue Report\u2013 Invoice #34, Dated Oct 26, 2025 Dear Tariq, Thank you for reaching out regarding the issue with Invoice #34 dated October 26, 2025. We appreciate your patience and will prioritize this matter. I have forwarded the details to our billing team, who will investigate the discrepancy and contact you by the end of the week with an update or resolution. If you have any further questions in the meantime, please let me know. Best regards, Mei Tan",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-31 17:59:06",
+            "updated_at": "2025-10-31 17:59:06"
+        },
+        {
+            "ticket_id": "35",
+            "author_id": "8",
+            "body": "Subject: Re: VantageLens Inquiry Dear David, Thank you for reaching out to us with your inquiry. To assist you further, could you please provide more details about the specific issue you're experiencing? If your query pertains to billing or invoices, kindly reference invoice #6 dated October 27, 2025, for more efficient assistance. Looking forward to your response so we can promptly address your concerns. Best regards, Oliver Thompson oliver.thompson@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-03 00:52:06",
+            "updated_at": "2025-11-03 00:52:06"
+        },
+        {
+            "ticket_id": "35",
+            "author_id": "8",
+            "body": "Subject: Re: VantageLens Inquiry Hi David, Thank you for reaching out to us with your inquiry. Could you please provide more details regarding the specific issue or question you have at hand? If it pertains to billing and involves invoice #6 dated October 27, 2025, kindly confirm so I can direct this to our billing team for a detailed review. Looking forward to your clarification to assist you better. Best regards, Oliver Thompson oliver.thompson@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-11-03 23:52:06",
+            "updated_at": "2025-11-03 23:52:06"
+        },
+        {
+            "ticket_id": "36",
+            "author_id": "2",
+            "body": "Subject: Resolution Steps for VantageLens Issue at Belle & Co Dear Colette, Thank you for reaching out regarding the issue with VantageLens, specifically related to Invoice #44 dated November 05, 2025. To address this, we will need additional details on the specific problem you are encountering. Please provide any error messages or unusual behavior you're experiencing. Once I have more information, I can coordinate with our technical team to expedite a resolution. Best regards, Amir Hassan amir.hassan@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-21 19:40:06",
+            "updated_at": "2025-10-21 19:40:06"
+        },
+        {
+            "ticket_id": "36",
+            "author_id": "2",
+            "body": "Subject: Re: VantageLens Issue at Belle & Co (Invoice #44, Nov 05, 2025) Dear Colette Boucher, Thank you for reaching out regarding the issue with your VantageLens account. I understand the concern about Invoice #44 dated November 05, 2025. To assist you effectively, could you please provide more details on the issue you're experiencing? Once I have more information, I can guide you through the necessary steps to resolve it or connect you with the right team for support. Best regards, Amir Hassan amir.hassan@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-22 03:40:06",
+            "updated_at": "2025-10-22 03:40:06"
+        },
+        {
+            "ticket_id": "37",
+            "author_id": "45",
+            "body": "Hi Team, Thank you for reaching out to me concerning the VantageLens query. Could you please provide more details on the query so that I can assist you further? Also, if there are any specific issues related to billing or the services outlined in invoice #17 dated October 30, 2025, do let me know, so we can address them promptly. Best regards, George Papadopoulos",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-08 00:24:06",
+            "updated_at": "2025-11-08 00:24:06"
+        },
+        {
+            "ticket_id": "37",
+            "author_id": "3",
+            "body": "Subject: Re: VantageLens Query Hi George, Thank you for reaching out to us. To assist you better with your VantageLens query, could you please provide more details on the specific issue you are facing? If your query relates to billing, kindly refer to invoice #17 dated October 30, 2025, for quicker processing. Once I have this information, I\u2019ll be glad to assist you further. Best regards, Lisa Chang lisa.chang@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-11-09 20:24:06",
+            "updated_at": "2025-11-09 20:24:06"
+        },
+        {
+            "ticket_id": "38",
+            "author_id": "4",
+            "body": "Subject: Re: VantageLens Inquiry - FreshMart Superstores - Invoice #9 (Oct 29, 2025) Hi Carlos, Thank you for reaching out regarding Invoice #9 dated October 29, 2025. To better assist you with your inquiry, could you please provide specific details or any issues you are experiencing with this invoice? Once we have more information, we can address your concerns promptly. Looking forward to your response. Best regards, Anwar El-Badawi anwar.el-badawi@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-07 15:55:06",
+            "updated_at": "2025-11-07 15:55:06"
+        },
+        {
+            "ticket_id": "38",
+            "author_id": "4",
+            "body": "Subject: Re: VantageLens Inquiry - FreshMart Superstores - Invoice #9 (Oct 29, 2025) Hi Carlos, Thank you for reaching out regarding Invoice #9 dated October 29, 2025. To better assist you, could you please specify if this inquiry is about a billing discrepancy or a product-related question? Once I have more details, I'll be able to provide you with the appropriate assistance or documentation. Best regards, Anwar El-Badawi anwar.el-badawi@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-11-08 21:55:06",
+            "updated_at": "2025-11-08 21:55:06"
+        },
+        {
+            "ticket_id": "38",
+            "author_id": "4",
+            "body": "Subject: Re: VantageLens Inquiry - FreshMart Superstores - Invoice #9 (Oct 29, 2025) Dear Carlos, Thank you for your inquiry. Regarding Invoice #9 dated October 29, 2025, I will review the details and get back to you with a resolution or further information. Please expect an update from me within two business days. If you have any additional questions or documents that might aid our review, feel free to share them at your convenience. Best regards, Anwar El-Badawi",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-10 02:55:06",
+            "updated_at": "2025-11-10 02:55:06"
+        },
+        {
+            "ticket_id": "39",
+            "author_id": "5",
+            "body": "Subject: Re: VantageLens Issue/Inquiry (Ref: Invoice #22, Nov 06, 2025) Dear Kenji, Thank you for reaching out concerning your inquiry related to invoice #22 dated November 06, 2025. To assist you effectively, could you please provide more details about the issue you are experiencing? Once I have this information, I'll be better equipped to help resolve any concerns you may have. Best regards, Aisha Malik aisha.malik@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-26 17:57:06",
+            "updated_at": "2025-10-26 17:57:06"
+        },
+        {
+            "ticket_id": "39",
+            "author_id": "5",
+            "body": "Subject: Re: VantageLens Issue/Inquiry (Ref: Invoice #22, Nov 06, 2025) Hi Kenji, Thank you for reaching out regarding your inquiry. To better assist you with Invoice #22 dated November 06, 2025, could you please provide more details about the specific issue you're encountering? Once I have this information, I will be able to guide you on the next steps or connect you with the right department for resolution. Best regards, Aisha Malik aisha.malik@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-27 15:57:06",
+            "updated_at": "2025-10-27 15:57:06"
+        },
+        {
+            "ticket_id": "40",
+            "author_id": "6",
+            "body": "Subject: Re: Inquiry on Invoice #43 - November 03, 2025 Hello Samir, Thank you for reaching out regarding Invoice #43 dated November 03, 2025. Could you please provide more details about your inquiry to assist you effectively? If you require a copy or have questions about the charges, let me know, and I can send a detailed breakdown. Best regards, David Green",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-27 11:11:06",
+            "updated_at": "2025-10-27 11:11:06"
+        },
+        {
+            "ticket_id": "40",
+            "author_id": "6",
+            "body": "Subject: Re: Inquiry Regarding Invoice #43 Dear Samir, Thank you for reaching out with your inquiry about Invoice #43, dated November 03, 2025. Could you please specify the details or concerns you have related to this invoice? Once we have more information, we will assist you in resolving the issue promptly. Feel free to reply directly to this email with the additional details. Best regards, David Green",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-28 09:11:06",
+            "updated_at": "2025-10-28 09:11:06"
+        },
+        {
+            "ticket_id": "41",
+            "author_id": "7",
+            "body": "Subject: Re: VantageLens Issue Inquiry Dear Sanjay, Thank you for reaching out about your issue with VantageLens. To assist you further, could you please provide more details on the specific issue you are encountering? This will help us in diagnosing and resolving the problem more efficiently. If this is related to a billing concern, kindly reference invoice #24 dated October 31, 2025, for further assistance. Best regards, Mei Tan",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-18 10:27:06",
+            "updated_at": "2025-10-18 10:27:06"
+        },
+        {
+            "ticket_id": "41",
+            "author_id": "7",
+            "body": "Subject: Re: VantageLens Issue Inquiry Dear Sanjay, Thank you for reaching out regarding the issue with VantageLens. Please provide more details about the specific problem you're experiencing so we can offer a tailored solution. If this relates to billing or invoices, including reference to invoice #24 dated October 31, 2025, could be helpful for a quicker resolution. Looking forward to your response. Best regards, Mei Tan mei.tan@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-20 00:27:06",
+            "updated_at": "2025-10-20 00:27:06"
+        },
+        {
+            "ticket_id": "42",
+            "author_id": "8",
+            "body": "Subject: Re: VantageLens Inquiry (Ref: Invoice #32, Oct 30, 2025) Dear Anton, Thank you for reaching out regarding Invoice #32 dated October 30, 2025. To assist you further, could you please specify the issue you are experiencing with this invoice? Once I have this information, I'll be able to provide detailed assistance. If the matter is urgent, you can contact our billing team directly at billing@vantage-lens.com for a quicker resolution. Best regards, Oliver Thompson",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-15 18:44:06",
+            "updated_at": "2025-10-15 18:44:06"
+        },
+        {
+            "ticket_id": "42",
+            "author_id": "8",
+            "body": "Subject: Re: VantageLens Inquiry (Ref: Invoice #32, Oct 30, 2025) Dear Anton, Thank you for reaching out regarding Invoice #32 dated October 30, 2025. To address your inquiry, could you please provide more specific details regarding your concern with this invoice? Once we have this information, we can assist you more effectively. If it's a billing issue, our finance team at billing@vantage-lens.com will be ready to help resolve it swiftly. Best regards, Oliver Thompson",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-17 17:44:06",
+            "updated_at": "2025-10-17 17:44:06"
+        },
+        {
+            "ticket_id": "43",
+            "author_id": "51",
+            "body": "To whom it may concern, Thank you for your inquiry regarding Invoice #5 dated November 06, 2025, for VantageLens. To assist you further, could you please provide specific details or questions you have about this invoice? Once I have more information, I can look into it and offer the appropriate guidance or resolutions. Best regards, Lisa Tran",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-28 14:24:06",
+            "updated_at": "2025-10-28 14:24:06"
+        },
+        {
+            "ticket_id": "43",
+            "author_id": "2",
+            "body": "Subject: Re: Inquiry about VantageLens - Invoice #5 from Nov 06, 2025 Dear Lisa, Thank you for reaching out regarding Invoice #5 dated November 06, 2025. To assist you further, please specify the details of your inquiry, whether it pertains to payment issues or any discrepancies you have noticed. Once I have this information, I can guide you on the next steps to resolve the matter swiftly. Best regards, Amir Hassan",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-10-29 19:24:06",
+            "updated_at": "2025-10-29 19:24:06"
+        },
+        {
+            "ticket_id": "44",
+            "author_id": "52",
+            "body": "Subject: Re: VantageLens Issue/Inquiry (Ref: Invoice #38, Nov 04, 2025) Dear VantageLens Support, Thank you for your prompt attention to my previous inquiry. I am still awaiting clarification regarding the discrepancies noted on Invoice #38 dated November 04, 2025. Could you please provide a detailed breakdown of the charges listed? Additionally, a timeline for resolution would be highly appreciated. Please let me know if you require any further information from my side to expedite the process. Best regards, Islam Halabi islam.halabi@digitalpulse.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-27 17:56:06",
+            "updated_at": "2025-10-27 17:56:06"
+        },
+        {
+            "ticket_id": "45",
+            "author_id": "4",
+            "body": "Subject: Resolution Plan for Your VantageLens Issue Hello Martha, Thank you for reaching out concerning the issue with VantageLens. To help us resolve this efficiently, could you please provide more details about the problem you're experiencing? If this is related to billing, please refer to invoice #41 dated November 04, 2025. Once we have more information, we can ensure a swift resolution. Best regards, Anwar El-Badawi anwar.el-badawi@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-16 11:36:06",
+            "updated_at": "2025-10-16 11:36:06"
+        },
+        {
+            "ticket_id": "46",
+            "author_id": "5",
+            "body": "Subject: Re: VantageLens Issue/Inquiry Dear Elena, Thank you for reaching out. To assist you further, could you please provide more details about the specific issue or inquiry you are experiencing with VantageLens? If it involves a billing matter, kindly refer to invoice #25 dated November 05, 2025, and let us know the specific concern. Once we have more information, we can proceed with the appropriate steps to resolve it. Best regards, Aisha Malik Customer Support aisha.malik@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-14 05:52:06",
+            "updated_at": "2025-10-14 05:52:06"
+        },
+        {
+            "ticket_id": "47",
+            "author_id": "6",
+            "body": "Subject: Re: VantageLens Inquiry Dear Fiona, Thank you for reaching out regarding your inquiry. To assist you further, could you please provide more details about the issue you're experiencing? If this is about billing, such as concerning invoice #36 dated November 02, 2025, kindly let me know so we can review and address any discrepancies. Once I have this information, I'll ensure we take the appropriate next steps to resolve your issue efficiently. Best regards, David Green david.green@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-30 23:51:06",
+            "updated_at": "2025-10-30 23:51:06"
+        },
+        {
+            "ticket_id": "47",
+            "author_id": "6",
+            "body": "Dear Fiona, Thank you for reaching out with your inquiry. To assist you effectively, could you please provide more specifics about the issue or question you\u2019re facing regarding invoice #36 dated November 02, 2025? Once I have more details, I'll be able to guide you on the next steps or resolve the issue promptly. Best regards, David Green",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-11-01 16:51:06",
+            "updated_at": "2025-11-01 16:51:06"
+        },
+        {
+            "ticket_id": "48",
+            "author_id": "7",
+            "body": "Subject: Re: VantageLens Issue/Inquiry - Invoice #11 Dear Anna, Thank you for reaching out regarding Invoice #11 dated October 31, 2025. To assist you further, please let me know the specific issue or inquiry you have regarding this invoice. If you're experiencing any discrepancies or have additional questions, feel free to provide more details. Once I have this information, I'll ensure it's addressed promptly. Best regards, Mei Tan",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-10-14 18:16:06",
+            "updated_at": "2025-10-14 18:16:06"
+        },
+        {
+            "ticket_id": "49",
+            "author_id": "11",
+            "body": "Subject: Re: Issue/Question on VantageLens (Ref. Invoice #7 - Oct 28, 2025) Hi Jonathan, Thank you for reaching out with your question regarding VantageLens. To assist you efficiently, could you please provide more details about the specific issue or question you\u2019ve encountered? If this is related to billing on Invoice #7 dated October 28, 2025, kindly indicate any discrepancies or concerns. Once I have more information, we can investigate further or connect you with the right department for resolution. Best regards, Jonathan Lee",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-03 09:42:06",
+            "updated_at": "2025-11-03 09:42:06"
+        },
+        {
+            "ticket_id": "49",
+            "author_id": "8",
+            "body": "Subject: Re: Issue/Question on VantageLens (Ref. Invoice #7 - Oct 28, 2025) Hi Jonathan, Thank you for reaching out regarding the issue on Invoice #7 dated October 28, 2025. To help you further, could you please provide more details about the problem you're experiencing? Once I have more information, I can assist you with the next steps. Best regards, Oliver Thompson oliver.thompson@vantage-lens.com",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-11-03 11:42:06",
+            "updated_at": "2025-11-03 11:42:06"
+        },
+        {
+            "ticket_id": "50",
+            "author_id": "2",
+            "body": "Subject: Re: VantageLens Inquiry - Invoice #23 (Oct 30, 2025) Dear Chantal, Thank you for reaching out regarding Invoice #23 dated October 30, 2025. To assist you further, could you please specify if there is a particular issue or a question related to this invoice? Once I have more details, I will be able to assist you more effectively. If you require a copy of the invoice or any adjustments, please let me know, and I will ensure it is sent to you promptly. Best regards, Amir Hassan amir.hassan@vantage-lens.com",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-08 16:48:06",
+            "updated_at": "2025-11-08 16:48:06"
+        },
+        {
+            "ticket_id": "50",
+            "author_id": "2",
+            "body": "Subject: Re: VantageLens Inquiry - Invoice #23 (Oct 30, 2025) Dear Chantal, Thank you for reaching out regarding Invoice #23 dated October 30, 2025. To assist you better, could you please specify the details of your inquiry or any issues you're encountering? Once I have more information, I'll be able to provide the appropriate guidance or resolve any discrepancies. Looking forward to your response. Best regards, Amir Hassan",
+            "is_public": "false",
+            "is_deleted": "false",
+            "created_at": "2025-11-09 11:48:06",
+            "updated_at": "2025-11-09 11:48:06"
+        },
+        {
+            "ticket_id": "50",
+            "author_id": "2",
+            "body": "Dear Chantal, Thank you for reaching out regarding Invoice #23 dated October 30, 2025. To assist you with this matter, could you please specify if there are any discrepancies or questions related to the invoice details? In the meantime, I recommend reviewing the billing summary attached to your invoice for any immediate clarifications. Once you provide more details, I will ensure we address your concerns promptly. Best regards, Amir Hassan",
+            "is_public": "true",
+            "is_deleted": "false",
+            "created_at": "2025-11-11 10:48:06",
+            "updated_at": "2025-11-11 10:48:06"
+        }
+    ]
+}
