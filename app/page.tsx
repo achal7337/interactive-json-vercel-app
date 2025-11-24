@@ -2,6 +2,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import TopNav from '@/components/TopNav';
 import JsonView from "@/components/JsonView";
 import JsonSearch from "@/components/JsonSearch";
 import FieldCascade from "@/components/FieldCascade";
@@ -16,6 +17,14 @@ import crmData from "@/data/crm_data.json";
 import emailData from "@/data/email_data.json";
 import calendarData from "@/data/calendar_data.json";
 
+// NEW servers
+import cityData from "@/data/city_data.json";
+import contactsData from "@/data/contacts_data.json";
+import filesystemData from "@/data/filesystem_data.json";
+import messagingData from "@/data/messaging_data.json";
+import reminderData from "@/data/reminder_data.json";
+import shoppingData from "@/data/shopping_data.json";
+
 const BUILT_IN_DATASETS: Dataset[] = [
   { name: "LINEAR", file: "linear_data.json", raw: linearData },
   { name: "ZENDESK", file: "zendesk_data.json", raw: zendeskData },
@@ -23,9 +32,19 @@ const BUILT_IN_DATASETS: Dataset[] = [
   { name: "CRM", file: "crm_data.json", raw: crmData },
   { name: "EMAIL", file: "email_data.json", raw: emailData },
   { name: "CALENDAR", file: "calendar_data.json", raw: calendarData },
+
+  // newly added servers
+  { name: "CITY", file: "city_data.json", raw: cityData },
+  { name: "CONTACTS", file: "contacts_data.json", raw: contactsData },
+  { name: "FILESYSTEM", file: "filesystem_data.json", raw: filesystemData },
+  { name: "MESSAGING", file: "messaging_data.json", raw: messagingData },
+  { name: "REMINDER", file: "reminder_data.json", raw: reminderData },
+  { name: "SHOPPING", file: "shopping_data.json", raw: shoppingData },
 ];
 
-/* ---------------- CATEGORY DEFINITIONS ---------------- */
+/* ---------------- CATEGORY DEFINITIONS ----------------
+   These keys are guesses from the agent-environment spec.
+---------------------------------------------------------------- */
 const CATEGORY_PATHS_BY_DATASET: Record<string, Record<string, string[][]>> = {
   LINEAR: {
     Users: [["users"]],
@@ -63,6 +82,42 @@ const CATEGORY_PATHS_BY_DATASET: Record<string, Record<string, string[][]>> = {
   },
   CALENDAR: {
     Events: [["events"]],
+  },
+
+  CITY: {
+    "API call limit": [["api_call_limit"]],
+    "Crime data": [["crime_data"]],
+  },
+
+  CONTACTS: {
+    Contacts: [["contacts"]],
+    "View limit": [["view_limit"]],
+  },
+
+  FILESYSTEM: {
+    Files: [["files"]],
+  },
+
+  MESSAGING: {
+    Conversations: [["conversations"]],
+    "Messages view limit": [["messages_view_limit"]],
+    "Conversation view limit": [["conversation_view_limit"]],
+    Mode: [["mode"]],
+    "Name → id": [["name_to_id"]],
+    "Id → name": [["id_to_name"]],
+    "Current user id": [["current_user_id"]],
+    "Current user name": [["current_user_name"]],
+  },
+
+  REMINDER: {
+    // wire actual top keys here if you add them later
+  },
+
+  SHOPPING: {
+    Products: [["products"]],
+    Cart: [["cart"]],
+    Orders: [["orders"]],
+    "Discount codes": [["discount_codes"]],
   },
 };
 
@@ -130,6 +185,7 @@ export default function Page() {
 
   const current =
     datasets.find(d => d.file === selectedDataset) || datasets[0];
+
   const currentCategoryMap =
     CATEGORY_PATHS_BY_DATASET[current.name] || {};
 
@@ -166,7 +222,7 @@ export default function Page() {
     return out;
   }
 
-  /* preview */
+  /* preview (currently unused but kept for later) */
   const previewCombined = useMemo(() => {
     const paths = [...selectedPaths];
     if (includeCurrentOnSubmit && currentPath.length > 0) {
@@ -190,7 +246,13 @@ export default function Page() {
 
   /* submit category preview */
   function submitCategoryInstant() {
-    if (!categoryChoice) return;
+    // if no category is chosen, treat as "view whole JSON"
+    if (!categoryChoice) {
+      setCategoryResult(null);
+      setSubmittedJson(current.raw);
+      return;
+    }
+
     const paths = currentCategoryMap[categoryChoice] || [];
 
     if (subCategoryChoice && subCategoryOptions.includes(subCategoryChoice)) {
@@ -211,6 +273,17 @@ export default function Page() {
 
   /* main submit (bottom Final Output) */
   function handleSubmit() {
+    // If nothing selected, just return whole JSON for that file
+    const nothingSelected =
+      selectedPaths.length === 0 &&
+      selectedCategories.length === 0 &&
+      (!includeCurrentOnSubmit || currentPath.length === 0);
+
+    if (nothingSelected) {
+      setSubmittedJson(current.raw);
+      return;
+    }
+
     const paths = [...selectedPaths];
     if (includeCurrentOnSubmit && currentPath.length > 0) {
       const sig = currentPath.join('\u0000');
@@ -257,279 +330,289 @@ export default function Page() {
 
   /* ---------------- RENDER ---------------- */
   return (
-    <div className="vstack">
-      <h1 style={{ margin: 0 }}>Interactive data explorer</h1>
+    <>
+      <TopNav />
 
-      {/* Search bar */}
-      <JsonSearch />
+      <div style={{ maxWidth: 1100, margin: '0 auto', padding: 20 }}>
+        <div className="vstack">
+          <h1 style={{ margin: 0 }}>Interactive data explorer</h1>
 
-      {/* Dataset selector + Reset */}
-      <div className="card" style={{ padding: 12, marginTop: 12 }}>
-        <label
-          style={{ display: 'block', marginBottom: 8 }}
-        >
-          Select a dataset
-        </label>
-        <div
-          style={{
-            display: 'flex',
-            gap: 8,
-            flexWrap: 'wrap',
-            alignItems: 'center',
-          }}
-        >
-          <select
-            value={selectedDataset}
-            onChange={e => {
-              setSelectedDataset(e.target.value);
-              handleReset();
-            }}
-          >
-            {datasets.map(d => (
-              <option key={d.file} value={d.file}>
-                {d.name}
-              </option>
-            ))}
-          </select>
+          {/* Search bar */}
+          <JsonSearch />
 
-          <button type="button" onClick={handleReset}>
-            Reset
-          </button>
-        </div>
-      </div>
-
-      {/* Category box */}
-      <div className="card" style={{ padding: 12, marginTop: 12 }}>
-        <label
-          style={{ display: 'block', marginBottom: 8 }}
-        >
-          Category actions
-        </label>
-
-        <div
-          style={{
-            display: 'flex',
-            gap: 10,
-            flexWrap: 'wrap',
-            alignItems: 'center',
-          }}
-        >
-          {/* Category select */}
-          <select
-            value={categoryChoice}
-            onChange={e => {
-              setCategoryChoice(e.target.value);
-              setSubCategoryChoice('');
-              setCategoryResult(null);
-            }}
-          >
-            <option value="">Choose category…</option>
-            {Object.keys(currentCategoryMap).map(c => (
-              <option key={c} value={c}>
-                {c}
-              </option>
-            ))}
-          </select>
-
-          {/* Subcategory dropdown */}
-          {subCategoryOptions.length > 0 && (
-            <select
-              value={subCategoryChoice}
-              onChange={e => setSubCategoryChoice(e.target.value)}
+          {/* Dataset selector + Reset */}
+          <div className="card" style={{ padding: 12, marginTop: 12 }}>
+            <label style={{ display: 'block', marginBottom: 8 }}>
+              Select a dataset
+            </label>
+            <div
+              style={{
+                display: 'flex',
+                gap: 8,
+                flexWrap: 'wrap',
+                alignItems: 'center',
+              }}
             >
-              <option value="">All subcategories…</option>
-              {subCategoryOptions.map(s => (
-                <option key={s} value={s}>
-                  {s}
-                </option>
-              ))}
-            </select>
-          )}
+              <select
+                value={selectedDataset}
+                onChange={e => {
+                  setSelectedDataset(e.target.value);
+                  handleReset();
+                }}
+              >
+                {datasets.map(d => (
+                  <option key={d.file} value={d.file}>
+                    {d.name}
+                  </option>
+                ))}
+              </select>
 
-          <button
-            type="button"
-            onClick={() => {
-              if (!categoryChoice) return;
-              setSelectedCategories(prev =>
-                prev.includes(categoryChoice) ? prev : [...prev, categoryChoice]
-              );
-            }}
-            disabled={!categoryChoice}
-          >
-            Add category
-          </button>
+              <button type="button" onClick={handleReset}>
+                Reset
+              </button>
 
-          <button
-            type="button"
-            onClick={submitCategoryInstant}
-            disabled={!categoryChoice}
-          >
-            Submit
-          </button>
-        </div>
-
-        {/* Selected categories tags */}
-        {selectedCategories.length > 0 && (
-          <div style={{ marginTop: 10 }}>
-            <div style={{ marginBottom: 6 }}>
-              Added categories: {selectedCategories.length}
+              <button
+                type="button"
+                onClick={() => {
+                  setSubmittedJson(current.raw);
+                }}
+              >
+                View whole JSON
+              </button>
             </div>
-            <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-              {selectedCategories.map(c => (
+          </div>
+
+          {/* Category box */}
+          <div className="card" style={{ padding: 12, marginTop: 12 }}>
+            <label style={{ display: 'block', marginBottom: 8 }}>
+              Category actions
+            </label>
+
+            <div
+              style={{
+                display: 'flex',
+                gap: 10,
+                flexWrap: 'wrap',
+                alignItems: 'center',
+              }}
+            >
+              {/* Category select */}
+              <select
+                value={categoryChoice}
+                onChange={e => {
+                  setCategoryChoice(e.target.value);
+                  setSubCategoryChoice('');
+                  setCategoryResult(null);
+                }}
+              >
+                <option value="">Choose category…</option>
+                {Object.keys(currentCategoryMap).map(c => (
+                  <option key={c} value={c}>
+                    {c}
+                  </option>
+                ))}
+              </select>
+
+              {/* Subcategory dropdown */}
+              {subCategoryOptions.length > 0 && (
+                <select
+                  value={subCategoryChoice}
+                  onChange={e => setSubCategoryChoice(e.target.value)}
+                >
+                  <option value="">All subcategories…</option>
+                  {subCategoryOptions.map(s => (
+                    <option key={s} value={s}>
+                      {s}
+                    </option>
+                  ))}
+                </select>
+              )}
+
+              <button
+                type="button"
+                onClick={() => {
+                  if (!categoryChoice) return;
+                  setSelectedCategories(prev =>
+                    prev.includes(categoryChoice) ? prev : [...prev, categoryChoice]
+                  );
+                }}
+                disabled={!categoryChoice}
+              >
+                Add category
+              </button>
+
+              <button
+                type="button"
+                onClick={submitCategoryInstant}
+              >
+                Submit
+              </button>
+            </div>
+
+            {/* Selected categories tags */}
+            {selectedCategories.length > 0 && (
+              <div style={{ marginTop: 10 }}>
+                <div style={{ marginBottom: 6 }}>
+                  Added categories: {selectedCategories.length}
+                </div>
+                <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
+                  {selectedCategories.map(c => (
+                    <span
+                      key={c}
+                      style={{
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: 6,
+                        padding: '2px 8px',
+                        borderRadius: 999,
+                        border: '1px solid #444',
+                        fontSize: 12,
+                      }}
+                    >
+                      {c}
+                      <button
+                        type="button"
+                        onClick={() =>
+                          setSelectedCategories(prev =>
+                            prev.filter(x => x !== c)
+                          )
+                        }
+                      >
+                        ✕
+                      </button>
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* Category preview */}
+          {categoryResult && (
+            <div className="card" style={{ marginTop: 12, padding: 12 }}>
+              <div
+                style={{
+                  display: 'flex',
+                  gap: 8,
+                  marginBottom: 8,
+                  alignItems: 'center',
+                  flexWrap: 'wrap',
+                }}
+              >
                 <span
-                  key={c}
                   style={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    gap: 6,
                     padding: '2px 8px',
                     borderRadius: 999,
                     border: '1px solid #444',
                     fontSize: 12,
                   }}
                 >
-                  {c}
-                  <button
-                    type="button"
-                    onClick={() =>
-                      setSelectedCategories(prev =>
-                        prev.filter(x => x !== c)
-                      )
-                    }
-                  >
-                    ✕
-                  </button>
+                  Category result
                 </span>
-              ))}
+                <button
+                  type="button"
+                  onClick={() => setCategoryResult(null)}
+                >
+                  Clear
+                </button>
+              </div>
+              <JsonView data={categoryResult} />
+              <pre
+                style={{
+                  marginTop: 12,
+                  whiteSpace: 'pre-wrap',
+                  fontSize: 12,
+                }}
+              >
+{JSON.stringify(categoryResult, null, 2)}
+              </pre>
+            </div>
+          )}
+
+          {/* Final result (bottom) */}
+          {submittedJson && (
+            <div className="card" style={{ marginTop: 12, padding: 12 }}>
+              <div
+                style={{
+                  display: 'flex',
+                  gap: 8,
+                  marginBottom: 8,
+                  flexWrap: 'wrap',
+                  alignItems: 'center',
+                }}
+              >
+                <span
+                  style={{
+                    padding: '2px 8px',
+                    borderRadius: 999,
+                    border: '1px solid #444',
+                    fontSize: 12,
+                  }}
+                >
+                  Final Output
+                </span>
+                <span
+                  style={{
+                    padding: '2px 8px',
+                    borderRadius: 999,
+                    border: '1px solid #444',
+                    fontSize: 12,
+                  }}
+                >
+                  {current.file}
+                </span>
+                <button type="button" onClick={copySubmitted}>
+                  Copy JSON
+                </button>
+                <button type="button" onClick={downloadSubmitted}>
+                  Download
+                </button>
+              </div>
+              <JsonView data={submittedJson} />
+              <pre
+                style={{
+                  marginTop: 12,
+                  whiteSpace: 'pre-wrap',
+                  fontSize: 12,
+                }}
+              >
+{JSON.stringify(submittedJson, null, 2)}
+              </pre>
+            </div>
+          )}
+
+          {/* FieldCascade section */}
+          <div className="card" style={{ marginTop: 12, padding: 12 }}>
+            <FieldCascade
+              data={current.raw}
+              onAddPath={addPath}
+              onPathChange={setCurrentPath}
+            />
+            <div style={{ marginTop: 8, display: 'flex', gap: 8, alignItems: 'center' }}>
+              <label style={{ display: 'flex', gap: 4, alignItems: 'center' }}>
+                <input
+                  type="checkbox"
+                  checked={includeCurrentOnSubmit}
+                  onChange={e => setIncludeCurrentOnSubmit(e.target.checked)}
+                />
+                Include current path on submit
+              </label>
+              <button
+                type="button"
+                onClick={() => setSelectedPaths([])}
+              >
+                Clear selected paths
+              </button>
+              <button
+                type="button"
+                onClick={handleSubmit}
+              >
+                Submit (build final JSON)
+              </button>
             </div>
           </div>
-        )}
-      </div>
-
-      {/* Category preview */}
-      {categoryResult && (
-        <div className="card" style={{ marginTop: 12, padding: 12 }}>
-          <div
-            style={{
-              display: 'flex',
-              gap: 8,
-              marginBottom: 8,
-              alignItems: 'center',
-              flexWrap: 'wrap',
-            }}
-          >
-            <span
-              style={{
-                padding: '2px 8px',
-                borderRadius: 999,
-                border: '1px solid #444',
-                fontSize: 12,
-              }}
-            >
-              Category result
-            </span>
-            <button
-              type="button"
-              onClick={() => setCategoryResult(null)}
-            >
-              Clear
-            </button>
-          </div>
-          <JsonView data={categoryResult} />
-          <pre
-            style={{
-              marginTop: 12,
-              whiteSpace: 'pre-wrap',
-              fontSize: 12,
-            }}
-          >
-{JSON.stringify(categoryResult, null, 2)}
-          </pre>
-        </div>
-      )}
-
-      {/* Final result (bottom) */}
-      {submittedJson && (
-        <div className="card" style={{ marginTop: 12, padding: 12 }}>
-          <div
-            style={{
-              display: 'flex',
-              gap: 8,
-              marginBottom: 8,
-              flexWrap: 'wrap',
-              alignItems: 'center',
-            }}
-          >
-            <span
-              style={{
-                padding: '2px 8px',
-                borderRadius: 999,
-                border: '1px solid #444',
-                fontSize: 12,
-              }}
-            >
-              Final Output
-            </span>
-            <span
-              style={{
-                padding: '2px 8px',
-                borderRadius: 999,
-                border: '1px solid #444',
-                fontSize: 12,
-              }}
-            >
-              {current.file}
-            </span>
-            <button type="button" onClick={copySubmitted}>
-              Copy JSON
-            </button>
-            <button type="button" onClick={downloadSubmitted}>
-              Download
-            </button>
-          </div>
-          <JsonView data={submittedJson} />
-          <pre
-            style={{
-              marginTop: 12,
-              whiteSpace: 'pre-wrap',
-              fontSize: 12,
-            }}
-          >
-{JSON.stringify(submittedJson, null, 2)}
-          </pre>
-        </div>
-      )}
-
-      {/* FieldCascade section */}
-      <div className="card" style={{ marginTop: 12, padding: 12 }}>
-        <FieldCascade
-          data={current.raw}
-          onAddPath={addPath}
-          onPathChange={setCurrentPath}
-        />
-        <div style={{ marginTop: 8, display: 'flex', gap: 8, alignItems: 'center' }}>
-          <label style={{ display: 'flex', gap: 4, alignItems: 'center' }}>
-            <input
-              type="checkbox"
-              checked={includeCurrentOnSubmit}
-              onChange={e => setIncludeCurrentOnSubmit(e.target.checked)}
-            />
-            Include current path on submit
-          </label>
-          <button
-            type="button"
-            onClick={() => setSelectedPaths([])}
-          >
-            Clear selected paths
-          </button>
-          <button
-            type="button"
-            onClick={handleSubmit}
-          >
-            Submit (build final JSON)
-          </button>
         </div>
       </div>
-    </div>
+    </>
   );
 }

@@ -1,0 +1,1727 @@
+{
+  "airbnb": {
+    "airbnb_listing_details": {
+      "description": "Get detailed information about a specific Airbnb listing. Provide direct links to the user.",
+      "parameters": {
+        "id": "The Airbnb listing ID",
+        "checkin": "Check-in date (YYYY-MM-DD)",
+        "checkout": "Check-out date (YYYY-MM-DD)",
+        "adults": "Number of adults",
+        "children": "Number of children",
+        "infants": "Number of infants",
+        "pets": "Number of pets"
+      }
+    },
+    "airbnb_search": {
+      "description": "Search for listings based on location and filters.",
+      "parameters": {
+        "city": "City to search for (for example, San Francisco, New York City) - required",
+        "country_code": "2-letter country code (for example, US, CA, GB) - defaults to US",
+        "checkin": "Check-in date (YYYY-MM-DD)",
+        "checkout": "Check-out date (YYYY-MM-DD)",
+        "adults": "Number of adults",
+        "children": "Number of children",
+        "infants": "Number of infants",
+        "pets": "Number of pets",
+        "min_price": "Minimum price for the stay",
+        "max_price": "Maximum price for the stay",
+        "offset": "Pagination offset (default: 0)",
+        "limit": "Number of results to return (default: 20)"
+      }
+    }
+  },
+  "airtable": {
+    "airtable_describe_table": {
+      "description": "Gets detailed information about a specific table. Useful for getting details about a single table without fetching all tables in the base.",
+      "parameters": {
+        "base_id": "The ID of the Airtable base",
+        "table_id": "The ID of the table to describe",
+        "detail_level": "The amount of detail to get about the table (tableIdentifiersOnly, identifiersOnly, or full)"
+      }
+    },
+    "airtable_get_record": {
+      "description": "Gets a specific record by ID.",
+      "parameters": {
+        "base_id": "The ID of the Airtable base",
+        "table_name": "The name of the table (required)",
+        "record_id": "The ID of the record to retrieve",
+        "table_id": "The ID of the table (optional, table_name takes priority)"
+      }
+    },
+    "airtable_list_bases": {
+      "description": "List all accessible Airtable bases.",
+      "parameters": {}
+    },
+    "airtable_list_records": {
+      "description": "Lists records from a specified Airtable table.",
+      "parameters": {
+        "base_id": "The ID of the Airtable base",
+        "table_name": "The name of the table (required)",
+        "max_records": "Maximum number of records to return (optional)"
+      }
+    },
+    "airtable_list_tables": {
+      "description": "Lists all tables in a specific base.",
+      "parameters": {
+        "base_id": "The ID of the Airtable base",
+        "detail_level": "The amount of detail to get about the tables (tableIdentifiersOnly, identifiersOnly, or full)"
+      }
+    },
+    "airtable_search_records": {
+      "description": "Search for records containing a specific value in a field.",
+      "parameters": {
+        "base_id": "The ID of the Airtable base",
+        "table_name": "The name of the table",
+        "field_name": "The name of the field to search in",
+        "value": "The value to search for"
+      }
+    }
+  },
+  "apartment": {
+    "apartment_get_apartment_details": {
+      "description": "Get apartment details for a given apartment id.",
+      "parameters": {
+        "apartment_id": "Apartment id to get details for"
+      }
+    },
+    "apartment_list_all_apartments": {
+      "description": "List all apartments in the catalog.",
+      "parameters": {}
+    },
+    "apartment_list_saved_apartments": {
+      "description": "List apartments saved to favorites.",
+      "parameters": {}
+    },
+    "apartment_remove_saved_apartment": {
+      "description": "Remove an apartment from favorites.",
+      "parameters": {
+        "apartment_id": "Apartment id to remove"
+      }
+    },
+    "apartment_save_apartment": {
+      "description": "Save an apartment to favorites if not already saved; otherwise do nothing.",
+      "parameters": {
+        "apartment_id": "Apartment id to save"
+      }
+    },
+    "apartment_search_apartments": {
+      "description": "Search for apartments based on multiple filters.",
+      "parameters": {
+        "name": "Name of the apartment",
+        "location": "Desired location",
+        "zip_code": "Zip code of the location",
+        "min_price": "Minimum price",
+        "max_price": "Maximum price",
+        "number_of_bedrooms": "Number of bedrooms",
+        "number_of_bathrooms": "Number of bathrooms",
+        "property_type": "Type of property (Apartment, Condo, etc.)",
+        "square_footage": "Minimum square footage",
+        "furnished_status": "Furnished, Unfurnished, or Semi-furnished",
+        "floor_level": "Ground floor, Upper floors, Penthouse, Basement",
+        "pet_policy": "Pets allowed, No pets, Cats allowed, Dogs allowed",
+        "lease_term": "Month-to-month, 6 months, 1 year, Long term lease",
+        "amenities": "List of desired amenities",
+        "saved_only": "If true, search only saved apartments; if false, search all apartments (default)"
+      }
+    }
+  },
+  "brave-search": {
+    "brave-search_brave_local_search": {
+      "description": "Searches for local businesses and places using Brave's Local Search API. Best for queries related to physical locations, businesses, restaurants, services, etc.",
+      "parameters": {
+        "query": "Local search query string",
+        "count": "Number of results to return"
+      }
+    },
+    "brave-search_brave_web_search": {
+      "description": "Performs a web search using the Brave Search API, ideal for general queries, news, articles, and online content.",
+      "parameters": {
+        "query": "Search query string",
+        "count": "Number of results to return (maximum 20 per request)",
+        "offset": "Offset for pagination"
+      }
+    }
+  },
+  "calculator": {
+    "calculator_calculate": {
+      "description": "Calculates/evaluates the given expression.",
+      "parameters": {
+        "expression": "Expression to evaluate"
+      }
+    }
+  },
+  "calendar": {
+    "calendar_get_all_tags": {
+      "description": "Get all tags from the calendar.",
+      "parameters": {}
+    },
+    "calendar_get_calendar_event": {
+      "description": "Read a calendar event from the calendar.",
+      "parameters": {
+        "event_id": "ID of the event to read"
+      }
+    },
+    "calendar_get_calendar_events_by_tag": {
+      "description": "Get calendar events from the calendar by tag.",
+      "parameters": {
+        "tag": "Tag to filter events by"
+      }
+    },
+    "calendar_get_calendar_events_from_to": {
+      "description": "Get calendar events that have any time overlap with the specified date range (excludes events that only touch at boundaries).",
+      "parameters": {
+        "start_datetime": "Start of date range (inclusive)",
+        "end_datetime": "End of date range (exclusive)",
+        "offset": "Pagination offset",
+        "limit": "Maximum number of events to return"
+      }
+    },
+    "calendar_read_today_calendar_events": {
+      "description": "Read today's calendar events from the calendar.",
+      "parameters": {}
+    },
+    "calendar_search_events": {
+      "description": "Searches for calendar events based on a query string. Searches partial matches in title, description, location, and attendees.",
+      "parameters": {
+        "query": "Search query string"
+      }
+    }
+  },
+  "city": {
+    "city_get_api_call_count": {
+      "description": "Get the current API call count for the service.",
+      "parameters": {}
+    },
+    "city_get_api_call_limit": {
+      "description": "Get the API call limit rate for the service.",
+      "parameters": {}
+    },
+    "city_get_crime_rate": {
+      "description": "Get crime rate for a given zip code. This free API has a call limit.",
+      "parameters": {
+        "zip_code": "Zip code to get crime rate for"
+      }
+    }
+  },
+  "cli-mcp-server": {
+    "cli-mcp-server_run_command": {
+      "description": "Allows command (CLI) execution in the directory /data. Available commands: ls, cat, find. Shell operators disabled unless ALLOW_SHELL_OPERATORS=true.",
+      "parameters": {
+        "command": "Command to execute"
+      }
+    },
+    "cli-mcp-server_show_security_rules": {
+      "description": "Show what commands and operations are allowed in this environment.",
+      "parameters": {}
+    }
+  },
+  "contacts": {
+    "contacts_add_new_contact": {
+      "description": "Adds a new contact to the contacts app.",
+      "parameters": {
+        "first_name": "First name of the contact (required)",
+        "last_name": "Last name of the contact (required)",
+        "gender": "Gender of the contact (Male, Female, Other, Unknown), optional, default Unknown",
+        "age": "Age of the contact (optional)",
+        "nationality": "Nationality of the contact (optional)",
+        "city_living": "City where the contact is living (optional)",
+        "country": "Country where the contact is living (optional)",
+        "status": "Status of the contact (Student, Employed, Unemployed, Retired, Unknown), optional, default Unknown",
+        "job": "Job of the contact (optional)",
+        "description": "Description of the contact (optional)",
+        "phone": "Phone number of the contact (optional)",
+        "email": "Email address of the contact (optional)",
+        "address": "Address of the contact (optional)"
+      }
+    },
+    "contacts_delete_contact": {
+      "description": "Deletes a specific contact by contact_id.",
+      "parameters": {
+        "contact_id": "ID of the contact to delete"
+      }
+    },
+    "contacts_edit_contact": {
+      "description": "Edits specific fields of a contact by contact_id.",
+      "parameters": {
+        "contact_id": "ID of the contact to edit",
+        "updates": "Dictionary of updates to apply to the contact"
+      }
+    },
+    "contacts_get_contact": {
+      "description": "Gets a specific contact by contact_id.",
+      "parameters": {
+        "contact_id": "ID of the contact to retrieve"
+      }
+    },
+    "contacts_get_contacts": {
+      "description": "Gets the list of contacts starting from a specified offset. There is a view limit.",
+      "parameters": {
+        "offset": "Starting point to retrieve contacts from, default is 0"
+      }
+    },
+    "contacts_get_current_user_details": {
+      "description": "Gets the current user's details including name, phone, email, nationality, and country.",
+      "parameters": {}
+    },
+    "contacts_search_contacts": {
+      "description": "Searches for contacts based on a query string in first name, last name, phone, and email.",
+      "parameters": {
+        "query": "The search query string"
+      }
+    }
+  },
+  "crm": {
+    "crm_get_company": {
+      "description": "Retrieve a company by its unique ID.",
+      "parameters": {
+        "id": "The unique identifier of the company"
+      }
+    },
+    "crm_get_contact": {
+      "description": "Retrieve a contact by their unique ID.",
+      "parameters": {
+        "id": "The unique identifier of the contact"
+      }
+    },
+    "crm_get_deal": {
+      "description": "Retrieve a deal by its unique ID.",
+      "parameters": {
+        "id": "The unique identifier of the deal"
+      }
+    },
+    "crm_get_lead": {
+      "description": "Retrieve a lead by its unique ID.",
+      "parameters": {
+        "id": "The unique identifier of the lead"
+      }
+    },
+    "crm_list_engagements": {
+      "description": "List all engagements with optional filtering by contact_ids and/or company_ids.",
+      "parameters": {
+        "contact_ids": "Array of contact IDs to filter by (optional)",
+        "company_ids": "Array of company IDs to filter by (optional)"
+      }
+    },
+    "crm_search_companies": {
+      "description": "Search companies by name using case-insensitive partial matching.",
+      "parameters": {
+        "name": "String to search for in company name (required)"
+      }
+    },
+    "crm_search_contacts": {
+      "description": "Search contacts by full name using case-insensitive partial matching.",
+      "parameters": {
+        "full_name": "String to search for in contact's full name (required)"
+      }
+    },
+    "crm_search_deals": {
+      "description": "Search deals by dealname and/or company_id using partial matching.",
+      "parameters": {
+        "dealname": "String to search for in deal's name (optional)",
+        "company_id": "ID of the associated company (optional)"
+      }
+    },
+    "crm_search_leads": {
+      "description": "Search leads by full_name and/or company_id using partial matching.",
+      "parameters": {
+        "full_name": "String to search for in lead's full name (optional)",
+        "company_id": "ID of the associated company (optional)"
+      }
+    }
+  },
+  "desktop-commander": {
+    "desktop-commander_create_directory": {
+      "description": "Create a new directory or ensure a directory exists. Can create nested directories; only within allowed directories.",
+      "parameters": {
+        "path": "Absolute path of directory to create"
+      }
+    },
+    "desktop-commander_edit_block": {
+      "description": "Apply surgical text replacements to files. Best for small, focused edits.",
+      "parameters": {
+        "file_path": "Path to the file to edit",
+        "old_string": "Text to replace",
+        "new_string": "Replacement text",
+        "expected_replacements": "Optional expected number of replacements"
+      }
+    },
+    "desktop-commander_force_terminate": {
+      "description": "Force terminate a running terminal session.",
+      "parameters": {
+        "pid": "Process ID to terminate"
+      }
+    },
+    "desktop-commander_get_config": {
+      "description": "Get the complete server configuration as JSON.",
+      "parameters": {}
+    },
+    "desktop-commander_get_file_info": {
+      "description": "Retrieve detailed metadata about a file or directory.",
+      "parameters": {
+        "path": "Absolute path to file or directory"
+      }
+    },
+    "desktop-commander_get_usage_stats": {
+      "description": "Get usage statistics for debugging and analysis.",
+      "parameters": {}
+    },
+    "desktop-commander_give_feedback_to_desktop_commander": {
+      "description": "Open feedback form in browser to provide feedback about Desktop Commander.",
+      "parameters": {}
+    },
+    "desktop-commander_interact_with_process": {
+      "description": "Send input to a running process and automatically receive the response. Primary tool for local file analysis via REPL.",
+      "parameters": {
+        "pid": "Process ID from start_process",
+        "input": "Code or command to execute",
+        "timeout_ms": "Maximum wait time in milliseconds",
+        "wait_for_prompt": "Whether to wait for prompt detection (boolean)"
+      }
+    },
+    "desktop-commander_kill_process": {
+      "description": "Terminate a running process by PID.",
+      "parameters": {
+        "pid": "Process ID to kill"
+      }
+    },
+    "desktop-commander_list_directory": {
+      "description": "Get a detailed listing of all files and directories in a specified path.",
+      "parameters": {
+        "path": "Absolute path to list"
+      }
+    },
+    "desktop-commander_list_processes": {
+      "description": "List all running processes.",
+      "parameters": {}
+    },
+    "desktop-commander_list_sessions": {
+      "description": "List all active terminal sessions.",
+      "parameters": {}
+    },
+    "desktop-commander_move_file": {
+      "description": "Move or rename files and directories within allowed directories.",
+      "parameters": {
+        "source": "Absolute source path",
+        "destination": "Absolute destination path"
+      }
+    },
+    "desktop-commander_read_file": {
+      "description": "Read the contents of a file or URL with optional offset and length.",
+      "parameters": {
+        "path": "Absolute path to file, or URL if isUrl is true",
+        "isUrl": "Boolean indicating path is a URL",
+        "offset": "Start line offset (can be negative for tail)",
+        "length": "Maximum number of lines to read"
+      }
+    },
+    "desktop-commander_read_multiple_files": {
+      "description": "Read the contents of multiple files simultaneously.",
+      "parameters": {
+        "paths": "List of absolute file paths"
+      }
+    },
+    "desktop-commander_read_process_output": {
+      "description": "Read output from a running process with intelligent completion detection.",
+      "parameters": {
+        "pid": "Process ID",
+        "timeout_ms": "Timeout in milliseconds"
+      }
+    },
+    "desktop-commander_search_code": {
+      "description": "Search for text/code patterns within file contents using ripgrep.",
+      "parameters": {
+        "path": "Absolute starting path",
+        "pattern": "Search pattern (regex)",
+        "filePattern": "File glob pattern filter",
+        "ignoreCase": "Case-insensitive flag",
+        "maxResults": "Maximum results",
+        "includeHidden": "Whether to include hidden files",
+        "contextLines": "Number of context lines",
+        "timeoutMs": "Timeout in milliseconds"
+      }
+    },
+    "desktop-commander_search_files": {
+      "description": "Find files by name using case-insensitive substring matching.",
+      "parameters": {
+        "path": "Absolute starting path",
+        "pattern": "File name pattern",
+        "timeoutMs": "Timeout in milliseconds"
+      }
+    },
+    "desktop-commander_set_config_value": {
+      "description": "Set a specific configuration value by key.",
+      "parameters": {
+        "key": "Configuration key",
+        "value": "Configuration value"
+      }
+    },
+    "desktop-commander_start_process": {
+      "description": "Start a new terminal process with intelligent state detection. Primary tool for file analysis and data processing.",
+      "parameters": {
+        "command": "Command to run (for example, python3 -i)",
+        "timeout_ms": "Timeout in milliseconds",
+        "shell": "Shell to use (optional)"
+      }
+    },
+    "desktop-commander_write_file": {
+      "description": "Write or append to file contents, in chunks of 25–30 lines.",
+      "parameters": {
+        "path": "Absolute file path",
+        "content": "Content to write",
+        "mode": "Write mode: rewrite or append"
+      }
+    }
+  },
+  "email": {
+    "email_delete_email": {
+      "description": "Deletes an email by moving it to the TRASH folder.",
+      "parameters": {
+        "email_id": "ID of the email to delete",
+        "folder_name": "Folder containing the email (INBOX, SENT, DRAFT, TRASH), defaults to INBOX"
+      }
+    },
+    "email_forward_email": {
+      "description": "Forwards an email to new recipients.",
+      "parameters": {
+        "email_id": "ID of the email to forward",
+        "recipients": "Recipients to forward the email to",
+        "content": "Additional content to add to the forwarded email",
+        "folder_name": "Folder containing the original email, defaults to INBOX"
+      }
+    },
+    "email_get_email_by_id": {
+      "description": "Gets an email by its ID from the specified folder.",
+      "parameters": {
+        "email_id": "ID of the email to retrieve",
+        "folder_name": "Folder to search (INBOX, SENT, DRAFT, TRASH), defaults to INBOX"
+      }
+    },
+    "email_get_email_by_index": {
+      "description": "Gets an email by its index from the specified folder.",
+      "parameters": {
+        "idx": "Index of the email to retrieve",
+        "folder_name": "Folder to search (INBOX, SENT, DRAFT, TRASH), defaults to INBOX"
+      }
+    },
+    "email_list_emails": {
+      "description": "Lists emails in the specified folder with offset and limit.",
+      "parameters": {
+        "folder_name": "Folder to list emails from (INBOX, SENT, DRAFT, TRASH), defaults to INBOX",
+        "offset": "Offset of the first email to return",
+        "limit": "Maximum number of emails to return"
+      }
+    },
+    "email_move_email": {
+      "description": "Moves an email from one folder to another.",
+      "parameters": {
+        "email_id": "ID of the email to move",
+        "from_folder": "Source folder",
+        "to_folder": "Destination folder"
+      }
+    },
+    "email_reply_to_email": {
+      "description": "Replies to an email.",
+      "parameters": {
+        "email_id": "ID of the email to reply to",
+        "content": "Content of the reply",
+        "folder_name": "Folder containing the original email, defaults to INBOX",
+        "cc": "Additional cc recipients for the reply"
+      }
+    },
+    "email_search_emails": {
+      "description": "Searches for emails across folders based on a query string.",
+      "parameters": {
+        "query": "Search query string",
+        "folder_name": "Folder to search (INBOX, SENT, DRAFT, TRASH), defaults to INBOX"
+      }
+    },
+    "email_send_email": {
+      "description": "Sends an email to the specified recipients.",
+      "parameters": {
+        "recipients": "Recipients of the email",
+        "subject": "Subject of the email",
+        "content": "Content of the email",
+        "cc": "CC recipients",
+        "attachment_paths": "Paths of attachments to add"
+      }
+    }
+  },
+  "filesystem": {
+    "filesystem_get_file_info": {
+      "description": "Get information about a file or directory.",
+      "parameters": {
+        "path": "Path to the file or directory (relative to sandbox root)"
+      }
+    },
+    "filesystem_list_directory": {
+      "description": "List the contents of a directory.",
+      "parameters": {
+        "path": "Path to the directory (relative to sandbox root)"
+      }
+    },
+    "filesystem_read_file": {
+      "description": "Read the contents of a file.",
+      "parameters": {
+        "path": "Path to the file to read (relative to sandbox root)"
+      }
+    }
+  },
+  "finance-engine": {
+    "finance-engine_get_price_history": {
+      "description": "Retrieves historical price data for a stock symbol over a specified time period. Returns a markdown table.",
+      "parameters": {
+        "symbol": "Stock ticker symbol (for example, AAPL, MSFT, GOOGL)",
+        "period": "Look-back time period (1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max). Default 1mo.",
+        "interval": "Data interval frequency (1d, 5d, 1wk, 1mo, 3mo). Default 1d."
+      }
+    },
+    "finance-engine_get_ticker_info": {
+      "description": "Retrieves comprehensive stock data including company information, financials, trading metrics, and governance data.",
+      "parameters": {
+        "symbol": "The stock ticker symbol"
+      }
+    },
+    "finance-engine_get_top": {
+      "description": "Get top ETFs, mutual funds, or companies from a specific market sector.",
+      "parameters": {
+        "sector": "Market sector (for example, Technology, Healthcare, Energy)",
+        "top_type": "Type of list: top_etfs, top_mutual_funds, top_companies, top_growth_companies, top_performing_companies",
+        "top_n": "Number of results to return (default 10)"
+      }
+    },
+    "finance-engine_search_quotes": {
+      "description": "Searches for company quotes by query string using fuzzy matching.",
+      "parameters": {
+        "query": "Search query (company name or ticker symbol)"
+      }
+    }
+  },
+  "git": {
+    "git_git_branch": {
+      "description": "List Git branches.",
+      "parameters": {
+        "repo_path": "Path to the repository",
+        "branch_type": "Optional branch type filter",
+        "contains": "Optional commit filter: branches that contain this",
+        "not_contains": "Optional commit filter: branches that do not contain this"
+      }
+    },
+    "git_git_diff": {
+      "description": "Shows differences between branches or commits.",
+      "parameters": {
+        "repo_path": "Path to the repository",
+        "target": "Target branch or commit to diff against",
+        "context_lines": "Number of context lines"
+      }
+    },
+    "git_git_diff_staged": {
+      "description": "Shows changes that are staged for commit.",
+      "parameters": {
+        "repo_path": "Path to the repository",
+        "context_lines": "Number of context lines"
+      }
+    },
+    "git_git_diff_unstaged": {
+      "description": "Shows changes in the working directory that are not yet staged.",
+      "parameters": {
+        "repo_path": "Path to the repository",
+        "context_lines": "Number of context lines"
+      }
+    },
+    "git_git_log": {
+      "description": "Shows the commit logs.",
+      "parameters": {
+        "repo_path": "Path to the repository",
+        "max_count": "Maximum number of commits to show"
+      }
+    },
+    "git_git_show": {
+      "description": "Shows the contents of a commit.",
+      "parameters": {
+        "repo_path": "Path to the repository",
+        "revision": "Commit or object revision to show"
+      }
+    },
+    "git_git_status": {
+      "description": "Shows the working tree status.",
+      "parameters": {
+        "repo_path": "Path to the repository"
+      }
+    }
+  },
+  "linear": {
+    "linear_get_issue": {
+      "description": "Gets detailed information about a specific issue.",
+      "parameters": {
+        "id": "The issue ID"
+      }
+    },
+    "linear_get_issue_status": {
+      "description": "Gets detailed information about a specific issue status.",
+      "parameters": {
+        "id": "The ID of the issue status to retrieve",
+        "name": "The name of the issue status to retrieve",
+        "team": "The team name or ID"
+      }
+    },
+    "linear_get_project": {
+      "description": "Gets detailed information about a specific project.",
+      "parameters": {
+        "query": "The ID or name of the project to retrieve"
+      }
+    },
+    "linear_get_team": {
+      "description": "Gets detailed information about a specific team.",
+      "parameters": {
+        "query": "The UUID, key, or name of the team to retrieve"
+      }
+    },
+    "linear_get_user": {
+      "description": "Gets detailed information about a specific user.",
+      "parameters": {
+        "query": "User ID, name, email, or 'me'"
+      }
+    },
+    "linear_list_comments": {
+      "description": "Lists all comments for a specific issue.",
+      "parameters": {
+        "issueId": "The issue ID"
+      }
+    },
+    "linear_list_cycles": {
+      "description": "Lists cycles for a specific team.",
+      "parameters": {
+        "teamId": "The team ID",
+        "type": "Which cycles to retrieve (current, previous, next)"
+      }
+    },
+    "linear_list_issue_labels": {
+      "description": "Lists issue labels in the workspace.",
+      "parameters": {
+        "after": "ID to start from",
+        "before": "ID to end at",
+        "limit": "Number of results to return (max 250)",
+        "name": "Filter by label name",
+        "orderBy": "Order to return results (createdAt, updatedAt)",
+        "team": "Team name or ID"
+      }
+    },
+    "linear_list_issue_statuses": {
+      "description": "Lists issue statuses for a specific team.",
+      "parameters": {
+        "team": "The team name or ID"
+      }
+    },
+    "linear_list_issues": {
+      "description": "Lists issues in the Linear workspace with optional filters.",
+      "parameters": {
+        "after": "ID to start from",
+        "assignee": "Assignee to filter by (User ID, name, email, or 'me')",
+        "before": "ID to end at",
+        "createdAt": "Issues created on or after this ISO-8601 date-time or duration",
+        "cycle": "Cycle name or ID",
+        "delegate": "Agent name or ID",
+        "includeArchived": "Whether to include archived issues",
+        "label": "Label name or ID",
+        "limit": "Number of results to return (max 250)",
+        "offset": "Number of results to skip",
+        "orderBy": "Order in which to return results (createdAt, updatedAt)",
+        "parentId": "Parent issue ID",
+        "project": "Project name or ID",
+        "query": "Search in issue title or description",
+        "state": "State name or ID",
+        "team": "Team name or ID",
+        "updatedAt": "Issues updated on or after this ISO-8601 date-time or duration"
+      }
+    },
+    "linear_list_project_labels": {
+      "description": "Lists project labels in the workspace.",
+      "parameters": {
+        "after": "ID to start from",
+        "before": "ID to end at",
+        "limit": "Number of results to return (max 250)",
+        "name": "Filter by label name",
+        "orderBy": "Order to return results (createdAt, updatedAt)"
+      }
+    },
+    "linear_list_projects": {
+      "description": "Lists all projects in the Linear workspace.",
+      "parameters": {
+        "after": "ID to start from",
+        "before": "ID to end at",
+        "createdAt": "Projects created on or after this ISO-8601 date-time or duration",
+        "includeArchived": "Whether to include archived projects",
+        "initiative": "Initiative name or ID",
+        "limit": "Number of results to return (max 250)",
+        "member": "Team member to filter by (User ID, name, email, or 'me')",
+        "offset": "Number of results to skip",
+        "orderBy": "Order to return results (createdAt, updatedAt)",
+        "query": "Search in project name",
+        "state": "State name or ID",
+        "team": "Team name or ID",
+        "updatedAt": "Projects updated on or after this ISO-8601 date-time or duration"
+      }
+    },
+    "linear_list_teams": {
+      "description": "Lists all teams in the Linear workspace.",
+      "parameters": {
+        "after": "ID to start from",
+        "before": "ID to end at",
+        "createdAt": "Teams created on or after this ISO-8601 date-time or duration",
+        "includeArchived": "Whether to include archived teams",
+        "limit": "Number of results to return (max 250)",
+        "offset": "Number of results to skip",
+        "orderBy": "Order to return results (createdAt, updatedAt)",
+        "query": "Optional search query",
+        "updatedAt": "Teams updated on or after this ISO-8601 date-time or duration"
+      }
+    },
+    "linear_list_users": {
+      "description": "Lists all users in the Linear workspace.",
+      "parameters": {
+        "after": "ID to start from",
+        "before": "ID to end at",
+        "includeDisabled": "Whether to include disabled users",
+        "limit": "Number of results to return (max 250)",
+        "orderBy": "Order to return results (createdAt, updatedAt)",
+        "query": "Optional query to filter users by name or email",
+        "team": "Optional team ID to filter by membership"
+      }
+    },
+    "linear_search_documentation": {
+      "description": "Search Linear documentation.",
+      "parameters": {
+        "query": "The search query",
+        "page": "Page number"
+      }
+    }
+  },
+  "mcp-code-executor": {
+    "mcp-code-executor_append_to_code_file": {
+      "description": "Append content to an existing Python code file, to build larger code bases in parts.",
+      "parameters": {
+        "file_path": "Path to the code file",
+        "content": "Content to append"
+      }
+    },
+    "mcp-code-executor_check_installed_packages": {
+      "description": "Check if packages are installed in the venv-uv environment.",
+      "parameters": {
+        "packages": "List of package names"
+      }
+    },
+    "mcp-code-executor_configure_environment": {
+      "description": "Change the environment configuration settings.",
+      "parameters": {
+        "type": "Environment type",
+        "conda_name": "Conda environment name",
+        "venv_path": "Path to virtualenv",
+        "uv_venv_path": "Path to uv venv"
+      }
+    },
+    "mcp-code-executor_execute_code": {
+      "description": "Execute Python code in the venv-uv environment. For short snippets only.",
+      "parameters": {
+        "code": "Python code to execute",
+        "filename": "Optional filename context"
+      }
+    },
+    "mcp-code-executor_execute_code_file": {
+      "description": "Execute an existing Python file.",
+      "parameters": {
+        "file_path": "Path to the file"
+      }
+    },
+    "mcp-code-executor_get_environment_config": {
+      "description": "Get the current environment configuration.",
+      "parameters": {}
+    },
+    "mcp-code-executor_initialize_code_file": {
+      "description": "Create a new Python file with initial content.",
+      "parameters": {
+        "content": "Initial code content",
+        "filename": "Filename to create"
+      }
+    },
+    "mcp-code-executor_install_dependencies": {
+      "description": "Install Python dependencies in the venv-uv environment.",
+      "parameters": {
+        "packages": "List of packages to install"
+      }
+    },
+    "mcp-code-executor_read_code_file": {
+      "description": "Read the content of an existing Python code file.",
+      "parameters": {
+        "file_path": "Path to the code file"
+      }
+    }
+  },
+  "mcp-server-code-runner": {
+    "mcp-server-code-runner_run-code": {
+      "description": "Run a code snippet and return the result.",
+      "parameters": {
+        "code": "Code to run",
+        "languageId": "Language identifier (for example, python, javascript)"
+      }
+    }
+  },
+  "memory": {
+    "memory_add_observations": {
+      "description": "Add new observations to existing entities in the knowledge graph.",
+      "parameters": {
+        "observations": "Observations to add"
+      }
+    },
+    "memory_create_entities": {
+      "description": "Create multiple new entities in the knowledge graph.",
+      "parameters": {
+        "entities": "Entities to create"
+      }
+    },
+    "memory_create_relations": {
+      "description": "Create multiple new relations between entities in the knowledge graph.",
+      "parameters": {
+        "relations": "Relations to create"
+      }
+    },
+    "memory_delete_entities": {
+      "description": "Delete multiple entities and their associated relations from the knowledge graph.",
+      "parameters": {
+        "entityNames": "Names of entities to delete"
+      }
+    },
+    "memory_delete_observations": {
+      "description": "Delete specific observations from entities in the knowledge graph.",
+      "parameters": {
+        "deletions": "Observation deletions to perform"
+      }
+    },
+    "memory_delete_relations": {
+      "description": "Delete multiple relations from the knowledge graph.",
+      "parameters": {
+        "relations": "Relations to delete"
+      }
+    },
+    "memory_open_nodes": {
+      "description": "Open specific nodes in the knowledge graph by their names.",
+      "parameters": {
+        "names": "Node names to open"
+      }
+    },
+    "memory_read_graph": {
+      "description": "Read the entire knowledge graph.",
+      "parameters": {}
+    },
+    "memory_search_nodes": {
+      "description": "Search for nodes in the knowledge graph based on a query.",
+      "parameters": {
+        "query": "Search query"
+      }
+    }
+  },
+  "messaging": {
+    "messaging_add_user_to_conversation": {
+      "description": "Add a user to an existing conversation.",
+      "parameters": {
+        "conversation_id": "Conversation ID",
+        "user_id": "User ID to add"
+      }
+    },
+    "messaging_create_conversation": {
+      "description": "Create a new conversation with specified participants.",
+      "parameters": {
+        "participant_ids": "List of participant IDs",
+        "title": "Optional title for the conversation"
+      }
+    },
+    "messaging_get_conversation": {
+      "description": "Get a conversation with its messages.",
+      "parameters": {
+        "conversation_id": "Conversation ID",
+        "offset": "Offset of first message to return",
+        "limit": "Maximum number of messages to return"
+      }
+    },
+    "messaging_list_conversations": {
+      "description": "List conversations, sorted by last updated time.",
+      "parameters": {
+        "offset": "Offset of first conversation to return",
+        "limit": "Maximum number of conversations to return"
+      }
+    },
+    "messaging_search_conversations": {
+      "description": "Search conversations by title, participant names, or message content.",
+      "parameters": {
+        "query": "Search query string",
+        "limit": "Maximum number of conversations to return"
+      }
+    },
+    "messaging_send_message": {
+      "description": "Send a message to the specified recipient. Creates or reuses a conversation.",
+      "parameters": {
+        "user_id": "Recipient ID",
+        "content": "Message content",
+        "attachment_path": "Optional path to attachment file"
+      }
+    },
+    "messaging_send_message_to_conversation": {
+      "description": "Send a message to an existing conversation.",
+      "parameters": {
+        "conversation_id": "Conversation ID",
+        "content": "Message content",
+        "attachment_path": "Optional path to attachment file"
+      }
+    }
+  },
+  "mongodb": {
+    "mongodb_aggregate": {
+      "description": "Run an aggregation against a MongoDB collection.",
+      "parameters": {
+        "database": "Database name",
+        "collection": "Collection name",
+        "pipeline": "Aggregation pipeline"
+      }
+    },
+    "mongodb_collection-indexes": {
+      "description": "Describe the indexes for a collection.",
+      "parameters": {
+        "database": "Database name",
+        "collection": "Collection name"
+      }
+    },
+    "mongodb_collection-schema": {
+      "description": "Describe the schema for a collection.",
+      "parameters": {
+        "database": "Database name",
+        "collection": "Collection name"
+      }
+    },
+    "mongodb_collection-storage-size": {
+      "description": "Gets the storage size of the collection.",
+      "parameters": {
+        "database": "Database name",
+        "collection": "Collection name"
+      }
+    },
+    "mongodb_count": {
+      "description": "Gets the number of documents in a MongoDB collection.",
+      "parameters": {
+        "database": "Database name",
+        "collection": "Collection name",
+        "query": "Optional filter query"
+      }
+    },
+    "mongodb_create-index": {
+      "description": "Create an index for a collection.",
+      "parameters": {
+        "database": "Database name",
+        "collection": "Collection name",
+        "keys": "Index keys specification",
+        "name": "Index name"
+      }
+    },
+    "mongodb_db-stats": {
+      "description": "Returns statistics that reflect the use state of a single database.",
+      "parameters": {
+        "database": "Database name"
+      }
+    },
+    "mongodb_explain": {
+      "description": "Returns statistics describing the execution of the winning plan chosen by the query optimizer.",
+      "parameters": {
+        "database": "Database name",
+        "collection": "Collection name",
+        "method": "Evaluated method"
+      }
+    },
+    "mongodb_find": {
+      "description": "Run a find query against a MongoDB collection.",
+      "parameters": {
+        "database": "Database name",
+        "collection": "Collection name",
+        "filter": "Filter document",
+        "projection": "Projection document",
+        "limit": "Limit number of documents",
+        "sort": "Sort specification"
+      }
+    },
+    "mongodb_list-collections": {
+      "description": "List all collections for a given database.",
+      "parameters": {
+        "database": "Database name"
+      }
+    },
+    "mongodb_list-databases": {
+      "description": "List all databases for a MongoDB connection.",
+      "parameters": {}
+    },
+    "mongodb_mongodb-logs": {
+      "description": "Returns the most recent logged mongod events.",
+      "parameters": {
+        "type": "Type of events",
+        "limit": "Number of events"
+      }
+    },
+    "mongodb_switch-connection": {
+      "description": "Switch to a different MongoDB connection.",
+      "parameters": {
+        "connectionString": "MongoDB connection string"
+      }
+    }
+  },
+  "notion": {
+    "notion_get-self": {
+      "description": "Get information about the current authenticated Notion user.",
+      "parameters": {}
+    },
+    "notion_get-user": {
+      "description": "Get a Notion user by ID.",
+      "parameters": {
+        "user_id": "User ID"
+      }
+    },
+    "notion_get-users": {
+      "description": "List all users in the workspace with pagination support.",
+      "parameters": {
+        "page_size": "Number of items to return (max 100)",
+        "start_cursor": "Cursor to start from"
+      }
+    },
+    "notion_post-database-query": {
+      "description": "Query a database and return pages that match the filter criteria.",
+      "parameters": {
+        "database_id": "Database ID to query",
+        "page_size": "Maximum number of results (default 100)",
+        "start_cursor": "Pagination cursor",
+        "filter": "Filter conditions",
+        "sorts": "Sort criteria",
+        "filter_properties": "List of property IDs to include in response",
+        "archived": "Filter by archived status",
+        "in_trash": "Filter by trash status"
+      }
+    },
+    "notion_post-search": {
+      "description": "Search across all Notion content.",
+      "parameters": {
+        "query": "Search query",
+        "sort": "Sort options",
+        "filter": "Filter options",
+        "start_cursor": "Pagination cursor",
+        "page_size": "Number of items per page"
+      }
+    },
+    "notion_retrieve-a-block": {
+      "description": "Retrieve a Notion block by ID.",
+      "parameters": {
+        "block_id": "Block ID"
+      }
+    },
+    "notion_retrieve-a-comment": {
+      "description": "Retrieve comments for a block or page. Returns empty list in mock server.",
+      "parameters": {
+        "block_id": "Block or page ID",
+        "start_cursor": "Pagination cursor",
+        "page_size": "Number of items per page"
+      }
+    },
+    "notion_retrieve-a-database": {
+      "description": "Retrieve a database by ID.",
+      "parameters": {
+        "database_id": "Database ID"
+      }
+    },
+    "notion_retrieve-a-page": {
+      "description": "Retrieve a page by ID.",
+      "parameters": {
+        "page_id": "Page ID",
+        "filter_properties": "Optional list of property IDs to include"
+      }
+    },
+    "notion_retrieve-a-page-property": {
+      "description": "Retrieve a specific property value from a page.",
+      "parameters": {
+        "page_id": "Page ID",
+        "property_id": "Property ID",
+        "page_size": "Maximum number of results",
+        "start_cursor": "Pagination cursor"
+      }
+    }
+  },
+  "office-excel": {
+    "office-excel_get_data_validation_info": {
+      "description": "Get all data validation rules in a worksheet.",
+      "parameters": {
+        "filepath": "Path to Excel file",
+        "sheet_name": "Name of worksheet"
+      }
+    },
+    "office-excel_get_merged_cells": {
+      "description": "Get merged cells in a worksheet.",
+      "parameters": {
+        "filepath": "Path to Excel file",
+        "sheet_name": "Name of worksheet"
+      }
+    },
+    "office-excel_get_workbook_metadata": {
+      "description": "Get metadata about workbook including sheets, ranges, etc.",
+      "parameters": {
+        "filepath": "Path to Excel file",
+        "include_ranges": "Whether to include range metadata"
+      }
+    },
+    "office-excel_read_data_from_excel": {
+      "description": "Read data from Excel worksheet with cell metadata including validation rules.",
+      "parameters": {
+        "filepath": "Path to Excel file",
+        "sheet_name": "Name of worksheet",
+        "start_cell": "Starting cell (default A1)",
+        "end_cell": "Ending cell (optional)",
+        "preview_only": "Whether to return only a preview"
+      }
+    },
+    "office-excel_validate_excel_range": {
+      "description": "Validate if a range exists and is properly formatted.",
+      "parameters": {
+        "filepath": "Path to Excel file",
+        "sheet_name": "Name of worksheet",
+        "start_cell": "Starting cell",
+        "end_cell": "Ending cell"
+      }
+    },
+    "office-excel_validate_formula_syntax": {
+      "description": "Validate Excel formula syntax without applying it.",
+      "parameters": {
+        "filepath": "Path to Excel file",
+        "sheet_name": "Name of worksheet",
+        "cell": "Cell address",
+        "formula": "Formula to validate"
+      }
+    }
+  },
+  "office-powerpoint": {
+    "office-powerpoint_extract_presentation_text": {
+      "description": "Extract all text content from all slides in the presentation.",
+      "parameters": {
+        "presentation_id": "Presentation ID",
+        "include_slide_info": "Whether to include slide info"
+      }
+    },
+    "office-powerpoint_extract_slide_text": {
+      "description": "Extract all text content from a specific slide.",
+      "parameters": {
+        "slide_index": "Slide index (0-based or as defined)",
+        "presentation_id": "Presentation ID"
+      }
+    },
+    "office-powerpoint_get_presentation_info": {
+      "description": "Get information about a presentation.",
+      "parameters": {
+        "presentation_id": "Presentation ID"
+      }
+    },
+    "office-powerpoint_get_server_info": {
+      "description": "Get information about the PowerPoint MCP server.",
+      "parameters": {}
+    },
+    "office-powerpoint_get_slide_info": {
+      "description": "Get information about a specific slide.",
+      "parameters": {
+        "slide_index": "Slide index",
+        "presentation_id": "Presentation ID"
+      }
+    },
+    "office-powerpoint_get_template_file_info": {
+      "description": "Get information about a template file including layouts and properties.",
+      "parameters": {
+        "template_path": "Path to template file"
+      }
+    },
+    "office-powerpoint_get_template_info": {
+      "description": "Get detailed information about a specific template.",
+      "parameters": {
+        "template_id": "Template ID"
+      }
+    },
+    "office-powerpoint_list_presentations": {
+      "description": "List all loaded presentations.",
+      "parameters": {}
+    },
+    "office-powerpoint_list_slide_templates": {
+      "description": "List all available slide layout templates.",
+      "parameters": {}
+    },
+    "office-powerpoint_manage_slide_masters": {
+      "description": "Access and manage slide master properties and layouts.",
+      "parameters": {
+        "operation": "Operation type (list, get_layouts, get_info)",
+        "master_index": "Index of the slide master (0-based)",
+        "layout_index": "Index of specific layout within master (0-based)",
+        "presentation_id": "Optional presentation ID"
+      }
+    },
+    "office-powerpoint_open_presentation": {
+      "description": "Open an existing PowerPoint presentation from a file.",
+      "parameters": {
+        "file_path": "Path to the file",
+        "id": "Optional ID reference"
+      }
+    },
+    "office-powerpoint_switch_presentation": {
+      "description": "Switch to a different loaded presentation.",
+      "parameters": {
+        "presentation_id": "Presentation ID"
+      }
+    }
+  },
+  "office-word": {
+    "office-word_find_text_in_document": {
+      "description": "Find occurrences of specific text in a Word document.",
+      "parameters": {
+        "filename": "Document filename",
+        "text_to_find": "Text to search for",
+        "match_case": "Whether to match case",
+        "whole_word": "Whether to match whole words only"
+      }
+    },
+    "office-word_get_all_comments": {
+      "description": "Extract all comments from a Word document.",
+      "parameters": {
+        "filename": "Document filename"
+      }
+    },
+    "office-word_get_comments_by_author": {
+      "description": "Extract comments from a specific author in a Word document.",
+      "parameters": {
+        "filename": "Document filename",
+        "author": "Author name"
+      }
+    },
+    "office-word_get_comments_for_paragraph": {
+      "description": "Extract comments for a specific paragraph in a Word document.",
+      "parameters": {
+        "filename": "Document filename",
+        "paragraph_index": "Paragraph index"
+      }
+    },
+    "office-word_get_document_info": {
+      "description": "Get information about a Word document.",
+      "parameters": {
+        "filename": "Document filename"
+      }
+    },
+    "office-word_get_document_outline": {
+      "description": "Get the structure of a Word document.",
+      "parameters": {
+        "filename": "Document filename"
+      }
+    },
+    "office-word_get_document_text": {
+      "description": "Extract all text from a Word document.",
+      "parameters": {
+        "filename": "Document filename"
+      }
+    },
+    "office-word_get_document_xml": {
+      "description": "Get the raw XML structure of a Word document.",
+      "parameters": {
+        "filename": "Document filename"
+      }
+    },
+    "office-word_get_paragraph_text_from_document": {
+      "description": "Get text from a specific paragraph in a Word document.",
+      "parameters": {
+        "filename": "Document filename",
+        "paragraph_index": "Paragraph index"
+      }
+    },
+    "office-word_list_available_documents": {
+      "description": "List all .docx files in the specified directory.",
+      "parameters": {
+        "directory": "Directory path"
+      }
+    },
+    "office-word_validate_document_footnotes": {
+      "description": "Validate all footnotes in document for coherence and compliance.",
+      "parameters": {
+        "filename": "Document filename"
+      }
+    }
+  },
+  "quickbooks": {
+    "quickbooks_get_bill": {
+      "description": "Retrieve a single bill by ID from QuickBooks.",
+      "parameters": {
+        "id": "Bill ID"
+      }
+    },
+    "quickbooks_get_customer": {
+      "description": "Retrieve a single customer by ID from QuickBooks.",
+      "parameters": {
+        "id": "Customer ID"
+      }
+    },
+    "quickbooks_get_vendor": {
+      "description": "Retrieve a single vendor by ID from QuickBooks.",
+      "parameters": {
+        "id": "Vendor ID"
+      }
+    },
+    "quickbooks_read_invoice": {
+      "description": "Retrieve a single invoice by its ID from QuickBooks.",
+      "parameters": {
+        "invoice_id": "Invoice ID"
+      }
+    },
+    "quickbooks_search_accounts": {
+      "description": "Search for accounts in QuickBooks using flexible criteria.",
+      "parameters": {
+        "criteria": "Search criteria object",
+        "limit": "Limit",
+        "offset": "Offset",
+        "asc": "Sort ascending by given field",
+        "desc": "Sort descending by given field",
+        "count": "Return count only flag",
+        "fetchAll": "Whether to fetch all results"
+      }
+    },
+    "quickbooks_search_bills": {
+      "description": "Search for bills in QuickBooks using flexible criteria.",
+      "parameters": {
+        "criteria": "Search criteria object",
+        "limit": "Limit",
+        "offset": "Offset",
+        "asc": "Sort ascending",
+        "desc": "Sort descending",
+        "count": "Return count only flag",
+        "fetchAll": "Whether to fetch all results"
+      }
+    },
+    "quickbooks_search_customers": {
+      "description": "Search for customers in QuickBooks using flexible criteria.",
+      "parameters": {
+        "criteria": "Search criteria object",
+        "limit": "Limit",
+        "offset": "Offset",
+        "asc": "Sort ascending",
+        "desc": "Sort descending",
+        "count": "Return count only flag",
+        "fetchAll": "Whether to fetch all results"
+      }
+    },
+    "quickbooks_search_invoices": {
+      "description": "Search for invoices in QuickBooks using criteria object with limit/offset inside criteria.",
+      "parameters": {
+        "criteria": "Criteria object"
+      }
+    },
+    "quickbooks_search_vendors": {
+      "description": "Search for vendors in QuickBooks using flexible criteria.",
+      "parameters": {
+        "criteria": "Search criteria object",
+        "limit": "Limit",
+        "offset": "Offset",
+        "asc": "Sort ascending",
+        "desc": "Sort descending",
+        "count": "Return count only flag",
+        "fetchAll": "Whether to fetch all results"
+      }
+    }
+  },
+  "reminder": {
+    "reminder_get_all_reminders": {
+      "description": "Get all the reminders from the reminder system.",
+      "parameters": {}
+    },
+    "reminder_get_due_reminders": {
+      "description": "Get all the due reminders.",
+      "parameters": {}
+    }
+  },
+  "shopping": {
+    "shopping_add_to_cart": {
+      "description": "Add item to cart.",
+      "parameters": {
+        "item_id": "Item ID to add",
+        "quantity": "Quantity to add (default 1)"
+      }
+    },
+    "shopping_cancel_order": {
+      "description": "Cancel an order that is not yet delivered.",
+      "parameters": {
+        "order_id": "Order ID to cancel"
+      }
+    },
+    "shopping_checkout": {
+      "description": "Checkout the order and create a new order from the current cart contents. Optional strict discount code support.",
+      "parameters": {
+        "discount_code": "Optional discount code to apply to entire order"
+      }
+    },
+    "shopping_get_all_discount_codes": {
+      "description": "Returns all the discount codes that are available with the items they apply to.",
+      "parameters": {}
+    },
+    "shopping_get_discount_code_info": {
+      "description": "Takes the discount code and returns the applicable items with their discount percentages.",
+      "parameters": {
+        "discount_code": "Discount code to check"
+      }
+    },
+    "shopping_get_order_details": {
+      "description": "Get order details.",
+      "parameters": {
+        "order_id": "Order ID"
+      }
+    },
+    "shopping_get_product_details": {
+      "description": "Get product details for a given product id.",
+      "parameters": {
+        "product_id": "Product ID"
+      }
+    },
+    "shopping_list_all_products": {
+      "description": "List all products in the catalog with pagination.",
+      "parameters": {
+        "offset": "Offset to start listing from (default 0)",
+        "limit": "Number of products to list (default 10)"
+      }
+    },
+    "shopping_list_cart": {
+      "description": "List cart contents.",
+      "parameters": {}
+    },
+    "shopping_list_orders": {
+      "description": "List all orders.",
+      "parameters": {}
+    },
+    "shopping_remove_from_cart": {
+      "description": "Remove item from cart.",
+      "parameters": {
+        "item_id": "Item ID to remove",
+        "quantity": "Quantity to remove from cart"
+      }
+    },
+    "shopping_search_product": {
+      "description": "Search for a product in the inventory by its name.",
+      "parameters": {
+        "product_name": "Name of the product to search for",
+        "offset": "Offset to start listing from (default 0)",
+        "limit": "Number of products to list (default 10)"
+      }
+    }
+  },
+  "slack": {
+    "slack_channels_list": {
+      "description": "Get list of channels.",
+      "parameters": {
+        "channel_types": "Filter by channel types",
+        "cursor": "Pagination cursor",
+        "limit": "Maximum number of channels to return",
+        "sort": "Sort order"
+      }
+    },
+    "slack_conversations_add_message": {
+      "description": "Add a message to a public channel, private channel, or DM by channel_id and thread_ts.",
+      "parameters": {
+        "channel_id": "Channel ID",
+        "payload": "Message payload",
+        "content_type": "Content type of payload",
+        "thread_ts": "Thread timestamp"
+      }
+    },
+    "slack_conversations_history": {
+      "description": "Get messages from the channel (or DM) by channel_id, with cursor-based pagination.",
+      "parameters": {
+        "channel_id": "Channel ID",
+        "cursor": "Pagination cursor",
+        "include_activity_messages": "Include activity messages flag",
+        "limit": "Maximum number of messages to return"
+      }
+    },
+    "slack_conversations_replies": {
+      "description": "Get a thread of messages posted to a conversation by channelID and thread_ts.",
+      "parameters": {
+        "channel_id": "Channel ID",
+        "thread_ts": "Thread timestamp",
+        "cursor": "Pagination cursor",
+        "include_activity_messages": "Include activity messages flag",
+        "limit": "Maximum number of messages to return"
+      }
+    },
+    "slack_conversations_search_messages": {
+      "description": "Search messages in a conversation using filters. All filters optional if search_query is provided.",
+      "parameters": {
+        "cursor": "Pagination cursor",
+        "filter_date_after": "Filter messages after this date",
+        "filter_date_before": "Filter messages before this date",
+        "filter_date_during": "Filter messages during this date",
+        "filter_date_on": "Filter messages on this date",
+        "filter_in_channel": "Filter by channel",
+        "filter_in_im_or_mpim": "Filter IM or MPIM",
+        "filter_threads_only": "Filter threads only flag",
+        "filter_users_from": "Filter by users from",
+        "filter_users_with": "Filter by users with",
+        "limit": "Maximum number of messages",
+        "search_query": "Free-text search query"
+      }
+    }
+  },
+  "weather": {
+    "weather_airquality": {
+      "description": "Get air quality for a location.",
+      "parameters": {
+        "q": "Location query"
+      }
+    },
+    "weather_alerts": {
+      "description": "Get weather alerts for a location.",
+      "parameters": {
+        "q": "Location query"
+      }
+    },
+    "weather_astronomy": {
+      "description": "Get astronomy data (sunrise, sunset, moon) for a date.",
+      "parameters": {
+        "q": "Location query",
+        "dt": "Date (YYYY-MM-DD)"
+      }
+    },
+    "weather_forecast_future": {
+      "description": "Get future weather forecast for a latitude/longitude location for dates 14+ days in the future.",
+      "parameters": {
+        "lat_long": "Location query as lat,long",
+        "date": "Date (YYYY-MM-DD)",
+        "aqi": "Include air quality ('yes' or 'no')",
+        "alerts": "Include weather alerts ('yes' or 'no')"
+      }
+    },
+    "weather_history": {
+      "description": "Get historical weather for a lat,long location on a given date.",
+      "parameters": {
+        "lat_long": "Location query as lat,long",
+        "date": "Date (YYYY-MM-DD)"
+      }
+    },
+    "weather_search_lat_long": {
+      "description": "Search for locations matching query.",
+      "parameters": {
+        "ascii_city": "City name (ASCII)",
+        "2_letter_country_code": "Two-letter country code"
+      }
+    },
+    "weather_sports": {
+      "description": "Get sports events (for example, football, cricket) for a location.",
+      "parameters": {
+        "q": "Location query"
+      }
+    },
+    "weather_timezone": {
+      "description": "Get timezone info for a location.",
+      "parameters": {
+        "q": "Location query"
+      }
+    }
+  },
+  "zendesk": {
+    "zendesk_get-agents": {
+      "description": "Get all agents in the system with page-based pagination.",
+      "parameters": {
+        "limit": "Number of agents per page (max 100, default 100)",
+        "page": "Page number starting at 1",
+        "is_active": "Filter by active status (default true)",
+        "sort_by": "Field to sort by (id, name, email, created_at)",
+        "sort_order": "Sort order (asc or desc)"
+      }
+    },
+    "zendesk_get-current-user": {
+      "description": "Get the current authenticated user (admin).",
+      "parameters": {}
+    },
+    "zendesk_get-my-tickets": {
+      "description": "Get tickets assigned to a specific user (typically the current user).",
+      "parameters": {
+        "user_id": "ID of the user",
+        "limit": "Number of tickets per page (max 100, default 100)",
+        "page": "Page number starting at 1",
+        "sort_by": "Field to sort by (id, created_at, updated_at, priority, status, due_at)",
+        "sort_order": "Sort order (asc or desc, default desc)"
+      }
+    },
+    "zendesk_get-tags": {
+      "description": "Get all unique tags used across all tickets, with usage counts.",
+      "parameters": {}
+    },
+    "zendesk_get-ticket": {
+      "description": "Retrieve a single ticket by its ID.",
+      "parameters": {
+        "ticket_id": "ID of the ticket to retrieve"
+      }
+    },
+    "zendesk_get-ticket-comments": {
+      "description": "Get comments for a ticket with pagination.",
+      "parameters": {
+        "ticket_id": "Ticket ID",
+        "limit": "Number of comments per page (max 100, default 100)",
+        "page": "Page number starting at 1",
+        "is_public": "Filter by public/private comments (optional)",
+        "sort_order": "Sort order (asc or desc, default asc)"
+      }
+    },
+    "zendesk_get-ticket-stats": {
+      "description": "Get ticket statistics and analytics.",
+      "parameters": {}
+    },
+    "zendesk_get-tickets": {
+      "description": "List tickets with page-based pagination, filtering, sorting, and search.",
+      "parameters": {
+        "limit": "Number of tickets per page (max 100, default 100)",
+        "page": "Page number starting at 1",
+        "status": "Filter by status (new, open, pending, on-hold, solved, closed)",
+        "priority": "Filter by priority (low, normal, high, urgent)",
+        "type": "Filter by type (problem, incident, question, task)",
+        "assignee_id": "Filter by assignee user ID",
+        "requester_id": "Filter by requester user ID",
+        "tag": "Filter by tag",
+        "search": "Search in subject and description",
+        "sort_by": "Sort field (id, created_at, updated_at, priority, status, due_at)",
+        "sort_order": "Sort order (asc or desc, default desc)"
+      }
+    },
+    "zendesk_get-tickets-by-tag": {
+      "description": "Get all tickets that have a specific tag.",
+      "parameters": {
+        "tag": "Tag name to filter by",
+        "limit": "Number of tickets per page (max 100, default 100)",
+        "page": "Page number starting at 1",
+        "sort_by": "Field to sort by (id, created_at, updated_at, priority, status, due_at)",
+        "sort_order": "Sort order (asc or desc, default desc)"
+      }
+    },
+    "zendesk_get-unassigned-tickets": {
+      "description": "Get tickets that have no assignee.",
+      "parameters": {
+        "limit": "Number of tickets per page (max 100, default 100)",
+        "page": "Page number starting at 1",
+        "sort_by": "Field to sort by (id, created_at, updated_at, priority, status, due_at)",
+        "sort_order": "Sort order (asc or desc, default desc)"
+      }
+    },
+    "zendesk_get-user": {
+      "description": "Get a single user by their ID.",
+      "parameters": {
+        "user_id": "ID of the user to retrieve"
+      }
+    },
+    "zendesk_get-users": {
+      "description": "List all users with page-based pagination, filtering, and sorting.",
+      "parameters": {
+        "limit": "Number of users per page (max 100, default 100)",
+        "page": "Page number starting at 1",
+        "role": "Filter by role (admin, agent, customer)",
+        "is_active": "Filter by active status",
+        "sort_by": "Field to sort by (id, name, email, role, created_at, updated_at)",
+        "sort_order": "Sort order (asc or desc, default asc)"
+      }
+    }
+  }
+}
