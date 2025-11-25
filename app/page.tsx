@@ -26,7 +26,7 @@ import reminderData from "@/data/reminder_data.json";
 import shoppingData from "@/data/shopping_data.json";
 
 
-import customersMongo from "@/data/mongo/Customers.json";
+import customersMongo from "@/data/Mongo/Customers.json";
 import deliveryLogisticsMongo from "@/data/Mongo/DeliveryLogistics.json";
 import digitalAnalyticsMongo from "@/data/Mongo/DigitalAnalytics.json";
 import inventoryMongo from "@/data/Mongo/Inventory.json";
