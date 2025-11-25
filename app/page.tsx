@@ -25,6 +25,25 @@ import messagingData from "@/data/messaging_data.json";
 import reminderData from "@/data/reminder_data.json";
 import shoppingData from "@/data/shopping_data.json";
 
+
+import customersMongo from "@/data/mongo/Customers.json";
+import deliveryLogisticsMongo from "@/data/mongo/DeliveryLogistics.json";
+import digitalAnalyticsMongo from "@/data/mongo/DigitalAnalytics.json";
+import inventoryMongo from "@/data/mongo/Inventory.json";
+import purchaseHistoryMongo from "@/data/mongo/PurchaseHistory.json";
+import socialMediaMongo from "@/data/mongo/SocialMedia.json";
+
+
+const mongoData = {
+  customers: customersMongo,
+  deliveryLogistics: deliveryLogisticsMongo,
+  digitalAnalytics: digitalAnalyticsMongo,
+  inventory: inventoryMongo,
+  purchaseHistory: purchaseHistoryMongo,
+  socialMedia: socialMediaMongo,
+};
+
+
 const BUILT_IN_DATASETS: Dataset[] = [
   { name: "LINEAR", file: "linear_data.json", raw: linearData },
   { name: "ZENDESK", file: "zendesk_data.json", raw: zendeskData },
@@ -40,6 +59,10 @@ const BUILT_IN_DATASETS: Dataset[] = [
   { name: "MESSAGING", file: "messaging_data.json", raw: messagingData },
   { name: "REMINDER", file: "reminder_data.json", raw: reminderData },
   { name: "SHOPPING", file: "shopping_data.json", raw: shoppingData },
+
+
+  { name: "MONGO", file: "mongo.json", raw: mongoData },
+
 ];
 
 /* ---------------- CATEGORY DEFINITIONS ----------------
@@ -119,6 +142,16 @@ const CATEGORY_PATHS_BY_DATASET: Record<string, Record<string, string[][]>> = {
     Orders: [["orders"]],
     "Discount codes": [["discount_codes"]],
   },
+
+    MONGO: {
+    Customers: [["customers"]],
+    DeliveryLogistics: [["deliveryLogistics"]],
+    DigitalAnalytics: [["digitalAnalytics"]],
+    Inventory: [["inventory"]],
+    PurchaseHistory: [["purchaseHistory"]],
+    SocialMedia: [["socialMedia"]],
+  },
+
 };
 
 /* ---------------- helpers ---------------- */
