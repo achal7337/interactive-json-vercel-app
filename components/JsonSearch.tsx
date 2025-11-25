@@ -1,7 +1,7 @@
 // components/JsonSearch.tsx
 'use client';
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 type DatasetInfo = {
   name: string;
@@ -12,12 +12,28 @@ type Props = {
   datasets: DatasetInfo[];
 };
 
+type Theme = "light" | "dark";
+
 export default function JsonSearch({ datasets }: Props) {
   const [query, setQuery] = useState("");
-  const [scope, setScope] = useState<string>("ALL"); // "ALL" or dataset name
+  const [scope, setScope] = useState<string>("ALL");
   const [results, setResults] = useState<any[]>([]);
   const [error, setError] = useState("");
+  const [theme, setTheme] = useState<Theme>("light");
+  const [searched, setSearched] = useState(false); // did we run at least one search?
 
+  // Read saved theme (set by TopNav) – light by default
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const stored = window.localStorage.getItem("theme") as Theme | null;
+    if (stored === "dark" || stored === "light") {
+      setTheme(stored);
+    } else {
+      setTheme("light");
+    }
+  }, []);
+
+  // Deep search through any JSON value
   function deepSearch(obj: any, q: string, path: string[] = []): any[] {
     let found: any[] = [];
 
@@ -42,25 +58,33 @@ export default function JsonSearch({ datasets }: Props) {
     // object
     for (const key of Object.keys(obj)) {
       const val = obj[key];
+
       if (key.toLowerCase().includes(q)) {
         found.push({ value: val, path: [...path, key] });
       }
+
       found = found.concat(deepSearch(val, q, [...path, key]));
     }
+
     return found;
   }
 
   function handleSearch() {
     const q = query.trim().toLowerCase();
-    if (!q) return;
+
+    // Even if query is empty, we treat it as a search that found nothing
+    if (!q) {
+      setResults([]);
+      setSearched(true);
+      setError("");
+      return;
+    }
 
     try {
       let allMatches: any[] = [];
 
       const scopedDatasets =
-        scope === "ALL"
-          ? datasets
-          : datasets.filter((d) => d.name === scope);
+        scope === "ALL" ? datasets : datasets.filter((d) => d.name === scope);
 
       for (const ds of scopedDatasets) {
         const matches = deepSearch(ds.raw, q).map((m) => ({
@@ -71,11 +95,35 @@ export default function JsonSearch({ datasets }: Props) {
       }
 
       setResults(allMatches);
+      setSearched(true);
       setError("");
     } catch (err: any) {
       setError(err.message || String(err));
+      setSearched(true);
+      setResults([]);
     }
   }
+
+  function handleReset() {
+    setQuery("");
+    setScope("ALL");
+    setResults([]);
+    setError("");
+    setSearched(false);
+  }
+
+  // ENTER key support on the input
+  function handleKeyDown(e: any) {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      handleSearch();
+    }
+  }
+
+  // Theme colors for result boxes
+  const resultBg = theme === "dark" ? "#0f172a" : "#f1f5f9";
+  const resultText = theme === "dark" ? "#e2e8f0" : "#111827";
+  const resultBorder = theme === "dark" ? "#1e293b" : "#cbd5e1";
 
   return (
     <div className="card" style={{ padding: 12, marginTop: 12 }}>
@@ -83,6 +131,7 @@ export default function JsonSearch({ datasets }: Props) {
         Search
       </label>
 
+      {/* Search row */}
       <div
         style={{
           display: "flex",
@@ -93,12 +142,13 @@ export default function JsonSearch({ datasets }: Props) {
       >
         <input
           type="text"
-          placeholder='Search value or key (e.g., "jordan.kim")'
+          placeholder='Search e.g. "jordan.kim"'
           value={query}
           onChange={(e) => setQuery(e.target.value)}
+          onKeyDown={handleKeyDown}
           style={{
             padding: 8,
-            flex: "1 1 240px",
+            flex: "1 1 260px",
             minWidth: 220,
             borderRadius: 999,
             border: "1px solid #64748b",
@@ -112,7 +162,6 @@ export default function JsonSearch({ datasets }: Props) {
             padding: 8,
             borderRadius: 999,
             border: "1px solid #64748b",
-            fontSize: 13,
           }}
         >
           <option value="ALL">All datasets</option>
@@ -123,20 +172,48 @@ export default function JsonSearch({ datasets }: Props) {
           ))}
         </select>
 
+        {/* Buttons are side-by-side in this row */}
         <button type="button" onClick={handleSearch}>
           Search
         </button>
+
+        <button type="button" onClick={handleReset}>
+          Reset
+        </button>
       </div>
 
+      {/* Error message (only for real errors, not "no results") */}
       {error && (
         <div style={{ color: "red", marginTop: 8, fontSize: 12 }}>{error}</div>
       )}
 
+      {/* No results message (after any search, including empty query) */}
+      {searched && results.length === 0 && !error && (
+        <div
+          style={{
+            marginTop: 12,
+            padding: 10,
+            borderRadius: 10,
+            background: resultBg,
+            border: `1px solid ${resultBorder}`,
+            color: resultText,
+            fontSize: 13,
+            fontStyle: "italic",
+          }}
+        >
+          ❌ Nothing found…
+          <br />
+          Either the data ran away 🏃‍♂️💨 or you’re searching for your ex again.
+        </div>
+      )}
+
+      {/* Results list */}
       {results.length > 0 && (
         <div style={{ marginTop: 12 }}>
           <strong style={{ fontSize: 13 }}>
             Found {results.length} result{results.length === 1 ? "" : "s"}
           </strong>
+
           <ul style={{ marginTop: 8, listStyle: "none", paddingLeft: 0 }}>
             {results.map((r, i) => (
               <li key={i} style={{ marginBottom: 10 }}>
@@ -146,9 +223,11 @@ export default function JsonSearch({ datasets }: Props) {
                 </div>
                 <pre
                   style={{
-                    background: "#020617",
-                    padding: 8,
-                    borderRadius: 6,
+                    background: resultBg,
+                    color: resultText,
+                    border: `1px solid ${resultBorder}`,
+                    padding: 10,
+                    borderRadius: 8,
                     margin: 0,
                     whiteSpace: "pre-wrap",
                     fontSize: 12,
