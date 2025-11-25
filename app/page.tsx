@@ -27,11 +27,11 @@ import shoppingData from "@/data/shopping_data.json";
 
 
 import customersMongo from "@/data/mongo/Customers.json";
-import deliveryLogisticsMongo from "@/data/mongo/DeliveryLogistics.json";
-import digitalAnalyticsMongo from "@/data/mongo/DigitalAnalytics.json";
-import inventoryMongo from "@/data/mongo/Inventory.json";
-import purchaseHistoryMongo from "@/data/mongo/PurchaseHistory.json";
-import socialMediaMongo from "@/data/mongo/SocialMedia.json";
+import deliveryLogisticsMongo from "@/data/Mongo/DeliveryLogistics.json";
+import digitalAnalyticsMongo from "@/data/Mongo/DigitalAnalytics.json";
+import inventoryMongo from "@/data/Mongo/Inventory.json";
+import purchaseHistoryMongo from "@/data/Mongo/PurchaseHistory.json";
+import socialMediaMongo from "@/data/Mongo/SocialMedia.json";
 
 
 const mongoData = {
