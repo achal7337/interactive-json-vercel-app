@@ -26,12 +26,12 @@ import reminderData from "@/data/reminder_data.json";
 import shoppingData from "@/data/shopping_data.json";
 
 
-import customersMongo from "@/data/Mongo/Customers.json";
-import deliveryLogisticsMongo from "@/data/Mongo/DeliveryLogistics.json";
-import digitalAnalyticsMongo from "@/data/Mongo/DigitalAnalytics.json";
-import inventoryMongo from "@/data/Mongo/Inventory.json";
-import purchaseHistoryMongo from "@/data/Mongo/PurchaseHistory.json";
-import socialMediaMongo from "@/data/Mongo/SocialMedia.json";
+import customersMongo from "@/data/mongo/Customers.json";
+import deliveryLogisticsMongo from "@/data/mongo/DeliveryLogistics.json";
+import digitalAnalyticsMongo from "@/data/mongo/DigitalAnalytics.json";
+import inventoryMongo from "@/data/mongo/Inventory.json";
+import purchaseHistoryMongo from "@/data/mongo/PurchaseHistory.json";
+import socialMediaMongo from "@/data/mongo/SocialMedia.json";
 
 
 const mongoData = {
@@ -370,8 +370,28 @@ export default function Page() {
         <div className="vstack">
           <h1 style={{ margin: 0 }}>Interactive data explorer</h1>
 
+          {/* What's new / updates box */}
+          <div
+            className="card"
+            style={{ padding: 12, marginTop:12, fontSize: 13}}
+          >
+            <div style={{ fontWeight: 600, marginBottom: 6 }}>
+              New updates
+            </div>
+
+            <ul style={{ margin: 0, paddingLeft: 18 }}>
+               <li>New <strong>Tools</strong> page with detailed tool documentation.</li>
+               <li>Updated <strong>search</strong> to work across all datasets with scope selector (All / Calendar / Mongo / etc.).</li>
+               <li>Added  <strong>MONGO</strong> dataset with multiple collections (Customers, Inventory, etc.).</li>
+               <li>Updated datasets with latest version of the data.</li>
+            </ul>
+          </div>  
+
+  
+
           {/* Search bar */}
-          <JsonSearch />
+          <JsonSearch datasets={datasets} />
+
 
           {/* Dataset selector + Reset */}
           <div className="card" style={{ padding: 12, marginTop: 12 }}>

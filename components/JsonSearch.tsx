@@ -1,107 +1,165 @@
 // components/JsonSearch.tsx
 'use client';
 
-import { useState } from 'react';
-import JsonView from './JsonView';
+import { useState } from "react";
 
-type Slice = { path: string; value: unknown };
-type DatasetResult =
-  | { name: string; file: string; mode: 'full'; raw: unknown }
-  | { name: string; file: string; mode: 'slices'; slices: Slice[] };
+type DatasetInfo = {
+  name: string;
+  raw: any;
+};
 
-export default function JsonSearch() {
-  const [q, setQ] = useState('');
-  const [results, setResults] = useState<DatasetResult[]>([]);
-  const [loading, setLoading] = useState(false);
-  const [err, setErr] = useState<string | null>(null);
-  const [searched, setSearched] = useState(false);
-  const [totalCount, setTotalCount] = useState(0);
+type Props = {
+  datasets: DatasetInfo[];
+};
 
-  async function run(e?: React.FormEvent) {
-    e?.preventDefault();
-    const query = q.trim();
-    setSearched(true);
-    if (!query) {
-      setResults([]);
-      setErr(null);
-      setTotalCount(0);
-      return;
-    }
-    setLoading(true);
-    setErr(null);
-    try {
-      const r = await fetch(`/api/search?q=${encodeURIComponent(query)}`, { cache: 'no-store' });
-      const j = await r.json().catch(() => ({}));
-      if (j?.ok === false) {
-        setErr(j?.error || `HTTP ${r.status}`);
-        setResults([]);
-        setTotalCount(0);
-      } else {
-        setResults(Array.isArray(j?.datasets) ? j.datasets : []);
-        setTotalCount(Number(j?.count || 0));
+export default function JsonSearch({ datasets }: Props) {
+  const [query, setQuery] = useState("");
+  const [scope, setScope] = useState<string>("ALL"); // "ALL" or dataset name
+  const [results, setResults] = useState<any[]>([]);
+  const [error, setError] = useState("");
+
+  function deepSearch(obj: any, q: string, path: string[] = []): any[] {
+    let found: any[] = [];
+
+    if (obj === null || obj === undefined) return found;
+
+    // primitive
+    if (typeof obj !== "object") {
+      if (String(obj).toLowerCase().includes(q)) {
+        found.push({ value: obj, path });
       }
-    } catch (e: any) {
-      setErr(e?.message || 'Search failed');
-      setResults([]);
-      setTotalCount(0);
-    } finally {
-      setLoading(false);
+      return found;
+    }
+
+    // array
+    if (Array.isArray(obj)) {
+      obj.forEach((item, index) => {
+        found = found.concat(deepSearch(item, q, [...path, String(index)]));
+      });
+      return found;
+    }
+
+    // object
+    for (const key of Object.keys(obj)) {
+      const val = obj[key];
+      if (key.toLowerCase().includes(q)) {
+        found.push({ value: val, path: [...path, key] });
+      }
+      found = found.concat(deepSearch(val, q, [...path, key]));
+    }
+    return found;
+  }
+
+  function handleSearch() {
+    const q = query.trim().toLowerCase();
+    if (!q) return;
+
+    try {
+      let allMatches: any[] = [];
+
+      const scopedDatasets =
+        scope === "ALL"
+          ? datasets
+          : datasets.filter((d) => d.name === scope);
+
+      for (const ds of scopedDatasets) {
+        const matches = deepSearch(ds.raw, q).map((m) => ({
+          dataset: ds.name,
+          ...m,
+        }));
+        allMatches = allMatches.concat(matches);
+      }
+
+      setResults(allMatches);
+      setError("");
+    } catch (err: any) {
+      setError(err.message || String(err));
     }
   }
 
   return (
-    <div className="card">
-      <form onSubmit={run} className="hstack" style={{ gap: 10, flexWrap: 'wrap' }}>
+    <div className="card" style={{ padding: 12, marginTop: 12 }}>
+      <label style={{ display: "block", marginBottom: 6, fontSize: 14 }}>
+        Search
+      </label>
+
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          gap: 8,
+          alignItems: "center",
+        }}
+      >
         <input
           type="text"
-          value={q}
-          onChange={(e) => setQ(e.target.value)}
-          placeholder='Search value or key (e.g., "Downtown", "Rohini")'
-          style={{ background:'#0e141d', border:'1px solid #223049', color:'white', padding:'8px 10px', borderRadius:10, minWidth:300 }}
+          placeholder='Search value or key (e.g., "jordan.kim")'
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          style={{
+            padding: 8,
+            flex: "1 1 240px",
+            minWidth: 220,
+            borderRadius: 999,
+            border: "1px solid #64748b",
+          }}
         />
-        <button type="submit">Search</button>
-        {loading && <span className="tag">Searching…</span>}
-      </form>
 
-      {err && <div style={{ marginTop: 12 }} className="tag">Error: {err}</div>}
+        <select
+          value={scope}
+          onChange={(e) => setScope(e.target.value)}
+          style={{
+            padding: 8,
+            borderRadius: 999,
+            border: "1px solid #64748b",
+            fontSize: 13,
+          }}
+        >
+          <option value="ALL">All datasets</option>
+          {datasets.map((d) => (
+            <option key={d.name} value={d.name}>
+              {d.name}
+            </option>
+          ))}
+        </select>
 
-      {searched && !loading && !err && (
-        <div style={{ marginTop: 16 }}>
-          <div className="hstack" style={{ gap: 8, marginBottom: 8 }}>
-            <span className="tag">Matches: {totalCount}</span>
-            <span className="tag">Datasets: {results.length}</span>
-          </div>
+        <button type="button" onClick={handleSearch}>
+          Search
+        </button>
+      </div>
 
-          {results.length === 0 ? (
-            <div className="tag">No results for “{q}”.</div>
-          ) : (
-            <div className="vstack" style={{ gap: 12 }}>
-              {results.map((d, i) => (
-                <div key={i} className="card" style={{ marginBottom: 8 }}>
-                  <div className="hstack" style={{ gap: 8, marginBottom: 8, flexWrap:'wrap' }}>
-                    <span className="tag">{d.name}</span>
-                    <span className="tag">{d.file}</span>
-                    <span className="tag">{d.mode === 'full' ? 'full file' : 'matches'}</span>
-                  </div>
+      {error && (
+        <div style={{ color: "red", marginTop: 8, fontSize: 12 }}>{error}</div>
+      )}
 
-                  {d.mode === 'full' ? (
-                    <JsonView data={(d as any).raw} />
-                  ) : (
-                    <div className="vstack" style={{ gap: 10 }}>
-                      {(d as any).slices.map((s: Slice, idx: number) => (
-                        <div key={idx} className="card">
-                          <div className="hstack" style={{ gap: 8, marginBottom: 6 }}>
-                            <span className="tag">{s.path || '<root>'}</span>
-                          </div>
-                          <JsonView data={s.value as any} />
-                        </div>
-                      ))}
-                    </div>
-                  )}
+      {results.length > 0 && (
+        <div style={{ marginTop: 12 }}>
+          <strong style={{ fontSize: 13 }}>
+            Found {results.length} result{results.length === 1 ? "" : "s"}
+          </strong>
+          <ul style={{ marginTop: 8, listStyle: "none", paddingLeft: 0 }}>
+            {results.map((r, i) => (
+              <li key={i} style={{ marginBottom: 10 }}>
+                <div style={{ fontSize: 12, marginBottom: 2 }}>
+                  <strong>{r.dataset}</strong> →{" "}
+                  <code>{r.path.join(" / ")}</code>
                 </div>
-              ))}
-            </div>
-          )}
+                <pre
+                  style={{
+                    background: "#020617",
+                    padding: 8,
+                    borderRadius: 6,
+                    margin: 0,
+                    whiteSpace: "pre-wrap",
+                    fontSize: 12,
+                    overflowX: "auto",
+                  }}
+                >
+{JSON.stringify(r.value, null, 2)}
+                </pre>
+              </li>
+            ))}
+          </ul>
         </div>
       )}
     </div>
