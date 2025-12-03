@@ -380,6 +380,7 @@ export default function Page() {
             </div>
 
             <ul style={{ margin: 0, paddingLeft: 18 }}>
+               <li>New <strong>Golden Examples</strong> page for viewing the golden examples of the task.</li>
                <li>New <strong>Tools</strong> page with detailed tool documentation.</li>
                <li>Updated <strong>search</strong> to work across all datasets with scope selector (All / Calendar / Mongo / etc.).</li>
                <li>Added  <strong>MONGO</strong> dataset with multiple collections (Customers, Inventory, etc.).</li>
