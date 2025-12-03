@@ -200,6 +200,17 @@ export default function TopNav() {
             Tools
           </Link>
 
+          <Link
+            href="/golden-examples"
+            style={{
+              ...btnBase,
+              ...(isTools ? active : inactive),
+            }}
+          >
+            Golden Examples
+          </Link>
+
+
           <button
             type="button"
             data-nav="topnav"
