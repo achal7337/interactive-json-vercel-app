@@ -30,6 +30,7 @@
       }
     }
   },
+  
   "airtable": {
     "airtable_describe_table": {
       "description": "Gets detailed information about a specific table. Useful for getting details about a single table without fetching all tables in the base.",
@@ -74,6 +75,51 @@
         "table_name": "The name of the table",
         "field_name": "The name of the field to search in",
         "value": "The value to search for"
+      }
+    },
+    "airtable_create_table": {
+      "description": "Create a new table in a base. Use this to create a new Airtable table with initial fields.",
+      "parameters": {
+        "base_id": "ID of the base where the table will be created",
+        "table_name": "Name of the new table",
+        "name": "Legacy name parameter (optional, table_name takes priority)",
+        "description": "Description of the table (optional)",
+        "fields": "Initial fields for the table (array of field definition objects)"
+       }
+    },
+
+    "airtable_update_table": {
+      "description": "Update a table's schema (rename or change description).",
+      "parameters": {
+        "base_id": "ID of the base containing the table",
+        "table_id": "ID of the table to update",
+        "name": "New table name (optional)",
+        "description": "New table description (optional)"
+      }
+    },
+
+    "airtable_create_field": {
+      "description": "Create a new field (column) in a table. Supports types like singleLineText, number, checkbox, date, singleSelect, multipleSelect, email, url, phoneNumber.",
+      "parameters": {
+        "base_id": "ID of the base",
+        "table_id": "ID of the table",
+        "field": "Field definition object (name, type, description, options, etc.)",
+        "name": "Legacy parameter for field name (use field.name instead)",
+        "type": "Legacy parameter for field type (use field.type instead)",
+        "description": "Legacy parameter for field description (use field.description instead)",
+        "options": "Legacy parameter for type-specific options (use field.options instead)"
+      }
+    },
+
+    "airtable_update_field": {
+      "description": "Update a field's metadata (name / description) in a table. Field type cannot be changed after creation.",
+      "parameters": {
+        "base_id": "ID of the base",
+        "table_id": "ID of the table",
+        "field_id": "ID of the field to update (e.g., fldABC123)",
+        "updates": "Object with updated properties (name, description, etc.)",
+        "name": "Legacy parameter for new field name (use updates.name instead)",
+        "description": "Legacy parameter for new description (use updates.description instead)"
       }
     }
   },
@@ -205,7 +251,7 @@
   },
   "cli-mcp-server": {
     "cli-mcp-server_run_command": {
-      "description": "Allows command (CLI) execution in the directory /data. Available commands: ls, cat, find. Shell operators disabled unless ALLOW_SHELL_OPERATORS=true.",
+      "description": "Allows command (CLI) execution in the directory /data. Available commands: ls, cat, find, mkdir. Shell operators disabled unless ALLOW_SHELL_OPERATORS=true.",
       "parameters": {
         "command": "Command to execute"
       }
@@ -1070,6 +1116,7 @@
     }
   },
   "notion": {
+    
     "notion_get-self": {
       "description": "Get information about the current authenticated Notion user.",
       "parameters": {}
@@ -1085,29 +1132,6 @@
       "parameters": {
         "page_size": "Number of items to return (max 100)",
         "start_cursor": "Cursor to start from"
-      }
-    },
-    "notion_post-database-query": {
-      "description": "Query a database and return pages that match the filter criteria.",
-      "parameters": {
-        "database_id": "Database ID to query",
-        "page_size": "Maximum number of results (default 100)",
-        "start_cursor": "Pagination cursor",
-        "filter": "Filter conditions",
-        "sorts": "Sort criteria",
-        "filter_properties": "List of property IDs to include in response",
-        "archived": "Filter by archived status",
-        "in_trash": "Filter by trash status"
-      }
-    },
-    "notion_post-search": {
-      "description": "Search across all Notion content.",
-      "parameters": {
-        "query": "Search query",
-        "sort": "Sort options",
-        "filter": "Filter options",
-        "start_cursor": "Pagination cursor",
-        "page_size": "Number of items per page"
       }
     },
     "notion_retrieve-a-block": {
@@ -1145,8 +1169,32 @@
         "page_size": "Maximum number of results",
         "start_cursor": "Pagination cursor"
       }
+    },
+    "notion_post-database-query": {
+      "description": "Query a Notion database and return pages that match the filter criteria. Supports complex nested filters using AND/OR groups, sorting, pagination, and property filtering.",
+      "parameters": {
+        "database_id": "Database ID to query",
+        "page_size": "Maximum number of results (default 100)",
+        "start_cursor": "Pagination cursor",
+        "filter": "Filter conditions, including nested AND/OR groups over properties",
+        "sorts": "Sort criteria for the results",
+        "filter_properties": "List of property IDs to include in the response",
+        "archived": "Whether to include only archived or non-archived pages",
+        "in_trash": "Whether to filter pages that are in the trash"
+      }
+    },
+
+    "notion_post-search": {
+      "description": "Search across all Notion pages and databases in the workspace. Supports filters, sort options, and pagination.",
+      "parameters": {
+        "query": "Search query",
+        "sort": "Sort options (for example, by last edited time)",
+        "filter": "Filter options (for example, restrict to pages or databases)",
+        "start_cursor": "Pagination cursor",
+        "page_size": "Number of items per page"
+      }
     }
-  },
+ },
   "office-excel": {
     "office-excel_get_data_validation_info": {
       "description": "Get all data validation rules in a worksheet.",
